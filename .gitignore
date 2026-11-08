@@ -1,0 +1,72 @@
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# Python byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Blender auto-save & backup files
+*.blend1
+*.blend2
+*.blend@
+
+# OS / Editor metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/*
+!.vscode/settings.json
+.idea/
+
+# Temporary working output and regenerable caches
+/.cache/
+episodios/*/TESTES/cache/
+.pytest_cache/
+.thumbnails/
+episodios/*/renders/tmp_*/
+
+# INFRA-001 isolated environments
+venvs/
+models/
+testes/infra_001/pip_cache/
+
+# Studio source control: local dependencies, credentials and derived outputs
+.venv/
+venv/
+env/
+**/pip_cache/
+**/.cache/
+**/logs/
+*.log
+*.tmp
+*.part
+*.pem
+*.key
+*.pfx
+*.p12
+credentials*.json
+service-account*.json
+**/frames/
+**/frames_*/
+**/renders/
+**/render_*/
+/backups/
+/referencias/
+/documentos/ESTRUTURA_ATUAL_PROJETO.txt
+
+# History stays local, except the source still required by current builders
+/arquivo/*
+!/arquivo/EP001/
+/arquivo/EP001/*
+!/arquivo/EP001/piloto/
+/arquivo/EP001/piloto/*
+!/arquivo/EP001/piloto/cenas/
+/arquivo/EP001/piloto/cenas/*
+!/arquivo/EP001/piloto/cenas/cena_01_V3_1.blend
+
+# Essential VSE image dependencies stay eligible for reviewed LFS inclusion.
+!episodios/*/ENTREGAS/_recursos/poses/**/
+!episodios/*/ENTREGAS/_recursos/poses/**/*.png
