@@ -1,0 +1,1633 @@
+{
+  "errors": [],
+  "canonical_and_historical_manifest_files_verified": 152,
+  "states": {
+    "intentional_authorized_update": 6,
+    "deleted_by_explicit_user_request": 20,
+    "archived_unchanged": 13,
+    "unchanged": 363
+  },
+  "files": [
+    {
+      "path": ".env.example",
+      "state": "unchanged"
+    },
+    {
+      "path": ".gitignore",
+      "state": "unchanged"
+    },
+    {
+      "path": "AGENTS.md",
+      "state": "intentional_authorized_update"
+    },
+    {
+      "path": "README.md",
+      "state": "unchanged"
+    },
+    {
+      "path": "README_TTS.md",
+      "state": "unchanged"
+    },
+    {
+      "path": "timing.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "backups/MANIFESTO_EP001_BASE_V3_1_1.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "cenarios/feira.blend",
+      "state": "unchanged"
+    },
+    {
+      "path": "cenarios/feira.blend1",
+      "state": "unchanged"
+    },
+    {
+      "path": "cenarios/vila.blend",
+      "state": "unchanged"
+    },
+    {
+      "path": "cenarios/vila.blend1",
+      "state": "unchanged"
+    },
+    {
+      "path": "documentos/ARQUITETURA.md",
+      "state": "unchanged"
+    },
+    {
+      "path": "documentos/AUDITORIA_INFRA_001.md",
+      "state": "unchanged"
+    },
+    {
+      "path": "documentos/BIBLIA_VISUAL.md",
+      "state": "unchanged"
+    },
+    {
+      "path": "documentos/FICHA_AVALIACAO_TTS_002.md",
+      "state": "unchanged"
+    },
+    {
+      "path": "documentos/GUIA_DE_PRODUCAO.md",
+      "state": "unchanged"
+    },
+    {
+      "path": "documentos/PIPELINE_PRODUCAO.md",
+      "state": "intentional_authorized_update"
+    },
+    {
+      "path": "documentos/RELATORIO_INFRA_001.md",
+      "state": "unchanged"
+    },
+    {
+      "path": "documentos/RELATORIO_NARRACAO_EP001.md",
+      "state": "unchanged"
+    },
+    {
+      "path": "documentos/RELATORIO_SINCRONIZACAO_V3_1.md",
+      "state": "unchanged"
+    },
+    {
+      "path": "documentos/RELATORIO_TTS_002.md",
+      "state": "unchanged"
+    },
+    {
+      "path": "documentos/RELATORIO_V2.md",
+      "state": "unchanged"
+    },
+    {
+      "path": "documentos/RELATORIO_V3.md",
+      "state": "unchanged"
+    },
+    {
+      "path": "documentos/TTS_002_GUIA_VOZ_BR.md",
+      "state": "unchanged"
+    },
+    {
+      "path": "objetos/batatas.blend",
+      "state": "unchanged"
+    },
+    {
+      "path": "objetos/batatas.blend1",
+      "state": "unchanged"
+    },
+    {
+      "path": "objetos/carimbo_duvida.blend",
+      "state": "unchanged"
+    },
+    {
+      "path": "objetos/carimbo_duvida.blend1",
+      "state": "unchanged"
+    },
+    {
+      "path": "objetos/fichas.blend",
+      "state": "unchanged"
+    },
+    {
+      "path": "objetos/fichas.blend1",
+      "state": "unchanged"
+    },
+    {
+      "path": "objetos/sapatos.blend",
+      "state": "unchanged"
+    },
+    {
+      "path": "objetos/sapatos.blend1",
+      "state": "unchanged"
+    },
+    {
+      "path": "personagens/nico_base.blend",
+      "state": "unchanged"
+    },
+    {
+      "path": "personagens/nico_base.blend1",
+      "state": "unchanged"
+    },
+    {
+      "path": "scratch/dumpw.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "scratch/peek.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "scratch/peek2.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "scratch/peek2.txt",
+      "state": "unchanged"
+    },
+    {
+      "path": "scratch/peek_120.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "scratch/peek_300.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "scratch/peek_420.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "scripts/animar_objetos.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "scripts/build_scene.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "scripts/build_scene_v2.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "scripts/build_scene_v3_1.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "scripts/configurar_camera.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "scripts/finalize_audio_v3_1.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "scripts/montar_cena.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/migrar_estrutura.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/test_ep001_narracao.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/test_pipeline_v3.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/test_pipeline_v3_1.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "audio/perfis/narrador_principal.json",
+      "state": "intentional_authorized_update"
+    },
+    {
+      "path": "audio/narracoes/EP001/EP001_NARRACAO_COMPLETA_V1.wav",
+      "state": "unchanged"
+    },
+    {
+      "path": "audio/narracoes/TESTES_LOCAIS_001/asr_validation.json",
+      "state": "archived_unchanged",
+      "destination": "arquivo/tts_locais_rejeitados/TTS_003/audio/narracoes/TESTES_LOCAIS_001/asr_validation.json"
+    },
+    {
+      "path": "audio/narracoes/TESTES_LOCAIS_001/resources.json",
+      "state": "archived_unchanged",
+      "destination": "arquivo/tts_locais_rejeitados/TTS_003/audio/narracoes/TESTES_LOCAIS_001/resources.json"
+    },
+    {
+      "path": "audio/narracoes/TESTES_LOCAIS_001/validation_summary.json",
+      "state": "archived_unchanged",
+      "destination": "arquivo/tts_locais_rejeitados/TTS_003/audio/narracoes/TESTES_LOCAIS_001/validation_summary.json"
+    },
+    {
+      "path": "audio/narracoes/TESTES_LOCAIS_001/voz_A.wav",
+      "state": "archived_unchanged",
+      "destination": "arquivo/tts_locais_rejeitados/TTS_003/audio/narracoes/TESTES_LOCAIS_001/voz_A.wav"
+    },
+    {
+      "path": "audio/narracoes/TESTES_LOCAIS_001/voz_A.wav.meta.json",
+      "state": "archived_unchanged",
+      "destination": "arquivo/tts_locais_rejeitados/TTS_003/audio/narracoes/TESTES_LOCAIS_001/voz_A.wav.meta.json"
+    },
+    {
+      "path": "audio/narracoes/TESTES_LOCAIS_001/voz_A_consistencia.wav",
+      "state": "archived_unchanged",
+      "destination": "arquivo/tts_locais_rejeitados/TTS_003/audio/narracoes/TESTES_LOCAIS_001/voz_A_consistencia.wav"
+    },
+    {
+      "path": "audio/narracoes/TESTES_LOCAIS_001/voz_A_consistencia.wav.meta.json",
+      "state": "archived_unchanged",
+      "destination": "arquivo/tts_locais_rejeitados/TTS_003/audio/narracoes/TESTES_LOCAIS_001/voz_A_consistencia.wav.meta.json"
+    },
+    {
+      "path": "audio/narracoes/TESTES_LOCAIS_001/voz_B.wav",
+      "state": "archived_unchanged",
+      "destination": "arquivo/tts_locais_rejeitados/TTS_003/audio/narracoes/TESTES_LOCAIS_001/voz_B.wav"
+    },
+    {
+      "path": "audio/narracoes/TESTES_LOCAIS_001/voz_B.wav.meta.json",
+      "state": "archived_unchanged",
+      "destination": "arquivo/tts_locais_rejeitados/TTS_003/audio/narracoes/TESTES_LOCAIS_001/voz_B.wav.meta.json"
+    },
+    {
+      "path": "audio/narracoes/TESTES_LOCAIS_001/voz_C.wav",
+      "state": "archived_unchanged",
+      "destination": "arquivo/tts_locais_rejeitados/TTS_003/audio/narracoes/TESTES_LOCAIS_001/voz_C.wav"
+    },
+    {
+      "path": "audio/narracoes/TESTES_LOCAIS_001/voz_C.wav.meta.json",
+      "state": "archived_unchanged",
+      "destination": "arquivo/tts_locais_rejeitados/TTS_003/audio/narracoes/TESTES_LOCAIS_001/voz_C.wav.meta.json"
+    },
+    {
+      "path": "audio/narracoes/TESTES_LOCAIS_002/piper_faber_V1.wav",
+      "state": "archived_unchanged",
+      "destination": "arquivo/tts_locais_rejeitados/TTS_003/audio/narracoes/TESTES_LOCAIS_002/piper_faber_V1.wav"
+    },
+    {
+      "path": "audio/narracoes/TESTES_LOCAIS_002/piper_faber_V1.wav.meta.json",
+      "state": "archived_unchanged",
+      "destination": "arquivo/tts_locais_rejeitados/TTS_003/audio/narracoes/TESTES_LOCAIS_002/piper_faber_V1.wav.meta.json"
+    },
+    {
+      "path": "audio/narracoes/TESTES_LOCAIS_002/qwen_base_br_V1.wav",
+      "state": "deleted_by_explicit_user_request"
+    },
+    {
+      "path": "audio/narracoes/TESTES_LOCAIS_002/qwen_base_br_V1.wav.meta.json",
+      "state": "deleted_by_explicit_user_request"
+    },
+    {
+      "path": "audio/narracoes/EP001/segmentos/EP001_S01_V1.wav",
+      "state": "unchanged"
+    },
+    {
+      "path": "audio/narracoes/EP001/segmentos/EP001_S01_V1.wav.meta.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "audio/narracoes/EP001/segmentos/EP001_S02_V1.wav",
+      "state": "unchanged"
+    },
+    {
+      "path": "audio/narracoes/EP001/segmentos/EP001_S02_V1.wav.meta.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "audio/narracoes/EP001/segmentos/EP001_S03_V1.wav",
+      "state": "unchanged"
+    },
+    {
+      "path": "audio/narracoes/EP001/segmentos/EP001_S03_V1.wav.meta.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "audio/narracoes/EP001/segmentos/EP001_S04_V1.wav",
+      "state": "unchanged"
+    },
+    {
+      "path": "audio/narracoes/EP001/segmentos/EP001_S04_V1.wav.meta.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "audio/narracoes/EP001/segmentos/EP001_S05_V1.wav",
+      "state": "unchanged"
+    },
+    {
+      "path": "audio/narracoes/EP001/segmentos/EP001_S05_V1.wav.meta.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "audio/narracoes/EP001/segmentos/EP001_S06_V1.wav",
+      "state": "unchanged"
+    },
+    {
+      "path": "audio/narracoes/EP001/segmentos/EP001_S06_V1.wav.meta.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "audio/narracoes/EP001/segmentos/EP001_S07_V1.wav",
+      "state": "unchanged"
+    },
+    {
+      "path": "audio/narracoes/EP001/segmentos/EP001_S07_V1.wav.meta.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "audio/narracoes/EP001/segmentos/EP001_S08_V1.wav",
+      "state": "unchanged"
+    },
+    {
+      "path": "audio/narracoes/EP001/segmentos/EP001_S08_V1.wav.meta.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "audio/narracoes/EP001/testes/narracao_B_flash_lite_V1.wav",
+      "state": "unchanged"
+    },
+    {
+      "path": "audio/narracoes/EP001/testes/narracao_B_flash_lite_V1.wav.meta.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "audio/narracoes/EP001/testes/relatorio_missao_tts0.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "audio/narracoes/EP001/testes/teste_acesso_flash_lite.wav",
+      "state": "unchanged"
+    },
+    {
+      "path": "audio/narracoes/EP001/testes/teste_acesso_flash_lite.wav.meta.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "audio/perfis/historico/INFRA_001/narrador_principal_antes_TTS_002.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "audio/perfis/historico/INFRA_001/narrador_principal_rejeitado_TTS_002.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "audio/referencias_vocais/narrador_br_001/autorizacao.json",
+      "state": "deleted_by_explicit_user_request"
+    },
+    {
+      "path": "audio/referencias_vocais/narrador_br_001/autorizacao.modelo.json",
+      "state": "deleted_by_explicit_user_request"
+    },
+    {
+      "path": "audio/referencias_vocais/narrador_br_001/README.md",
+      "state": "deleted_by_explicit_user_request"
+    },
+    {
+      "path": "audio/referencias_vocais/narrador_br_001/referencia.wav",
+      "state": "deleted_by_explicit_user_request"
+    },
+    {
+      "path": "audio/referencias_vocais/narrador_br_001/referencia.wav.m4a",
+      "state": "deleted_by_explicit_user_request"
+    },
+    {
+      "path": "audio/referencias_vocais/narrador_br_001/transcricao.txt",
+      "state": "deleted_by_explicit_user_request"
+    },
+    {
+      "path": "audio/referencias_vocais/narrador_br_001/transcricao_sugerida.txt",
+      "state": "deleted_by_explicit_user_request"
+    },
+    {
+      "path": "backups/infra_001/gitignore_original.txt",
+      "state": "unchanged"
+    },
+    {
+      "path": "backups/infra_001/tts_init_original.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "backups/legado/build_scene_v2.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "backups/legado/MANIFESTO_MIGRACAO.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "backups/legado/preview_15s.mp4",
+      "state": "unchanged"
+    },
+    {
+      "path": "backups/legado/README_V2.md",
+      "state": "unchanged"
+    },
+    {
+      "path": "backups/legado/RELATORIO_TECNICO_V2.md",
+      "state": "unchanged"
+    },
+    {
+      "path": "backups/legado/Teste1.blend",
+      "state": "unchanged"
+    },
+    {
+      "path": "backups/legado/Teste1_V2.blend",
+      "state": "unchanged"
+    },
+    {
+      "path": "backups/legado/kit_nico_blender/nico_teste_15s.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "backups/legado/kit_nico_blender/README.txt",
+      "state": "unchanged"
+    },
+    {
+      "path": "backups/legado/pipeline_v2/anim_character.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "backups/legado/pipeline_v2/anim_props.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "backups/legado/pipeline_v2/character_nico.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "backups/legado/pipeline_v2/cinematography.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "backups/legado/pipeline_v2/config.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "backups/legado/pipeline_v2/environment_fair.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "backups/legado/pipeline_v2/materials_lighting.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "backups/legado/pipeline_v2/primitives.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "backups/legado/pipeline_v2/render_pipeline.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "backups/legado/pipeline_v2/scene_setup.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "backups/legado/pipeline_v2/__init__.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "backups/legado/previews/frame_028_01_sapato_danificado.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "backups/legado/previews/frame_075_02_queda_saco_batatas.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "backups/legado/previews/frame_112_03_nico_ideia_saco.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "backups/legado/previews/frame_190_04_caminhada_feira.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "backups/legado/previews/frame_285_05_tentativa_troca_balcao.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "backups/legado/previews/frame_352_06_recusa_placa_x.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "backups/legado/previews/frame_382_07_desejo_simbolo_leite.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "backups/legado/previews/frame_430_08_reacao_comica_final.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "backups/legado/previews/preview_15s_lowres.mp4",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/narracao.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/roteiro.md",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/storyboard.md",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/timing.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/cenas/cena_01_V2.blend",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/cenas/cena_01_V2.blend1",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/cenas/cena_01_V3.blend",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/cenas/cena_01_V3.blend1",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/cenas/cena_01_V3_1.blend",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/cenas/cena_01_V3_1.blend1",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/cenas/cena_01_V3_1_com_carimbo.blend",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/cenas/cena_01_V3_1_com_carimbo.blend1",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/legado/roteiro_piloto_15s_V3_1.md",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/legado/storyboard_piloto_15s_V3_1.md",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/legendas/EP001_LEGENDAS.ass",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/legendas/EP001_LEGENDAS.srt",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/legendas/_alinhamento_asr.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/legendas/_analise_pausas.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/previews/comparativo_V2_vs_V3.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/publicacao/COMENTARIOS.md",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/publicacao/METADADOS_PUBLICACAO.md",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/videos/abertura_A_3s.mp4",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/videos/abertura_B_3s.mp4",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/videos/preview_15s_V2.mp4",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/videos/preview_15s_V2_lowres.mp4",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/videos/preview_15s_V3.mp4",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/videos/preview_15s_V3_lowres.mp4",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/videos/preview_V3_1_1_com_carimbo_lowres.mp4",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/videos/preview_V3_1_1_narrado_lowres.mp4",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/videos/preview_V3_1_1_sem_carimbo_lowres.mp4",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/videos/preview_V3_1_com_carimbo_lowres.mp4",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/videos/preview_V3_1_narrado_lowres.mp4",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/videos/preview_V3_1_sem_carimbo_lowres.mp4",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/videos/relatorio_auditoria_audio_V3_1_1.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/previews/v2/frame_028_01_sapato_danificado.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/previews/v2/frame_075_02_queda_saco_batatas.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/previews/v2/frame_112_03_nico_ideia_saco.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/previews/v2/frame_190_04_caminhada_feira.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/previews/v2/frame_285_05_tentativa_troca_balcao.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/previews/v2/frame_352_06_recusa_placa_x.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/previews/v2/frame_382_07_desejo_simbolo_leite.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/previews/v2/frame_430_08_reacao_comica_final.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/previews/v3/frame_028_01_sapato_danificado.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/previews/v3/frame_075_02_queda_saco_batatas.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/previews/v3/frame_112_03_nico_ideia_saco.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/previews/v3/frame_190_04_caminhada_feira.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/previews/v3/frame_285_05_tentativa_troca_balcao.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/previews/v3/frame_352_06_recusa_placa_x.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/previews/v3/frame_382_07_desejo_simbolo_leite.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/previews/v3/frame_430_08_reacao_comica_final.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/previews/v3_1/carimbo_com_assinatura_f530.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/previews/v3_1/carimbo_sem_assinatura_f530.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/previews/v3_1/comparativo_carimbo_duvida.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/previews/v3_1/frame_035_01_frase1_sapato_abrindo.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/previews/v3_1/frame_068_02_frase1_pediu_demissao_tropeco.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/previews/v3_1/frame_150_03_frase2_vila_sem_dinheiro.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/previews/v3_1/frame_204_04_frase3a_ideia_saco_batatas.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/previews/v3_1/frame_259_05_frase3b_caminhada_trocar.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/previews/v3_1/frame_310_06_frase3c_balcao_par_novo.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/previews/v3_1/frame_392_07_frase4_nao_queria_batatas_x.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/previews/v3_1/frame_451_08_frase5_queria_leite.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/previews/v3_1/frame_530_09_frase6_nico_ai_complicou.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/previews/v3_1/waveform_timing_v3_1.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/previews/v3/aberturas/frame_015_abertura_A_0_5s.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/previews/v3/aberturas/frame_015_abertura_B_0_5s.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/previews/v3/aberturas/frame_045_abertura_A_1_5s.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/previews/v3/aberturas/frame_045_abertura_B_1_5s.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/previews/v3/aberturas/frame_062_abertura_A_2_1s.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/previews/v3/aberturas/frame_062_abertura_B_2_1s.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/previews/v3/auditoria/frame_015_00_5s_close_sapato_abrindo.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/previews/v3/auditoria/frame_045_01_5s_tropeco_sapato.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/previews/v3/auditoria/frame_105_03_5s_revelacao_carrinho_batatas.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/previews/v3/auditoria/frame_180_06_0s_caminhada_com_peso.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/previews/v3/auditoria/frame_285_09_5s_proposta_troca_balcao.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/previews/v3/auditoria/frame_375_12_5s_recusa_x_e_leite.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/previews/v3/auditoria/frame_435_14_5s_reacao_final_nico.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/previews/v3/closeups/closeup_01_sapato_descolado_frontal.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/previews/v3/closeups/closeup_02_sapato_descolado_perfil.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/previews/v3/closeups/closeup_03_nico_v3_rosto_expressao.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "episodios/EP001_dinheiro/previews/v3/closeups/closeup_04_nico_v3_corpo_inteiro.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "referencias/videos/Banco.mp4",
+      "state": "unchanged"
+    },
+    {
+      "path": "referencias/videos/videoplayback (1).mp4",
+      "state": "unchanged"
+    },
+    {
+      "path": "referencias/videos/videoplayback.mp4",
+      "state": "unchanged"
+    },
+    {
+      "path": "referencias/imagens/Banco/f_0001.jpg",
+      "state": "unchanged"
+    },
+    {
+      "path": "referencias/imagens/Banco/f_0086.jpg",
+      "state": "unchanged"
+    },
+    {
+      "path": "referencias/imagens/Banco/f_0172.jpg",
+      "state": "unchanged"
+    },
+    {
+      "path": "referencias/imagens/Banco/f_0257.jpg",
+      "state": "unchanged"
+    },
+    {
+      "path": "referencias/imagens/Banco/f_0343.jpg",
+      "state": "unchanged"
+    },
+    {
+      "path": "referencias/imagens/Banco/f_0428.jpg",
+      "state": "unchanged"
+    },
+    {
+      "path": "referencias/imagens/Banco/f_0514.jpg",
+      "state": "unchanged"
+    },
+    {
+      "path": "referencias/imagens/Banco/f_0600.jpg",
+      "state": "unchanged"
+    },
+    {
+      "path": "referencias/imagens/preview_15s_v2/f_0001.jpg",
+      "state": "unchanged"
+    },
+    {
+      "path": "referencias/imagens/preview_15s_v2/f_0065.jpg",
+      "state": "unchanged"
+    },
+    {
+      "path": "referencias/imagens/preview_15s_v2/f_0129.jpg",
+      "state": "unchanged"
+    },
+    {
+      "path": "referencias/imagens/preview_15s_v2/f_0193.jpg",
+      "state": "unchanged"
+    },
+    {
+      "path": "referencias/imagens/preview_15s_v2/f_0257.jpg",
+      "state": "unchanged"
+    },
+    {
+      "path": "referencias/imagens/preview_15s_v2/f_0321.jpg",
+      "state": "unchanged"
+    },
+    {
+      "path": "referencias/imagens/preview_15s_v2/f_0385.jpg",
+      "state": "unchanged"
+    },
+    {
+      "path": "referencias/imagens/preview_15s_v2/f_0450.jpg",
+      "state": "unchanged"
+    },
+    {
+      "path": "referencias/imagens/videoplayback/f_0001.jpg",
+      "state": "unchanged"
+    },
+    {
+      "path": "referencias/imagens/videoplayback/f_0086.jpg",
+      "state": "unchanged"
+    },
+    {
+      "path": "referencias/imagens/videoplayback/f_0172.jpg",
+      "state": "unchanged"
+    },
+    {
+      "path": "referencias/imagens/videoplayback/f_0257.jpg",
+      "state": "unchanged"
+    },
+    {
+      "path": "referencias/imagens/videoplayback/f_0343.jpg",
+      "state": "unchanged"
+    },
+    {
+      "path": "referencias/imagens/videoplayback/f_0428.jpg",
+      "state": "unchanged"
+    },
+    {
+      "path": "referencias/imagens/videoplayback/f_0514.jpg",
+      "state": "unchanged"
+    },
+    {
+      "path": "referencias/imagens/videoplayback/f_0600.jpg",
+      "state": "unchanged"
+    },
+    {
+      "path": "referencias/imagens/videoplayback_1/f_0001.jpg",
+      "state": "unchanged"
+    },
+    {
+      "path": "referencias/imagens/videoplayback_1/f_0086.jpg",
+      "state": "unchanged"
+    },
+    {
+      "path": "referencias/imagens/videoplayback_1/f_0172.jpg",
+      "state": "unchanged"
+    },
+    {
+      "path": "referencias/imagens/videoplayback_1/f_0257.jpg",
+      "state": "unchanged"
+    },
+    {
+      "path": "referencias/imagens/videoplayback_1/f_0343.jpg",
+      "state": "unchanged"
+    },
+    {
+      "path": "referencias/imagens/videoplayback_1/f_0428.jpg",
+      "state": "unchanged"
+    },
+    {
+      "path": "referencias/imagens/videoplayback_1/f_0514.jpg",
+      "state": "unchanged"
+    },
+    {
+      "path": "referencias/imagens/videoplayback_1/f_0600.jpg",
+      "state": "unchanged"
+    },
+    {
+      "path": "scripts/legendas/align_ep001.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "scripts/legendas/montar_ep001.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "scripts/legendas/timing_ep001.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "scripts/legendas/__init__.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "scripts/pipeline_v2/anim_character.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "scripts/pipeline_v2/anim_props.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "scripts/pipeline_v2/character_nico.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "scripts/pipeline_v2/cinematography.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "scripts/pipeline_v2/config.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "scripts/pipeline_v2/environment_fair.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "scripts/pipeline_v2/materials_lighting.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "scripts/pipeline_v2/primitives.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "scripts/pipeline_v2/render_pipeline.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "scripts/pipeline_v2/scene_setup.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "scripts/pipeline_v2/__init__.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "scripts/pipeline_v3/anim_character.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "scripts/pipeline_v3/anim_props.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "scripts/pipeline_v3/asset_library.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "scripts/pipeline_v3/audio_finalizer.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "scripts/pipeline_v3/character_nico.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "scripts/pipeline_v3/cinematography.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "scripts/pipeline_v3/config.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "scripts/pipeline_v3/environment_fair.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "scripts/pipeline_v3/materials_lighting.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "scripts/pipeline_v3/primitives.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "scripts/pipeline_v3/render_pipeline.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "scripts/pipeline_v3/scene_setup.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "scripts/pipeline_v3/v3_1_narrated_scene.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "scripts/pipeline_v3/__init__.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "scripts/tts/br_local.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "scripts/tts/cli.py",
+      "state": "intentional_authorized_update"
+    },
+    {
+      "path": "scripts/tts/config.py",
+      "state": "intentional_authorized_update"
+    },
+    {
+      "path": "scripts/tts/generator.py",
+      "state": "intentional_authorized_update"
+    },
+    {
+      "path": "scripts/tts/gerar_ep001.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "scripts/tts/local.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "scripts/tts/local_cli.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "scripts/tts/prepare_br_models.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "scripts/tts/run_missao_tts0.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "scripts/tts/samples_local.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "scripts/tts/validator.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "scripts/tts/__init__.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/asr_exit.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/asr_samples.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/asr_stderr.log",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/asr_stdout.log",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/audit.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/baseline.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/blender_blue_exit.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/blender_blue_stderr.log",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/blender_blue_stdout.log",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/blender_preferences_stderr.log",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/blender_preferences_stdout.log",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/blender_result.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/blender_smoke.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/blender_stderr.log",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/blender_stdout.log",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/check_models.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/dependency_licenses.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/download_model_stderr.log",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/download_model_stdout.log",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/environment.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/ep001_exit.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/ep001_stderr.log",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/ep001_stdout.log",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/ep001_tests_stderr.log",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/ep001_tests_stdout.log",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/finalize_evidence.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/install_qwen.log",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/install_torch.log",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/legacy_cli_help.log",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/legacy_cli_help_stderr.log",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/mcp_server_stderr.log",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/mission_manifest.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/model_integrity.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/pip_check_exit.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/pip_check_stderr.log",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/pip_check_stdout.log",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/preserve_original_init.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/prior_tool_calls.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/prior_writes.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/requirements-lock.txt",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/runtime.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/runtime_exit.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/runtime_inventory.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/runtime_stderr.log",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/runtime_stdout.log",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/run_logged.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/samples_exit.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/samples_stderr.log",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/samples_stdout.log",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/smoke.blend",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/smoke.png",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/test_tts_local.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/unit_exit.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/unit_stderr.log",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/unit_stdout.log",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/validate_samples.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/validation_exit.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/validation_stderr.log",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/validation_stdout.log",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/tts_002/asr_outputs.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/tts_002/asr_outputs_exit.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/tts_002/asr_outputs_stderr.log",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/tts_002/asr_outputs_stdout.log",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/tts_002/asr_reference.json",
+      "state": "deleted_by_explicit_user_request"
+    },
+    {
+      "path": "testes/tts_002/asr_reference_exit.json",
+      "state": "deleted_by_explicit_user_request"
+    },
+    {
+      "path": "testes/tts_002/asr_reference_stderr.log",
+      "state": "deleted_by_explicit_user_request"
+    },
+    {
+      "path": "testes/tts_002/asr_reference_stdout.log",
+      "state": "deleted_by_explicit_user_request"
+    },
+    {
+      "path": "testes/tts_002/asr_review.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/tts_002/audit.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/tts_002/baseline.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/tts_002/base_probe.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/tts_002/base_probe_exit.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/tts_002/base_probe_stderr.log",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/tts_002/base_probe_stdout.log",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/tts_002/download_exit.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/tts_002/download_stderr.log",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/tts_002/download_stdout.log",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/tts_002/environment.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/tts_002/ep001_exit.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/tts_002/ep001_stderr.log",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/tts_002/ep001_stdout.log",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/tts_002/finalize_manifest.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/tts_002/install_piper.log",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/tts_002/manifest.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/tts_002/model_integrity.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/tts_002/piper_exit.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/tts_002/piper_stderr.log",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/tts_002/piper_stdout.log",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/tts_002/pip_check_exit.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/tts_002/pip_check_stderr.log",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/tts_002/pip_check_stdout.log",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/tts_002/prepare_reference_pcm.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/tts_002/qwen_base_exit.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/tts_002/qwen_base_stderr.log",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/tts_002/qwen_base_stdout.log",
+      "state": "deleted_by_explicit_user_request"
+    },
+    {
+      "path": "testes/tts_002/reference_conversion.json",
+      "state": "deleted_by_explicit_user_request"
+    },
+    {
+      "path": "testes/tts_002/reference_conversion_exit.json",
+      "state": "deleted_by_explicit_user_request"
+    },
+    {
+      "path": "testes/tts_002/reference_conversion_stderr.log",
+      "state": "deleted_by_explicit_user_request"
+    },
+    {
+      "path": "testes/tts_002/reference_conversion_stdout.log",
+      "state": "deleted_by_explicit_user_request"
+    },
+    {
+      "path": "testes/tts_002/register_exit.json",
+      "state": "deleted_by_explicit_user_request"
+    },
+    {
+      "path": "testes/tts_002/register_stderr.log",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/tts_002/register_stdout.log",
+      "state": "deleted_by_explicit_user_request"
+    },
+    {
+      "path": "testes/tts_002/requirements-lock.txt",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/tts_002/test_br_local.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/tts_002/texto_teste.txt",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/tts_002/unit_exit.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/tts_002/unit_stderr.log",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/tts_002/unit_stdout.log",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/tts_002/validation.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/tts_002/validation_exit.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/tts_002/validation_stderr.log",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/tts_002/validation_stdout.log",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/tts_002/verify_delivery.py",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/visual_v2/blender_result.json",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/visual_v2/smoke.blend",
+      "state": "unchanged"
+    },
+    {
+      "path": "testes/infra_001/visual_v2/smoke.png",
+      "state": "unchanged"
+    }
+  ]
+}

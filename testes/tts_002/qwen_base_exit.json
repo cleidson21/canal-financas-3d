@@ -1,0 +1,14 @@
+{
+  "command": [
+    "venvs/tts_local/Scripts/python.exe",
+    "-m",
+    "scripts.tts.br_local",
+    "generate",
+    "--provider",
+    "qwen_base_local",
+    "--output",
+    "audio/narracoes/TESTES_LOCAIS_002/qwen_base_br_V1.wav"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 81.25618505477905
+}

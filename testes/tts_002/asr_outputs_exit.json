@@ -1,0 +1,11 @@
+{
+  "command": [
+    "python",
+    "testes/tts_002/asr_review.py",
+    "testes/tts_002/asr_outputs.json",
+    "audio/narracoes/TESTES_LOCAIS_002/qwen_base_br_V1.wav",
+    "audio/narracoes/TESTES_LOCAIS_002/piper_faber_V1.wav"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 9.49722695350647
+}

@@ -1,0 +1,8 @@
+{
+  "command": [
+    "python",
+    "testes/infra_001/asr_samples.py"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 20.697229146957397
+}

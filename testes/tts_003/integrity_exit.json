@@ -1,0 +1,8 @@
+{
+  "command": [
+    "python",
+    "testes/tts_003/verify_integrity.py"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 0.9627461433410645
+}

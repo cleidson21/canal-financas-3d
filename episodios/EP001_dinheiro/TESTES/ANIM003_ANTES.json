@@ -1,0 +1,43 @@
+{
+  "blend": "episodios/EP001_dinheiro/TESTES/cache/ANIM003_ANTES_V2.blend",
+  "cache": "episodios/EP001_dinheiro/TESTES/cache/planos",
+  "render": {
+    "resolution": [
+      216,
+      384
+    ],
+    "samples": 8
+  },
+  "plans": [
+    {
+      "id": "corpo",
+      "frames": [
+        1,
+        84
+      ],
+      "camera": "ANIM003_Corpo",
+      "audit_frames": [
+        1,
+        29,
+        41,
+        56,
+        83
+      ]
+    },
+    {
+      "id": "lateral",
+      "frames": [
+        1,
+        84
+      ],
+      "camera": "ANIM003_Lateral",
+      "audit_frames": [
+        1,
+        29,
+        41,
+        56,
+        83
+      ]
+    }
+  ]
+}

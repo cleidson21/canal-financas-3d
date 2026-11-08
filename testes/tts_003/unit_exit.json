@@ -1,0 +1,8 @@
+{
+  "command": [
+    "python",
+    "testes/tts_003/test_generation_policy.py"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 1.561150312423706
+}

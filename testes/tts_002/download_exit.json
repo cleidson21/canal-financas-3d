@@ -1,0 +1,8 @@
+{
+  "command": [
+    "python",
+    "scripts/tts/prepare_br_models.py"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 186.63550233840942
+}

@@ -1,0 +1,173 @@
+{
+  "source": "derived in memory from canonical episode timing; no source modification",
+  "phrases": [
+    {
+      "id": "S01_F01",
+      "text": "O sapato do Nico pediu demissão.",
+      "start_sec": 0.0,
+      "end_sec": 2.62
+    },
+    {
+      "id": "S01_F02",
+      "text": "E na vila dele, ninguém usava dinheiro.",
+      "start_sec": 3.06,
+      "end_sec": 5.64
+    },
+    {
+      "id": "S02_F01",
+      "text": "Ele tinha quarenta quilos de batata e achou que dava pra trocar por um par novo.",
+      "start_sec": 6.18,
+      "end_sec": 10.88
+    },
+    {
+      "id": "S02_F02",
+      "text": "Só que o sapateiro não queria batatas.",
+      "start_sec": 11.4,
+      "end_sec": 14.74
+    },
+    {
+      "id": "S02_F03",
+      "text": "Queria leite.",
+      "start_sec": 15.22,
+      "end_sec": 16.74
+    },
+    {
+      "id": "S02_F04",
+      "text": "Nico... aí complicou.",
+      "start_sec": 17.36,
+      "end_sec": 19.38
+    },
+    {
+      "id": "S03_F01",
+      "text": "Mas Nico teve uma ideia.",
+      "start_sec": 19.76,
+      "end_sec": 21.58
+    },
+    {
+      "id": "S03_F02",
+      "text": "O pescador queria batatas. Então ele conseguiu um peixe.",
+      "start_sec": 22.22,
+      "end_sec": 26.54
+    },
+    {
+      "id": "S03_F03",
+      "text": "E o lenhador queria peixe. Pronto, conseguiu lenha também.",
+      "start_sec": 27.34,
+      "end_sec": 31.18
+    },
+    {
+      "id": "S03_F04",
+      "text": "Pera aí... duas trocas seguidas dando certo?",
+      "start_sec": 31.18,
+      "end_sec": 34.86
+    },
+    {
+      "id": "S03_F05",
+      "text": "Isso tá fácil demais.",
+      "start_sec": 35.66,
+      "end_sec": 36.72
+    },
+    {
+      "id": "S04_F01",
+      "text": "Pois é.",
+      "start_sec": 37.38,
+      "end_sec": 38.18
+    },
+    {
+      "id": "S04_F02",
+      "text": "O leiteiro não queria lenha. Queria ovos.",
+      "start_sec": 38.78,
+      "end_sec": 41.6
+    },
+    {
+      "id": "S04_F03",
+      "text": "E o vendedor de ovos queria farinha.",
+      "start_sec": 42.0,
+      "end_sec": 43.9
+    },
+    {
+      "id": "S04_F04",
+      "text": "E quem vendia farinha...",
+      "start_sec": 44.68,
+      "end_sec": 45.76
+    },
+    {
+      "id": "S04_F05",
+      "text": "Nico, você quer comprar um sapato ou abrir uma transportadora?",
+      "start_sec": 47.42,
+      "end_sec": 51.46
+    },
+    {
+      "id": "S05_F01",
+      "text": "O problema não era faltar coisa pra trocar.",
+      "start_sec": 51.92,
+      "end_sec": 55.04
+    },
+    {
+      "id": "S05_F02",
+      "text": "Era encontrar alguém que quisesse exatamente o que ele tinha, bem naquela hora.",
+      "start_sec": 55.26,
+      "end_sec": 60.66
+    },
+    {
+      "id": "S06_F01",
+      "text": "Até que a feira resolveu testar uma ideia.",
+      "start_sec": 61.26,
+      "end_sec": 64.64
+    },
+    {
+      "id": "S06_F02",
+      "text": "Todo mundo passaria a aceitar uma mesma ficha como pagamento.",
+      "start_sec": 65.22,
+      "end_sec": 69.04
+    },
+    {
+      "id": "S06_F03",
+      "text": "Nico vendeu batatas, recebeu fichas e finalmente comprou os sapatos.",
+      "start_sec": 69.8,
+      "end_sec": 74.8
+    },
+    {
+      "id": "S06_F04",
+      "text": "E o sapateiro? Usou as mesmas fichas pra comprar leite.",
+      "start_sec": 75.6,
+      "end_sec": 79.28
+    },
+    {
+      "id": "S06_F05",
+      "text": "Agora sim!",
+      "start_sec": 80.1,
+      "end_sec": 81.26
+    },
+    {
+      "id": "S07_F01",
+      "text": "Mas tem um detalhe.",
+      "start_sec": 81.48,
+      "end_sec": 83.14
+    },
+    {
+      "id": "S07_F02",
+      "text": "Por que alguém aceitaria um pedaço de madeira como pagamento?",
+      "start_sec": 83.44,
+      "end_sec": 86.72
+    },
+    {
+      "id": "S07_F03",
+      "text": "Porque confiava que outras pessoas também aceitariam.",
+      "start_sec": 86.72,
+      "end_sec": 90.42
+    },
+    {
+      "id": "S07_F04",
+      "text": "Sem isso, a ficha não passaria de um pedaço de madeira.",
+      "start_sec": 90.94,
+      "end_sec": 94.9
+    },
+    {
+      "id": "S08_F01",
+      "text": "Agora me conta: se não existisse dinheiro, o que você ofereceria por um par de sapatos?",
+      "start_sec": 95.38,
+      "end_sec": 101.66
+    }
+  ]
+}

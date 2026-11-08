@@ -1,0 +1,693 @@
+{
+  "status": "Proposta técnica editável. O comando renderiza a referência PROD-002 por plano; os novos cues e o ajuste de rig aguardam revisão antes de serem aplicados à cena.",
+  "timing": "episodios/EP001_dinheiro/timing.json",
+  "segmento": "S03",
+  "fps": 30,
+  "duracao_audio_s": 17.52,
+  "origem_global_s": 19.76,
+  "blend": "episodios/EP001_dinheiro/ENTREGAS/CENA03_EDITAVEL.blend",
+  "cache": "episodios/EP001_dinheiro/TESTES/cache/planos",
+  "render": {
+    "resolution": [
+      216,
+      384
+    ],
+    "samples": 8
+  },
+  "notas": [
+    "Intervalos de quadros inclusivos; fim temporal exclusivo no vídeo. O último quadro arredonda a duração da imagem.",
+    "Posições das raízes no arquivo de referência em coordenadas de mundo, na ordem X Y Z. Cues e critérios são propostas de atuação, não alterações da narração."
+  ],
+  "plans": [
+    {
+      "id": "S03_P01_IDEIA",
+      "frames": [
+        1,
+        46
+      ],
+      "numero_de_quadros": 46,
+      "tempo_local_s": [
+        0,
+        1.5333
+      ],
+      "tempo_global_s": [
+        19.76,
+        21.2933
+      ],
+      "camera": "A_ideia",
+      "narracao": "Mas Nico teve uma ideia.",
+      "personagens": [
+        "Nico"
+      ],
+      "posicoes_inicio_fim": {
+        "inicio": {
+          "Nico": [
+            -0.4,
+            -0.1,
+            0
+          ]
+        },
+        "fim": {
+          "Nico": [
+            -0.4,
+            -0.1,
+            0
+          ]
+        }
+      },
+      "passos": {
+        "quantidade": 0,
+        "direcao": "apoio bilateral"
+      },
+      "bracos_pernas": "Cabeça baixa e antebraço esquerdo inicia o gesto. Braço direito relaxado ao lado da camisa.",
+      "olhar": "Das batatas para a barraca",
+      "expressao": "Concentração que abre para surpresa leve",
+      "objetos": [
+        "Batatas"
+      ],
+      "contatos_transferencias": [],
+      "cenario": "Feira, lado do pescador",
+      "poses_chave": [
+        1,
+        13,
+        44
+      ],
+      "audit_frames": [
+        1,
+        13,
+        46
+      ],
+      "criterios_validacao": [
+        "Ler a mudança de olhar antes do gesto",
+        "Cotovelos sem cruzar o tronco"
+      ]
+    },
+    {
+      "id": "S03_P02_DESTINO",
+      "frames": [
+        47,
+        74
+      ],
+      "numero_de_quadros": 28,
+      "tempo_local_s": [
+        1.5333,
+        2.4667
+      ],
+      "tempo_global_s": [
+        21.2933,
+        22.2267
+      ],
+      "camera": "A2_revela_destino",
+      "narracao": "Final de “Mas Nico teve uma ideia.”, seguido de pausa.",
+      "personagens": [
+        "Nico",
+        "Pescador"
+      ],
+      "posicoes_inicio_fim": {
+        "inicio": {
+          "Nico": [
+            -0.4,
+            -0.1,
+            0
+          ],
+          "Pescador": [
+            0.43,
+            -0.02,
+            0
+          ]
+        },
+        "fim": {
+          "Nico": [
+            -0.4,
+            -0.1,
+            0
+          ],
+          "Pescador": [
+            0.43,
+            -0.02,
+            0
+          ]
+        }
+      },
+      "passos": {
+        "quantidade": 0,
+        "direcao": "apoio bilateral"
+      },
+      "bracos_pernas": "Completar indicação com a mão esquerda, recuperar sem rebatida. Pescador espera.",
+      "olhar": "Do dedo em direção ao pescador",
+      "expressao": "Ideia reconhecível, sem exagerar o ombro",
+      "objetos": [
+        "Batatas",
+        "Placa do pescador"
+      ],
+      "contatos_transferencias": [],
+      "cenario": "Mesma barraca. Abrir enquadramento para revelar o destino.",
+      "poses_chave": [
+        47,
+        55,
+        73
+      ],
+      "audit_frames": [
+        47,
+        55,
+        74
+      ],
+      "criterios_validacao": [
+        "Manter destino no enquadramento",
+        "Não alongar o braço para alcançar a placa"
+      ]
+    },
+    {
+      "id": "S03_P03_BATATAS",
+      "frames": [
+        75,
+        140
+      ],
+      "numero_de_quadros": 66,
+      "tempo_local_s": [
+        2.4667,
+        4.6667
+      ],
+      "tempo_global_s": [
+        22.2267,
+        24.4267
+      ],
+      "camera": "B_oferta_pescador",
+      "narracao": "O pescador queria batatas.",
+      "personagens": [
+        "Nico",
+        "Pescador"
+      ],
+      "posicoes_inicio_fim": {
+        "inicio": {
+          "Nico": [
+            -0.4,
+            -0.1,
+            0
+          ],
+          "Pescador": [
+            0.43,
+            -0.02,
+            0
+          ]
+        },
+        "fim": {
+          "Nico": [
+            -0.4,
+            -0.1,
+            0
+          ],
+          "Pescador": [
+            0.43,
+            -0.02,
+            0
+          ]
+        }
+      },
+      "passos": {
+        "quantidade": 0,
+        "direcao": "apoio bilateral"
+      },
+      "bracos_pernas": "Nico leva bandeja com braço direito e o pescador prepara a esquerda. Pausar no encaixe e separar as palmas depois.",
+      "olhar": "Bandeja, então confirmação no rosto do pescador",
+      "expressao": "Intenção clara e aceno de aceite",
+      "objetos": [
+        "Bandeja de batatas"
+      ],
+      "contatos_transferencias": [
+        {
+          "frame": 118,
+          "tempo_local_s": 3.9,
+          "acao": "Nico mão direita → pescador mão esquerda"
+        }
+      ],
+      "cenario": "Balcão do pescador",
+      "poses_chave": [
+        75,
+        96,
+        118,
+        125,
+        140
+      ],
+      "audit_frames": [
+        75,
+        118,
+        140
+      ],
+      "criterios_validacao": [
+        "Polo lateral no tronco do Nico",
+        "Manter pose de contato por alguns quadros",
+        "Palmas nas bordas e bandeja sem salto"
+      ]
+    },
+    {
+      "id": "S03_P04_PEIXE",
+      "frames": [
+        141,
+        200
+      ],
+      "numero_de_quadros": 60,
+      "tempo_local_s": [
+        4.6667,
+        6.6667
+      ],
+      "tempo_global_s": [
+        24.4267,
+        26.4267
+      ],
+      "camera": "C_entrega_peixe",
+      "narracao": "Então ele conseguiu um peixe.",
+      "personagens": [
+        "Nico",
+        "Pescador"
+      ],
+      "posicoes_inicio_fim": {
+        "inicio": {
+          "Nico": [
+            -0.4,
+            -0.1,
+            0
+          ],
+          "Pescador": [
+            0.43,
+            -0.02,
+            0
+          ]
+        },
+        "fim": {
+          "Nico": [
+            -0.4,
+            -0.1,
+            0
+          ],
+          "Pescador": [
+            0.43,
+            -0.02,
+            0
+          ]
+        }
+      },
+      "passos": {
+        "quantidade": 0,
+        "direcao": "apoio bilateral"
+      },
+      "bracos_pernas": "Pescador oferece com direita. Nico recebe com direita e aproxima do próprio corpo, cotovelo fora da camisa.",
+      "olhar": "Peixe durante o alcance, depois caminho à frente",
+      "expressao": "Atenção vira satisfação",
+      "objetos": [
+        "Peixe",
+        "Batatas recebidas pelo pescador"
+      ],
+      "contatos_transferencias": [
+        {
+          "frame": 178,
+          "tempo_local_s": 5.9,
+          "acao": "Pescador mão direita → Nico mão direita"
+        }
+      ],
+      "cenario": "Close na troca. Preservar eixo de ação do balcão.",
+      "poses_chave": [
+        141,
+        164,
+        178,
+        185,
+        199
+      ],
+      "audit_frames": [
+        141,
+        178,
+        200
+      ],
+      "criterios_validacao": [
+        "Conferir mãos e peixe no close",
+        "Evitar ocultar contato sob a malha",
+        "Confirmar apoio antes de transportar"
+      ]
+    },
+    {
+      "id": "S03_P05_CAMINHADA",
+      "frames": [
+        201,
+        225
+      ],
+      "numero_de_quadros": 25,
+      "tempo_local_s": [
+        6.6667,
+        7.5
+      ],
+      "tempo_global_s": [
+        26.4267,
+        27.26
+      ],
+      "camera": "C2_caminhada",
+      "narracao": "Pausa entre “Então ele conseguiu um peixe.” e “E o lenhador queria peixe.”",
+      "personagens": [
+        "Nico"
+      ],
+      "posicoes_inicio_fim": {
+        "inicio": {
+          "Nico": [
+            -0.4,
+            -0.1,
+            0
+          ]
+        },
+        "fim": {
+          "Nico": [
+            0.1995,
+            -0.6495,
+            0
+          ]
+        }
+      },
+      "passos": {
+        "quantidade": 4,
+        "direcao": "L/R/L/R em +X e −Y; movimento curto seguido de elipse"
+      },
+      "bracos_pernas": "Pé levanta por vez. Esquerda contrabalança em arco pequeno. Direita transporta o peixe com apoio constante.",
+      "olhar": "Direção do lenhador, sem olhar para a câmera",
+      "expressao": "Determinado",
+      "objetos": [
+        "Peixe"
+      ],
+      "contatos_transferencias": [],
+      "cenario": "Saída da barraca do pescador. Corte de elipse para chegada no plano seguinte.",
+      "poses_chave": [
+        201,
+        207,
+        213,
+        219,
+        225
+      ],
+      "audit_frames": [
+        201,
+        213,
+        225
+      ],
+      "criterios_validacao": [
+        "Confirmar contatos alternados e velocidade dos pés",
+        "Conservar peixe com Nico no corte",
+        "Deslocamento entre barracas por elipse explícita"
+      ]
+    },
+    {
+      "id": "S03_P06_OFERTA_PEIXE",
+      "frames": [
+        226,
+        276
+      ],
+      "numero_de_quadros": 51,
+      "tempo_local_s": [
+        7.5,
+        9.2
+      ],
+      "tempo_global_s": [
+        27.26,
+        28.96
+      ],
+      "camera": "D_lenhador",
+      "narracao": "E o lenhador queria peixe.",
+      "personagens": [
+        "Nico",
+        "Lenhador"
+      ],
+      "posicoes_inicio_fim": {
+        "inicio": {
+          "Nico": [
+            2.17,
+            -0.1,
+            0
+          ],
+          "Lenhador": [
+            2.9,
+            -0.02,
+            0
+          ]
+        },
+        "fim": {
+          "Nico": [
+            2.17,
+            -0.1,
+            0
+          ],
+          "Lenhador": [
+            2.9,
+            -0.02,
+            0
+          ]
+        }
+      },
+      "passos": {
+        "quantidade": 0,
+        "direcao": "pés plantados depois do corte"
+      },
+      "bracos_pernas": "Estabelecer chegada e oferecer com direita. Lenhador recebe com esquerda, acena e recupera para preparar a lenha.",
+      "olhar": "Do lenhador ao peixe",
+      "expressao": "Aceite do lenhador e surpresa moderada do Nico",
+      "objetos": [
+        "Peixe",
+        "Balcão do lenhador"
+      ],
+      "contatos_transferencias": [
+        {
+          "frame": 268,
+          "tempo_local_s": 8.9,
+          "acao": "Nico mão direita → lenhador mão esquerda"
+        }
+      ],
+      "cenario": "Barraca do lenhador, troca de eixo sinalizada pelo plano de chegada.",
+      "poses_chave": [
+        226,
+        246,
+        268,
+        275
+      ],
+      "audit_frames": [
+        226,
+        268,
+        276
+      ],
+      "criterios_validacao": [
+        "Chegada legível sem teleporte dentro do plano",
+        "Peixe com uma posse por vez",
+        "Evitar cotovelo direito projetado sobre o torso"
+      ]
+    },
+    {
+      "id": "S03_P07_LENHA",
+      "frames": [
+        277,
+        324
+      ],
+      "numero_de_quadros": 48,
+      "tempo_local_s": [
+        9.2,
+        10.8
+      ],
+      "tempo_global_s": [
+        28.96,
+        30.56
+      ],
+      "camera": "D2_entrega_lenha",
+      "narracao": "Pronto, conseguiu lenha também.",
+      "personagens": [
+        "Nico",
+        "Lenhador"
+      ],
+      "posicoes_inicio_fim": {
+        "inicio": {
+          "Nico": [
+            2.17,
+            -0.1,
+            0
+          ],
+          "Lenhador": [
+            2.9,
+            -0.02,
+            0
+          ]
+        },
+        "fim": {
+          "Nico": [
+            2.17,
+            -0.1,
+            0
+          ],
+          "Lenhador": [
+            2.9,
+            -0.02,
+            0
+          ]
+        }
+      },
+      "passos": {
+        "quantidade": 0,
+        "direcao": "pés plantados"
+      },
+      "bracos_pernas": "Lenhador entrega lenha com direita. Nico recebe com direita, retira com pequeno arco de elevação e sustenta junto ao lado do corpo.",
+      "olhar": "Lenha e mão que apoia por baixo",
+      "expressao": "Alívio e confiança",
+      "objetos": [
+        "Lenha",
+        "Peixe com o lenhador"
+      ],
+      "contatos_transferencias": [
+        {
+          "frame": 313,
+          "tempo_local_s": 10.4,
+          "acao": "Lenhador mão direita → Nico mão direita"
+        }
+      ],
+      "cenario": "Mesmo balcão. Close no apoio e retirada.",
+      "poses_chave": [
+        277,
+        296,
+        313,
+        319,
+        324
+      ],
+      "audit_frames": [
+        277,
+        313,
+        324
+      ],
+      "criterios_validacao": [
+        "Lenha apoiada e separada do peixe",
+        "Limitar torque visual do ombro",
+        "Continuidade da pega entre quadros"
+      ]
+    },
+    {
+      "id": "S03_P08_CONFIANCA",
+      "frames": [
+        325,
+        390
+      ],
+      "numero_de_quadros": 66,
+      "tempo_local_s": [
+        10.8,
+        13
+      ],
+      "tempo_global_s": [
+        30.56,
+        32.76
+      ],
+      "camera": "E_confianca",
+      "narracao": "Final de “Pronto, conseguiu lenha também.” e início de “Pera aí... duas trocas seguidas dando certo?”",
+      "personagens": [
+        "Nico"
+      ],
+      "posicoes_inicio_fim": {
+        "inicio": {
+          "Nico": [
+            2.17,
+            -0.1,
+            0
+          ]
+        },
+        "fim": {
+          "Nico": [
+            2.17,
+            -0.1,
+            0
+          ]
+        }
+      },
+      "passos": {
+        "quantidade": 0,
+        "direcao": "apoio bilateral, giro em eixo"
+      },
+      "bracos_pernas": "Direita estabiliza lenha. Esquerda faz um gesto curto em arco com recuperação. Preservar apoios enquanto torso gira.",
+      "olhar": "Da lenha para o interlocutor implícito",
+      "expressao": "Confiança vira surpresa",
+      "objetos": [
+        "Lenha"
+      ],
+      "contatos_transferencias": [],
+      "cenario": "Feira perto da barraca do lenhador.",
+      "poses_chave": [
+        325,
+        343,
+        350,
+        365,
+        390
+      ],
+      "audit_frames": [
+        325,
+        350,
+        390
+      ],
+      "criterios_validacao": [
+        "Evitar o cotovelo esquerdo medial observado no quadro 350",
+        "Usar sustentação viva com pausa de intenção",
+        "Não perder o apoio dos pés no giro"
+      ]
+    },
+    {
+      "id": "S03_P09_DESCONFIANCA",
+      "frames": [
+        391,
+        526
+      ],
+      "numero_de_quadros": 136,
+      "tempo_local_s": [
+        13,
+        17.5333
+      ],
+      "tempo_global_s": [
+        32.76,
+        37.2933
+      ],
+      "camera": "E2_sorte_suspeita",
+      "narracao": "Final de “Pera aí... duas trocas seguidas dando certo?” e “Isso tá fácil demais.”",
+      "personagens": [
+        "Nico"
+      ],
+      "posicoes_inicio_fim": {
+        "inicio": {
+          "Nico": [
+            2.17,
+            -0.1,
+            0
+          ]
+        },
+        "fim": {
+          "Nico": [
+            2.17,
+            -0.1,
+            0
+          ]
+        }
+      },
+      "passos": {
+        "quantidade": 0,
+        "direcao": "apoio bilateral"
+      },
+      "bracos_pernas": "Esquerda sobe moderadamente e volta a repouso. Direita sustenta lenha. Distribuir a atuação entre olhar, sobrancelha e cabeça.",
+      "olhar": "Olhar lateral com retorno curto",
+      "expressao": "Desconfiança crescente e pausa final",
+      "objetos": [
+        "Lenha"
+      ],
+      "contatos_transferencias": [],
+      "cenario": "Mesmo espaço, close da reação.",
+      "poses_chave": [
+        391,
+        432,
+        472,
+        488,
+        526
+      ],
+      "audit_frames": [
+        391,
+        472,
+        526
+      ],
+      "criterios_validacao": [
+        "Evitar flexão extrema esquerda perto do quadro 472",
+        "Diferenciar pausa de pose congelada com intenção",
+        "Preservar continuidade da lenha para revisão"
+      ]
+    }
+  ]
+}

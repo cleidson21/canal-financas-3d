@@ -1,0 +1,51 @@
+{
+  "profile_id": "narrador_oficial_puck_v1",
+  "engine": "gemini",
+  "engine_description": "Gemini TTS",
+  "model": "gemini-3.8-flash-lite-tts",
+  "voice_id": "Puck",
+  "language": "pt-BR",
+  "editorial_style": "Narrador brasileiro descontraído, natural, com humor observador e ironia moderada",
+  "style_prompt": "Narrador de um canal educativo de humor em português brasileiro. Voz masculina adulta, natural e simpática, como um amigo contando uma história curiosa e engraçada. Não parecer propaganda, telejornal, documentário solene nem aula. Sem excesso de entusiasmo, sem risadas, sem tom infantilizado, sem pausas exageradas. Mantenha o mesmo timbre, volume e energia média em todo o episódio. Pause brevemente entre as frases, de forma natural.",
+  "approval_status": "approved",
+  "approved_on": "2026-11-05",
+  "approval_source": "USER-REPORTED LISTENING - EXPLICIT EDITORIAL APPROVAL IN TTS-003",
+  "approved_sample_id": "audio/narracoes/EP001/EP001_NARRACAO_COMPLETA_V1.wav",
+  "approved_assets": {
+    "audio/narracoes/EP001/EP001_NARRACAO_COMPLETA_V1.wav": "61ebd806c20c9e126584cfd5f8cc9c03cc819c3a3b2b4ecced4c1d1f4c3f1155",
+    "audio/narracoes/EP001/segmentos/EP001_S01_V1.wav": "29e6f9ef1b58236328c18d9f28ad21483db62233fb779383126a960727ea644b",
+    "audio/narracoes/EP001/segmentos/EP001_S02_V1.wav": "34271506c4f49faa04d2779099c50a4439a546c58aee67a6d5c4a38ccb5e2ef4",
+    "audio/narracoes/EP001/segmentos/EP001_S03_V1.wav": "0ef41ac019d9023bb45fce5ab96840d67b0e318ef451f3ef7ab787721dd80dbd",
+    "audio/narracoes/EP001/segmentos/EP001_S04_V1.wav": "d515c79fcaef6957a3be8e3eb7d30de465ecf25e3df177380df330c891a2cc6e",
+    "audio/narracoes/EP001/segmentos/EP001_S05_V1.wav": "1916c9e58d0987f9658116cecd0beb9b771894be2b7056c98d972daab9edc1d5",
+    "audio/narracoes/EP001/segmentos/EP001_S06_V1.wav": "637d6bf535bba240e277a068dc81f792da0a6a70a0819d099ed010cf7dd5a6e9",
+    "audio/narracoes/EP001/segmentos/EP001_S07_V1.wav": "e77d2b3ad9d7b66bcdea15ec1edf8645d96ac253c3743073a3239f8f7c8ffe09",
+    "audio/narracoes/EP001/segmentos/EP001_S08_V1.wav": "7c8a2a719221f85c8dac163c1cfe9dbb863fb6d58bfaafdda2e48f31bc6144b3"
+  },
+  "asset_durations_seconds": {
+    "audio/narracoes/EP001/EP001_NARRACAO_COMPLETA_V1.wav": 102.12,
+    "audio/narracoes/EP001/segmentos/EP001_S01_V1.wav": 6.08,
+    "audio/narracoes/EP001/segmentos/EP001_S02_V1.wav": 13.48,
+    "audio/narracoes/EP001/segmentos/EP001_S03_V1.wav": 17.52,
+    "audio/narracoes/EP001/segmentos/EP001_S04_V1.wav": 14.44,
+    "audio/narracoes/EP001/segmentos/EP001_S05_V1.wav": 9.24,
+    "audio/narracoes/EP001/segmentos/EP001_S06_V1.wav": 20.12,
+    "audio/narracoes/EP001/segmentos/EP001_S07_V1.wav": 13.8,
+    "audio/narracoes/EP001/segmentos/EP001_S08_V1.wav": 6.64
+  },
+  "production_enabled": true,
+  "automatic_voice_change": false,
+  "automatic_model_update": false,
+  "new_audio_requires_human_approval": true,
+  "generation_enabled": false,
+  "paid_generation_enabled": false,
+  "sample_rate_hz": 24000,
+  "reference_is_editorial_only": true,
+  "voice_cloning_authorized": false,
+  "parameters": {
+    "sample_rate": 24000,
+    "seed": null,
+    "style_metadata": "speech_metadata.style",
+    "unrecorded_sampling_parameters": "not specified in historical request; do not invent values"
+  }
+}

@@ -1,0 +1,149 @@
+﻿{
+    "authorization":  "User explicitly requested removal of personal voice and separation of rejected local tests in TTS-003",
+    "deletions":  [
+                      {
+                          "source":  "audio\\referencias_vocais\\narrador_br_001",
+                          "absolute":  "C:\\Users\\Cleidson\\Videos\\canal-financas-3d\\audio\\referencias_vocais\\narrador_br_001",
+                          "files":  [
+                                        "audio\\referencias_vocais\\narrador_br_001\\autorizacao.json",
+                                        "audio\\referencias_vocais\\narrador_br_001\\autorizacao.modelo.json",
+                                        "audio\\referencias_vocais\\narrador_br_001\\README.md",
+                                        "audio\\referencias_vocais\\narrador_br_001\\referencia.wav",
+                                        "audio\\referencias_vocais\\narrador_br_001\\referencia.wav.m4a",
+                                        "audio\\referencias_vocais\\narrador_br_001\\transcricao.txt",
+                                        "audio\\referencias_vocais\\narrador_br_001\\transcricao_sugerida.txt"
+                                    ]
+                      },
+                      {
+                          "source":  "audio\\narracoes\\TESTES_LOCAIS_002\\qwen_base_br_V1.wav",
+                          "absolute":  "C:\\Users\\Cleidson\\Videos\\canal-financas-3d\\audio\\narracoes\\TESTES_LOCAIS_002\\qwen_base_br_V1.wav",
+                          "files":  [
+                                        "audio\\narracoes\\TESTES_LOCAIS_002\\qwen_base_br_V1.wav"
+                                    ]
+                      },
+                      {
+                          "source":  "audio\\narracoes\\TESTES_LOCAIS_002\\qwen_base_br_V1.wav.meta.json",
+                          "absolute":  "C:\\Users\\Cleidson\\Videos\\canal-financas-3d\\audio\\narracoes\\TESTES_LOCAIS_002\\qwen_base_br_V1.wav.meta.json",
+                          "files":  [
+                                        "audio\\narracoes\\TESTES_LOCAIS_002\\qwen_base_br_V1.wav.meta.json"
+                                    ]
+                      },
+                      {
+                          "source":  "models\\voice_prompts",
+                          "absolute":  "C:\\Users\\Cleidson\\Videos\\canal-financas-3d\\models\\voice_prompts",
+                          "files":  [
+                                        "models\\voice_prompts\\98ebd0b313ac9b8436cbb73d08f9c454b9197d227d8c03b9fd52f90d7a49b301.json",
+                                        "models\\voice_prompts\\98ebd0b313ac9b8436cbb73d08f9c454b9197d227d8c03b9fd52f90d7a49b301.npz"
+                                    ]
+                      },
+                      {
+                          "source":  "testes\\tts_002\\qwen_base_stdout.log",
+                          "absolute":  "C:\\Users\\Cleidson\\Videos\\canal-financas-3d\\testes\\tts_002\\qwen_base_stdout.log",
+                          "files":  [
+                                        "testes\\tts_002\\qwen_base_stdout.log"
+                                    ]
+                      },
+                      {
+                          "source":  "testes\\tts_002\\register_stdout.log",
+                          "absolute":  "C:\\Users\\Cleidson\\Videos\\canal-financas-3d\\testes\\tts_002\\register_stdout.log",
+                          "files":  [
+                                        "testes\\tts_002\\register_stdout.log"
+                                    ]
+                      },
+                      {
+                          "source":  "testes\\tts_002\\register_exit.json",
+                          "absolute":  "C:\\Users\\Cleidson\\Videos\\canal-financas-3d\\testes\\tts_002\\register_exit.json",
+                          "files":  [
+                                        "testes\\tts_002\\register_exit.json"
+                                    ]
+                      },
+                      {
+                          "source":  "testes\\tts_002\\asr_reference.json",
+                          "absolute":  "C:\\Users\\Cleidson\\Videos\\canal-financas-3d\\testes\\tts_002\\asr_reference.json",
+                          "files":  [
+                                        "testes\\tts_002\\asr_reference.json"
+                                    ]
+                      },
+                      {
+                          "source":  "testes\\tts_002\\asr_reference_stdout.log",
+                          "absolute":  "C:\\Users\\Cleidson\\Videos\\canal-financas-3d\\testes\\tts_002\\asr_reference_stdout.log",
+                          "files":  [
+                                        "testes\\tts_002\\asr_reference_stdout.log"
+                                    ]
+                      },
+                      {
+                          "source":  "testes\\tts_002\\asr_reference_stderr.log",
+                          "absolute":  "C:\\Users\\Cleidson\\Videos\\canal-financas-3d\\testes\\tts_002\\asr_reference_stderr.log",
+                          "files":  [
+                                        "testes\\tts_002\\asr_reference_stderr.log"
+                                    ]
+                      },
+                      {
+                          "source":  "testes\\tts_002\\asr_reference_exit.json",
+                          "absolute":  "C:\\Users\\Cleidson\\Videos\\canal-financas-3d\\testes\\tts_002\\asr_reference_exit.json",
+                          "files":  [
+                                        "testes\\tts_002\\asr_reference_exit.json"
+                                    ]
+                      },
+                      {
+                          "source":  "testes\\tts_002\\reference_conversion.json",
+                          "absolute":  "C:\\Users\\Cleidson\\Videos\\canal-financas-3d\\testes\\tts_002\\reference_conversion.json",
+                          "files":  [
+                                        "testes\\tts_002\\reference_conversion.json"
+                                    ]
+                      },
+                      {
+                          "source":  "testes\\tts_002\\reference_conversion_stdout.log",
+                          "absolute":  "C:\\Users\\Cleidson\\Videos\\canal-financas-3d\\testes\\tts_002\\reference_conversion_stdout.log",
+                          "files":  [
+                                        "testes\\tts_002\\reference_conversion_stdout.log"
+                                    ]
+                      },
+                      {
+                          "source":  "testes\\tts_002\\reference_conversion_stderr.log",
+                          "absolute":  "C:\\Users\\Cleidson\\Videos\\canal-financas-3d\\testes\\tts_002\\reference_conversion_stderr.log",
+                          "files":  [
+                                        "testes\\tts_002\\reference_conversion_stderr.log"
+                                    ]
+                      },
+                      {
+                          "source":  "testes\\tts_002\\reference_conversion_exit.json",
+                          "absolute":  "C:\\Users\\Cleidson\\Videos\\canal-financas-3d\\testes\\tts_002\\reference_conversion_exit.json",
+                          "files":  [
+                                        "testes\\tts_002\\reference_conversion_exit.json"
+                                    ]
+                      }
+                  ],
+    "moves":  [
+                  {
+                      "source":  "audio\\narracoes\\TESTES_LOCAIS_001",
+                      "destination":  "arquivo\\tts_locais_rejeitados\\TTS_003\\audio\\narracoes\\TESTES_LOCAIS_001",
+                      "absoluteSource":  "C:\\Users\\Cleidson\\Videos\\canal-financas-3d\\audio\\narracoes\\TESTES_LOCAIS_001",
+                      "absoluteDestination":  "C:\\Users\\Cleidson\\Videos\\canal-financas-3d\\arquivo\\tts_locais_rejeitados\\TTS_003\\audio\\narracoes\\TESTES_LOCAIS_001"
+                  },
+                  {
+                      "source":  "audio\\narracoes\\TESTES_LOCAIS_002",
+                      "destination":  "arquivo\\tts_locais_rejeitados\\TTS_003\\audio\\narracoes\\TESTES_LOCAIS_002",
+                      "absoluteSource":  "C:\\Users\\Cleidson\\Videos\\canal-financas-3d\\audio\\narracoes\\TESTES_LOCAIS_002",
+                      "absoluteDestination":  "C:\\Users\\Cleidson\\Videos\\canal-financas-3d\\arquivo\\tts_locais_rejeitados\\TTS_003\\audio\\narracoes\\TESTES_LOCAIS_002"
+                  },
+                  {
+                      "source":  "models\\5d83992436eae1d760afd27aff78a71d676296fc",
+                      "destination":  "arquivo\\tts_locais_rejeitados\\TTS_003\\models\\5d83992436eae1d760afd27aff78a71d676296fc",
+                      "absoluteSource":  "C:\\Users\\Cleidson\\Videos\\canal-financas-3d\\models\\5d83992436eae1d760afd27aff78a71d676296fc",
+                      "absoluteDestination":  "C:\\Users\\Cleidson\\Videos\\canal-financas-3d\\arquivo\\tts_locais_rejeitados\\TTS_003\\models\\5d83992436eae1d760afd27aff78a71d676296fc"
+                  },
+                  {
+                      "source":  "models\\85e237c12c027371202489a0ec509ded67b5e4b5",
+                      "destination":  "arquivo\\tts_locais_rejeitados\\TTS_003\\models\\85e237c12c027371202489a0ec509ded67b5e4b5",
+                      "absoluteSource":  "C:\\Users\\Cleidson\\Videos\\canal-financas-3d\\models\\85e237c12c027371202489a0ec509ded67b5e4b5",
+                      "absoluteDestination":  "C:\\Users\\Cleidson\\Videos\\canal-financas-3d\\arquivo\\tts_locais_rejeitados\\TTS_003\\models\\85e237c12c027371202489a0ec509ded67b5e4b5"
+                  },
+                  {
+                      "source":  "models\\piper_faber",
+                      "destination":  "arquivo\\tts_locais_rejeitados\\TTS_003\\models\\piper_faber",
+                      "absoluteSource":  "C:\\Users\\Cleidson\\Videos\\canal-financas-3d\\models\\piper_faber",
+                      "absoluteDestination":  "C:\\Users\\Cleidson\\Videos\\canal-financas-3d\\arquivo\\tts_locais_rejeitados\\TTS_003\\models\\piper_faber"
+                  }
+              ]
+}

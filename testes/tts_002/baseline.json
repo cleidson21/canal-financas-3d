@@ -1,0 +1,1322 @@
+[
+  {
+    "path": ".env.example",
+    "sha256": "e14b5e360d4351a92284e38a2c28c4683826229c74b5d70c9074804da5fc8275"
+  },
+  {
+    "path": ".gitignore",
+    "sha256": "4cb7d36b2d0baf39fc482d84d513b5805aabf9b42a9fea024bc6773c6b9d21ec"
+  },
+  {
+    "path": "AGENTS.md",
+    "sha256": "97406227496f842f9a1f6c66928cc3bbb4015b9377c600960ad4f3ca154cff37"
+  },
+  {
+    "path": "README.md",
+    "sha256": "1a75253d7ed981bfcaea8096e038b8d327602322ff615d3e6f6b6107dd2c0e9d"
+  },
+  {
+    "path": "README_TTS.md",
+    "sha256": "5e5bf3557edc2659ee15319a72e32b8c00e811bd30df012be48b93034adeee6b"
+  },
+  {
+    "path": "timing.json",
+    "sha256": "413a55bc053c3537c98f705072f4e6106321860dc9d6931f4ab7e820bd99df50"
+  },
+  {
+    "path": "backups/MANIFESTO_EP001_BASE_V3_1_1.json",
+    "sha256": "858e8a19065cb66243ed1b83554a3f37c6f2a84de92228e3dd33623e191962ed"
+  },
+  {
+    "path": "cenarios/feira.blend",
+    "sha256": "19b55d9f4ac0c322be6937416b7f306470d3af1f7054086807047cf3c87f8d97"
+  },
+  {
+    "path": "cenarios/feira.blend1",
+    "sha256": "8087b2b3dde14a4ba293ba8983817d27750178741077213d8164ed315656d3f2"
+  },
+  {
+    "path": "cenarios/vila.blend",
+    "sha256": "19b55d9f4ac0c322be6937416b7f306470d3af1f7054086807047cf3c87f8d97"
+  },
+  {
+    "path": "cenarios/vila.blend1",
+    "sha256": "8087b2b3dde14a4ba293ba8983817d27750178741077213d8164ed315656d3f2"
+  },
+  {
+    "path": "documentos/ARQUITETURA.md",
+    "sha256": "e47329740851f420e68a183b709718aa568cdb3ca3745eefc12a815e56d87127"
+  },
+  {
+    "path": "documentos/AUDITORIA_INFRA_001.md",
+    "sha256": "d336b6aaefb0a1bac1e81f541fb79d12d8fae3c022fee3e079b8624bd68698a1"
+  },
+  {
+    "path": "documentos/BIBLIA_VISUAL.md",
+    "sha256": "1943971fda26f341122eb8de2af91135da2d439927a00811b91505c39c5ef4e3"
+  },
+  {
+    "path": "documentos/GUIA_DE_PRODUCAO.md",
+    "sha256": "36eff7182886fce2337f51935a1ad2e51ecc3238b05cd021786cf777c23e7ff8"
+  },
+  {
+    "path": "documentos/PIPELINE_PRODUCAO.md",
+    "sha256": "18922b5d57781a3424c258c4789fa30c94e44a4da0c3ce068b50509409d2c613"
+  },
+  {
+    "path": "documentos/RELATORIO_INFRA_001.md",
+    "sha256": "0b361e9ff71b15bb56d9fc1c1fbf3e23b4a2e067ec5d6767ff3341bfae4b63ca"
+  },
+  {
+    "path": "documentos/RELATORIO_NARRACAO_EP001.md",
+    "sha256": "879061f10098c8e394071ce512defcac1dcf079b6ee45ffd4b872cc9a32dbc76"
+  },
+  {
+    "path": "documentos/RELATORIO_SINCRONIZACAO_V3_1.md",
+    "sha256": "475721c3249c24b8e4e301fe13a0ceb8c4a55cecf9cbaca87202ceb906089d22"
+  },
+  {
+    "path": "documentos/RELATORIO_V2.md",
+    "sha256": "a8b8a3ceaa5ab08a697075e14aea64bf4d890bbd9292b659e15e42d575d605ed"
+  },
+  {
+    "path": "documentos/RELATORIO_V3.md",
+    "sha256": "63af3e8fe61da16f7d69fd50d5a9bb4d8a12bccf7b3cca1580379d01761ea2c1"
+  },
+  {
+    "path": "objetos/batatas.blend",
+    "sha256": "4c79761d06621947869c74f29f05c70eef117a19ee8b0b704aacbb69edb5ce12"
+  },
+  {
+    "path": "objetos/batatas.blend1",
+    "sha256": "7020afbd97748b429d61e47f1c2d5a46c921df68f17d4b6460dbbfaad6e49308"
+  },
+  {
+    "path": "objetos/carimbo_duvida.blend",
+    "sha256": "ec6e5c92a1b2792183506945d40599c869a80235693863867d52fe7d8ab6400b"
+  },
+  {
+    "path": "objetos/carimbo_duvida.blend1",
+    "sha256": "448fc8cda573ea02bfac8709f844b7c374d772e53179c31dfc64e8c08e5b24c1"
+  },
+  {
+    "path": "objetos/fichas.blend",
+    "sha256": "0239bed98e87e326c6a0b610b8fd3a6d26aecc5529b790205041444bf046a758"
+  },
+  {
+    "path": "objetos/fichas.blend1",
+    "sha256": "685730711a9b7eea04d62876291bcdc2498de90252231243e1a83a5e3f16e549"
+  },
+  {
+    "path": "objetos/sapatos.blend",
+    "sha256": "12c2190dc6e12a24cb5021a6ff27252f478f20ba3210d4a6395b1c5802e4ee72"
+  },
+  {
+    "path": "objetos/sapatos.blend1",
+    "sha256": "d2ba67901fe7b40a02815dcadf54f127fcc5f17e6a9a2ad3b971c0f5dc909b18"
+  },
+  {
+    "path": "personagens/nico_base.blend",
+    "sha256": "3985d69cfc833c04a0eaef216552e2ed39ae52616817820e29edd3d444e7e293"
+  },
+  {
+    "path": "personagens/nico_base.blend1",
+    "sha256": "61c9a7eac9c8d9839338842a9131b5c89c2663dcb5c35365a18fc60851ca7436"
+  },
+  {
+    "path": "scratch/dumpw.py",
+    "sha256": "e32b021277b69ee46110421bf53c3c3a11b062c5c8fddcffada310b102b1b4a7"
+  },
+  {
+    "path": "scratch/peek.py",
+    "sha256": "b2d6e12d221eb7a2cde9015507a58282aa0af8954d0ec8341ce25f4671168753"
+  },
+  {
+    "path": "scratch/peek2.py",
+    "sha256": "1914fa1eed5ff455803506742031a44afdc3b5707330b273a9d919e292807a0d"
+  },
+  {
+    "path": "scratch/peek2.txt",
+    "sha256": "e9fd195af37e51daf2914f8b6d8474219d5ffcb7f8c2268fc03b05165bb021e1"
+  },
+  {
+    "path": "scratch/peek_120.png",
+    "sha256": "83d2ffa471657ddf5ac08a5ad561d2413c07dd6065ebfb0995e8d2905efcd26f"
+  },
+  {
+    "path": "scratch/peek_300.png",
+    "sha256": "b144323b23863bd3b5d6f349f6892c53fe09cb94215e9f38ea2d8acafebbdf57"
+  },
+  {
+    "path": "scratch/peek_420.png",
+    "sha256": "6053cc6f5026b4139acceaaa54584052c31ce11fb2b3fa1c7299ac1e7c2b2852"
+  },
+  {
+    "path": "scripts/animar_objetos.py",
+    "sha256": "877479ebeef86d09cd11c49be9132ab124a6a9d40b304973691cdd22f0cd6bdb"
+  },
+  {
+    "path": "scripts/build_scene.py",
+    "sha256": "a154b49279a11f322afe477f5502ad3cba3b9843e288e07172a593d0225b8602"
+  },
+  {
+    "path": "scripts/build_scene_v2.py",
+    "sha256": "c4ca7ea50702c2c64fdb0bbecf2ca803f59494cff32560ecfb29a9c338430064"
+  },
+  {
+    "path": "scripts/build_scene_v3_1.py",
+    "sha256": "a5682fecd0577ff6f64f623a429c8ffc5012c916dd3e10395ad391cd4d8ae5da"
+  },
+  {
+    "path": "scripts/configurar_camera.py",
+    "sha256": "1ed4bfcbcfbb355f2e5320b26b80f579e5c5b8fbeaf4c16ba1f4189caaf49bc9"
+  },
+  {
+    "path": "scripts/finalize_audio_v3_1.py",
+    "sha256": "a79463ed63c50d249cc9f5d60821b73994dbda4c20d70daa326e231310f5ee18"
+  },
+  {
+    "path": "scripts/montar_cena.py",
+    "sha256": "6d05607074b401c765a51efca29ab256ebdc6b06d330b6e75576f5d495785a27"
+  },
+  {
+    "path": "testes/migrar_estrutura.py",
+    "sha256": "b1077bd9dc5c7599ae1decb982f5a010da31bf1390d5112d96a67865bec397f0"
+  },
+  {
+    "path": "testes/test_ep001_narracao.py",
+    "sha256": "0f595e6cddd73231d737c513bedea72911bc0765969156de8665c4a9de164b5d"
+  },
+  {
+    "path": "testes/test_pipeline_v3.py",
+    "sha256": "c56ba8e80672caed2890c60f5bcd3dc23c35e7ef11128223d79bba672b78355a"
+  },
+  {
+    "path": "testes/test_pipeline_v3_1.py",
+    "sha256": "b4f7e211ed250ecd775ecda545edee7ae257479b27f19bfa617bb4481fd3ad1b"
+  },
+  {
+    "path": "audio/perfis/narrador_principal.json",
+    "sha256": "aebf0e8a956fbc61a5b9e2374e01b8bfbbd12a2b9d738f9f5e44279059dfb06f"
+  },
+  {
+    "path": "audio/narracoes/EP001/EP001_NARRACAO_COMPLETA_V1.wav",
+    "sha256": "61ebd806c20c9e126584cfd5f8cc9c03cc819c3a3b2b4ecced4c1d1f4c3f1155"
+  },
+  {
+    "path": "audio/narracoes/TESTES_LOCAIS_001/asr_validation.json",
+    "sha256": "811d8041ce18b47c6a6200cd71959ed1e41194a12632eccd6b3babe3519a5417"
+  },
+  {
+    "path": "audio/narracoes/TESTES_LOCAIS_001/resources.json",
+    "sha256": "be752817ca38e4f18df58d16ca726cf059be6b1747d2fe606c6942006d6f7134"
+  },
+  {
+    "path": "audio/narracoes/TESTES_LOCAIS_001/validation_summary.json",
+    "sha256": "5d993ce7818aa17f003a89e1b897de1f5255f1eeb709c0e9e06119eea3fcad4f"
+  },
+  {
+    "path": "audio/narracoes/TESTES_LOCAIS_001/voz_A.wav",
+    "sha256": "3411f2715c65f8e66d7de0cfc248e7497e33f3c4efb15e17b40b487acd6c91bd"
+  },
+  {
+    "path": "audio/narracoes/TESTES_LOCAIS_001/voz_A.wav.meta.json",
+    "sha256": "d89940244428cce4b7976c33fd906bab34c6290630bbdc4a5c6f4bd052c06097"
+  },
+  {
+    "path": "audio/narracoes/TESTES_LOCAIS_001/voz_A_consistencia.wav",
+    "sha256": "ecac16d344a6d6e71785e31d4bd6638c3608d93c15a7dd0ad917f12cd106c9dd"
+  },
+  {
+    "path": "audio/narracoes/TESTES_LOCAIS_001/voz_A_consistencia.wav.meta.json",
+    "sha256": "86a6d8c9f2d288b04e6de6fdd362a0bce8e247947c518d937d6a59f933c80964"
+  },
+  {
+    "path": "audio/narracoes/TESTES_LOCAIS_001/voz_B.wav",
+    "sha256": "ac384d4ba48d78c698859528897aabef88c22ca7ff5016bb72493678c0899ea9"
+  },
+  {
+    "path": "audio/narracoes/TESTES_LOCAIS_001/voz_B.wav.meta.json",
+    "sha256": "558e2f4d63309adf7811dea53f9b965f489b0bfdb369bec0ba41ea5e83b57931"
+  },
+  {
+    "path": "audio/narracoes/TESTES_LOCAIS_001/voz_C.wav",
+    "sha256": "f44ab6646d61c9d23b0bcaa69fd43ee2d9e7198a93a2bab78787ccd1ab7a1476"
+  },
+  {
+    "path": "audio/narracoes/TESTES_LOCAIS_001/voz_C.wav.meta.json",
+    "sha256": "1f262d943018d893652ca393d6ba700ed2b5b22b1ec480b734a046762fdd862f"
+  },
+  {
+    "path": "audio/narracoes/EP001/segmentos/EP001_S01_V1.wav",
+    "sha256": "29e6f9ef1b58236328c18d9f28ad21483db62233fb779383126a960727ea644b"
+  },
+  {
+    "path": "audio/narracoes/EP001/segmentos/EP001_S01_V1.wav.meta.json",
+    "sha256": "f5bc843e5981d1aba98ed3c44a6c37259eb39e227c018557a0f2817707cf38a4"
+  },
+  {
+    "path": "audio/narracoes/EP001/segmentos/EP001_S02_V1.wav",
+    "sha256": "34271506c4f49faa04d2779099c50a4439a546c58aee67a6d5c4a38ccb5e2ef4"
+  },
+  {
+    "path": "audio/narracoes/EP001/segmentos/EP001_S02_V1.wav.meta.json",
+    "sha256": "d95593e19c51671ae04e4251859334ffd88e80b10bb4ab670bdd224bef6cf943"
+  },
+  {
+    "path": "audio/narracoes/EP001/segmentos/EP001_S03_V1.wav",
+    "sha256": "0ef41ac019d9023bb45fce5ab96840d67b0e318ef451f3ef7ab787721dd80dbd"
+  },
+  {
+    "path": "audio/narracoes/EP001/segmentos/EP001_S03_V1.wav.meta.json",
+    "sha256": "f970d9ae8cdafb9485ebaf7a9ae510502a0477fd7077b20af4b4338326724fa9"
+  },
+  {
+    "path": "audio/narracoes/EP001/segmentos/EP001_S04_V1.wav",
+    "sha256": "d515c79fcaef6957a3be8e3eb7d30de465ecf25e3df177380df330c891a2cc6e"
+  },
+  {
+    "path": "audio/narracoes/EP001/segmentos/EP001_S04_V1.wav.meta.json",
+    "sha256": "c35d296885f646bba3f5f4d1412dfcfd2c57c489d95d665bfc0118af0635c627"
+  },
+  {
+    "path": "audio/narracoes/EP001/segmentos/EP001_S05_V1.wav",
+    "sha256": "1916c9e58d0987f9658116cecd0beb9b771894be2b7056c98d972daab9edc1d5"
+  },
+  {
+    "path": "audio/narracoes/EP001/segmentos/EP001_S05_V1.wav.meta.json",
+    "sha256": "8401144ed6ef594bc3923ef58a0d9f3fd2ba7dd4480b24ef962e1e602f2d5b63"
+  },
+  {
+    "path": "audio/narracoes/EP001/segmentos/EP001_S06_V1.wav",
+    "sha256": "637d6bf535bba240e277a068dc81f792da0a6a70a0819d099ed010cf7dd5a6e9"
+  },
+  {
+    "path": "audio/narracoes/EP001/segmentos/EP001_S06_V1.wav.meta.json",
+    "sha256": "663021dd34b09486634e3934a2cd007560b7f4bc647b6feb244863dc4f342707"
+  },
+  {
+    "path": "audio/narracoes/EP001/segmentos/EP001_S07_V1.wav",
+    "sha256": "e77d2b3ad9d7b66bcdea15ec1edf8645d96ac253c3743073a3239f8f7c8ffe09"
+  },
+  {
+    "path": "audio/narracoes/EP001/segmentos/EP001_S07_V1.wav.meta.json",
+    "sha256": "db1f53fedd278faa6695ba1f88b87f601bfb1f4b47b49c4235c42002660d9c5a"
+  },
+  {
+    "path": "audio/narracoes/EP001/segmentos/EP001_S08_V1.wav",
+    "sha256": "7c8a2a719221f85c8dac163c1cfe9dbb863fb6d58bfaafdda2e48f31bc6144b3"
+  },
+  {
+    "path": "audio/narracoes/EP001/segmentos/EP001_S08_V1.wav.meta.json",
+    "sha256": "74b6ca180e8aa648c8c25bdb8fcb89b3ee9c180aa38a45278b0dfb1c07ba6355"
+  },
+  {
+    "path": "audio/narracoes/EP001/testes/narracao_B_flash_lite_V1.wav",
+    "sha256": "4a3a76f50d2ee0cd4f69d540233a62ee3058e14968f74ffd096ce8377f91dcd0"
+  },
+  {
+    "path": "audio/narracoes/EP001/testes/narracao_B_flash_lite_V1.wav.meta.json",
+    "sha256": "faf56134ea88255a08d67cf90fd821eaf1c8bdbdd747508e596eb82a63369a12"
+  },
+  {
+    "path": "audio/narracoes/EP001/testes/relatorio_missao_tts0.json",
+    "sha256": "a9b92cd86224d49eb91c0171920d1a6612036edabb3f8e8a6e91bad52c20c2c9"
+  },
+  {
+    "path": "audio/narracoes/EP001/testes/teste_acesso_flash_lite.wav",
+    "sha256": "cdfc6fc9fcde49080ee4fe90014c6cb78927d56fca8b4e1c67bf6e0145aef714"
+  },
+  {
+    "path": "audio/narracoes/EP001/testes/teste_acesso_flash_lite.wav.meta.json",
+    "sha256": "b2785d76a3a16329c5665f38010abfc90d65e49e2bbffc6a4bee541a748be56d"
+  },
+  {
+    "path": "backups/infra_001/gitignore_original.txt",
+    "sha256": "a6b2f8325468dccf2ac6a636c1e61568fe3f2fce27a8f860e7382276b35e5e63"
+  },
+  {
+    "path": "backups/infra_001/tts_init_original.py",
+    "sha256": "7facd747284b9a1a0288c46698b17be86d2b506f104938956700a8754483f30a"
+  },
+  {
+    "path": "backups/legado/build_scene_v2.py",
+    "sha256": "fba4238a76e669d0aad2526165cd7910075f3f8e16e7e9c2bf9bb9f5ff21d566"
+  },
+  {
+    "path": "backups/legado/MANIFESTO_MIGRACAO.json",
+    "sha256": "15630f787dd9bdaa01d4f2efc9456bcaea950000f8a97762b5c5e73f5ba1658e"
+  },
+  {
+    "path": "backups/legado/preview_15s.mp4",
+    "sha256": "cdfebaa53c3a4eae545470b8ec94e015a78df8f9046ba45bbe45f56c4cd35876"
+  },
+  {
+    "path": "backups/legado/README_V2.md",
+    "sha256": "5db12bd9628ab2b810f17da933f96cf8462b865cde112a2c6fc6d1286c23e6d9"
+  },
+  {
+    "path": "backups/legado/RELATORIO_TECNICO_V2.md",
+    "sha256": "a8b8a3ceaa5ab08a697075e14aea64bf4d890bbd9292b659e15e42d575d605ed"
+  },
+  {
+    "path": "backups/legado/Teste1.blend",
+    "sha256": "dc1a75792869bba8216580c3128c47c569dd49bbf2fd5617025d48361b3f0ea5"
+  },
+  {
+    "path": "backups/legado/Teste1_V2.blend",
+    "sha256": "a56861ef690c8733b63bca1e0773bc203c154d02c6e10f823ce1eec9e979f08b"
+  },
+  {
+    "path": "backups/legado/kit_nico_blender/nico_teste_15s.py",
+    "sha256": "594b054f09e8da12fd00b9a63a5df37ee715f1959ca19fe2a931f38e64f2d2b4"
+  },
+  {
+    "path": "backups/legado/kit_nico_blender/README.txt",
+    "sha256": "4378c2e380f1fadfcaa9624457397ad843449e16c83f87936e82cca54ddefb30"
+  },
+  {
+    "path": "backups/legado/pipeline_v2/anim_character.py",
+    "sha256": "f3eea7b74f5aa3379e50ef1c7073ee2c76ae21ff2920d4c70a70da0dd853f75a"
+  },
+  {
+    "path": "backups/legado/pipeline_v2/anim_props.py",
+    "sha256": "be9c7760558e9235779568bd547cecb44859f334bc79b26b9a282efdb97e339b"
+  },
+  {
+    "path": "backups/legado/pipeline_v2/character_nico.py",
+    "sha256": "5fd20f2dd4ff5ed142e4717f506b559b53d92154bdba7b0a0bd0d5d68101109b"
+  },
+  {
+    "path": "backups/legado/pipeline_v2/cinematography.py",
+    "sha256": "c06c35efcca77f7c9fa11adf2da28803561996432b57cdf1e949e201a6562402"
+  },
+  {
+    "path": "backups/legado/pipeline_v2/config.py",
+    "sha256": "4919dc3f01768a0a70786bdcfbc1c4652ba1ec19fc34e7de91af179f58d83b17"
+  },
+  {
+    "path": "backups/legado/pipeline_v2/environment_fair.py",
+    "sha256": "e1e7ee4abf3b0bc95eea7dd97839d12550b0301f321f3236de4d3727a1f795d3"
+  },
+  {
+    "path": "backups/legado/pipeline_v2/materials_lighting.py",
+    "sha256": "c2a0d721242839c4c04f9503af4bf7b92e287098b37c9b4c02cdfbaa47410bd1"
+  },
+  {
+    "path": "backups/legado/pipeline_v2/primitives.py",
+    "sha256": "23fc398b1b676c7e2dc060eefbab83ec04ebd60571cf8913647c685b588efe8b"
+  },
+  {
+    "path": "backups/legado/pipeline_v2/render_pipeline.py",
+    "sha256": "3524a1e3ce41b1c2e5d06b82e48cd926fc70c2be9690f20885b238af37c16b42"
+  },
+  {
+    "path": "backups/legado/pipeline_v2/scene_setup.py",
+    "sha256": "88fb8bce665f38ec86443ff8964834c0738b2d9e26b47d5280dd0214331db35d"
+  },
+  {
+    "path": "backups/legado/pipeline_v2/__init__.py",
+    "sha256": "cc094845f8fdc9f0dc8a356d4a6f241b7c58fe09bacdc8a6e0b30cfe69c4e9be"
+  },
+  {
+    "path": "backups/legado/previews/frame_028_01_sapato_danificado.png",
+    "sha256": "0ebe825d03d449994bd92a2a9be1960e914d381ba561dfc1e664686a74db1781"
+  },
+  {
+    "path": "backups/legado/previews/frame_075_02_queda_saco_batatas.png",
+    "sha256": "6081301ca82be7fa1e842000a91adeab57595f0f608013002024a696ec65ea6f"
+  },
+  {
+    "path": "backups/legado/previews/frame_112_03_nico_ideia_saco.png",
+    "sha256": "380dda8e6d7d95895d84f971c7351cf68ee4773c294ae903110864c1633c4b8d"
+  },
+  {
+    "path": "backups/legado/previews/frame_190_04_caminhada_feira.png",
+    "sha256": "9d446b57b93692aba2953db45785898db4bc767b7741d968731630b056b12f2f"
+  },
+  {
+    "path": "backups/legado/previews/frame_285_05_tentativa_troca_balcao.png",
+    "sha256": "f9ad3699d16b232c5e0a406fa065f2e83425d81f50a561e703731734ace6c4a6"
+  },
+  {
+    "path": "backups/legado/previews/frame_352_06_recusa_placa_x.png",
+    "sha256": "047a65b786d2d5d657d437dedd0b0154db8c0924357777cb4be2606618f9f689"
+  },
+  {
+    "path": "backups/legado/previews/frame_382_07_desejo_simbolo_leite.png",
+    "sha256": "2d318cb8d9abfdbb393f454809beeb78c652a156a73095eebaca337dc2cf8191"
+  },
+  {
+    "path": "backups/legado/previews/frame_430_08_reacao_comica_final.png",
+    "sha256": "0fbe7550db0da9e48e7fe16a3498af175db48f33df02351b5b8d7919949fb0a6"
+  },
+  {
+    "path": "backups/legado/previews/preview_15s_lowres.mp4",
+    "sha256": "0adf2fd3ec49f0dcd1fae7c81a2e33856e6edc96be25c534f0c0713450b8f9f5"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/narracao.json",
+    "sha256": "5da5e71e6df8323f99bae89ba337d9dc4eccf9175592bf533fdae18a6db7b123"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/roteiro.md",
+    "sha256": "34af95d0b812d37f5072845480de94cf4e06ce9f5efee63cccf4d8dd73d165a6"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/storyboard.md",
+    "sha256": "9d7c74bd140f8d78e71ca1e5ec67c10145f3bd6eb77aeb7871fe2818304c06b1"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/timing.json",
+    "sha256": "64015eb2b970e469ab42b2e9a138cb98221fe0f064903e3954e5aac69ce77efa"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/cenas/cena_01_V2.blend",
+    "sha256": "0bd3133b56b5f977a6d11fe48c375684482bec192aa12e0d640b45cd82d6effd"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/cenas/cena_01_V2.blend1",
+    "sha256": "a56861ef690c8733b63bca1e0773bc203c154d02c6e10f823ce1eec9e979f08b"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/cenas/cena_01_V3.blend",
+    "sha256": "82066b342346e0418c55c7354abfe14d25dce140216ac157026a1a8b43dd64a4"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/cenas/cena_01_V3.blend1",
+    "sha256": "acc24872d3cbd9221b050621139fa5845eca46315a35a76bf9fd9b6394d6f0d1"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/cenas/cena_01_V3_1.blend",
+    "sha256": "7ac044624721fbae63fdcf8a3625da572e045d6d4a97f1cb172ac62387a930cc"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/cenas/cena_01_V3_1.blend1",
+    "sha256": "e09dcd82d60421023ab40f51dce07d9a76e5a64f3e611138c1ae7281df06e6c0"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/cenas/cena_01_V3_1_com_carimbo.blend",
+    "sha256": "dc826a3c427ca8391c79aba58adba83307c38900a7f1d70a9759b2b504261909"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/cenas/cena_01_V3_1_com_carimbo.blend1",
+    "sha256": "10989cd62d808706fa0e6b8770d65fc7b059ece67e110fb7aba8b58ecdb668dd"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/legado/roteiro_piloto_15s_V3_1.md",
+    "sha256": "0e1db9e3849fd00f03e5816b5710d451b204186f6aebdc3775deedb16dcb3cab"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/legado/storyboard_piloto_15s_V3_1.md",
+    "sha256": "f3375d7beed7a3631fc854691da5cb9098dbb09b6cc54631251bbb05389fc8e2"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/legendas/EP001_LEGENDAS.ass",
+    "sha256": "ee04a203ae165bf84e55c55329720412a3f5b2455bdbb548ffc477761d90e2f4"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/legendas/EP001_LEGENDAS.srt",
+    "sha256": "249632e9f784605ab4fb97512443cc5ffa7e90151f9586f8b529f8a9efd9b1ed"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/legendas/_alinhamento_asr.json",
+    "sha256": "3625a0cce7cace3b3d808d44122468e162d25c715a3df292bd2bee98b158d8fe"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/legendas/_analise_pausas.json",
+    "sha256": "6ce367e7cee03afb5bd35633ae6a73e9c9daf9137e5614e04d7487bdad811f36"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/comparativo_V2_vs_V3.png",
+    "sha256": "ec75eadd58d54d88d37c126885fb3d0a69d13c0a9d57bf7e7a1340cd18d14e8a"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/publicacao/COMENTARIOS.md",
+    "sha256": "304cf9a82c109b49933a8d5ffa882a9cea2b2fd6666c0f39b6da65e05c29df91"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/publicacao/METADADOS_PUBLICACAO.md",
+    "sha256": "7dd84a5e5d974f3c91dbe7aa9587149c440bbbdbfd2397dacdef08460d6687d8"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/videos/abertura_A_3s.mp4",
+    "sha256": "9797a0e35592dc240bf9addc8cf5fd93ca6aa88c58ecaf70731ebc0a68e255a1"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/videos/abertura_B_3s.mp4",
+    "sha256": "8f3fe30ed6926db495e420cc51ad5bf551a648e31e53955cfa6635e35362f215"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/videos/preview_15s_V2.mp4",
+    "sha256": "cdfebaa53c3a4eae545470b8ec94e015a78df8f9046ba45bbe45f56c4cd35876"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/videos/preview_15s_V2_lowres.mp4",
+    "sha256": "0adf2fd3ec49f0dcd1fae7c81a2e33856e6edc96be25c534f0c0713450b8f9f5"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/videos/preview_15s_V3.mp4",
+    "sha256": "fd20b58def106d6bd1c6b316f607b9b9d6273255aef81108acc3fc6a82b8775e"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/videos/preview_15s_V3_lowres.mp4",
+    "sha256": "1296b1e728361e5655145d47ab977603926f9464cce9be5c10146e7d16250095"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/videos/preview_V3_1_1_com_carimbo_lowres.mp4",
+    "sha256": "945bc4ac5092664316d104361cd46d9cf95fbdb7b66a01fc9630db5f567e5fb7"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/videos/preview_V3_1_1_narrado_lowres.mp4",
+    "sha256": "fd8b732de6d871c7c9c993754c637245d169cefc75348b6056508ae409269e46"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/videos/preview_V3_1_1_sem_carimbo_lowres.mp4",
+    "sha256": "fd8b732de6d871c7c9c993754c637245d169cefc75348b6056508ae409269e46"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/videos/preview_V3_1_com_carimbo_lowres.mp4",
+    "sha256": "7eaf85eaa558862b704b0c49030408f531081f25de15fc656591b1c34a2d57f0"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/videos/preview_V3_1_narrado_lowres.mp4",
+    "sha256": "0681647a5f46c0a6c91fdb88b2e6a63f506eeca231af10333094cbc98ddeb04c"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/videos/preview_V3_1_sem_carimbo_lowres.mp4",
+    "sha256": "0681647a5f46c0a6c91fdb88b2e6a63f506eeca231af10333094cbc98ddeb04c"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/videos/relatorio_auditoria_audio_V3_1_1.json",
+    "sha256": "38542832987c3e66982c2285bfe3bce66e4f339ed8753379a39966b117a36a7f"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v2/frame_028_01_sapato_danificado.png",
+    "sha256": "0ebe825d03d449994bd92a2a9be1960e914d381ba561dfc1e664686a74db1781"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v2/frame_075_02_queda_saco_batatas.png",
+    "sha256": "6081301ca82be7fa1e842000a91adeab57595f0f608013002024a696ec65ea6f"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v2/frame_112_03_nico_ideia_saco.png",
+    "sha256": "380dda8e6d7d95895d84f971c7351cf68ee4773c294ae903110864c1633c4b8d"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v2/frame_190_04_caminhada_feira.png",
+    "sha256": "9d446b57b93692aba2953db45785898db4bc767b7741d968731630b056b12f2f"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v2/frame_285_05_tentativa_troca_balcao.png",
+    "sha256": "f9ad3699d16b232c5e0a406fa065f2e83425d81f50a561e703731734ace6c4a6"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v2/frame_352_06_recusa_placa_x.png",
+    "sha256": "047a65b786d2d5d657d437dedd0b0154db8c0924357777cb4be2606618f9f689"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v2/frame_382_07_desejo_simbolo_leite.png",
+    "sha256": "2d318cb8d9abfdbb393f454809beeb78c652a156a73095eebaca337dc2cf8191"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v2/frame_430_08_reacao_comica_final.png",
+    "sha256": "0fbe7550db0da9e48e7fe16a3498af175db48f33df02351b5b8d7919949fb0a6"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3/frame_028_01_sapato_danificado.png",
+    "sha256": "f63c5c055b75afcebab2db87295675fefc8b8126b4308e0ecec151ddfb94e800"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3/frame_075_02_queda_saco_batatas.png",
+    "sha256": "5916ffbce0a5a712f1629fe6989fec3156e1d51c460ff20829cfe036c10d6f43"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3/frame_112_03_nico_ideia_saco.png",
+    "sha256": "4de1a4a86690a4879f29e3a116a507f085c66608a25289518e0033cc01c28551"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3/frame_190_04_caminhada_feira.png",
+    "sha256": "7ad3a805b38617860813811ca77b41d1bf7d85d24022a378231402acd1696ddf"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3/frame_285_05_tentativa_troca_balcao.png",
+    "sha256": "d0e6b7d1eb2425a9a166ac94090e63e186f225aa8a0511629e23be153645ba66"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3/frame_352_06_recusa_placa_x.png",
+    "sha256": "d2f92011b2cc1075f9346104baaeb108e101a854e58d0854d9d709c127b4f8cb"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3/frame_382_07_desejo_simbolo_leite.png",
+    "sha256": "07466dc863934202896698ee83f618cee83c80a8723f06780c681b88b7644baf"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3/frame_430_08_reacao_comica_final.png",
+    "sha256": "c59e52a66ab8f48825934073ea5d50b6160ffcbb26340a1066c7200704865578"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3_1/carimbo_com_assinatura_f530.png",
+    "sha256": "f4d693cb6792bf1ba04c67f7cc0a499653359cca9626999e0e7694812f17491c"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3_1/carimbo_sem_assinatura_f530.png",
+    "sha256": "7546914b1884c37c0b6fcbeed371037beef7464adc36055042b647966f3fe10d"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3_1/comparativo_carimbo_duvida.png",
+    "sha256": "9085cc12b9339a9f44e7e188ea66c8d0ff08e90821e229a36cc49fa743033b42"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3_1/frame_035_01_frase1_sapato_abrindo.png",
+    "sha256": "7ea154b3bb7f5289f323f9eee083a3bd409fa8865d83865b17a881e195605fd8"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3_1/frame_068_02_frase1_pediu_demissao_tropeco.png",
+    "sha256": "74f6440a9a43c43cf347b3a29e35bd0a476b144aed9dfd0dd9689937ec089976"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3_1/frame_150_03_frase2_vila_sem_dinheiro.png",
+    "sha256": "257e99a09d9e549c2a8350949f1a5dcc7ced3eecf3b61dc2df4892d912c34a62"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3_1/frame_204_04_frase3a_ideia_saco_batatas.png",
+    "sha256": "75dc11c7c9385f1193db21e8f70b9c08f6e43727e2b771b1aa4b0d2e46cb60a1"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3_1/frame_259_05_frase3b_caminhada_trocar.png",
+    "sha256": "456763a50184b95eab0cd3be3b15dfa8fbb656f1a4420e92d53bd8a76261732c"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3_1/frame_310_06_frase3c_balcao_par_novo.png",
+    "sha256": "368be95dcba07a9e07c740b866a1aa80016f7abeb751be6ab347d3a4afb205f1"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3_1/frame_392_07_frase4_nao_queria_batatas_x.png",
+    "sha256": "d8ec9e20d4837ea03635407ccff7f425617d7ff70f1c8a86a8ad4f5ad5d61c8d"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3_1/frame_451_08_frase5_queria_leite.png",
+    "sha256": "6ddf31f5156198a6c07fe8f36f194fc4c067f46eb639697ab16c3947e485ac02"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3_1/frame_530_09_frase6_nico_ai_complicou.png",
+    "sha256": "01a9c92f60527595f7d1315050ace97b68220008d505e9831e018d8b571d686e"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3_1/waveform_timing_v3_1.png",
+    "sha256": "7f531edad908b383d243c7582138ea2b6806141a4e6076e4f8371412e29b0440"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3/aberturas/frame_015_abertura_A_0_5s.png",
+    "sha256": "872a1973a4a60849b64e19545c5ab03d9b3dc31b0a94f467b5b021a6b57d73da"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3/aberturas/frame_015_abertura_B_0_5s.png",
+    "sha256": "828885941de0ebf43fdd469bc5a49a0a8fc86fd6a94b1915b879f5515b670d94"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3/aberturas/frame_045_abertura_A_1_5s.png",
+    "sha256": "7d50614cb152fea0c3286fa06f4a10cb9f5b21678c22adc33a04edf6f3f7580b"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3/aberturas/frame_045_abertura_B_1_5s.png",
+    "sha256": "18bd373b6c0fc23b0ca75b14f22d8b57fee5e9a35e2dc132e1a7378902361765"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3/aberturas/frame_062_abertura_A_2_1s.png",
+    "sha256": "9593e40a3f874a0ec79f78bd105bf0692c686b222c4948d3c2133cbe02e4b30e"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3/aberturas/frame_062_abertura_B_2_1s.png",
+    "sha256": "ca5f6b6bbe4703707a83bfea4fdf40a689855e8d4abf80de6c725c584c5355e3"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3/auditoria/frame_015_00_5s_close_sapato_abrindo.png",
+    "sha256": "f1edc4de6e7c1ea70d428cb92e63266eee623e6993f3d5c518a6b29ec94bb639"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3/auditoria/frame_045_01_5s_tropeco_sapato.png",
+    "sha256": "52aa1ecc43ff66336753bd9411ba27536d7a3a5ff0058a3e53dc23f1626ae6fb"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3/auditoria/frame_105_03_5s_revelacao_carrinho_batatas.png",
+    "sha256": "97ef42b60f7045214e1e9e09cdeb93d0c82277c47ada181623ddbd18ef2eb85a"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3/auditoria/frame_180_06_0s_caminhada_com_peso.png",
+    "sha256": "58592712a06dcfe0e3e9ce0094230db4458938451ac357968d03720b09ceca9d"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3/auditoria/frame_285_09_5s_proposta_troca_balcao.png",
+    "sha256": "afd50e7982a7bde43902656bef91d8c496ff8df58421fb6ed20d4e3f23102afe"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3/auditoria/frame_375_12_5s_recusa_x_e_leite.png",
+    "sha256": "6870d86626d9423b12a63629866d6f53079f4c6fa22d85b512b47daca3b6a54f"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3/auditoria/frame_435_14_5s_reacao_final_nico.png",
+    "sha256": "df3d44a93dab647e0809bdb76784a511b6062106ae23b950e41acf9754b9bc15"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3/closeups/closeup_01_sapato_descolado_frontal.png",
+    "sha256": "3736903f2a434fe6c642736fcdbdc4e50e91ad1f8ed12fe2bb48cc7a8da62b35"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3/closeups/closeup_02_sapato_descolado_perfil.png",
+    "sha256": "cb0daa3dd53f1eb29e35d1fbf5f1d3029d4413339c5a17658f8cc8686994aada"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3/closeups/closeup_03_nico_v3_rosto_expressao.png",
+    "sha256": "461162f62cc7adaed3e12f27842ac5d0cae3b681df2f8161337421d2585f92cb"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3/closeups/closeup_04_nico_v3_corpo_inteiro.png",
+    "sha256": "91eef10fcd7c7372752c042f92d0e99a015b5281f359a4c9ef0f30ab8bef6470"
+  },
+  {
+    "path": "referencias/videos/Banco.mp4",
+    "sha256": "14041e1ffc68ba9fcbf2845140768eafc8dd88ccb9c9ba030a5fcdd1e6162710"
+  },
+  {
+    "path": "referencias/videos/videoplayback (1).mp4",
+    "sha256": "f740b2eca1bdf280e2b48fb6ba5d105c88ec64ccb903be13318c15942b4e0839"
+  },
+  {
+    "path": "referencias/videos/videoplayback.mp4",
+    "sha256": "520c24c8391abb0f2450d448a98524c889d315b48bab5dfe7f81726120905e05"
+  },
+  {
+    "path": "referencias/imagens/Banco/f_0001.jpg",
+    "sha256": "0ebbf7a86f25aa05a4522a4280e445f4747259c150411d1f483eef703c99cf16"
+  },
+  {
+    "path": "referencias/imagens/Banco/f_0086.jpg",
+    "sha256": "4f1ca46d3256fd30da75291fe27e8f962e183e3756e47ec72d965071a6e85216"
+  },
+  {
+    "path": "referencias/imagens/Banco/f_0172.jpg",
+    "sha256": "b03e844da92e02c49326dccd1dd6afa7b4224b2ea481e784512dd0a08b7b1c2a"
+  },
+  {
+    "path": "referencias/imagens/Banco/f_0257.jpg",
+    "sha256": "10925bdf445daa6606725335cad6fd7c3720cd6b7722d688145a67268f0857cb"
+  },
+  {
+    "path": "referencias/imagens/Banco/f_0343.jpg",
+    "sha256": "3f85b1cf75029e87fc397018722c8ad3adc137d99d26bf15858c179e1b6ef082"
+  },
+  {
+    "path": "referencias/imagens/Banco/f_0428.jpg",
+    "sha256": "c2f25282ebb86e793fdfc9d39e0e0030c0964af7d482073a068ec7942171a863"
+  },
+  {
+    "path": "referencias/imagens/Banco/f_0514.jpg",
+    "sha256": "367b46e8e88adcbc65fdef554bbefa2ae0cb69305c312ee077e13665cde184cb"
+  },
+  {
+    "path": "referencias/imagens/Banco/f_0600.jpg",
+    "sha256": "2a50d5e6baedc66c8a8a0c7605a71ae42e02cb00b4e9167f52d6f432c0820bb1"
+  },
+  {
+    "path": "referencias/imagens/preview_15s_v2/f_0001.jpg",
+    "sha256": "c8e10a03fdd8f7ff8fc6bb90268d8a5f4f3168d06ba617db88c6bab4c7cfdc70"
+  },
+  {
+    "path": "referencias/imagens/preview_15s_v2/f_0065.jpg",
+    "sha256": "22a7c7d4ab80e00e5ad418524bcfe99554eb3fba5a4e1fc6691097d9f3c4b176"
+  },
+  {
+    "path": "referencias/imagens/preview_15s_v2/f_0129.jpg",
+    "sha256": "9e5545aed00a5e922081b7246794f1c1cb66864479beb4fc7409a6ce7c0955cc"
+  },
+  {
+    "path": "referencias/imagens/preview_15s_v2/f_0193.jpg",
+    "sha256": "91012494bb0db7740346ccb09d4019384f2e4e9d1e83112c064944e0f6413b65"
+  },
+  {
+    "path": "referencias/imagens/preview_15s_v2/f_0257.jpg",
+    "sha256": "48ef9e76a0953701afb5365bf446f78644b26dfc7bf5dcdabdb868d2066a5b1a"
+  },
+  {
+    "path": "referencias/imagens/preview_15s_v2/f_0321.jpg",
+    "sha256": "500d5d743a8b1572670441e7afcf9d9bfb3bb9aca7fc7f0bba1e57924aecaa5a"
+  },
+  {
+    "path": "referencias/imagens/preview_15s_v2/f_0385.jpg",
+    "sha256": "9310a429ba7454f5c0ba7da00276f258a4277857c294adbb32071abd57313277"
+  },
+  {
+    "path": "referencias/imagens/preview_15s_v2/f_0450.jpg",
+    "sha256": "ba02d1a9eb80abca53bd284334f6151ffb27e524f6dfb00271d63ac41279f22f"
+  },
+  {
+    "path": "referencias/imagens/videoplayback/f_0001.jpg",
+    "sha256": "eb46b4858f00b7aaa94cff62fbbe6d88909e512c023c41e337d1cb29ebc74a9e"
+  },
+  {
+    "path": "referencias/imagens/videoplayback/f_0086.jpg",
+    "sha256": "e9da9c973d357a85cdfa40af10602f7844d938a576b73d4b27ceee2834cc02e8"
+  },
+  {
+    "path": "referencias/imagens/videoplayback/f_0172.jpg",
+    "sha256": "5c3c1faaa872ba7a84fca2f0a8f687f694c37cde46c605a39138766e2ba88773"
+  },
+  {
+    "path": "referencias/imagens/videoplayback/f_0257.jpg",
+    "sha256": "f08afd16a2533c47f2cf2db82591ed39ba054372cb2cc3971d66de306024408d"
+  },
+  {
+    "path": "referencias/imagens/videoplayback/f_0343.jpg",
+    "sha256": "8ece9cde8dc23c87aec533a69f71f88e2d9b6d3518759d41b5d9f4912ca34b36"
+  },
+  {
+    "path": "referencias/imagens/videoplayback/f_0428.jpg",
+    "sha256": "397e53d0c2a2cd62c391572342ca0c6e0d7fe28c013347cc56ffda44fadc282d"
+  },
+  {
+    "path": "referencias/imagens/videoplayback/f_0514.jpg",
+    "sha256": "1693750592c9dcc7acc712b6134744973b56ea561a0046baa065b865017ada81"
+  },
+  {
+    "path": "referencias/imagens/videoplayback/f_0600.jpg",
+    "sha256": "8b9ce7d06c2bd89347f754ff7fb3c1315dc9e60b47e0d0aeddf59c8134bc486d"
+  },
+  {
+    "path": "referencias/imagens/videoplayback_1/f_0001.jpg",
+    "sha256": "88660749c622ff3420b1edf648e4f6867ff061994fdff7584c26d58cc0dbe163"
+  },
+  {
+    "path": "referencias/imagens/videoplayback_1/f_0086.jpg",
+    "sha256": "c9a1d845505411a18d09478899e21bd6b881116c36bd67df423fd185b2bfb48a"
+  },
+  {
+    "path": "referencias/imagens/videoplayback_1/f_0172.jpg",
+    "sha256": "fb119514c433e36f95be03bdcc71d1566a57c123b2e06fee280338e6a41bc523"
+  },
+  {
+    "path": "referencias/imagens/videoplayback_1/f_0257.jpg",
+    "sha256": "171eaa40ac5b64065f6be94e26012f617b1c197f6664f1dce0ee9fd7ee371eef"
+  },
+  {
+    "path": "referencias/imagens/videoplayback_1/f_0343.jpg",
+    "sha256": "df8477489a7a7d857824e2486b2a5a7d0b60d40dd6e72eef80f61296af96319a"
+  },
+  {
+    "path": "referencias/imagens/videoplayback_1/f_0428.jpg",
+    "sha256": "5d8a8aff2f676cb7873e5039730d44e6abbff089e7c24189d12c93fa8f96fb6c"
+  },
+  {
+    "path": "referencias/imagens/videoplayback_1/f_0514.jpg",
+    "sha256": "26af0c96a9a145e10e67940787ef8f5bc6b4d3eac4a6e291bed5ce8945bea89d"
+  },
+  {
+    "path": "referencias/imagens/videoplayback_1/f_0600.jpg",
+    "sha256": "fa8be2b6a5e296a441be02447849e9e6354ae5633c5c6705090c19412b4b58d6"
+  },
+  {
+    "path": "scripts/legendas/align_ep001.py",
+    "sha256": "ea498d53c15d639a38dfd0ce2815b8133c7d0e38355c30f9ade5f0623b2fc0f2"
+  },
+  {
+    "path": "scripts/legendas/montar_ep001.py",
+    "sha256": "e63ac1061e5a80a5f6fdc9974176e3b967ee3d7906bc6c691aa52c2736cffff1"
+  },
+  {
+    "path": "scripts/legendas/timing_ep001.py",
+    "sha256": "d5077adfba39ea878b98041440f1c4336f2e3436bf567bb058cbec5fb69051c5"
+  },
+  {
+    "path": "scripts/legendas/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "scripts/pipeline_v2/anim_character.py",
+    "sha256": "f3eea7b74f5aa3379e50ef1c7073ee2c76ae21ff2920d4c70a70da0dd853f75a"
+  },
+  {
+    "path": "scripts/pipeline_v2/anim_props.py",
+    "sha256": "be9c7760558e9235779568bd547cecb44859f334bc79b26b9a282efdb97e339b"
+  },
+  {
+    "path": "scripts/pipeline_v2/character_nico.py",
+    "sha256": "5fd20f2dd4ff5ed142e4717f506b559b53d92154bdba7b0a0bd0d5d68101109b"
+  },
+  {
+    "path": "scripts/pipeline_v2/cinematography.py",
+    "sha256": "c06c35efcca77f7c9fa11adf2da28803561996432b57cdf1e949e201a6562402"
+  },
+  {
+    "path": "scripts/pipeline_v2/config.py",
+    "sha256": "4919dc3f01768a0a70786bdcfbc1c4652ba1ec19fc34e7de91af179f58d83b17"
+  },
+  {
+    "path": "scripts/pipeline_v2/environment_fair.py",
+    "sha256": "e1e7ee4abf3b0bc95eea7dd97839d12550b0301f321f3236de4d3727a1f795d3"
+  },
+  {
+    "path": "scripts/pipeline_v2/materials_lighting.py",
+    "sha256": "c2a0d721242839c4c04f9503af4bf7b92e287098b37c9b4c02cdfbaa47410bd1"
+  },
+  {
+    "path": "scripts/pipeline_v2/primitives.py",
+    "sha256": "23fc398b1b676c7e2dc060eefbab83ec04ebd60571cf8913647c685b588efe8b"
+  },
+  {
+    "path": "scripts/pipeline_v2/render_pipeline.py",
+    "sha256": "3524a1e3ce41b1c2e5d06b82e48cd926fc70c2be9690f20885b238af37c16b42"
+  },
+  {
+    "path": "scripts/pipeline_v2/scene_setup.py",
+    "sha256": "88fb8bce665f38ec86443ff8964834c0738b2d9e26b47d5280dd0214331db35d"
+  },
+  {
+    "path": "scripts/pipeline_v2/__init__.py",
+    "sha256": "cc094845f8fdc9f0dc8a356d4a6f241b7c58fe09bacdc8a6e0b30cfe69c4e9be"
+  },
+  {
+    "path": "scripts/pipeline_v3/anim_character.py",
+    "sha256": "0f8ad18c572552e770a55331a47d6e72af1e5ebeefbaa0a715cf17372d32dabb"
+  },
+  {
+    "path": "scripts/pipeline_v3/anim_props.py",
+    "sha256": "a1fd2faed79cfaa15bdff763a5616be7760fc9eb9b672436698cc7220eb4cc96"
+  },
+  {
+    "path": "scripts/pipeline_v3/asset_library.py",
+    "sha256": "7d016a8a29ba565e099addcd584c2cf104043bd526af3c6d3585dc522a3b04a5"
+  },
+  {
+    "path": "scripts/pipeline_v3/audio_finalizer.py",
+    "sha256": "f31a29c84daacc0703d5685f333324f625b366344e105d41ba54f13a87abad47"
+  },
+  {
+    "path": "scripts/pipeline_v3/character_nico.py",
+    "sha256": "a5060486ac6df058fb7a433b0c5c61cfd63f9238f0b773e966d78af78ef46331"
+  },
+  {
+    "path": "scripts/pipeline_v3/cinematography.py",
+    "sha256": "789612d32f47d18863f85d527ddad083b908ebc5c6812447653800145eb3a9e1"
+  },
+  {
+    "path": "scripts/pipeline_v3/config.py",
+    "sha256": "a290a5543a695f25b93d89b78f1d152a7a73e1ad727086458a62cc9186dc73b1"
+  },
+  {
+    "path": "scripts/pipeline_v3/environment_fair.py",
+    "sha256": "bcbf0048667f369217696bedde6d4a31bea5b99608453e1a2f3258154bdd39f4"
+  },
+  {
+    "path": "scripts/pipeline_v3/materials_lighting.py",
+    "sha256": "eeda2035085c53458ba7ca473bd2a4b3c889c81fa21fd28a9eedf6ee90ba0d5a"
+  },
+  {
+    "path": "scripts/pipeline_v3/primitives.py",
+    "sha256": "338c74d51e7b66f06c9058c2184406ac5e1bd1d1e9e6a51ddfaa6a79c535a259"
+  },
+  {
+    "path": "scripts/pipeline_v3/render_pipeline.py",
+    "sha256": "602efa242de99855a283376e0372fa97bb5b2c15b76f7d49f11670a807992b05"
+  },
+  {
+    "path": "scripts/pipeline_v3/scene_setup.py",
+    "sha256": "b33b29a6dadc6ec76405b5aaa85dce90095ef8a157afa2c22a3a2205a0b05825"
+  },
+  {
+    "path": "scripts/pipeline_v3/v3_1_narrated_scene.py",
+    "sha256": "2c1e362f299c94f50c235ed3542746730b448f67eab33e5e862e8e3290d6c7f4"
+  },
+  {
+    "path": "scripts/pipeline_v3/__init__.py",
+    "sha256": "28523aeecb99086a4d1fcbed619d6ac4aa67dab1120502674109606553e1a9d7"
+  },
+  {
+    "path": "scripts/tts/cli.py",
+    "sha256": "4f8adbd7ff96dd7ebeca1e574e7e492c660561bdd667a6bcc6f29b779fe15efe"
+  },
+  {
+    "path": "scripts/tts/config.py",
+    "sha256": "4684d7f845f315baaa9fb25adc9895edddb1e94ebef05694312bbc3d69b6d95c"
+  },
+  {
+    "path": "scripts/tts/generator.py",
+    "sha256": "6ac9d785fe5b8530954405cfcd120d2489d0cf9c3357f00226b5b6103f22daf2"
+  },
+  {
+    "path": "scripts/tts/gerar_ep001.py",
+    "sha256": "ae9973f4313097e6c0eac11b9a97d6c40117451edcc7e19ad5ecaa4704657b40"
+  },
+  {
+    "path": "scripts/tts/local.py",
+    "sha256": "dfcd963b4380d17d68a67150e62abc1a3f04c7a3eb303cab29769bd4c80b5916"
+  },
+  {
+    "path": "scripts/tts/local_cli.py",
+    "sha256": "ad06fe02d34908a7f7790c20942c99d17bee2a47a7f6192d10a4bfeda0f6acbf"
+  },
+  {
+    "path": "scripts/tts/run_missao_tts0.py",
+    "sha256": "872df1def7c6d17afad4f83f1350732963a33a78a4f2f81bc0d8adb1af05fd73"
+  },
+  {
+    "path": "scripts/tts/samples_local.py",
+    "sha256": "22a86ebc55b77a852ecae9ec3c50b60fea8477cbe63eb8d86c5c03ec5557dd9a"
+  },
+  {
+    "path": "scripts/tts/validator.py",
+    "sha256": "29954fb0123ceaaa19497a63f07c82c1a904ec676bec6652f69f3dcdca8ee608"
+  },
+  {
+    "path": "scripts/tts/__init__.py",
+    "sha256": "8881dd92b961832bebc26c19547db478da4214e6ffc44aa07e0953bfbbcdb7f1"
+  },
+  {
+    "path": "testes/infra_001/asr_exit.json",
+    "sha256": "9096673c91997ceedb5323894c0b5d138185150b28ac3c2d729693f7c8c8e21b"
+  },
+  {
+    "path": "testes/infra_001/asr_samples.py",
+    "sha256": "64dd9945e07e5617d2f846934742cbba5c35a11177392a8a18343f1354ec4248"
+  },
+  {
+    "path": "testes/infra_001/asr_stderr.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "testes/infra_001/asr_stdout.log",
+    "sha256": "d3187316b34e4c9373f7589da52b99e0f577391e327b0066b844aacde210e084"
+  },
+  {
+    "path": "testes/infra_001/audit.py",
+    "sha256": "9f6243e612bdd129fa3ca21fe5d721ea6a5accd2192f2d97886a983b059a7308"
+  },
+  {
+    "path": "testes/infra_001/baseline.json",
+    "sha256": "04bfe4e39d322115788ca400213094a4ee467312d4eb8cc2d6b5cf174b4b069e"
+  },
+  {
+    "path": "testes/infra_001/blender_blue_exit.json",
+    "sha256": "4d58c30b36f6dc31ced7ae59c69db80b4973d05f731af20a599a8787e69b424c"
+  },
+  {
+    "path": "testes/infra_001/blender_blue_stderr.log",
+    "sha256": "6916e07b1c93fcf2c425359d271b3d63d8da87fd1da42a85fee92688e1840641"
+  },
+  {
+    "path": "testes/infra_001/blender_blue_stdout.log",
+    "sha256": "a18e599e9277eb0cdaae4780566bb6e3b4c078fd7c6468b21744c4386e4d3533"
+  },
+  {
+    "path": "testes/infra_001/blender_preferences_stderr.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "testes/infra_001/blender_preferences_stdout.log",
+    "sha256": "08d8e980f1ec570c3690b8963f37f32d6cec0db061283f5d831a4ce77c2bd4ec"
+  },
+  {
+    "path": "testes/infra_001/blender_result.json",
+    "sha256": "59329a3c52d227ef636d9441ad76bf2003a056ce83eb69fe6aeaa726c8d1cf72"
+  },
+  {
+    "path": "testes/infra_001/blender_smoke.py",
+    "sha256": "cbce9d4087483dad968da4a910c6266cdbc42d4085c84c94758bf2501eaaaa63"
+  },
+  {
+    "path": "testes/infra_001/blender_stderr.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "testes/infra_001/blender_stdout.log",
+    "sha256": "7407765f4150f2f638ac5df97fc0e8fdb25ae462f848ca299a4cd2e634443e35"
+  },
+  {
+    "path": "testes/infra_001/check_models.py",
+    "sha256": "3415b1431538a9b78adbe05d9de5aaf863dfb2305163723ed93e3e027a9c8d5b"
+  },
+  {
+    "path": "testes/infra_001/dependency_licenses.json",
+    "sha256": "f77b91688ab3de45293604817a946d142f1c571f92d2f9945e63615194403e91"
+  },
+  {
+    "path": "testes/infra_001/download_model_stderr.log",
+    "sha256": "2e9be52422b91d21ea944f2514e69f973ab0fe189349905125f740fb0a615d89"
+  },
+  {
+    "path": "testes/infra_001/download_model_stdout.log",
+    "sha256": "10a2484624d7250d208bdea55e6f91a15bdfd01decbf48baa62a6c8fd2ebdfaf"
+  },
+  {
+    "path": "testes/infra_001/environment.json",
+    "sha256": "baf2522a0ea3e02256b16462077c26ce260578ae520ca627a91b7aabf4df8af7"
+  },
+  {
+    "path": "testes/infra_001/ep001_exit.json",
+    "sha256": "3e0df3c777a6e9b00e4e7d795af8bc804aee7b64ea17bcf3c6b3d72511d3f5b4"
+  },
+  {
+    "path": "testes/infra_001/ep001_stderr.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "testes/infra_001/ep001_stdout.log",
+    "sha256": "fb517f900e8bff4cb5deea94446b93b162e78a05b5e24735eef406d433e1e7d5"
+  },
+  {
+    "path": "testes/infra_001/ep001_tests_stderr.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "testes/infra_001/ep001_tests_stdout.log",
+    "sha256": "bb449ca5e05945af758664788d040708273dc69d69501b98721ba0150a622de2"
+  },
+  {
+    "path": "testes/infra_001/finalize_evidence.py",
+    "sha256": "60a2de334753ce2671d39b33dc6c3f9e031f79f14914c2eed79755a1128cb14f"
+  },
+  {
+    "path": "testes/infra_001/install_qwen.log",
+    "sha256": "e15071fb229dd914e85bc601887e354873381a35c3be32223ef0b11bf04e6d69"
+  },
+  {
+    "path": "testes/infra_001/install_torch.log",
+    "sha256": "09f7a59312e028203a0b60d82b84a2074c78bff3e7168b16d292e1708fb51d32"
+  },
+  {
+    "path": "testes/infra_001/legacy_cli_help.log",
+    "sha256": "c41b4e28600ab2c749334fe6e4f478ae4e16546b5c66f4f8572da71c546424b2"
+  },
+  {
+    "path": "testes/infra_001/legacy_cli_help_stderr.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "testes/infra_001/mcp_server_stderr.log",
+    "sha256": "2d83117499eac5df1f94c3ef21624eb01daf6772eb7b6f4acc376588417b0051"
+  },
+  {
+    "path": "testes/infra_001/mission_manifest.json",
+    "sha256": "0046b118fd64b713387b1bf34244a7171c6b06e8dfad6f0e36032a6ed161cccf"
+  },
+  {
+    "path": "testes/infra_001/model_integrity.json",
+    "sha256": "5e909f4cb29973f717e34ef7aaac7db12520d815a1bdf9bb204f8fa99d96691a"
+  },
+  {
+    "path": "testes/infra_001/pip_check_exit.json",
+    "sha256": "e3ca4713dcbf9ca60b976717c6d3fc1e749fb27008c5011ef6d8e94a4c67618d"
+  },
+  {
+    "path": "testes/infra_001/pip_check_stderr.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "testes/infra_001/pip_check_stdout.log",
+    "sha256": "672aec65a45bed50e70229c70934a7eebf0462595c459b83023027645d57cccf"
+  },
+  {
+    "path": "testes/infra_001/preserve_original_init.py",
+    "sha256": "302915cf130a27bb7298c76fdbffd55a32e2a74632b1eb7c9928c8034902cd91"
+  },
+  {
+    "path": "testes/infra_001/prior_tool_calls.json",
+    "sha256": "8e0356b03d889ad436a085e53e2719c833881be76906ee9da63afa2106da993c"
+  },
+  {
+    "path": "testes/infra_001/prior_writes.json",
+    "sha256": "84c865042ceffbb4351e27a1605033e857f28479b60caa9a2b1a3bae6e4b1d6f"
+  },
+  {
+    "path": "testes/infra_001/requirements-lock.txt",
+    "sha256": "87a7020f7ffdbbb580ec386cf881e6b1ae1f5dcf04ff5f04cd3e375e7e7edf5b"
+  },
+  {
+    "path": "testes/infra_001/runtime.json",
+    "sha256": "dbfb5f6cb17bd459f3e72cbdd5ef5cbf7b6337e9df6dae10a416da4ff0bf3995"
+  },
+  {
+    "path": "testes/infra_001/runtime_exit.json",
+    "sha256": "8c7bcc686613ed1db8c73cf97db966c4b27bd560a62d9467794c582936467bc9"
+  },
+  {
+    "path": "testes/infra_001/runtime_inventory.py",
+    "sha256": "68ce43616623ca27839d1115c4e9b796dd6894a5ee3010d32cc5597ffd26ef06"
+  },
+  {
+    "path": "testes/infra_001/runtime_stderr.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "testes/infra_001/runtime_stdout.log",
+    "sha256": "f51223c001b542b87fdf3088a115362fdb853587f87e77effef6183f71d47f53"
+  },
+  {
+    "path": "testes/infra_001/run_logged.py",
+    "sha256": "4df971069158686c79a44fefadff30efb333cf2014f0f26f1f6b24cf0a7b7df0"
+  },
+  {
+    "path": "testes/infra_001/samples_exit.json",
+    "sha256": "985732e35faefcf3e9b89ad4c2b930167052299f713b1815c900fa396bbf5b9b"
+  },
+  {
+    "path": "testes/infra_001/samples_stderr.log",
+    "sha256": "540b1c5a434c77cf23585e616a4ac5c56eed901925468787612d9d7ec2efbcec"
+  },
+  {
+    "path": "testes/infra_001/samples_stdout.log",
+    "sha256": "4aa0223d5775ac8eef2f48772fe37b46c3e53fc69ab3ef97fb0fe9552c0834bf"
+  },
+  {
+    "path": "testes/infra_001/smoke.blend",
+    "sha256": "3ad59f61c813faf7fb33de66d17bbd5e9a4b5bfeb5746d96de01c8228afd3268"
+  },
+  {
+    "path": "testes/infra_001/smoke.png",
+    "sha256": "80159623d72f3608abf379613dbee036fde642718f00acf0827629c23bb1ee30"
+  },
+  {
+    "path": "testes/infra_001/test_tts_local.py",
+    "sha256": "f58fc68b93a3f4c985b3c608b94afccb48110d5afdb2669363d1d8306c412f3e"
+  },
+  {
+    "path": "testes/infra_001/unit_exit.json",
+    "sha256": "f0d22759a2c841fc862336d9bb41a780af31619e69d6e6b95296f4cd1f8e3573"
+  },
+  {
+    "path": "testes/infra_001/unit_stderr.log",
+    "sha256": "8b6521787ae1fea7514d933de9a481f952f4cc2772ee6c0fba1cdc5545e88d2a"
+  },
+  {
+    "path": "testes/infra_001/unit_stdout.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "testes/infra_001/validate_samples.py",
+    "sha256": "61eca686dcf14a53f494cb82d8cb93fd321bb44b83fb00b1f86a68458a34f1e9"
+  },
+  {
+    "path": "testes/infra_001/validation_exit.json",
+    "sha256": "4394c1370209ffa347a11cefe888de3d998508b02702a7c9a3b66582bd4b964c"
+  },
+  {
+    "path": "testes/infra_001/validation_stderr.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "testes/infra_001/validation_stdout.log",
+    "sha256": "901e2d05bdb139111fd037948c14c681cb1c2a670a65d6e6108969c31b1a53f3"
+  },
+  {
+    "path": "testes/infra_001/visual_v2/blender_result.json",
+    "sha256": "59329a3c52d227ef636d9441ad76bf2003a056ce83eb69fe6aeaa726c8d1cf72"
+  },
+  {
+    "path": "testes/infra_001/visual_v2/smoke.blend",
+    "sha256": "b4a6691dc81aaeb0acfcd073254880ee6ee2d13c3df54e639098f782a3054be5"
+  },
+  {
+    "path": "testes/infra_001/visual_v2/smoke.png",
+    "sha256": "56ca280f4e60c817f06cc58bb301e76a2d017c7788a79759cce8b9fc705edaee"
+  }
+]

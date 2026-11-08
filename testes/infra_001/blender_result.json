@@ -1,0 +1,20 @@
+{
+  "version": "5.2.3 LTS",
+  "before": [
+    "Cube",
+    "Light",
+    "Camera"
+  ],
+  "after": [
+    "INFRA001_Cube",
+    "Camera",
+    "Area"
+  ],
+  "engine": "CYCLES",
+  "size": [
+    144,
+    256
+  ],
+  "blend_exists": true,
+  "render_exists": true
+}

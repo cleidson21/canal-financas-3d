@@ -1,0 +1,8 @@
+{
+  "command": [
+    "python",
+    "testes/tts_002/verify_delivery.py"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 1.3481287956237793
+}

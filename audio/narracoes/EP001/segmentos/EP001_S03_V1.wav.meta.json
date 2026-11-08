@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-11-04T14:37:46.615734+00:00",
+  "approved": false,
+  "api_method": "client.interactions.create",
+  "sdk_version": "2.34.0",
+  "interaction_id": "v1_ChdOVVByYXV2VkdQek15dE1QMGQyOTJRZxIXTlVQcmF1dlZHUHpNeXRNUDBkMjkyUWc",
+  "interaction_status": "completed",
+  "elapsed_seconds": 4.964,
+  "model": "gemini-3.8-flash-lite-tts",
+  "voice": "Puck",
+  "voice_catalog_info": {
+    "gender": "Masculina",
+    "profile": "Jovem adulto / adulto, natural, simpática, ritmo de conversa e ótimo timing para humor leve."
+  },
+  "language": "pt-BR",
+  "speaker": null,
+  "text": "Mas Nico teve uma ideia.\n\nO pescador queria batatas. Então ele conseguiu um peixe.\n\nE o lenhador queria peixe. Pronto, conseguiu lenha também.\n\nPera aí... duas trocas seguidas dando certo?\n\nIsso tá fácil demais.",
+  "speech_metadata_style": "Narrador de um canal educativo de humor em português brasileiro. Voz masculina adulta, natural e simpática, como um amigo contando uma história curiosa e engraçada. Não parecer propaganda, telejornal, documentário solene nem aula. Sem excesso de entusiasmo, sem risadas, sem tom infantilizado, sem pausas exageradas. Mantenha o mesmo timbre, volume e energia média em todo o episódio. Pause brevemente entre as frases, de forma natural. Direção deste trecho: Ritmo um pouco mais ágil nas duas trocas. Surpresa crescente e um pouco de desconfiança. 'Isso tá fácil demais' soa como alguém percebendo que algo vai dar errado.",
+  "output_path": "C:\\Users\\Cleidson\\Videos\\canal-financas-3d\\audio\\narracoes\\EP001\\segmentos\\EP001_S03_V1.wav",
+  "api_reported_audio": {
+    "mime_type": "audio/wav",
+    "sample_rate": null,
+    "channels": null,
+    "container_origin": "native_riff_wav"
+  },
+  "validation": {
+    "exists": true,
+    "valid": true,
+    "file_size_bytes": 847076,
+    "has_riff_wave_header": true,
+    "format": "WAV (PCM)",
+    "compression_type": "NONE",
+    "channels": 1,
+    "sample_width_bits": 16,
+    "sample_rate_hz": 24000,
+    "num_frames": 420480,
+    "duration_seconds": 17.52,
+    "peak_normalized": 0.8882,
+    "rms_normalized": 0.1104,
+    "peak_dbfs": -1.03,
+    "rms_dbfs": -19.14,
+    "non_empty_audio": true,
+    "silence_ratio": 0.387,
+    "leading_silence_seconds": 0.3,
+    "trailing_silence_seconds": 0.26,
+    "excessive_silence": false
+  },
+  "usage": {
+    "reported_by_api": true,
+    "initial_input_tokens": 204,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 59
+      }
+    ],
+    "output_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 438
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_input_tokens": 59,
+    "total_output_tokens": 438,
+    "total_thought_tokens": 0,
+    "total_tokens": 497,
+    "total_tool_use_tokens": 0
+  }
+}

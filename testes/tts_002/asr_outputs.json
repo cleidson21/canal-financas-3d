@@ -1,0 +1,12 @@
+[
+  {
+    "file": "audio\\narracoes\\TESTES_LOCAIS_002\\qwen_base_br_V1.wav",
+    "asr_text": "o sapato do Niko pediu de emissão e na vila dele ninguém usava dinheiro, só que o sapateiro não queria batatas, queria leite, Niko, aí complicou.",
+    "human_review_required": true
+  },
+  {
+    "file": "audio\\narracoes\\TESTES_LOCAIS_002\\piper_faber_V1.wav",
+    "asr_text": "O sapato do Niko pediu demissão, e na vila dele, ninguém usava dinheiro, só que o sapateiro não queria batatas, queria leite, Niko aí complicou.",
+    "human_review_required": true
+  }
+]

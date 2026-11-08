@@ -1,0 +1,125 @@
+{
+  "audio": [
+    {
+      "file": "piper_faber_V1.wav",
+      "ffmpeg_decode": true,
+      "ffprobe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "pcm_s16le",
+            "codec_long_name": "PCM signed 16-bit little-endian",
+            "codec_type": "audio",
+            "codec_tag_string": "[1][0][0][0]",
+            "codec_tag": "0x0001",
+            "sample_fmt": "s16",
+            "sample_rate": "22050",
+            "channels": 1,
+            "bits_per_sample": 16,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/22050",
+            "duration_ts": 179968,
+            "duration": "8.161814",
+            "bit_rate": "352800",
+            "disposition": {
+              "default": 0,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0
+            }
+          }
+        ],
+        "format": {
+          "filename": "C:\\Users\\Cleidson\\Videos\\canal-financas-3d\\audio\\narracoes\\TESTES_LOCAIS_002\\piper_faber_V1.wav",
+          "nb_streams": 1,
+          "nb_programs": 0,
+          "format_name": "wav",
+          "format_long_name": "WAV / WAVE (Waveform Audio)",
+          "duration": "8.161814",
+          "size": "359980",
+          "bit_rate": "352843",
+          "probe_score": 99
+        }
+      },
+      "sha256": "81eeee640018fa56179967b357c9de0356321b59cbaf3d474967b4f4be5b4a75",
+      "generation_seconds": 2.4100844000058714,
+      "rss_peak_bytes": 147214336,
+      "total_gpu_peak_mib_sampled": 1328
+    },
+    {
+      "file": "qwen_base_br_V1.wav",
+      "ffmpeg_decode": true,
+      "ffprobe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "pcm_s16le",
+            "codec_long_name": "PCM signed 16-bit little-endian",
+            "codec_type": "audio",
+            "codec_tag_string": "[1][0][0][0]",
+            "codec_tag": "0x0001",
+            "sample_fmt": "s16",
+            "sample_rate": "24000",
+            "channels": 1,
+            "bits_per_sample": 16,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/24000",
+            "duration_ts": 293760,
+            "duration": "12.240000",
+            "bit_rate": "384000",
+            "disposition": {
+              "default": 0,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0
+            }
+          }
+        ],
+        "format": {
+          "filename": "C:\\Users\\Cleidson\\Videos\\canal-financas-3d\\audio\\narracoes\\TESTES_LOCAIS_002\\qwen_base_br_V1.wav",
+          "nb_streams": 1,
+          "nb_programs": 0,
+          "format_name": "wav",
+          "format_long_name": "WAV / WAVE (Waveform Audio)",
+          "duration": "12.240000",
+          "size": "587564",
+          "bit_rate": "384028",
+          "probe_score": 99
+        }
+      },
+      "sha256": "3c2cfb9d945926f56791d974d39c968895d792eba41c0b2755e312e5ca0b8261",
+      "generation_seconds": 45.58771679998608,
+      "rss_peak_bytes": 2329186304,
+      "total_gpu_peak_mib_sampled": 4309
+    }
+  ],
+  "prior_file_count": 330,
+  "unchanged_prior_files": 329,
+  "intentional_changes": [
+    "audio/perfis/narrador_principal.json"
+  ],
+  "prior_wavs_preserved": 15,
+  "removed_dependencies": [],
+  "added_dependencies": [
+    "pathvalidate==3.3.1",
+    "piper-tts==1.8.0"
+  ]
+}

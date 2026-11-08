@@ -1,0 +1,16 @@
+{
+  "permit_id": "PREENCHER_IDENTIFICADOR_UNICO",
+  "project_id": null,
+  "api_key_sha256": null,
+  "request_sha256": null,
+  "billing_tier": "unknown",
+  "billing_enabled": null,
+  "checked_at": null,
+  "expires_at": null,
+  "human_authorized": false,
+  "model_available": false,
+  "tts_free_for_model": false,
+  "quota_checked": false,
+  "remaining_requests": null,
+  "evidence_reference": null
+}

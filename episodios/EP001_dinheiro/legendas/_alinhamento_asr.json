@@ -1,0 +1,1384 @@
+[
+ {
+  "id": "S01",
+  "duracao_s": 6.08,
+  "cobertura_asr": 1.0,
+  "interpoladas": 0,
+  "asr_texto": "O sapato do Nico pediu demissão, e na vila dele, ninguém usava dinheiro.",
+  "alinhamento": "ok",
+  "frases": [
+   {
+    "indice": 0,
+    "texto": "O sapato do Nico pediu demissão.",
+    "inicio_s": 0.0,
+    "fim_s": 2.62,
+    "palavras": [
+     {
+      "palavra": "O",
+      "inicio_s": 0.0,
+      "fim_s": 0.34
+     },
+     {
+      "palavra": "sapato",
+      "inicio_s": 0.34,
+      "fim_s": 0.96
+     },
+     {
+      "palavra": "do",
+      "inicio_s": 0.96,
+      "fim_s": 1.1
+     },
+     {
+      "palavra": "Nico",
+      "inicio_s": 1.1,
+      "fim_s": 1.42
+     },
+     {
+      "palavra": "pediu",
+      "inicio_s": 1.42,
+      "fim_s": 2.08
+     },
+     {
+      "palavra": "demissão.",
+      "inicio_s": 2.08,
+      "fim_s": 2.62
+     }
+    ]
+   },
+   {
+    "indice": 1,
+    "texto": "E na vila dele, ninguém usava dinheiro.",
+    "inicio_s": 3.06,
+    "fim_s": 5.64,
+    "palavras": [
+     {
+      "palavra": "E",
+      "inicio_s": 3.06,
+      "fim_s": 3.46
+     },
+     {
+      "palavra": "na",
+      "inicio_s": 3.46,
+      "fim_s": 3.58
+     },
+     {
+      "palavra": "vila",
+      "inicio_s": 3.58,
+      "fim_s": 3.88
+     },
+     {
+      "palavra": "dele,",
+      "inicio_s": 3.88,
+      "fim_s": 4.24
+     },
+     {
+      "palavra": "ninguém",
+      "inicio_s": 4.48,
+      "fim_s": 4.9
+     },
+     {
+      "palavra": "usava",
+      "inicio_s": 4.9,
+      "fim_s": 5.34
+     },
+     {
+      "palavra": "dinheiro.",
+      "inicio_s": 5.34,
+      "fim_s": 5.64
+     }
+    ]
+   }
+  ],
+  "wav": "audio/narracoes/EP001/segmentos/EP001_S01_V1.wav"
+ },
+ {
+  "id": "S02",
+  "duracao_s": 13.48,
+  "cobertura_asr": 1.0,
+  "interpoladas": 0,
+  "asr_texto": "Ele tinha 40 quilos de batata e achou que dava pra trocar por um par novo. Só que o sapateiro não queria batatas, queria leite. Nico, aí complicou!",
+  "alinhamento": "ok",
+  "frases": [
+   {
+    "indice": 0,
+    "texto": "Ele tinha quarenta quilos de batata e achou que dava pra trocar por um par novo.",
+    "inicio_s": 0.0,
+    "fim_s": 4.7,
+    "palavras": [
+     {
+      "palavra": "Ele",
+      "inicio_s": 0.0,
+      "fim_s": 0.4
+     },
+     {
+      "palavra": "tinha",
+      "inicio_s": 0.4,
+      "fim_s": 0.68
+     },
+     {
+      "palavra": "quarenta",
+      "inicio_s": 0.68,
+      "fim_s": 1.3
+     },
+     {
+      "palavra": "quilos",
+      "inicio_s": 1.3,
+      "fim_s": 1.8
+     },
+     {
+      "palavra": "de",
+      "inicio_s": 1.8,
+      "fim_s": 1.88
+     },
+     {
+      "palavra": "batata",
+      "inicio_s": 1.88,
+      "fim_s": 2.34
+     },
+     {
+      "palavra": "e",
+      "inicio_s": 2.34,
+      "fim_s": 2.8
+     },
+     {
+      "palavra": "achou",
+      "inicio_s": 2.8,
+      "fim_s": 3.1
+     },
+     {
+      "palavra": "que",
+      "inicio_s": 3.1,
+      "fim_s": 3.22
+     },
+     {
+      "palavra": "dava",
+      "inicio_s": 3.22,
+      "fim_s": 3.42
+     },
+     {
+      "palavra": "pra",
+      "inicio_s": 3.42,
+      "fim_s": 3.6
+     },
+     {
+      "palavra": "trocar",
+      "inicio_s": 3.6,
+      "fim_s": 3.96
+     },
+     {
+      "palavra": "por",
+      "inicio_s": 3.96,
+      "fim_s": 4.16
+     },
+     {
+      "palavra": "um",
+      "inicio_s": 4.16,
+      "fim_s": 4.26
+     },
+     {
+      "palavra": "par",
+      "inicio_s": 4.26,
+      "fim_s": 4.42
+     },
+     {
+      "palavra": "novo.",
+      "inicio_s": 4.42,
+      "fim_s": 4.7
+     }
+    ]
+   },
+   {
+    "indice": 1,
+    "texto": "Só que o sapateiro não queria batatas.",
+    "inicio_s": 5.22,
+    "fim_s": 8.56,
+    "palavras": [
+     {
+      "palavra": "Só",
+      "inicio_s": 5.22,
+      "fim_s": 5.74
+     },
+     {
+      "palavra": "que",
+      "inicio_s": 5.74,
+      "fim_s": 6.12
+     },
+     {
+      "palavra": "o",
+      "inicio_s": 6.12,
+      "fim_s": 6.72
+     },
+     {
+      "palavra": "sapateiro",
+      "inicio_s": 6.72,
+      "fim_s": 7.3
+     },
+     {
+      "palavra": "não",
+      "inicio_s": 7.3,
+      "fim_s": 7.56
+     },
+     {
+      "palavra": "queria",
+      "inicio_s": 7.56,
+      "fim_s": 7.9
+     },
+     {
+      "palavra": "batatas.",
+      "inicio_s": 7.9,
+      "fim_s": 8.56
+     }
+    ]
+   },
+   {
+    "indice": 2,
+    "texto": "Queria leite.",
+    "inicio_s": 9.04,
+    "fim_s": 10.56,
+    "palavras": [
+     {
+      "palavra": "Queria",
+      "inicio_s": 9.04,
+      "fim_s": 9.64
+     },
+     {
+      "palavra": "leite.",
+      "inicio_s": 9.64,
+      "fim_s": 10.56
+     }
+    ]
+   },
+   {
+    "indice": 3,
+    "texto": "Nico... aí complicou.",
+    "inicio_s": 11.18,
+    "fim_s": 13.2,
+    "palavras": [
+     {
+      "palavra": "Nico...",
+      "inicio_s": 11.18,
+      "fim_s": 11.78
+     },
+     {
+      "palavra": "aí",
+      "inicio_s": 12.2,
+      "fim_s": 12.56
+     },
+     {
+      "palavra": "complicou.",
+      "inicio_s": 12.56,
+      "fim_s": 13.2
+     }
+    ]
+   }
+  ],
+  "wav": "audio/narracoes/EP001/segmentos/EP001_S02_V1.wav"
+ },
+ {
+  "id": "S03",
+  "duracao_s": 17.52,
+  "cobertura_asr": 0.912,
+  "interpoladas": 3,
+  "asr_texto": "Mas Niko teve uma ideia. O pescador queria batatas, então ele conseguiu um peixe. E o lenha -dor queria peixe. Pronto, conseguiu o lenha também. Peraí, duas trocas seguidas dando certo. Isso tá fácil demais.",
+  "alinhamento": "ok",
+  "frases": [
+   {
+    "indice": 0,
+    "texto": "Mas Nico teve uma ideia.",
+    "inicio_s": 0.0,
+    "fim_s": 1.82,
+    "palavras": [
+     {
+      "palavra": "Mas",
+      "inicio_s": 0.0,
+      "fim_s": 0.5
+     },
+     {
+      "palavra": "Nico",
+      "inicio_s": 0.5,
+      "fim_s": 0.94
+     },
+     {
+      "palavra": "teve",
+      "inicio_s": 0.94,
+      "fim_s": 1.34
+     },
+     {
+      "palavra": "uma",
+      "inicio_s": 1.34,
+      "fim_s": 1.54
+     },
+     {
+      "palavra": "ideia.",
+      "inicio_s": 1.54,
+      "fim_s": 1.82
+     }
+    ]
+   },
+   {
+    "indice": 1,
+    "texto": "O pescador queria batatas. Então ele conseguiu um peixe.",
+    "inicio_s": 2.46,
+    "fim_s": 6.78,
+    "palavras": [
+     {
+      "palavra": "O",
+      "inicio_s": 2.46,
+      "fim_s": 2.56
+     },
+     {
+      "palavra": "pescador",
+      "inicio_s": 2.56,
+      "fim_s": 3.04
+     },
+     {
+      "palavra": "queria",
+      "inicio_s": 3.04,
+      "fim_s": 3.48
+     },
+     {
+      "palavra": "batatas.",
+      "inicio_s": 3.48,
+      "fim_s": 4.28
+     },
+     {
+      "palavra": "Então",
+      "inicio_s": 4.7,
+      "fim_s": 5.14
+     },
+     {
+      "palavra": "ele",
+      "inicio_s": 5.14,
+      "fim_s": 5.56
+     },
+     {
+      "palavra": "conseguiu",
+      "inicio_s": 5.56,
+      "fim_s": 6.12
+     },
+     {
+      "palavra": "um",
+      "inicio_s": 6.12,
+      "fim_s": 6.34
+     },
+     {
+      "palavra": "peixe.",
+      "inicio_s": 6.34,
+      "fim_s": 6.78
+     }
+    ]
+   },
+   {
+    "indice": 2,
+    "texto": "E o lenhador queria peixe. Pronto, conseguiu lenha também.",
+    "inicio_s": 7.58,
+    "fim_s": 11.42,
+    "palavras": [
+     {
+      "palavra": "E",
+      "inicio_s": 7.58,
+      "fim_s": 7.66
+     },
+     {
+      "palavra": "o",
+      "inicio_s": 7.66,
+      "fim_s": 7.72
+     },
+     {
+      "palavra": "lenhador",
+      "inicio_s": 7.72,
+      "fim_s": 8.24
+     },
+     {
+      "palavra": "queria",
+      "inicio_s": 8.24,
+      "fim_s": 8.72
+     },
+     {
+      "palavra": "peixe.",
+      "inicio_s": 8.72,
+      "fim_s": 9.42
+     },
+     {
+      "palavra": "Pronto,",
+      "inicio_s": 9.9,
+      "fim_s": 10.12
+     },
+     {
+      "palavra": "conseguiu",
+      "inicio_s": 10.44,
+      "fim_s": 10.92
+     },
+     {
+      "palavra": "lenha",
+      "inicio_s": 11.0,
+      "fim_s": 11.18
+     },
+     {
+      "palavra": "também.",
+      "inicio_s": 11.18,
+      "fim_s": 11.42
+     }
+    ]
+   },
+   {
+    "indice": 3,
+    "texto": "Pera aí... duas trocas seguidas dando certo?",
+    "inicio_s": 11.42,
+    "fim_s": 15.1,
+    "palavras": [
+     {
+      "palavra": "Pera",
+      "inicio_s": 11.42,
+      "fim_s": 12.2
+     },
+     {
+      "palavra": "aí...",
+      "inicio_s": 12.2,
+      "fim_s": 12.98
+     },
+     {
+      "palavra": "duas",
+      "inicio_s": 12.98,
+      "fim_s": 13.34
+     },
+     {
+      "palavra": "trocas",
+      "inicio_s": 13.34,
+      "fim_s": 13.8
+     },
+     {
+      "palavra": "seguidas",
+      "inicio_s": 13.8,
+      "fim_s": 14.34
+     },
+     {
+      "palavra": "dando",
+      "inicio_s": 14.34,
+      "fim_s": 14.62
+     },
+     {
+      "palavra": "certo?",
+      "inicio_s": 14.62,
+      "fim_s": 15.1
+     }
+    ]
+   },
+   {
+    "indice": 4,
+    "texto": "Isso tá fácil demais.",
+    "inicio_s": 15.9,
+    "fim_s": 16.96,
+    "palavras": [
+     {
+      "palavra": "Isso",
+      "inicio_s": 15.9,
+      "fim_s": 16.18
+     },
+     {
+      "palavra": "tá",
+      "inicio_s": 16.18,
+      "fim_s": 16.34
+     },
+     {
+      "palavra": "fácil",
+      "inicio_s": 16.34,
+      "fim_s": 16.68
+     },
+     {
+      "palavra": "demais.",
+      "inicio_s": 16.68,
+      "fim_s": 16.96
+     }
+    ]
+   }
+  ],
+  "wav": "audio/narracoes/EP001/segmentos/EP001_S03_V1.wav"
+ },
+ {
+  "id": "S04",
+  "duracao_s": 14.44,
+  "cobertura_asr": 1.0,
+  "interpoladas": 0,
+  "asr_texto": "Pois é. O leiteiro não queria lenha, queria ovos. E o vendedor de ovos queria farinha. E quem vendia farinha? Nico, você quer comprar um sapato ou abrir uma transportadora?",
+  "alinhamento": "ok",
+  "frases": [
+   {
+    "indice": 0,
+    "texto": "Pois é.",
+    "inicio_s": 0.0,
+    "fim_s": 0.8,
+    "palavras": [
+     {
+      "palavra": "Pois",
+      "inicio_s": 0.0,
+      "fim_s": 0.54
+     },
+     {
+      "palavra": "é.",
+      "inicio_s": 0.54,
+      "fim_s": 0.8
+     }
+    ]
+   },
+   {
+    "indice": 1,
+    "texto": "O leiteiro não queria lenha. Queria ovos.",
+    "inicio_s": 1.4,
+    "fim_s": 4.22,
+    "palavras": [
+     {
+      "palavra": "O",
+      "inicio_s": 1.4,
+      "fim_s": 1.5
+     },
+     {
+      "palavra": "leiteiro",
+      "inicio_s": 1.5,
+      "fim_s": 1.94
+     },
+     {
+      "palavra": "não",
+      "inicio_s": 1.94,
+      "fim_s": 2.06
+     },
+     {
+      "palavra": "queria",
+      "inicio_s": 2.06,
+      "fim_s": 2.34
+     },
+     {
+      "palavra": "lenha.",
+      "inicio_s": 2.34,
+      "fim_s": 2.82
+     },
+     {
+      "palavra": "Queria",
+      "inicio_s": 3.02,
+      "fim_s": 3.26
+     },
+     {
+      "palavra": "ovos.",
+      "inicio_s": 3.26,
+      "fim_s": 4.22
+     }
+    ]
+   },
+   {
+    "indice": 2,
+    "texto": "E o vendedor de ovos queria farinha.",
+    "inicio_s": 4.62,
+    "fim_s": 6.52,
+    "palavras": [
+     {
+      "palavra": "E",
+      "inicio_s": 4.62,
+      "fim_s": 4.7
+     },
+     {
+      "palavra": "o",
+      "inicio_s": 4.7,
+      "fim_s": 4.76
+     },
+     {
+      "palavra": "vendedor",
+      "inicio_s": 4.76,
+      "fim_s": 5.18
+     },
+     {
+      "palavra": "de",
+      "inicio_s": 5.18,
+      "fim_s": 5.32
+     },
+     {
+      "palavra": "ovos",
+      "inicio_s": 5.32,
+      "fim_s": 5.74
+     },
+     {
+      "palavra": "queria",
+      "inicio_s": 5.74,
+      "fim_s": 6.08
+     },
+     {
+      "palavra": "farinha.",
+      "inicio_s": 6.08,
+      "fim_s": 6.52
+     }
+    ]
+   },
+   {
+    "indice": 3,
+    "texto": "E quem vendia farinha...",
+    "inicio_s": 7.3,
+    "fim_s": 8.38,
+    "palavras": [
+     {
+      "palavra": "E",
+      "inicio_s": 7.3,
+      "fim_s": 7.36
+     },
+     {
+      "palavra": "quem",
+      "inicio_s": 7.36,
+      "fim_s": 7.56
+     },
+     {
+      "palavra": "vendia",
+      "inicio_s": 7.56,
+      "fim_s": 7.9
+     },
+     {
+      "palavra": "farinha...",
+      "inicio_s": 7.9,
+      "fim_s": 8.38
+     }
+    ]
+   },
+   {
+    "indice": 4,
+    "texto": "Nico, você quer comprar um sapato ou abrir uma transportadora?",
+    "inicio_s": 10.04,
+    "fim_s": 14.08,
+    "palavras": [
+     {
+      "palavra": "Nico,",
+      "inicio_s": 10.04,
+      "fim_s": 10.72
+     },
+     {
+      "palavra": "você",
+      "inicio_s": 11.12,
+      "fim_s": 11.4
+     },
+     {
+      "palavra": "quer",
+      "inicio_s": 11.4,
+      "fim_s": 11.56
+     },
+     {
+      "palavra": "comprar",
+      "inicio_s": 11.56,
+      "fim_s": 11.92
+     },
+     {
+      "palavra": "um",
+      "inicio_s": 11.92,
+      "fim_s": 12.08
+     },
+     {
+      "palavra": "sapato",
+      "inicio_s": 12.08,
+      "fim_s": 12.68
+     },
+     {
+      "palavra": "ou",
+      "inicio_s": 12.68,
+      "fim_s": 12.96
+     },
+     {
+      "palavra": "abrir",
+      "inicio_s": 12.96,
+      "fim_s": 13.24
+     },
+     {
+      "palavra": "uma",
+      "inicio_s": 13.24,
+      "fim_s": 13.4
+     },
+     {
+      "palavra": "transportadora?",
+      "inicio_s": 13.4,
+      "fim_s": 14.08
+     }
+    ]
+   }
+  ],
+  "wav": "audio/narracoes/EP001/segmentos/EP001_S04_V1.wav"
+ },
+ {
+  "id": "S05",
+  "duracao_s": 9.24,
+  "cobertura_asr": 1.0,
+  "interpoladas": 0,
+  "asr_texto": "O problema não era falta coisa pra trocar, era encontrar alguém que quisesse exatamente o que ele tinha, bem naquela hora.",
+  "alinhamento": "ok",
+  "frases": [
+   {
+    "indice": 0,
+    "texto": "O problema não era faltar coisa pra trocar.",
+    "inicio_s": 0.0,
+    "fim_s": 3.12,
+    "palavras": [
+     {
+      "palavra": "O",
+      "inicio_s": 0.0,
+      "fim_s": 0.36
+     },
+     {
+      "palavra": "problema",
+      "inicio_s": 0.36,
+      "fim_s": 0.92
+     },
+     {
+      "palavra": "não",
+      "inicio_s": 0.92,
+      "fim_s": 1.28
+     },
+     {
+      "palavra": "era",
+      "inicio_s": 1.28,
+      "fim_s": 1.56
+     },
+     {
+      "palavra": "faltar",
+      "inicio_s": 1.56,
+      "fim_s": 1.82
+     },
+     {
+      "palavra": "coisa",
+      "inicio_s": 1.82,
+      "fim_s": 2.42
+     },
+     {
+      "palavra": "pra",
+      "inicio_s": 2.42,
+      "fim_s": 2.66
+     },
+     {
+      "palavra": "trocar.",
+      "inicio_s": 2.66,
+      "fim_s": 3.12
+     }
+    ]
+   },
+   {
+    "indice": 1,
+    "texto": "Era encontrar alguém que quisesse exatamente o que ele tinha, bem naquela hora.",
+    "inicio_s": 3.34,
+    "fim_s": 8.74,
+    "palavras": [
+     {
+      "palavra": "Era",
+      "inicio_s": 3.34,
+      "fim_s": 3.88
+     },
+     {
+      "palavra": "encontrar",
+      "inicio_s": 3.88,
+      "fim_s": 4.36
+     },
+     {
+      "palavra": "alguém",
+      "inicio_s": 4.36,
+      "fim_s": 4.84
+     },
+     {
+      "palavra": "que",
+      "inicio_s": 4.84,
+      "fim_s": 5.12
+     },
+     {
+      "palavra": "quisesse",
+      "inicio_s": 5.12,
+      "fim_s": 5.7
+     },
+     {
+      "palavra": "exatamente",
+      "inicio_s": 5.7,
+      "fim_s": 6.42
+     },
+     {
+      "palavra": "o",
+      "inicio_s": 6.42,
+      "fim_s": 6.94
+     },
+     {
+      "palavra": "que",
+      "inicio_s": 6.94,
+      "fim_s": 7.0
+     },
+     {
+      "palavra": "ele",
+      "inicio_s": 7.0,
+      "fim_s": 7.1
+     },
+     {
+      "palavra": "tinha,",
+      "inicio_s": 7.1,
+      "fim_s": 7.42
+     },
+     {
+      "palavra": "bem",
+      "inicio_s": 7.7,
+      "fim_s": 7.98
+     },
+     {
+      "palavra": "naquela",
+      "inicio_s": 7.98,
+      "fim_s": 8.42
+     },
+     {
+      "palavra": "hora.",
+      "inicio_s": 8.42,
+      "fim_s": 8.74
+     }
+    ]
+   }
+  ],
+  "wav": "audio/narracoes/EP001/segmentos/EP001_S05_V1.wav"
+ },
+ {
+  "id": "S06",
+  "duracao_s": 20.12,
+  "cobertura_asr": 0.975,
+  "interpoladas": 1,
+  "asr_texto": "Até que a feira resolveu testar uma ideia. Todo mundo passaria a aceitar uma mesma ficha como pagamento. Nico vendeu batatas, recebeu fichas e finalmente comprou sapatos. E o sapateiro usou as mesmas fichas para comprar leite. Agora sim...",
+  "alinhamento": "ok",
+  "frases": [
+   {
+    "indice": 0,
+    "texto": "Até que a feira resolveu testar uma ideia.",
+    "inicio_s": 0.0,
+    "fim_s": 3.38,
+    "palavras": [
+     {
+      "palavra": "Até",
+      "inicio_s": 0.0,
+      "fim_s": 0.72
+     },
+     {
+      "palavra": "que",
+      "inicio_s": 0.72,
+      "fim_s": 1.0
+     },
+     {
+      "palavra": "a",
+      "inicio_s": 1.0,
+      "fim_s": 1.14
+     },
+     {
+      "palavra": "feira",
+      "inicio_s": 1.14,
+      "fim_s": 1.66
+     },
+     {
+      "palavra": "resolveu",
+      "inicio_s": 1.66,
+      "fim_s": 2.34
+     },
+     {
+      "palavra": "testar",
+      "inicio_s": 2.34,
+      "fim_s": 2.82
+     },
+     {
+      "palavra": "uma",
+      "inicio_s": 2.82,
+      "fim_s": 2.98
+     },
+     {
+      "palavra": "ideia.",
+      "inicio_s": 2.98,
+      "fim_s": 3.38
+     }
+    ]
+   },
+   {
+    "indice": 1,
+    "texto": "Todo mundo passaria a aceitar uma mesma ficha como pagamento.",
+    "inicio_s": 3.96,
+    "fim_s": 7.78,
+    "palavras": [
+     {
+      "palavra": "Todo",
+      "inicio_s": 3.96,
+      "fim_s": 4.12
+     },
+     {
+      "palavra": "mundo",
+      "inicio_s": 4.12,
+      "fim_s": 4.4
+     },
+     {
+      "palavra": "passaria",
+      "inicio_s": 4.4,
+      "fim_s": 4.86
+     },
+     {
+      "palavra": "a",
+      "inicio_s": 4.86,
+      "fim_s": 5.04
+     },
+     {
+      "palavra": "aceitar",
+      "inicio_s": 5.04,
+      "fim_s": 5.46
+     },
+     {
+      "palavra": "uma",
+      "inicio_s": 5.46,
+      "fim_s": 5.98
+     },
+     {
+      "palavra": "mesma",
+      "inicio_s": 5.98,
+      "fim_s": 6.38
+     },
+     {
+      "palavra": "ficha",
+      "inicio_s": 6.38,
+      "fim_s": 7.02
+     },
+     {
+      "palavra": "como",
+      "inicio_s": 7.02,
+      "fim_s": 7.24
+     },
+     {
+      "palavra": "pagamento.",
+      "inicio_s": 7.24,
+      "fim_s": 7.78
+     }
+    ]
+   },
+   {
+    "indice": 2,
+    "texto": "Nico vendeu batatas, recebeu fichas e finalmente comprou os sapatos.",
+    "inicio_s": 8.54,
+    "fim_s": 13.54,
+    "palavras": [
+     {
+      "palavra": "Nico",
+      "inicio_s": 8.54,
+      "fim_s": 8.84
+     },
+     {
+      "palavra": "vendeu",
+      "inicio_s": 8.84,
+      "fim_s": 9.2
+     },
+     {
+      "palavra": "batatas,",
+      "inicio_s": 9.2,
+      "fim_s": 9.92
+     },
+     {
+      "palavra": "recebeu",
+      "inicio_s": 10.1,
+      "fim_s": 10.52
+     },
+     {
+      "palavra": "fichas",
+      "inicio_s": 10.52,
+      "fim_s": 11.22
+     },
+     {
+      "palavra": "e",
+      "inicio_s": 11.22,
+      "fim_s": 11.46
+     },
+     {
+      "palavra": "finalmente",
+      "inicio_s": 11.46,
+      "fim_s": 12.18
+     },
+     {
+      "palavra": "comprou",
+      "inicio_s": 12.18,
+      "fim_s": 13.0
+     },
+     {
+      "palavra": "os",
+      "inicio_s": 13.0,
+      "fim_s": 13.0
+     },
+     {
+      "palavra": "sapatos.",
+      "inicio_s": 13.0,
+      "fim_s": 13.54
+     }
+    ]
+   },
+   {
+    "indice": 3,
+    "texto": "E o sapateiro? Usou as mesmas fichas pra comprar leite.",
+    "inicio_s": 14.34,
+    "fim_s": 18.02,
+    "palavras": [
+     {
+      "palavra": "E",
+      "inicio_s": 14.34,
+      "fim_s": 14.5
+     },
+     {
+      "palavra": "o",
+      "inicio_s": 14.5,
+      "fim_s": 14.56
+     },
+     {
+      "palavra": "sapateiro?",
+      "inicio_s": 14.56,
+      "fim_s": 15.1
+     },
+     {
+      "palavra": "Usou",
+      "inicio_s": 15.1,
+      "fim_s": 15.96
+     },
+     {
+      "palavra": "as",
+      "inicio_s": 15.96,
+      "fim_s": 16.28
+     },
+     {
+      "palavra": "mesmas",
+      "inicio_s": 16.28,
+      "fim_s": 16.7
+     },
+     {
+      "palavra": "fichas",
+      "inicio_s": 16.7,
+      "fim_s": 17.2
+     },
+     {
+      "palavra": "pra",
+      "inicio_s": 17.2,
+      "fim_s": 17.34
+     },
+     {
+      "palavra": "comprar",
+      "inicio_s": 17.34,
+      "fim_s": 17.62
+     },
+     {
+      "palavra": "leite.",
+      "inicio_s": 17.62,
+      "fim_s": 18.02
+     }
+    ]
+   },
+   {
+    "indice": 4,
+    "texto": "Agora sim!",
+    "inicio_s": 18.84,
+    "fim_s": 20.0,
+    "palavras": [
+     {
+      "palavra": "Agora",
+      "inicio_s": 18.84,
+      "fim_s": 19.24
+     },
+     {
+      "palavra": "sim!",
+      "inicio_s": 19.24,
+      "fim_s": 20.0
+     }
+    ]
+   }
+  ],
+  "wav": "audio/narracoes/EP001/segmentos/EP001_S06_V1.wav"
+ },
+ {
+  "id": "S07",
+  "duracao_s": 13.8,
+  "cobertura_asr": 0.969,
+  "interpoladas": 1,
+  "asr_texto": "Mas tem um detalhe. Por que alguém aceitaria um pedaço de madeira como pagamento? Por que confiava que outras pessoas também aceitariam? Sem isso, a ficha não passaria de um pedaço de madeira.",
+  "alinhamento": "ok",
+  "frases": [
+   {
+    "indice": 0,
+    "texto": "Mas tem um detalhe.",
+    "inicio_s": 0.0,
+    "fim_s": 1.66,
+    "palavras": [
+     {
+      "palavra": "Mas",
+      "inicio_s": 0.0,
+      "fim_s": 0.54
+     },
+     {
+      "palavra": "tem",
+      "inicio_s": 0.54,
+      "fim_s": 0.82
+     },
+     {
+      "palavra": "um",
+      "inicio_s": 0.82,
+      "fim_s": 0.92
+     },
+     {
+      "palavra": "detalhe.",
+      "inicio_s": 0.92,
+      "fim_s": 1.66
+     }
+    ]
+   },
+   {
+    "indice": 1,
+    "texto": "Por que alguém aceitaria um pedaço de madeira como pagamento?",
+    "inicio_s": 1.96,
+    "fim_s": 5.24,
+    "palavras": [
+     {
+      "palavra": "Por",
+      "inicio_s": 1.96,
+      "fim_s": 1.98
+     },
+     {
+      "palavra": "que",
+      "inicio_s": 1.98,
+      "fim_s": 2.16
+     },
+     {
+      "palavra": "alguém",
+      "inicio_s": 2.16,
+      "fim_s": 2.42
+     },
+     {
+      "palavra": "aceitaria",
+      "inicio_s": 2.42,
+      "fim_s": 3.06
+     },
+     {
+      "palavra": "um",
+      "inicio_s": 3.06,
+      "fim_s": 3.18
+     },
+     {
+      "palavra": "pedaço",
+      "inicio_s": 3.18,
+      "fim_s": 3.78
+     },
+     {
+      "palavra": "de",
+      "inicio_s": 3.78,
+      "fim_s": 3.9
+     },
+     {
+      "palavra": "madeira",
+      "inicio_s": 3.9,
+      "fim_s": 4.4
+     },
+     {
+      "palavra": "como",
+      "inicio_s": 4.4,
+      "fim_s": 4.6
+     },
+     {
+      "palavra": "pagamento?",
+      "inicio_s": 4.6,
+      "fim_s": 5.24
+     }
+    ]
+   },
+   {
+    "indice": 2,
+    "texto": "Porque confiava que outras pessoas também aceitariam.",
+    "inicio_s": 5.24,
+    "fim_s": 8.94,
+    "palavras": [
+     {
+      "palavra": "Porque",
+      "inicio_s": 5.24,
+      "fim_s": 6.36
+     },
+     {
+      "palavra": "confiava",
+      "inicio_s": 6.36,
+      "fim_s": 7.12
+     },
+     {
+      "palavra": "que",
+      "inicio_s": 7.12,
+      "fim_s": 7.3
+     },
+     {
+      "palavra": "outras",
+      "inicio_s": 7.3,
+      "fim_s": 7.52
+     },
+     {
+      "palavra": "pessoas",
+      "inicio_s": 7.52,
+      "fim_s": 8.0
+     },
+     {
+      "palavra": "também",
+      "inicio_s": 8.0,
+      "fim_s": 8.24
+     },
+     {
+      "palavra": "aceitariam.",
+      "inicio_s": 8.24,
+      "fim_s": 8.94
+     }
+    ]
+   },
+   {
+    "indice": 3,
+    "texto": "Sem isso, a ficha não passaria de um pedaço de madeira.",
+    "inicio_s": 9.46,
+    "fim_s": 13.42,
+    "palavras": [
+     {
+      "palavra": "Sem",
+      "inicio_s": 9.46,
+      "fim_s": 9.74
+     },
+     {
+      "palavra": "isso,",
+      "inicio_s": 9.74,
+      "fim_s": 10.1
+     },
+     {
+      "palavra": "a",
+      "inicio_s": 10.62,
+      "fim_s": 10.68
+     },
+     {
+      "palavra": "ficha",
+      "inicio_s": 10.68,
+      "fim_s": 11.16
+     },
+     {
+      "palavra": "não",
+      "inicio_s": 11.16,
+      "fim_s": 11.36
+     },
+     {
+      "palavra": "passaria",
+      "inicio_s": 11.36,
+      "fim_s": 11.92
+     },
+     {
+      "palavra": "de",
+      "inicio_s": 11.92,
+      "fim_s": 12.16
+     },
+     {
+      "palavra": "um",
+      "inicio_s": 12.16,
+      "fim_s": 12.36
+     },
+     {
+      "palavra": "pedaço",
+      "inicio_s": 12.36,
+      "fim_s": 12.94
+     },
+     {
+      "palavra": "de",
+      "inicio_s": 12.94,
+      "fim_s": 13.04
+     },
+     {
+      "palavra": "madeira.",
+      "inicio_s": 13.04,
+      "fim_s": 13.42
+     }
+    ]
+   }
+  ],
+  "wav": "audio/narracoes/EP001/segmentos/EP001_S07_V1.wav"
+ },
+ {
+  "id": "S08",
+  "duracao_s": 6.64,
+  "cobertura_asr": 1.0,
+  "interpoladas": 0,
+  "asr_texto": "Agora, me conta, se não existisse dinheiro, o que você ofereceria por um par de sapatos?",
+  "alinhamento": "ok",
+  "frases": [
+   {
+    "indice": 0,
+    "texto": "Agora me conta: se não existisse dinheiro, o que você ofereceria por um par de sapatos?",
+    "inicio_s": 0.0,
+    "fim_s": 6.28,
+    "palavras": [
+     {
+      "palavra": "Agora",
+      "inicio_s": 0.0,
+      "fim_s": 0.44
+     },
+     {
+      "palavra": "me",
+      "inicio_s": 0.64,
+      "fim_s": 0.74
+     },
+     {
+      "palavra": "conta:",
+      "inicio_s": 0.74,
+      "fim_s": 1.16
+     },
+     {
+      "palavra": "se",
+      "inicio_s": 1.62,
+      "fim_s": 1.88
+     },
+     {
+      "palavra": "não",
+      "inicio_s": 1.88,
+      "fim_s": 2.02
+     },
+     {
+      "palavra": "existisse",
+      "inicio_s": 2.02,
+      "fim_s": 2.58
+     },
+     {
+      "palavra": "dinheiro,",
+      "inicio_s": 2.58,
+      "fim_s": 3.18
+     },
+     {
+      "palavra": "o",
+      "inicio_s": 3.64,
+      "fim_s": 3.72
+     },
+     {
+      "palavra": "que",
+      "inicio_s": 3.72,
+      "fim_s": 4.04
+     },
+     {
+      "palavra": "você",
+      "inicio_s": 4.04,
+      "fim_s": 4.36
+     },
+     {
+      "palavra": "ofereceria",
+      "inicio_s": 4.36,
+      "fim_s": 5.08
+     },
+     {
+      "palavra": "por",
+      "inicio_s": 5.08,
+      "fim_s": 5.26
+     },
+     {
+      "palavra": "um",
+      "inicio_s": 5.26,
+      "fim_s": 5.4
+     },
+     {
+      "palavra": "par",
+      "inicio_s": 5.4,
+      "fim_s": 5.6
+     },
+     {
+      "palavra": "de",
+      "inicio_s": 5.6,
+      "fim_s": 5.74
+     },
+     {
+      "palavra": "sapatos?",
+      "inicio_s": 5.74,
+      "fim_s": 6.28
+     }
+    ]
+   }
+  ],
+  "wav": "audio/narracoes/EP001/segmentos/EP001_S08_V1.wav"
+ }
+]

@@ -1,0 +1,63 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Legenda,Arial,66,&H00FFFFFF,&H00FFFFFF,&H00101010,&H80000000,-1,0,0,0,100,100,0,0,1,5,2,2,90,90,480,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+
+Dialogue: 0,0:00:00.00,0:00:02.80,Legenda,,0,0,0,,{\fad(60,60)}O sapato do Nico\Npediu demissão
+Dialogue: 0,0:00:03.01,0:00:05.82,Legenda,,0,0,0,,{\fad(60,60)}E na vila dele,\Nninguém usava dinheiro
+Dialogue: 0,0:00:06.13,0:00:08.92,Legenda,,0,0,0,,{\fad(60,60)}Ele tinha quarenta\Nquilos de batata e
+Dialogue: 0,0:00:08.93,0:00:11.06,Legenda,,0,0,0,,{\fad(60,60)}achou que dava pra\Ntrocar por um par novo
+Dialogue: 0,0:00:11.35,0:00:14.92,Legenda,,0,0,0,,{\fad(60,60)}Só que o sapateiro\Nnão queria batatas
+Dialogue: 0,0:00:15.17,0:00:16.92,Legenda,,0,0,0,,{\fad(60,60)}Queria leite
+Dialogue: 0,0:00:17.31,0:00:18.14,Legenda,,0,0,0,,{\fad(60,60)}Nico…
+Dialogue: 0,0:00:18.33,0:00:19.56,Legenda,,0,0,0,,{\fad(60,60)}aí complicou
+Dialogue: 0,0:00:19.71,0:00:21.76,Legenda,,0,0,0,,{\fad(60,60)}Mas Nico teve uma ideia
+Dialogue: 0,0:00:22.17,0:00:24.22,Legenda,,0,0,0,,{\fad(60,60)}O pescador\Nqueria batatas
+Dialogue: 0,0:00:24.41,0:00:26.72,Legenda,,0,0,0,,{\fad(60,60)}Então ele\Nconseguiu um peixe
+Dialogue: 0,0:00:27.29,0:00:29.36,Legenda,,0,0,0,,{\fad(60,60)}E o lenhador\Nqueria peixe
+Dialogue: 0,0:00:29.61,0:00:31.12,Legenda,,0,0,0,,{\fad(60,60)}Pronto, conseguiu\Nlenha também
+Dialogue: 0,0:00:31.13,0:00:33.50,Legenda,,0,0,0,,{\fad(60,60)}Pera aí… duas trocas
+Dialogue: 0,0:00:33.51,0:00:35.04,Legenda,,0,0,0,,{\fad(60,60)}seguidas dando certo?
+Dialogue: 0,0:00:35.61,0:00:36.90,Legenda,,0,0,0,,{\fad(60,60)}Isso tá fácil demais
+Dialogue: 0,0:00:37.33,0:00:38.36,Legenda,,0,0,0,,{\fad(60,60)}Pois é
+Dialogue: 0,0:00:38.73,0:00:39.66,Legenda,,0,0,0,,{\fad(60,60)}O leiteiro não queria
+Dialogue: 0,0:00:39.67,0:00:41.78,Legenda,,0,0,0,,{\fad(60,60)}lenha. Queria ovos
+Dialogue: 0,0:00:41.95,0:00:44.08,Legenda,,0,0,0,,{\fad(60,60)}E o vendedor de\Novos queria farinha
+Dialogue: 0,0:00:44.63,0:00:45.94,Legenda,,0,0,0,,{\fad(60,60)}E quem vendia farinha…
+Dialogue: 0,0:00:47.37,0:00:48.28,Legenda,,0,0,0,,{\fad(60,60)}Nico
+Dialogue: 0,0:00:48.45,0:00:50.00,Legenda,,0,0,0,,{\fad(60,60)}você quer\Ncomprar um sapato
+Dialogue: 0,0:00:50.01,0:00:51.64,Legenda,,0,0,0,,{\fad(60,60)}ou abrir uma\Ntransportadora?
+Dialogue: 0,0:00:51.87,0:00:53.42,Legenda,,0,0,0,,{\fad(60,60)}O problema não era
+Dialogue: 0,0:00:53.43,0:00:55.20,Legenda,,0,0,0,,{\fad(60,60)}faltar coisa pra trocar
+Dialogue: 0,0:00:55.21,0:00:57.56,Legenda,,0,0,0,,{\fad(60,60)}Era encontrar\Nalguém que quisesse
+Dialogue: 0,0:00:57.57,0:01:00.84,Legenda,,0,0,0,,{\fad(60,60)}exatamente o que ele\Ntinha, bem naquela hora
+Dialogue: 0,0:01:01.21,0:01:03.54,Legenda,,0,0,0,,{\fad(60,60)}Até que a feira resolveu
+Dialogue: 0,0:01:03.55,0:01:04.82,Legenda,,0,0,0,,{\fad(60,60)}testar uma ideia
+Dialogue: 0,0:01:05.17,0:01:06.66,Legenda,,0,0,0,,{\fad(60,60)}Todo mundo\Npassaria a aceitar
+Dialogue: 0,0:01:06.67,0:01:09.22,Legenda,,0,0,0,,{\fad(60,60)}uma mesma ficha\Ncomo pagamento
+Dialogue: 0,0:01:09.75,0:01:12.42,Legenda,,0,0,0,,{\fad(60,60)}Nico vendeu batatas,\Nrecebeu fichas
+Dialogue: 0,0:01:12.43,0:01:14.98,Legenda,,0,0,0,,{\fad(60,60)}e finalmente\Ncomprou os sapatos
+Dialogue: 0,0:01:15.55,0:01:17.90,Legenda,,0,0,0,,{\fad(60,60)}E o sapateiro?\NUsou as mesmas
+Dialogue: 0,0:01:17.91,0:01:19.46,Legenda,,0,0,0,,{\fad(60,60)}fichas pra comprar leite
+Dialogue: 0,0:01:20.05,0:01:21.42,Legenda,,0,0,0,,{\fad(60,60)}Agora sim!
+Dialogue: 0,0:01:21.43,0:01:23.32,Legenda,,0,0,0,,{\fad(60,60)}Mas tem um detalhe
+Dialogue: 0,0:01:23.39,0:01:24.60,Legenda,,0,0,0,,{\fad(60,60)}Por que alguém\Naceitaria um
+Dialogue: 0,0:01:24.61,0:01:26.66,Legenda,,0,0,0,,{\fad(60,60)}pedaço de madeira\Ncomo pagamento?
+Dialogue: 0,0:01:26.67,0:01:28.94,Legenda,,0,0,0,,{\fad(60,60)}Porque confiava\Nque outras
+Dialogue: 0,0:01:28.95,0:01:30.60,Legenda,,0,0,0,,{\fad(60,60)}pessoas também\Naceitariam
+Dialogue: 0,0:01:30.89,0:01:31.76,Legenda,,0,0,0,,{\fad(60,60)}Sem isso
+Dialogue: 0,0:01:32.05,0:01:33.34,Legenda,,0,0,0,,{\fad(60,60)}a ficha não passaria
+Dialogue: 0,0:01:33.35,0:01:35.08,Legenda,,0,0,0,,{\fad(60,60)}de um pedaço de madeira
+Dialogue: 0,0:01:35.33,0:01:36.72,Legenda,,0,0,0,,{\fad(60,60)}Agora me conta
+Dialogue: 0,0:01:36.95,0:01:38.74,Legenda,,0,0,0,,{\fad(60,60)}se não existisse\Ndinheiro
+Dialogue: 0,0:01:38.97,0:01:40.40,Legenda,,0,0,0,,{\fad(60,60)}o que você ofereceria
+Dialogue: 0,0:01:40.41,0:01:41.84,Legenda,,0,0,0,,{\fad(60,60)}por um par de sapatos?

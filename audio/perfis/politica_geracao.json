@@ -1,0 +1,13 @@
+{
+  "policy_version": "TTS-003-v1",
+  "remote_generation_enabled": false,
+  "remote_checks_enabled": false,
+  "paid_generation_enabled": false,
+  "default_billing_classification": "unknown",
+  "model_fallback": false,
+  "voice_fallback": false,
+  "automatic_retries": 0,
+  "quota_error_action": "persist block and require human review; no key/project rotation",
+  "permit_max_age_seconds": 3600,
+  "existing_approved_audio": "reuse and validate hashes; never regenerate"
+}

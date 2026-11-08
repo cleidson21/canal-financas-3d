@@ -1,0 +1,41 @@
+{
+  "profile_id": "narrador_principal_provisorio_infra_001",
+  "engine": "qwen_local",
+  "model": "Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice",
+  "model_revision": "85e237c12c027371202489a0ec509ded67b5e4b5",
+  "runtime_package": "qwen-tts==0.1.1",
+  "voice_id": "Ryan",
+  "voice_selection": "technical_provisional_only",
+  "language": "Portuguese",
+  "target_accent": "pt-BR; subject to human listening",
+  "synthesis": {
+    "seed": 42,
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "max_new_tokens": 1024,
+    "do_sample": true,
+    "top_k": 50,
+    "top_p": 1.0,
+    "temperature": 0.9,
+    "repetition_penalty": 1.05
+  },
+  "interpretation_goals": [
+    "Masculino adulto, conversacional e simpático",
+    "Levemente irônico, expressivo sem exagero",
+    "Histórias educativas, sem interpretação publicitária ou de telejornal"
+  ],
+  "style_instruction": null,
+  "instruction_control_supported": false,
+  "reference_voice": {
+    "source": "Official preset speaker Ryan; no reference audio or voice cloning",
+    "model_license": "Apache-2.0",
+    "source_url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-CustomVoice"
+  },
+  "created_on": "2026-11-05",
+  "approval_status": "pending_human_listening",
+  "approved_on": null,
+  "approved_sample_id": null,
+  "candidate_sample_id": "TESTES_LOCAIS_001/voz_A.wav",
+  "production_enabled": false,
+  "automatic_model_update": false
+}

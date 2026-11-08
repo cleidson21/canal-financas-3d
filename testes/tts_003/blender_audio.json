@@ -1,0 +1,12 @@
+{
+  "blender": "5.2.3 LTS",
+  "audio_path": "C:\\Users\\Cleidson\\Videos\\canal-financas-3d\\audio\\narracoes\\EP001\\EP001_NARRACAO_COMPLETA_V1.wav",
+  "fps": 30,
+  "frame_start": 1,
+  "frame_end": 3064,
+  "strip_duration_frames": 3064,
+  "strip_speed": 1,
+  "render_executed": false,
+  "blend_saved": false,
+  "scene": "dedicated factory process only"
+}

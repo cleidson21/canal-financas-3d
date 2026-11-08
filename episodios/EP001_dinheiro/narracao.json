@@ -1,0 +1,71 @@
+{
+  "episodio": "EP001",
+  "versao_roteiro": "1.0",
+  "fonte_canonica_humana": "roteiro.md",
+  "nota": "Este arquivo é a fonte de máquina do texto narrado. O teste testes/test_ep001_narracao.py garante que cada texto aparece literalmente em roteiro.md.",
+  "motor": {
+    "modelo": "gemini-3.8-flash-lite-tts",
+    "voz": "Puck",
+    "idioma": "pt-BR"
+  },
+  "estilo_geral": "Narrador de um canal educativo de humor em português brasileiro. Voz masculina adulta, natural e simpática, como um amigo contando uma história curiosa e engraçada. Não parecer propaganda, telejornal, documentário solene nem aula. Sem excesso de entusiasmo, sem risadas, sem tom infantilizado, sem pausas exageradas. Mantenha o mesmo timbre, volume e energia média em todo o episódio. Pause brevemente entre as frases, de forma natural.",
+  "segmentos": [
+    {
+      "id": "S01",
+      "cena": 1,
+      "texto": "O sapato do Nico pediu demissão.\n\nE na vila dele, ninguém usava dinheiro.",
+      "frases": ["O sapato do Nico pediu demissão.", "E na vila dele, ninguém usava dinheiro."],
+      "direcao": "Primeira frase com humor seco, como se descrevesse algo absurdo mas cotidiano. Segunda frase em tom de curiosidade e contextualização, sem tom de professor."
+    },
+    {
+      "id": "S02",
+      "cena": 2,
+      "texto": "Ele tinha quarenta quilos de batata e achou que dava pra trocar por um par novo.\n\nSó que o sapateiro não queria batatas.\n\nQueria leite.\n\nNico... aí complicou.",
+      "frases": ["Ele tinha quarenta quilos de batata e achou que dava pra trocar por um par novo.", "Só que o sapateiro não queria batatas.", "Queria leite.", "Nico... aí complicou."],
+      "direcao": "Começar confiante. Mudança de expectativa discreta em 'Só que'. 'Queria leite' como revelação, com ênfase. Ironia moderada e pausa natural em 'Nico... aí complicou'."
+    },
+    {
+      "id": "S03",
+      "cena": 3,
+      "texto": "Mas Nico teve uma ideia.\n\nO pescador queria batatas. Então ele conseguiu um peixe.\n\nE o lenhador queria peixe. Pronto, conseguiu lenha também.\n\nPera aí... duas trocas seguidas dando certo?\n\nIsso tá fácil demais.",
+      "frases": ["Mas Nico teve uma ideia.", "O pescador queria batatas. Então ele conseguiu um peixe.", "E o lenhador queria peixe. Pronto, conseguiu lenha também.", "Pera aí... duas trocas seguidas dando certo?", "Isso tá fácil demais."],
+      "direcao": "Ritmo um pouco mais ágil nas duas trocas. Surpresa crescente e um pouco de desconfiança. 'Isso tá fácil demais' soa como alguém percebendo que algo vai dar errado."
+    },
+    {
+      "id": "S04",
+      "cena": 4,
+      "texto": "Pois é.\n\nO leiteiro não queria lenha. Queria ovos.\n\nE o vendedor de ovos queria farinha.\n\nE quem vendia farinha...\n\nNico, você quer comprar um sapato ou abrir uma transportadora?",
+      "frases": ["Pois é.", "O leiteiro não queria lenha. Queria ovos.", "E o vendedor de ovos queria farinha.", "E quem vendia farinha...", "Nico, você quer comprar um sapato ou abrir uma transportadora?"],
+      "direcao": "'Pois é' confirma que a sorte acabou, sem caricatura. Enumeração com paciência crescente. Última frase é uma provocação bem-humorada, precedida de uma pequena pausa para a piada funcionar."
+    },
+    {
+      "id": "S05",
+      "cena": 5,
+      "texto": "O problema não era faltar coisa pra trocar.\n\nEra encontrar alguém que quisesse exatamente o que ele tinha, bem naquela hora.",
+      "frases": ["O problema não era faltar coisa pra trocar.", "Era encontrar alguém que quisesse exatamente o que ele tinha, bem naquela hora."],
+      "direcao": "Tom de descoberta, sem parecer definição escolar. Deixar a animação demonstrar o conceito."
+    },
+    {
+      "id": "S06",
+      "cena": 6,
+      "texto": "Até que a feira resolveu testar uma ideia.\n\nTodo mundo passaria a aceitar uma mesma ficha como pagamento.\n\nNico vendeu batatas, recebeu fichas e finalmente comprou os sapatos.\n\nE o sapateiro? Usou as mesmas fichas pra comprar leite.\n\nAgora sim!",
+      "frases": ["Até que a feira resolveu testar uma ideia.", "Todo mundo passaria a aceitar uma mesma ficha como pagamento.", "Nico vendeu batatas, recebeu fichas e finalmente comprou os sapatos.", "E o sapateiro? Usou as mesmas fichas pra comprar leite.", "Agora sim!"],
+      "direcao": "A revelação soa como descoberta prática. 'Agora sim!' com alívio e satisfação, sem gritar."
+    },
+    {
+      "id": "S07",
+      "cena": 7,
+      "texto": "Mas tem um detalhe.\n\nPor que alguém aceitaria um pedaço de madeira como pagamento?\n\nPorque confiava que outras pessoas também aceitariam.\n\nSem isso, a ficha não passaria de um pedaço de madeira.",
+      "frases": ["Mas tem um detalhe.", "Por que alguém aceitaria um pedaço de madeira como pagamento?", "Porque confiava que outras pessoas também aceitariam.", "Sem isso, a ficha não passaria de um pedaço de madeira."],
+      "direcao": "Começar com curiosidade. Destacar a pergunta sem exagero dramático. A última frase reforça a descoberta."
+    },
+    {
+      "id": "S08",
+      "cena": 8,
+      "texto": "Agora me conta: se não existisse dinheiro, o que você ofereceria por um par de sapatos?",
+      "frases": ["Agora me conta: se não existisse dinheiro, o que você ofereceria por um par de sapatos?"],
+      "direcao": "Convite genuíno e descontraído, como quem realmente quer saber a resposta. Pergunta única, sem pedir curtida, compartilhamento ou inscrição."
+    }
+  ]
+}
+

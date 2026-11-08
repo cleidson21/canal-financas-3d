@@ -1,0 +1,8 @@
+{
+  "command": [
+    "venvs/tts_local/Scripts/python.exe",
+    "testes/infra_001/runtime_inventory.py"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 6.893336057662964
+}

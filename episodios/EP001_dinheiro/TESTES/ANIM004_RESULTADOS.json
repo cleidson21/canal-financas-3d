@@ -1,0 +1,657 @@
+{
+  "status": "prova tecnica; revisao artistica pendente",
+  "blender": "5.2.3 LTS",
+  "rig": {
+    "controls": [
+      {
+        "name": "Nico_Arm_L",
+        "type": "EMPTY",
+        "parent": "Nico_Torso",
+        "inverse_is_identity": true,
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "delta_location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "location": [
+          -0.2800000011920929,
+          0.0,
+          0.44999998807907104
+        ]
+      },
+      {
+        "name": "Nico_Forearm_L",
+        "type": "EMPTY",
+        "parent": "Nico_Arm_L",
+        "inverse_is_identity": true,
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "delta_location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "location": [
+          -0.019999999552965164,
+          0.0,
+          -0.25999999046325684
+        ]
+      },
+      {
+        "name": "Nico_Mao_Palma_L",
+        "type": "MESH",
+        "parent": "Nico_Forearm_L",
+        "inverse_is_identity": true,
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "delta_location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "location": [
+          0.0,
+          -0.00800000037997961,
+          -0.2549999952316284
+        ]
+      },
+      {
+        "name": "Nico_Arm_R",
+        "type": "EMPTY",
+        "parent": "Nico_Torso",
+        "inverse_is_identity": true,
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "delta_location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "location": [
+          0.2800000011920929,
+          0.0,
+          0.44999998807907104
+        ]
+      },
+      {
+        "name": "Nico_Forearm_R",
+        "type": "EMPTY",
+        "parent": "Nico_Arm_R",
+        "inverse_is_identity": true,
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "delta_location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "location": [
+          0.019999999552965164,
+          0.0,
+          -0.25999999046325684
+        ]
+      },
+      {
+        "name": "Nico_Mao_Palma_R",
+        "type": "MESH",
+        "parent": "Nico_Forearm_R",
+        "inverse_is_identity": true,
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "delta_location": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "location": [
+          0.0,
+          -0.00800000037997961,
+          -0.2549999952316284
+        ]
+      }
+    ],
+    "hand_mesh": [
+      {
+        "name": "Nico_Mao_Palma_L",
+        "type": "MESH",
+        "parent": "Nico_Forearm_L",
+        "vertices": 178,
+        "shape_keys": false,
+        "modifiers": [
+          "SUBSURF"
+        ]
+      },
+      {
+        "name": "Nico_Mao_Palma_R",
+        "type": "MESH",
+        "parent": "Nico_Forearm_R",
+        "vertices": 178,
+        "shape_keys": false,
+        "modifiers": [
+          "SUBSURF"
+        ]
+      },
+      {
+        "name": "Nico_Mao_Polegar_L",
+        "type": "MESH",
+        "parent": "Nico_Forearm_L",
+        "vertices": 86,
+        "shape_keys": false,
+        "modifiers": []
+      },
+      {
+        "name": "Nico_Mao_Polegar_R",
+        "type": "MESH",
+        "parent": "Nico_Forearm_R",
+        "vertices": 86,
+        "shape_keys": false,
+        "modifiers": []
+      }
+    ],
+    "armature": [
+      {
+        "name": "arm_l",
+        "parent": "torso",
+        "constraints": [
+          {
+            "type": "COPY_TRANSFORMS",
+            "target": "Nico_Arm_L"
+          }
+        ]
+      },
+      {
+        "name": "forearm_l",
+        "parent": "arm_l",
+        "constraints": [
+          {
+            "type": "COPY_TRANSFORMS",
+            "target": "Nico_Forearm_L"
+          }
+        ]
+      },
+      {
+        "name": "arm_r",
+        "parent": "torso",
+        "constraints": [
+          {
+            "type": "COPY_TRANSFORMS",
+            "target": "Nico_Arm_R"
+          }
+        ]
+      },
+      {
+        "name": "forearm_r",
+        "parent": "arm_r",
+        "constraints": [
+          {
+            "type": "COPY_TRANSFORMS",
+            "target": "Nico_Forearm_R"
+          }
+        ]
+      }
+    ]
+  },
+  "solver": {
+    "frames_baked_in_memory": 526,
+    "geometry_samples_per_arm": 132,
+    "internal_updates_removed": 8416,
+    "explicit_evaluations_retained_per_frame": 2,
+    "baseline": {
+      "runs_s": [
+        21.680061599996407,
+        21.4635306999553,
+        21.138959900010377
+      ],
+      "median_s": 21.4635306999553,
+      "max_hand_error": {
+        "frame": 30,
+        "hand_target_error_max": 0.03156746312884995,
+        "foot_target_error_max": 8.84707427549207e-08
+      },
+      "max_foot_error": {
+        "frame": 342,
+        "hand_target_error_max": 2.5463115409962923e-07,
+        "foot_target_error_max": 4.949451589656584e-07
+      },
+      "arms": {
+        "L": {
+          "inside": 68,
+          "mesh_overlaps": 11,
+          "max_step_degrees": 172.39498699974956,
+          "max_flex_degrees": 150.87152948203473
+        },
+        "R": {
+          "inside": 341,
+          "mesh_overlaps": 85,
+          "max_step_degrees": 21.77298084087955,
+          "max_flex_degrees": 109.60210583747033
+        }
+      },
+      "max_merchant_palm_delta": 0.0,
+      "max_foot_position_delta": 0.0,
+      "support_point_gaps": {
+        "118": 2.894519397771841e-07,
+        "178": 1.447868473215884e-07,
+        "268": 3.748937890464247e-07,
+        "313": 4.453328636385203e-07
+      },
+      "worst_target": {
+        "error": 0.03156746312884995,
+        "frame": 30,
+        "actor": "Nico_Root",
+        "side": "R",
+        "requested_distance": 0.5465166348253521,
+        "total_length": 0.5158935384946348
+      }
+    },
+    "optimized_legacy": {
+      "runs_s": [
+        8.832114899996668,
+        8.756189899984747,
+        8.635556099994574
+      ],
+      "median_s": 8.756189899984747,
+      "max_hand_error": {
+        "frame": 30,
+        "hand_target_error_max": 0.03156869797910782,
+        "foot_target_error_max": 8.872449693351139e-07
+      },
+      "max_foot_error": {
+        "frame": 526,
+        "hand_target_error_max": 1.744288965316455e-05,
+        "foot_target_error_max": 7.045291231787204e-06
+      },
+      "arms": {
+        "L": {
+          "inside": 68,
+          "mesh_overlaps": 11,
+          "max_step_degrees": 172.39512133794318,
+          "max_flex_degrees": 150.8715158216564
+        },
+        "R": {
+          "inside": 341,
+          "mesh_overlaps": 85,
+          "max_step_degrees": 21.778477175988513,
+          "max_flex_degrees": 109.6021126676595
+        }
+      },
+      "max_merchant_palm_delta": 1.255328865737161e-06,
+      "max_foot_position_delta": 7.223990121290691e-07,
+      "support_point_gaps": {
+        "118": 2.071060391301059e-07,
+        "178": 1.6022040063327964e-07,
+        "268": 4.528604838422742e-07,
+        "313": 2.585083059216372e-07
+      },
+      "worst_target": {
+        "error": 0.03156869797910782,
+        "frame": 30,
+        "actor": "Nico_Root",
+        "side": "R",
+        "requested_distance": 0.5465166348253521,
+        "total_length": 0.5158935384946348
+      }
+    },
+    "anatomical_candidate": {
+      "runs_s": [
+        8.720054799981881,
+        8.845823299954645,
+        8.885312200000044
+      ],
+      "median_s": 8.845823299954645,
+      "max_hand_error": {
+        "frame": 472,
+        "hand_target_error_max": 0.12814349178801962,
+        "foot_target_error_max": 6.5939490378494804e-06
+      },
+      "max_foot_error": {
+        "frame": 526,
+        "hand_target_error_max": 0.011532607759391312,
+        "foot_target_error_max": 7.045291231787204e-06
+      },
+      "arms": {
+        "L": {
+          "inside": 17,
+          "mesh_overlaps": 3,
+          "max_step_degrees": 28.16802848222358,
+          "max_flex_degrees": 120.00007164119592
+        },
+        "R": {
+          "inside": 201,
+          "mesh_overlaps": 57,
+          "max_step_degrees": 13.440947412014227,
+          "max_flex_degrees": 109.60207851671365
+        }
+      },
+      "max_merchant_palm_delta": 1.255328865737161e-06,
+      "max_foot_position_delta": 7.223990121290691e-07,
+      "support_point_gaps": {
+        "118": 1.0804369482468974e-07,
+        "178": 9.25312918258899e-08,
+        "268": 3.9547356194320447e-07,
+        "313": 2.594728205256884e-07
+      },
+      "worst_target": {
+        "error": 0.12814349178801962,
+        "frame": 472,
+        "actor": "Nico_Root",
+        "side": "L",
+        "requested_distance": 0.12984430667319474,
+        "total_length": 0.5158935384946348
+      }
+    }
+  },
+  "pickup": {
+    "fps": 30,
+    "frames": 120,
+    "transfer_frame": 64,
+    "variants": [
+      {
+        "samples": 239,
+        "arms": {
+          "R": {
+            "elbow_inside": 0,
+            "overlaps_torso": 0,
+            "max_angle": 103.5671692529005,
+            "max_half_step": 4.161673467979516,
+            "target_error": 2.770023263248995e-07
+          },
+          "L": {
+            "elbow_inside": 0,
+            "overlaps_torso": 0,
+            "max_angle": 55.32135623913923,
+            "max_half_step": 0.5947882562363813,
+            "target_error": 2.4755668231600746e-07
+          }
+        },
+        "hand_prop_overlaps": 0,
+        "bench_overlaps": 0,
+        "detached_thumb": 0,
+        "grip_intermediate_frames": 6,
+        "max_grip_gap": 0.0034612545277923346,
+        "max_relative_drift": 0.000307941544075879,
+        "transfer_jump": 6.365778852490731e-08,
+        "foot_drift": 0,
+        "sole_gaps": [
+          -2.7939677238464355e-08,
+          -2.9802322387695312e-08,
+          0.0009999750182032585
+        ],
+        "final_hand_local": [
+          0.44200000166893005,
+          -0.22300007939338684,
+          1.1080000400543213
+        ],
+        "final_prop_local": [
+          0.3000515401363373,
+          -0.25765982270240784,
+          1.0843918323516846
+        ],
+        "final_grip": 1.0,
+        "target_offset": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "samples": 239,
+        "arms": {
+          "R": {
+            "elbow_inside": 0,
+            "overlaps_torso": 0,
+            "max_angle": 103.48717407734132,
+            "max_half_step": 4.4127547248576215,
+            "target_error": 2.7717762049642615e-07
+          },
+          "L": {
+            "elbow_inside": 0,
+            "overlaps_torso": 0,
+            "max_angle": 55.32135623913923,
+            "max_half_step": 0.5947882562363813,
+            "target_error": 2.4755668231600746e-07
+          }
+        },
+        "hand_prop_overlaps": 0,
+        "bench_overlaps": 0,
+        "detached_thumb": 0,
+        "grip_intermediate_frames": 6,
+        "max_grip_gap": 0.0030525564216077328,
+        "max_relative_drift": 0.0003228363379494373,
+        "transfer_jump": 8.024520884654677e-08,
+        "foot_drift": 0,
+        "sole_gaps": [
+          -2.7939677238464355e-08,
+          -2.9802322387695312e-08,
+          0.0009999750182032585
+        ],
+        "final_hand_local": [
+          0.44200000166893005,
+          -0.22300012409687042,
+          1.1080000400543213
+        ],
+        "final_prop_local": [
+          0.2918252646923065,
+          -0.24848178029060364,
+          1.0886545181274414
+        ],
+        "final_grip": 1.0,
+        "target_offset": [
+          0.012000000104308128,
+          -0.009999999776482582,
+          0.0
+        ]
+      },
+      {
+        "samples": 239,
+        "arms": {
+          "R": {
+            "elbow_inside": 0,
+            "overlaps_torso": 0,
+            "max_angle": 105.6751773666307,
+            "max_half_step": 4.06422040841555,
+            "target_error": 2.554898086339126e-07
+          },
+          "L": {
+            "elbow_inside": 0,
+            "overlaps_torso": 0,
+            "max_angle": 55.32135623913923,
+            "max_half_step": 0.5947882562363813,
+            "target_error": 2.4755668231600746e-07
+          }
+        },
+        "hand_prop_overlaps": 0,
+        "bench_overlaps": 0,
+        "detached_thumb": 0,
+        "grip_intermediate_frames": 6,
+        "max_grip_gap": 0.0035606506280601025,
+        "max_relative_drift": 0.0002997371833653945,
+        "transfer_jump": 5.4241045484546706e-08,
+        "foot_drift": 0,
+        "sole_gaps": [
+          -2.7939677238464355e-08,
+          -2.9802322387695312e-08,
+          0.0009999750182032585
+        ],
+        "final_hand_local": [
+          0.44200003147125244,
+          -0.22300004959106445,
+          1.1080000400543213
+        ],
+        "final_prop_local": [
+          0.3047533333301544,
+          -0.2650070786476135,
+          1.0803096294403076
+        ],
+        "final_grip": 1.0,
+        "target_offset": [
+          -0.012000000104308128,
+          0.009999999776482582,
+          0.0
+        ]
+      }
+    ],
+    "closed_palm_gap": 0.005538254044950008,
+    "closed_thumb_gap": 0.0034362818114459515
+  },
+  "render": {
+    "isolated": [
+      {
+        "wall_seconds": 39.207553,
+        "plans": 1,
+        "open_seconds": 0.1126710000098683,
+        "prepare_seconds": 0.04692499997327104,
+        "first_render_seconds": 32.48836570000276,
+        "total_seconds": 35.79759620002005
+      },
+      {
+        "wall_seconds": 39.2703023,
+        "plans": 1,
+        "open_seconds": 0.11623500002315268,
+        "prepare_seconds": 0.04641010001068935,
+        "first_render_seconds": 32.22659029997885,
+        "total_seconds": 35.57922260003397
+      }
+    ],
+    "isolated_wall_sum": 78.47785529999999,
+    "batch": {
+      "wall_seconds": 40.313416,
+      "plans": 2,
+      "open_seconds": 0.11734100000467151,
+      "prepare_seconds": 0.047805000038351864,
+      "first_render_seconds": 31.258366200025193,
+      "total_seconds": 36.84560100000817
+    },
+    "resume": {
+      "wall_seconds": 3.270968,
+      "plans": 2,
+      "open_seconds": 0.11004659999161959,
+      "prepare_seconds": 0.04574440000578761,
+      "first_render_seconds": null,
+      "total_seconds": 0.1690377999912016
+    },
+    "batch_vs_isolated_pixels": [
+      {
+        "plan": "S03_P01_IDEIA",
+        "frame": 1,
+        "pixel_rmse_8bit": 0.0
+      },
+      {
+        "plan": "S03_P01_IDEIA",
+        "frame": 13,
+        "pixel_rmse_8bit": 0.0
+      },
+      {
+        "plan": "S03_P01_IDEIA",
+        "frame": 46,
+        "pixel_rmse_8bit": 0.0
+      },
+      {
+        "plan": "S03_P03_BATATAS",
+        "frame": 75,
+        "pixel_rmse_8bit": 0.16013684107778065
+      },
+      {
+        "plan": "S03_P03_BATATAS",
+        "frame": 118,
+        "pixel_rmse_8bit": 0.0
+      },
+      {
+        "plan": "S03_P03_BATATAS",
+        "frame": 140,
+        "pixel_rmse_8bit": 0.0
+      }
+    ],
+    "repaired_corrupt_frame": 13,
+    "signature_invalidated_on_input_change": true,
+    "verified_preview_3_frames": true,
+    "legacy_cache_entry_rejected": true,
+    "proof_render": {
+      "plans": 2,
+      "open_seconds": 0.11131980002392083,
+      "prepare_seconds": 0.2092123999609612,
+      "first_render_seconds": 28.955195599992294,
+      "total_seconds": 134.4665701999911
+    },
+    "mp4": {
+      "codec_name": "h264",
+      "width": 432,
+      "height": 384,
+      "r_frame_rate": "30/1",
+      "duration": "4.000000",
+      "nb_frames": "120"
+    },
+    "mp4_full_decode": "PASS"
+  },
+  "integrity": {
+    "protected_hashes_verified": {
+      "audio/narracoes/EP001/EP001_NARRACAO_COMPLETA_V1.wav": "61ebd806c20c9e126584cfd5f8cc9c03cc819c3a3b2b4ecced4c1d1f4c3f1155",
+      "audio/narracoes/EP001/segmentos/EP001_S01_V1.wav": "29e6f9ef1b58236328c18d9f28ad21483db62233fb779383126a960727ea644b",
+      "audio/narracoes/EP001/segmentos/EP001_S02_V1.wav": "34271506c4f49faa04d2779099c50a4439a546c58aee67a6d5c4a38ccb5e2ef4",
+      "audio/narracoes/EP001/segmentos/EP001_S03_V1.wav": "0ef41ac019d9023bb45fce5ab96840d67b0e318ef451f3ef7ab787721dd80dbd",
+      "audio/narracoes/EP001/segmentos/EP001_S04_V1.wav": "d515c79fcaef6957a3be8e3eb7d30de465ecf25e3df177380df330c891a2cc6e",
+      "audio/narracoes/EP001/segmentos/EP001_S05_V1.wav": "1916c9e58d0987f9658116cecd0beb9b771894be2b7056c98d972daab9edc1d5",
+      "audio/narracoes/EP001/segmentos/EP001_S06_V1.wav": "637d6bf535bba240e277a068dc81f792da0a6a70a0819d099ed010cf7dd5a6e9",
+      "audio/narracoes/EP001/segmentos/EP001_S07_V1.wav": "e77d2b3ad9d7b66bcdea15ec1edf8645d96ac253c3743073a3239f8f7c8ffe09",
+      "audio/narracoes/EP001/segmentos/EP001_S08_V1.wav": "7c8a2a719221f85c8dac163c1cfe9dbb863fb6d58bfaafdda2e48f31bc6144b3",
+      "cenarios/barracas_PROD002_V2.blend": "330fd9e79f01403d721417620822514f641b09dc6bcfac43ddcdc7415f1d3a45",
+      "cenarios/feira.blend": "19b55d9f4ac0c322be6937416b7f306470d3af1f7054086807047cf3c87f8d97",
+      "cenarios/vila.blend": "19b55d9f4ac0c322be6937416b7f306470d3af1f7054086807047cf3c87f8d97",
+      "episodios/EP001_dinheiro/narracao.json": "5da5e71e6df8323f99bae89ba337d9dc4eccf9175592bf533fdae18a6db7b123",
+      "episodios/EP001_dinheiro/roteiro.md": "34af95d0b812d37f5072845480de94cf4e06ce9f5efee63cccf4d8dd73d165a6",
+      "episodios/EP001_dinheiro/storyboard.md": "9d7c74bd140f8d78e71ca1e5ec67c10145f3bd6eb77aeb7871fe2818304c06b1",
+      "episodios/EP001_dinheiro/timing.json": "64015eb2b970e469ab42b2e9a138cb98221fe0f064903e3954e5aac69ce77efa",
+      "episodios/EP001_dinheiro/ENTREGAS/EP001_ANIMATIC_EDITAVEL.blend": "536f4fa1ef05d59acc1850381acec8e32f1c6fde5bbbf48a5226207a727bf3f7",
+      "episodios/EP001_dinheiro/legendas/EP001_LEGENDAS.ass": "ee04a203ae165bf84e55c55329720412a3f5b2455bdbb548ffc477761d90e2f4",
+      "episodios/EP001_dinheiro/legendas/EP001_LEGENDAS.srt": "249632e9f784605ab4fb97512443cc5ffa7e90151f9586f8b529f8a9efd9b1ed",
+      "episodios/EP001_dinheiro/ENTREGAS/EP001_ANIMATIC_V1.mp4": "e16f08705e781fa1d59a0434e2e7f090739ec93dea23d42ae3a16add29da4df7",
+      "episodios/EP001_dinheiro/ENTREGAS/EP001_ANIMATIC_V1_SEM_LEGENDAS.mp4": "f29227c7310cac27a5fb04ef2a113aaa65d36923c6d76a2336ddfeedd48d2d24",
+      "episodios/EP001_dinheiro/ENTREGAS/CENA03_EDITAVEL.blend": "4a63b9de4fa376e31541476341590390d78855c63c1a2733fb364f4a2af269ec",
+      "episodios/EP001_dinheiro/ENTREGAS/CENA03_COMPARATIVO.mp4": "4afdefdd03802277d967d3712c20dabd3479367e09b6604124ba823d9fdd0adf",
+      "episodios/EP001_dinheiro/ENTREGAS/CENA03_PROVA_V2.mp4": "ebe2b2a8df24183a604faf0ef7ad4f6eb343c0730feb3be74e554c807a5431fa",
+      "objetos/batatas.blend": "4c79761d06621947869c74f29f05c70eef117a19ee8b0b704aacbb69edb5ce12",
+      "objetos/carimbo_duvida.blend": "ec6e5c92a1b2792183506945d40599c869a80235693863867d52fe7d8ab6400b",
+      "objetos/fichas.blend": "0239bed98e87e326c6a0b610b8fd3a6d26aecc5529b790205041444bf046a758",
+      "objetos/mercadorias_PROD002_V2.blend": "a93eff5f70844e93dfce5aeb948d573a4bb1870e981fa787dbe1d702d2b9b4a1",
+      "objetos/sapatos.blend": "12c2190dc6e12a24cb5021a6ff27252f478f20ba3210d4a6395b1c5802e4ee72",
+      "personagens/comerciantes_PROD002_V2.blend": "a23797fada57d00f8730dc4855982cacb3497aa48eedb442fbf3d57747c9740a",
+      "personagens/nico_base.blend": "3985d69cfc833c04a0eaef216552e2ed39ae52616817820e29edd3d444e7e293"
+    },
+    "previous_experimental_hashes_verified": 4,
+    "blender_local_offline": true,
+    "syntax": "PASS"
+  },
+  "modified": [
+    "scripts/producao/motions.py",
+    "scripts/producao/build_scene.py",
+    "scripts/producao/render_plan.py",
+    "scripts/producao/render_scene.py",
+    "scripts/producao/README.md",
+    "episodios/EP001_dinheiro/00_ABRIR_EP001.md"
+  ],
+  "outputs": {
+    "ANIM004_RIG_V3.blend": "f10c480560c7e3b71c74e6a85de3192becb868c7faf75d3689100d3c7ae7cd83",
+    "ANIM004_RIG_V3.mp4": "e3f91079d1d2bfb4e9c19c0bef162dae6a49f54e24c65429bef78f82c49ebf22",
+    "ANIM004_COMPARATIVO.png": "8a5c4c93c082255234f61e5157ca454be7aa43a05871ade95dbbcd17062aef47"
+  }
+}

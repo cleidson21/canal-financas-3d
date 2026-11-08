@@ -1,0 +1,1616 @@
+[
+ {
+  "id": "S01",
+  "wav": "audio/narracoes/EP001/segmentos/EP001_S01_V1.wav",
+  "duracao_s": 6.08,
+  "fala_inicio_s": 0.2,
+  "fala_fim_s": 5.75,
+  "limiar_rms": 0.01489,
+  "pausas_internas": [
+   [
+    2.59,
+    3.36
+   ],
+   [
+    4.31,
+    4.62
+   ]
+  ],
+  "frases": [
+   {
+    "indice": 0,
+    "texto": "O sapato do Nico pediu demissão.",
+    "inicio_s": 0.2,
+    "fim_s": 2.59,
+    "palavras": [
+     {
+      "palavra": "O",
+      "inicio_s": 0.2,
+      "fim_s": 0.399
+     },
+     {
+      "palavra": "sapato",
+      "inicio_s": 0.399,
+      "fim_s": 0.997
+     },
+     {
+      "palavra": "do",
+      "inicio_s": 0.997,
+      "fim_s": 1.196
+     },
+     {
+      "palavra": "Nico",
+      "inicio_s": 1.196,
+      "fim_s": 1.594
+     },
+     {
+      "palavra": "pediu",
+      "inicio_s": 1.594,
+      "fim_s": 1.992
+     },
+     {
+      "palavra": "demissão.",
+      "inicio_s": 1.992,
+      "fim_s": 2.59
+     }
+    ],
+    "precisao_frase": "medida",
+    "precisao_palavra": "estimada"
+   },
+   {
+    "indice": 1,
+    "texto": "E na vila dele, ninguém usava dinheiro.",
+    "inicio_s": 3.36,
+    "fim_s": 5.75,
+    "palavras": [
+     {
+      "palavra": "E",
+      "inicio_s": 3.36,
+      "fim_s": 3.531
+     },
+     {
+      "palavra": "na",
+      "inicio_s": 3.531,
+      "fim_s": 3.701
+     },
+     {
+      "palavra": "vila",
+      "inicio_s": 3.701,
+      "fim_s": 4.043
+     },
+     {
+      "palavra": "dele,",
+      "inicio_s": 4.043,
+      "fim_s": 4.384
+     },
+     {
+      "palavra": "ninguém",
+      "inicio_s": 4.384,
+      "fim_s": 4.726
+     },
+     {
+      "palavra": "usava",
+      "inicio_s": 4.726,
+      "fim_s": 5.238
+     },
+     {
+      "palavra": "dinheiro.",
+      "inicio_s": 5.238,
+      "fim_s": 5.75
+     }
+    ],
+    "precisao_frase": "medida",
+    "precisao_palavra": "estimada"
+   }
+  ],
+  "alinhamento": "ok"
+ },
+ {
+  "id": "S02",
+  "wav": "audio/narracoes/EP001/segmentos/EP001_S02_V1.wav",
+  "duracao_s": 13.48,
+  "fala_inicio_s": 0.24,
+  "fala_fim_s": 13.22,
+  "limiar_rms": 0.01203,
+  "pausas_internas": [
+   [
+    2.37,
+    2.71
+   ],
+   [
+    4.79,
+    5.41
+   ],
+   [
+    6.2,
+    6.64
+   ],
+   [
+    8.68,
+    9.27
+   ],
+   [
+    9.77,
+    10.0
+   ],
+   [
+    10.63,
+    11.15
+   ],
+   [
+    11.91,
+    12.29
+   ]
+  ],
+  "frases": [
+   {
+    "indice": 0,
+    "texto": "Ele tinha quarenta quilos de batata e achou que dava pra trocar por um par novo.",
+    "inicio_s": 0.24,
+    "fim_s": 4.79,
+    "palavras": [
+     {
+      "palavra": "Ele",
+      "inicio_s": 0.24,
+      "fim_s": 0.577
+     },
+     {
+      "palavra": "tinha",
+      "inicio_s": 0.577,
+      "fim_s": 0.914
+     },
+     {
+      "palavra": "quarenta",
+      "inicio_s": 0.914,
+      "fim_s": 1.42
+     },
+     {
+      "palavra": "quilos",
+      "inicio_s": 1.42,
+      "fim_s": 1.757
+     },
+     {
+      "palavra": "de",
+      "inicio_s": 1.757,
+      "fim_s": 1.925
+     },
+     {
+      "palavra": "batata",
+      "inicio_s": 1.925,
+      "fim_s": 2.431
+     },
+     {
+      "palavra": "e",
+      "inicio_s": 2.431,
+      "fim_s": 2.599
+     },
+     {
+      "palavra": "achou",
+      "inicio_s": 2.599,
+      "fim_s": 2.936
+     },
+     {
+      "palavra": "que",
+      "inicio_s": 2.936,
+      "fim_s": 3.105
+     },
+     {
+      "palavra": "dava",
+      "inicio_s": 3.105,
+      "fim_s": 3.442
+     },
+     {
+      "palavra": "pra",
+      "inicio_s": 3.442,
+      "fim_s": 3.61
+     },
+     {
+      "palavra": "trocar",
+      "inicio_s": 3.61,
+      "fim_s": 3.947
+     },
+     {
+      "palavra": "por",
+      "inicio_s": 3.947,
+      "fim_s": 4.116
+     },
+     {
+      "palavra": "um",
+      "inicio_s": 4.116,
+      "fim_s": 4.284
+     },
+     {
+      "palavra": "par",
+      "inicio_s": 4.284,
+      "fim_s": 4.453
+     },
+     {
+      "palavra": "novo.",
+      "inicio_s": 4.453,
+      "fim_s": 4.79
+     }
+    ],
+    "precisao_frase": "medida",
+    "precisao_palavra": "estimada"
+   },
+   {
+    "indice": 1,
+    "texto": "Só que o sapateiro não queria batatas.",
+    "inicio_s": 5.41,
+    "fim_s": 8.68,
+    "palavras": [
+     {
+      "palavra": "Só",
+      "inicio_s": 5.41,
+      "fim_s": 5.662
+     },
+     {
+      "palavra": "que",
+      "inicio_s": 5.662,
+      "fim_s": 5.913
+     },
+     {
+      "palavra": "o",
+      "inicio_s": 5.913,
+      "fim_s": 6.165
+     },
+     {
+      "palavra": "sapateiro",
+      "inicio_s": 6.165,
+      "fim_s": 7.171
+     },
+     {
+      "palavra": "não",
+      "inicio_s": 7.171,
+      "fim_s": 7.422
+     },
+     {
+      "palavra": "queria",
+      "inicio_s": 7.422,
+      "fim_s": 7.925
+     },
+     {
+      "palavra": "batatas.",
+      "inicio_s": 7.925,
+      "fim_s": 8.68
+     }
+    ],
+    "precisao_frase": "medida",
+    "precisao_palavra": "estimada"
+   },
+   {
+    "indice": 2,
+    "texto": "Queria leite.",
+    "inicio_s": 9.27,
+    "fim_s": 10.63,
+    "palavras": [
+     {
+      "palavra": "Queria",
+      "inicio_s": 9.27,
+      "fim_s": 9.95
+     },
+     {
+      "palavra": "leite.",
+      "inicio_s": 9.95,
+      "fim_s": 10.63
+     }
+    ],
+    "precisao_frase": "medida",
+    "precisao_palavra": "estimada"
+   },
+   {
+    "indice": 3,
+    "texto": "Nico... aí complicou.",
+    "inicio_s": 11.15,
+    "fim_s": 13.22,
+    "palavras": [
+     {
+      "palavra": "Nico...",
+      "inicio_s": 11.15,
+      "fim_s": 11.84
+     },
+     {
+      "palavra": "aí",
+      "inicio_s": 11.84,
+      "fim_s": 12.185
+     },
+     {
+      "palavra": "complicou.",
+      "inicio_s": 12.185,
+      "fim_s": 13.22
+     }
+    ],
+    "precisao_frase": "medida",
+    "precisao_palavra": "estimada"
+   }
+  ],
+  "alinhamento": "ok"
+ },
+ {
+  "id": "S03",
+  "wav": "audio/narracoes/EP001/segmentos/EP001_S03_V1.wav",
+  "duracao_s": 17.52,
+  "fala_inicio_s": 0.3,
+  "fala_fim_s": 17.25,
+  "limiar_rms": 0.01147,
+  "pausas_internas": [
+   [
+    1.89,
+    2.48
+   ],
+   [
+    4.49,
+    4.87
+   ],
+   [
+    5.22,
+    5.45
+   ],
+   [
+    6.76,
+    7.56
+   ],
+   [
+    8.25,
+    8.53
+   ],
+   [
+    8.85,
+    9.07
+   ],
+   [
+    9.42,
+    9.85
+   ],
+   [
+    10.12,
+    10.58
+   ],
+   [
+    11.48,
+    12.21
+   ],
+   [
+    12.44,
+    13.07
+   ],
+   [
+    15.26,
+    16.09
+   ]
+  ],
+  "frases": [
+   {
+    "indice": 0,
+    "texto": "Mas Nico teve uma ideia.",
+    "inicio_s": 0.3,
+    "fim_s": 6.76,
+    "palavras": [
+     {
+      "palavra": "Mas",
+      "inicio_s": 0.3,
+      "fim_s": 1.018
+     },
+     {
+      "palavra": "Nico",
+      "inicio_s": 1.018,
+      "fim_s": 2.453
+     },
+     {
+      "palavra": "teve",
+      "inicio_s": 2.453,
+      "fim_s": 3.889
+     },
+     {
+      "palavra": "uma",
+      "inicio_s": 3.889,
+      "fim_s": 5.324
+     },
+     {
+      "palavra": "ideia.",
+      "inicio_s": 5.324,
+      "fim_s": 6.76
+     }
+    ],
+    "precisao_frase": "medida",
+    "precisao_palavra": "estimada"
+   },
+   {
+    "indice": 1,
+    "texto": "O pescador queria batatas. Então ele conseguiu um peixe.",
+    "inicio_s": 7.56,
+    "fim_s": 11.48,
+    "palavras": [
+     {
+      "palavra": "O",
+      "inicio_s": 7.56,
+      "fim_s": 7.766
+     },
+     {
+      "palavra": "pescador",
+      "inicio_s": 7.766,
+      "fim_s": 8.385
+     },
+     {
+      "palavra": "queria",
+      "inicio_s": 8.385,
+      "fim_s": 8.798
+     },
+     {
+      "palavra": "batatas.",
+      "inicio_s": 8.798,
+      "fim_s": 9.417
+     },
+     {
+      "palavra": "Então",
+      "inicio_s": 9.417,
+      "fim_s": 9.829
+     },
+     {
+      "palavra": "ele",
+      "inicio_s": 9.829,
+      "fim_s": 10.242
+     },
+     {
+      "palavra": "conseguiu",
+      "inicio_s": 10.242,
+      "fim_s": 10.861
+     },
+     {
+      "palavra": "um",
+      "inicio_s": 10.861,
+      "fim_s": 11.067
+     },
+     {
+      "palavra": "peixe.",
+      "inicio_s": 11.067,
+      "fim_s": 11.48
+     }
+    ],
+    "precisao_frase": "medida",
+    "precisao_palavra": "estimada"
+   },
+   {
+    "indice": 2,
+    "texto": "E o lenhador queria peixe. Pronto, conseguiu lenha também.",
+    "inicio_s": 12.21,
+    "fim_s": 12.44,
+    "palavras": [
+     {
+      "palavra": "E",
+      "inicio_s": 12.21,
+      "fim_s": 12.223
+     },
+     {
+      "palavra": "o",
+      "inicio_s": 12.223,
+      "fim_s": 12.236
+     },
+     {
+      "palavra": "lenhador",
+      "inicio_s": 12.236,
+      "fim_s": 12.274
+     },
+     {
+      "palavra": "queria",
+      "inicio_s": 12.274,
+      "fim_s": 12.299
+     },
+     {
+      "palavra": "peixe.",
+      "inicio_s": 12.299,
+      "fim_s": 12.325
+     },
+     {
+      "palavra": "Pronto,",
+      "inicio_s": 12.325,
+      "fim_s": 12.351
+     },
+     {
+      "palavra": "conseguiu",
+      "inicio_s": 12.351,
+      "fim_s": 12.389
+     },
+     {
+      "palavra": "lenha",
+      "inicio_s": 12.389,
+      "fim_s": 12.414
+     },
+     {
+      "palavra": "também.",
+      "inicio_s": 12.414,
+      "fim_s": 12.44
+     }
+    ],
+    "precisao_frase": "medida",
+    "precisao_palavra": "estimada"
+   },
+   {
+    "indice": 3,
+    "texto": "Pera aí... duas trocas seguidas dando certo?",
+    "inicio_s": 13.07,
+    "fim_s": 15.26,
+    "palavras": [
+     {
+      "palavra": "Pera",
+      "inicio_s": 13.07,
+      "fim_s": 13.407
+     },
+     {
+      "palavra": "aí...",
+      "inicio_s": 13.407,
+      "fim_s": 13.575
+     },
+     {
+      "palavra": "duas",
+      "inicio_s": 13.575,
+      "fim_s": 13.744
+     },
+     {
+      "palavra": "trocas",
+      "inicio_s": 13.744,
+      "fim_s": 14.081
+     },
+     {
+      "palavra": "seguidas",
+      "inicio_s": 14.081,
+      "fim_s": 14.586
+     },
+     {
+      "palavra": "dando",
+      "inicio_s": 14.586,
+      "fim_s": 14.923
+     },
+     {
+      "palavra": "certo?",
+      "inicio_s": 14.923,
+      "fim_s": 15.26
+     }
+    ],
+    "precisao_frase": "medida",
+    "precisao_palavra": "estimada"
+   },
+   {
+    "indice": 4,
+    "texto": "Isso tá fácil demais.",
+    "inicio_s": 16.09,
+    "fim_s": 17.25,
+    "palavras": [
+     {
+      "palavra": "Isso",
+      "inicio_s": 16.09,
+      "fim_s": 16.421
+     },
+     {
+      "palavra": "tá",
+      "inicio_s": 16.421,
+      "fim_s": 16.587
+     },
+     {
+      "palavra": "fácil",
+      "inicio_s": 16.587,
+      "fim_s": 16.919
+     },
+     {
+      "palavra": "demais.",
+      "inicio_s": 16.919,
+      "fim_s": 17.25
+     }
+    ],
+    "precisao_frase": "medida",
+    "precisao_palavra": "estimada"
+   }
+  ],
+  "alinhamento": "ok"
+ },
+ {
+  "id": "S04",
+  "wav": "audio/narracoes/EP001/segmentos/EP001_S04_V1.wav",
+  "duracao_s": 14.44,
+  "fala_inicio_s": 0.32,
+  "fala_fim_s": 14.2,
+  "limiar_rms": 0.01249,
+  "pausas_internas": [
+   [
+    0.82,
+    1.4
+   ],
+   [
+    3.31,
+    3.61
+   ],
+   [
+    4.26,
+    4.58
+   ],
+   [
+    6.56,
+    7.28
+   ],
+   [
+    8.46,
+    9.38
+   ],
+   [
+    9.69,
+    10.5
+   ],
+   [
+    10.84,
+    11.18
+   ]
+  ],
+  "frases": [
+   {
+    "indice": 0,
+    "texto": "Pois é.",
+    "inicio_s": 0.32,
+    "fim_s": 0.82,
+    "palavras": [
+     {
+      "palavra": "Pois",
+      "inicio_s": 0.32,
+      "fim_s": 0.57
+     },
+     {
+      "palavra": "é.",
+      "inicio_s": 0.57,
+      "fim_s": 0.82
+     }
+    ],
+    "precisao_frase": "medida",
+    "precisao_palavra": "estimada"
+   },
+   {
+    "indice": 1,
+    "texto": "O leiteiro não queria lenha. Queria ovos.",
+    "inicio_s": 1.4,
+    "fim_s": 6.56,
+    "palavras": [
+     {
+      "palavra": "O",
+      "inicio_s": 1.4,
+      "fim_s": 1.797
+     },
+     {
+      "palavra": "leiteiro",
+      "inicio_s": 1.797,
+      "fim_s": 2.988
+     },
+     {
+      "palavra": "não",
+      "inicio_s": 2.988,
+      "fim_s": 3.385
+     },
+     {
+      "palavra": "queria",
+      "inicio_s": 3.385,
+      "fim_s": 4.178
+     },
+     {
+      "palavra": "lenha.",
+      "inicio_s": 4.178,
+      "fim_s": 4.972
+     },
+     {
+      "palavra": "Queria",
+      "inicio_s": 4.972,
+      "fim_s": 5.766
+     },
+     {
+      "palavra": "ovos.",
+      "inicio_s": 5.766,
+      "fim_s": 6.56
+     }
+    ],
+    "precisao_frase": "medida",
+    "precisao_palavra": "estimada"
+   },
+   {
+    "indice": 2,
+    "texto": "E o vendedor de ovos queria farinha.",
+    "inicio_s": 7.28,
+    "fim_s": 8.46,
+    "palavras": [
+     {
+      "palavra": "E",
+      "inicio_s": 7.28,
+      "fim_s": 7.371
+     },
+     {
+      "palavra": "o",
+      "inicio_s": 7.371,
+      "fim_s": 7.462
+     },
+     {
+      "palavra": "vendedor",
+      "inicio_s": 7.462,
+      "fim_s": 7.734
+     },
+     {
+      "palavra": "de",
+      "inicio_s": 7.734,
+      "fim_s": 7.825
+     },
+     {
+      "palavra": "ovos",
+      "inicio_s": 7.825,
+      "fim_s": 8.006
+     },
+     {
+      "palavra": "queria",
+      "inicio_s": 8.006,
+      "fim_s": 8.188
+     },
+     {
+      "palavra": "farinha.",
+      "inicio_s": 8.188,
+      "fim_s": 8.46
+     }
+    ],
+    "precisao_frase": "medida",
+    "precisao_palavra": "estimada"
+   },
+   {
+    "indice": 3,
+    "texto": "E quem vendia farinha...",
+    "inicio_s": 9.38,
+    "fim_s": 9.69,
+    "palavras": [
+     {
+      "palavra": "E",
+      "inicio_s": 9.38,
+      "fim_s": 9.424
+     },
+     {
+      "palavra": "quem",
+      "inicio_s": 9.424,
+      "fim_s": 9.469
+     },
+     {
+      "palavra": "vendia",
+      "inicio_s": 9.469,
+      "fim_s": 9.557
+     },
+     {
+      "palavra": "farinha...",
+      "inicio_s": 9.557,
+      "fim_s": 9.69
+     }
+    ],
+    "precisao_frase": "medida",
+    "precisao_palavra": "estimada"
+   },
+   {
+    "indice": 4,
+    "texto": "Nico, você quer comprar um sapato ou abrir uma transportadora?",
+    "inicio_s": 10.5,
+    "fim_s": 14.2,
+    "palavras": [
+     {
+      "palavra": "Nico,",
+      "inicio_s": 10.5,
+      "fim_s": 10.852
+     },
+     {
+      "palavra": "você",
+      "inicio_s": 10.852,
+      "fim_s": 11.205
+     },
+     {
+      "palavra": "quer",
+      "inicio_s": 11.205,
+      "fim_s": 11.381
+     },
+     {
+      "palavra": "comprar",
+      "inicio_s": 11.381,
+      "fim_s": 11.733
+     },
+     {
+      "palavra": "um",
+      "inicio_s": 11.733,
+      "fim_s": 11.91
+     },
+     {
+      "palavra": "sapato",
+      "inicio_s": 11.91,
+      "fim_s": 12.438
+     },
+     {
+      "palavra": "ou",
+      "inicio_s": 12.438,
+      "fim_s": 12.614
+     },
+     {
+      "palavra": "abrir",
+      "inicio_s": 12.614,
+      "fim_s": 12.967
+     },
+     {
+      "palavra": "uma",
+      "inicio_s": 12.967,
+      "fim_s": 13.319
+     },
+     {
+      "palavra": "transportadora?",
+      "inicio_s": 13.319,
+      "fim_s": 14.2
+     }
+    ],
+    "precisao_frase": "medida",
+    "precisao_palavra": "estimada"
+   }
+  ],
+  "alinhamento": "ok"
+ },
+ {
+  "id": "S05",
+  "wav": "audio/narracoes/EP001/segmentos/EP001_S05_V1.wav",
+  "duracao_s": 9.24,
+  "fala_inicio_s": 0.28,
+  "fala_fim_s": 8.76,
+  "limiar_rms": 0.01453,
+  "pausas_internas": [
+   [
+    3.09,
+    3.8
+   ],
+   [
+    7.46,
+    7.72
+   ]
+  ],
+  "frases": [
+   {
+    "indice": 0,
+    "texto": "O problema não era faltar coisa pra trocar.",
+    "inicio_s": 0.28,
+    "fim_s": 3.09,
+    "palavras": [
+     {
+      "palavra": "O",
+      "inicio_s": 0.28,
+      "fim_s": 0.481
+     },
+     {
+      "palavra": "problema",
+      "inicio_s": 0.481,
+      "fim_s": 1.083
+     },
+     {
+      "palavra": "não",
+      "inicio_s": 1.083,
+      "fim_s": 1.284
+     },
+     {
+      "palavra": "era",
+      "inicio_s": 1.284,
+      "fim_s": 1.685
+     },
+     {
+      "palavra": "faltar",
+      "inicio_s": 1.685,
+      "fim_s": 2.086
+     },
+     {
+      "palavra": "coisa",
+      "inicio_s": 2.086,
+      "fim_s": 2.488
+     },
+     {
+      "palavra": "pra",
+      "inicio_s": 2.488,
+      "fim_s": 2.689
+     },
+     {
+      "palavra": "trocar.",
+      "inicio_s": 2.689,
+      "fim_s": 3.09
+     }
+    ],
+    "precisao_frase": "medida",
+    "precisao_palavra": "estimada"
+   },
+   {
+    "indice": 1,
+    "texto": "Era encontrar alguém que quisesse exatamente o que ele tinha, bem naquela hora.",
+    "inicio_s": 3.8,
+    "fim_s": 8.76,
+    "palavras": [
+     {
+      "palavra": "Era",
+      "inicio_s": 3.8,
+      "fim_s": 4.154
+     },
+     {
+      "palavra": "encontrar",
+      "inicio_s": 4.154,
+      "fim_s": 4.686
+     },
+     {
+      "palavra": "alguém",
+      "inicio_s": 4.686,
+      "fim_s": 5.04
+     },
+     {
+      "palavra": "que",
+      "inicio_s": 5.04,
+      "fim_s": 5.217
+     },
+     {
+      "palavra": "quisesse",
+      "inicio_s": 5.217,
+      "fim_s": 5.749
+     },
+     {
+      "palavra": "exatamente",
+      "inicio_s": 5.749,
+      "fim_s": 6.634
+     },
+     {
+      "palavra": "o",
+      "inicio_s": 6.634,
+      "fim_s": 6.811
+     },
+     {
+      "palavra": "que",
+      "inicio_s": 6.811,
+      "fim_s": 6.989
+     },
+     {
+      "palavra": "ele",
+      "inicio_s": 6.989,
+      "fim_s": 7.343
+     },
+     {
+      "palavra": "tinha,",
+      "inicio_s": 7.343,
+      "fim_s": 7.697
+     },
+     {
+      "palavra": "bem",
+      "inicio_s": 7.697,
+      "fim_s": 7.874
+     },
+     {
+      "palavra": "naquela",
+      "inicio_s": 7.874,
+      "fim_s": 8.406
+     },
+     {
+      "palavra": "hora.",
+      "inicio_s": 8.406,
+      "fim_s": 8.76
+     }
+    ],
+    "precisao_frase": "medida",
+    "precisao_palavra": "estimada"
+   }
+  ],
+  "alinhamento": "ok"
+ },
+ {
+  "id": "S06",
+  "wav": "audio/narracoes/EP001/segmentos/EP001_S06_V1.wav",
+  "duracao_s": 20.12,
+  "fala_inicio_s": 0.36,
+  "fala_fim_s": 19.84,
+  "limiar_rms": 0.01523,
+  "pausas_internas": [
+   [
+    3.48,
+    4.03
+   ],
+   [
+    7.81,
+    8.62
+   ],
+   [
+    13.64,
+    14.43
+   ],
+   [
+    15.11,
+    15.55
+   ],
+   [
+    18.05,
+    18.96
+   ]
+  ],
+  "frases": [
+   {
+    "indice": 0,
+    "texto": "Até que a feira resolveu testar uma ideia.",
+    "inicio_s": 0.36,
+    "fim_s": 3.48,
+    "palavras": [
+     {
+      "palavra": "Até",
+      "inicio_s": 0.36,
+      "fim_s": 0.776
+     },
+     {
+      "palavra": "que",
+      "inicio_s": 0.776,
+      "fim_s": 0.984
+     },
+     {
+      "palavra": "a",
+      "inicio_s": 0.984,
+      "fim_s": 1.192
+     },
+     {
+      "palavra": "feira",
+      "inicio_s": 1.192,
+      "fim_s": 1.608
+     },
+     {
+      "palavra": "resolveu",
+      "inicio_s": 1.608,
+      "fim_s": 2.232
+     },
+     {
+      "palavra": "testar",
+      "inicio_s": 2.232,
+      "fim_s": 2.648
+     },
+     {
+      "palavra": "uma",
+      "inicio_s": 2.648,
+      "fim_s": 3.064
+     },
+     {
+      "palavra": "ideia.",
+      "inicio_s": 3.064,
+      "fim_s": 3.48
+     }
+    ],
+    "precisao_frase": "medida",
+    "precisao_palavra": "estimada"
+   },
+   {
+    "indice": 1,
+    "texto": "Todo mundo passaria a aceitar uma mesma ficha como pagamento.",
+    "inicio_s": 4.03,
+    "fim_s": 7.81,
+    "palavras": [
+     {
+      "palavra": "Todo",
+      "inicio_s": 4.03,
+      "fim_s": 4.359
+     },
+     {
+      "palavra": "mundo",
+      "inicio_s": 4.359,
+      "fim_s": 4.687
+     },
+     {
+      "palavra": "passaria",
+      "inicio_s": 4.687,
+      "fim_s": 5.18
+     },
+     {
+      "palavra": "a",
+      "inicio_s": 5.18,
+      "fim_s": 5.345
+     },
+     {
+      "palavra": "aceitar",
+      "inicio_s": 5.345,
+      "fim_s": 5.838
+     },
+     {
+      "palavra": "uma",
+      "inicio_s": 5.838,
+      "fim_s": 6.167
+     },
+     {
+      "palavra": "mesma",
+      "inicio_s": 6.167,
+      "fim_s": 6.495
+     },
+     {
+      "palavra": "ficha",
+      "inicio_s": 6.495,
+      "fim_s": 6.824
+     },
+     {
+      "palavra": "como",
+      "inicio_s": 6.824,
+      "fim_s": 7.153
+     },
+     {
+      "palavra": "pagamento.",
+      "inicio_s": 7.153,
+      "fim_s": 7.81
+     }
+    ],
+    "precisao_frase": "medida",
+    "precisao_palavra": "estimada"
+   },
+   {
+    "indice": 2,
+    "texto": "Nico vendeu batatas, recebeu fichas e finalmente comprou os sapatos.",
+    "inicio_s": 8.62,
+    "fim_s": 13.64,
+    "palavras": [
+     {
+      "palavra": "Nico",
+      "inicio_s": 8.62,
+      "fim_s": 9.057
+     },
+     {
+      "palavra": "vendeu",
+      "inicio_s": 9.057,
+      "fim_s": 9.493
+     },
+     {
+      "palavra": "batatas,",
+      "inicio_s": 9.493,
+      "fim_s": 10.148
+     },
+     {
+      "palavra": "recebeu",
+      "inicio_s": 10.148,
+      "fim_s": 10.803
+     },
+     {
+      "palavra": "fichas",
+      "inicio_s": 10.803,
+      "fim_s": 11.239
+     },
+     {
+      "palavra": "e",
+      "inicio_s": 11.239,
+      "fim_s": 11.457
+     },
+     {
+      "palavra": "finalmente",
+      "inicio_s": 11.457,
+      "fim_s": 12.33
+     },
+     {
+      "palavra": "comprou",
+      "inicio_s": 12.33,
+      "fim_s": 12.767
+     },
+     {
+      "palavra": "os",
+      "inicio_s": 12.767,
+      "fim_s": 12.985
+     },
+     {
+      "palavra": "sapatos.",
+      "inicio_s": 12.985,
+      "fim_s": 13.64
+     }
+    ],
+    "precisao_frase": "medida",
+    "precisao_palavra": "estimada"
+   },
+   {
+    "indice": 3,
+    "texto": "E o sapateiro? Usou as mesmas fichas pra comprar leite.",
+    "inicio_s": 14.43,
+    "fim_s": 18.05,
+    "palavras": [
+     {
+      "palavra": "E",
+      "inicio_s": 14.43,
+      "fim_s": 14.631
+     },
+     {
+      "palavra": "o",
+      "inicio_s": 14.631,
+      "fim_s": 14.832
+     },
+     {
+      "palavra": "sapateiro?",
+      "inicio_s": 14.832,
+      "fim_s": 15.637
+     },
+     {
+      "palavra": "Usou",
+      "inicio_s": 15.637,
+      "fim_s": 16.039
+     },
+     {
+      "palavra": "as",
+      "inicio_s": 16.039,
+      "fim_s": 16.24
+     },
+     {
+      "palavra": "mesmas",
+      "inicio_s": 16.24,
+      "fim_s": 16.642
+     },
+     {
+      "palavra": "fichas",
+      "inicio_s": 16.642,
+      "fim_s": 17.044
+     },
+     {
+      "palavra": "pra",
+      "inicio_s": 17.044,
+      "fim_s": 17.246
+     },
+     {
+      "palavra": "comprar",
+      "inicio_s": 17.246,
+      "fim_s": 17.648
+     },
+     {
+      "palavra": "leite.",
+      "inicio_s": 17.648,
+      "fim_s": 18.05
+     }
+    ],
+    "precisao_frase": "medida",
+    "precisao_palavra": "estimada"
+   },
+   {
+    "indice": 4,
+    "texto": "Agora sim!",
+    "inicio_s": 18.96,
+    "fim_s": 19.84,
+    "palavras": [
+     {
+      "palavra": "Agora",
+      "inicio_s": 18.96,
+      "fim_s": 19.62
+     },
+     {
+      "palavra": "sim!",
+      "inicio_s": 19.62,
+      "fim_s": 19.84
+     }
+    ],
+    "precisao_frase": "medida",
+    "precisao_palavra": "estimada"
+   }
+  ],
+  "alinhamento": "ok"
+ },
+ {
+  "id": "S07",
+  "wav": "audio/narracoes/EP001/segmentos/EP001_S07_V1.wav",
+  "duracao_s": 13.8,
+  "fala_inicio_s": 0.18,
+  "fala_fim_s": 13.44,
+  "limiar_rms": 0.01519,
+  "pausas_internas": [
+   [
+    1.43,
+    1.91
+   ],
+   [
+    5.32,
+    6.04
+   ],
+   [
+    8.99,
+    9.54
+   ],
+   [
+    10.18,
+    10.57
+   ]
+  ],
+  "frases": [
+   {
+    "indice": 0,
+    "texto": "Mas tem um detalhe.",
+    "inicio_s": 0.18,
+    "fim_s": 1.43,
+    "palavras": [
+     {
+      "palavra": "Mas",
+      "inicio_s": 0.18,
+      "fim_s": 0.388
+     },
+     {
+      "palavra": "tem",
+      "inicio_s": 0.388,
+      "fim_s": 0.597
+     },
+     {
+      "palavra": "um",
+      "inicio_s": 0.597,
+      "fim_s": 0.805
+     },
+     {
+      "palavra": "detalhe.",
+      "inicio_s": 0.805,
+      "fim_s": 1.43
+     }
+    ],
+    "precisao_frase": "medida",
+    "precisao_palavra": "estimada"
+   },
+   {
+    "indice": 1,
+    "texto": "Por que alguém aceitaria um pedaço de madeira como pagamento?",
+    "inicio_s": 1.91,
+    "fim_s": 5.32,
+    "palavras": [
+     {
+      "palavra": "Por",
+      "inicio_s": 1.91,
+      "fim_s": 2.065
+     },
+     {
+      "palavra": "que",
+      "inicio_s": 2.065,
+      "fim_s": 2.22
+     },
+     {
+      "palavra": "alguém",
+      "inicio_s": 2.22,
+      "fim_s": 2.53
+     },
+     {
+      "palavra": "aceitaria",
+      "inicio_s": 2.53,
+      "fim_s": 3.15
+     },
+     {
+      "palavra": "um",
+      "inicio_s": 3.15,
+      "fim_s": 3.305
+     },
+     {
+      "palavra": "pedaço",
+      "inicio_s": 3.305,
+      "fim_s": 3.77
+     },
+     {
+      "palavra": "de",
+      "inicio_s": 3.77,
+      "fim_s": 3.925
+     },
+     {
+      "palavra": "madeira",
+      "inicio_s": 3.925,
+      "fim_s": 4.39
+     },
+     {
+      "palavra": "como",
+      "inicio_s": 4.39,
+      "fim_s": 4.7
+     },
+     {
+      "palavra": "pagamento?",
+      "inicio_s": 4.7,
+      "fim_s": 5.32
+     }
+    ],
+    "precisao_frase": "medida",
+    "precisao_palavra": "estimada"
+   },
+   {
+    "indice": 2,
+    "texto": "Porque confiava que outras pessoas também aceitariam.",
+    "inicio_s": 6.04,
+    "fim_s": 8.99,
+    "palavras": [
+     {
+      "palavra": "Porque",
+      "inicio_s": 6.04,
+      "fim_s": 6.409
+     },
+     {
+      "palavra": "confiava",
+      "inicio_s": 6.409,
+      "fim_s": 6.962
+     },
+     {
+      "palavra": "que",
+      "inicio_s": 6.962,
+      "fim_s": 7.146
+     },
+     {
+      "palavra": "outras",
+      "inicio_s": 7.146,
+      "fim_s": 7.515
+     },
+     {
+      "palavra": "pessoas",
+      "inicio_s": 7.515,
+      "fim_s": 7.884
+     },
+     {
+      "palavra": "também",
+      "inicio_s": 7.884,
+      "fim_s": 8.253
+     },
+     {
+      "palavra": "aceitariam.",
+      "inicio_s": 8.253,
+      "fim_s": 8.99
+     }
+    ],
+    "precisao_frase": "medida",
+    "precisao_palavra": "estimada"
+   },
+   {
+    "indice": 3,
+    "texto": "Sem isso, a ficha não passaria de um pedaço de madeira.",
+    "inicio_s": 9.54,
+    "fim_s": 13.44,
+    "palavras": [
+     {
+      "palavra": "Sem",
+      "inicio_s": 9.54,
+      "fim_s": 9.745
+     },
+     {
+      "palavra": "isso,",
+      "inicio_s": 9.745,
+      "fim_s": 10.156
+     },
+     {
+      "palavra": "a",
+      "inicio_s": 10.156,
+      "fim_s": 10.361
+     },
+     {
+      "palavra": "ficha",
+      "inicio_s": 10.361,
+      "fim_s": 10.772
+     },
+     {
+      "palavra": "não",
+      "inicio_s": 10.772,
+      "fim_s": 10.977
+     },
+     {
+      "palavra": "passaria",
+      "inicio_s": 10.977,
+      "fim_s": 11.593
+     },
+     {
+      "palavra": "de",
+      "inicio_s": 11.593,
+      "fim_s": 11.798
+     },
+     {
+      "palavra": "um",
+      "inicio_s": 11.798,
+      "fim_s": 12.003
+     },
+     {
+      "palavra": "pedaço",
+      "inicio_s": 12.003,
+      "fim_s": 12.619
+     },
+     {
+      "palavra": "de",
+      "inicio_s": 12.619,
+      "fim_s": 12.824
+     },
+     {
+      "palavra": "madeira.",
+      "inicio_s": 12.824,
+      "fim_s": 13.44
+     }
+    ],
+    "precisao_frase": "medida",
+    "precisao_palavra": "estimada"
+   }
+  ],
+  "alinhamento": "ok"
+ },
+ {
+  "id": "S08",
+  "wav": "audio/narracoes/EP001/segmentos/EP001_S08_V1.wav",
+  "duracao_s": 6.64,
+  "fala_inicio_s": 0.18,
+  "fala_fim_s": 6.43,
+  "limiar_rms": 0.01405,
+  "pausas_internas": [
+   [
+    1.28,
+    1.7
+   ],
+   [
+    3.3,
+    3.65
+   ]
+  ],
+  "frases": [
+   {
+    "indice": 0,
+    "texto": "Agora me conta: se não existisse dinheiro, o que você ofereceria por um par de sapatos?",
+    "inicio_s": 0.18,
+    "fim_s": 6.43,
+    "palavras": [
+     {
+      "palavra": "Agora",
+      "inicio_s": 0.18,
+      "fim_s": 0.785
+     },
+     {
+      "palavra": "me",
+      "inicio_s": 0.785,
+      "fim_s": 0.986
+     },
+     {
+      "palavra": "conta:",
+      "inicio_s": 0.986,
+      "fim_s": 1.39
+     },
+     {
+      "palavra": "se",
+      "inicio_s": 1.39,
+      "fim_s": 1.591
+     },
+     {
+      "palavra": "não",
+      "inicio_s": 1.591,
+      "fim_s": 1.793
+     },
+     {
+      "palavra": "existisse",
+      "inicio_s": 1.793,
+      "fim_s": 2.599
+     },
+     {
+      "palavra": "dinheiro,",
+      "inicio_s": 2.599,
+      "fim_s": 3.204
+     },
+     {
+      "palavra": "o",
+      "inicio_s": 3.204,
+      "fim_s": 3.406
+     },
+     {
+      "palavra": "que",
+      "inicio_s": 3.406,
+      "fim_s": 3.607
+     },
+     {
+      "palavra": "você",
+      "inicio_s": 3.607,
+      "fim_s": 4.011
+     },
+     {
+      "palavra": "ofereceria",
+      "inicio_s": 4.011,
+      "fim_s": 5.019
+     },
+     {
+      "palavra": "por",
+      "inicio_s": 5.019,
+      "fim_s": 5.22
+     },
+     {
+      "palavra": "um",
+      "inicio_s": 5.22,
+      "fim_s": 5.422
+     },
+     {
+      "palavra": "par",
+      "inicio_s": 5.422,
+      "fim_s": 5.624
+     },
+     {
+      "palavra": "de",
+      "inicio_s": 5.624,
+      "fim_s": 5.825
+     },
+     {
+      "palavra": "sapatos?",
+      "inicio_s": 5.825,
+      "fim_s": 6.43
+     }
+    ],
+    "precisao_frase": "medida",
+    "precisao_palavra": "estimada"
+   }
+  ],
+  "alinhamento": "ok"
+ }
+]

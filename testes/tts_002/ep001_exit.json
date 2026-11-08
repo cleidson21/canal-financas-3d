@@ -1,0 +1,8 @@
+{
+  "command": [
+    "python",
+    "testes/test_ep001_narracao.py"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 0.2853114604949951
+}

@@ -1,0 +1,16 @@
+{
+  "command": [
+    "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+    "-b",
+    "--factory-startup",
+    "--disable-autoexec",
+    "-t",
+    "4",
+    "-P",
+    "testes/infra_001/blender_smoke.py",
+    "--",
+    "visual_v2"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 3.865816354751587
+}

@@ -1,0 +1,30 @@
+{
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "executable": "C:\\Users\\Cleidson\\Videos\\canal-financas-3d\\venvs\\tts_local\\Scripts\\python.exe",
+  "os": "Windows-10-10.0.19045-SP0",
+  "torch": "2.10.0+cu128",
+  "cuda_runtime": "12.8",
+  "cuda_available": true,
+  "gpu": "NVIDIA GeForce RTX 5060",
+  "compute_capability": [
+    12,
+    0
+  ],
+  "supported_arches": [
+    "sm_70",
+    "sm_75",
+    "sm_80",
+    "sm_86",
+    "sm_90",
+    "sm_100",
+    "sm_120"
+  ],
+  "cuda_operation": [
+    2.0,
+    2.0,
+    2.0,
+    2.0
+  ],
+  "windows_build": "19045",
+  "windows_ubr": 6466
+}

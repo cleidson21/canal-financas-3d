@@ -1,0 +1,42 @@
+{
+  "episode": "EP001_dinheiro",
+  "segment": "S03",
+  "story": "two_trades",
+  "timing": "episodios/EP001_dinheiro/timing.json",
+  "nico_source": "arquivo/EP001/piloto/cenas/cena_01_V3_1.blend",
+  "output": ".cache/EP001/S03_V2",
+  "scene_file": "cena03_PROD002_PROVA.blend",
+  "fps": 30,
+  "resolution": [
+    360,
+    640
+  ],
+  "eevee_samples": 16,
+  "characters": [
+    "Nico",
+    "pescador",
+    "lenhador"
+  ],
+  "stalls": [
+    "pescador",
+    "lenhador",
+    "leiteiro"
+  ],
+  "goods": [
+    "potatoes",
+    "fish",
+    "wood"
+  ],
+  "handoffs_seconds": {
+    "potatoes": 3.9,
+    "fish": 5.9,
+    "fish_to_lumberjack": 8.9,
+    "wood": 10.4
+  },
+  "walk": {
+    "start": 6.7,
+    "end": 7.48,
+    "cut_to_arrival": 7.5
+  },
+  "human_approval": false
+}

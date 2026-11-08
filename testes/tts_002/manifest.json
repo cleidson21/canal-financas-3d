@@ -1,0 +1,372 @@
+[
+  {
+    "path": "audio/narracoes/TESTES_LOCAIS_002/piper_faber_V1.wav",
+    "size": 359980,
+    "sha256": "81eeee640018fa56179967b357c9de0356321b59cbaf3d474967b4f4be5b4a75"
+  },
+  {
+    "path": "audio/narracoes/TESTES_LOCAIS_002/piper_faber_V1.wav.meta.json",
+    "size": 4603,
+    "sha256": "ec8fe78f7c418a740e58175d5b82ffe0110eb1cae21e2ff85faa8303bf2cf324"
+  },
+  {
+    "path": "audio/narracoes/TESTES_LOCAIS_002/qwen_base_br_V1.wav",
+    "size": 587564,
+    "sha256": "3c2cfb9d945926f56791d974d39c968895d792eba41c0b2755e312e5ca0b8261"
+  },
+  {
+    "path": "audio/narracoes/TESTES_LOCAIS_002/qwen_base_br_V1.wav.meta.json",
+    "size": 26984,
+    "sha256": "0d65b410e22ec752a8526a8f45fa9687388533f15bda60b781f3391882c5aa3c"
+  },
+  {
+    "path": "audio/perfis/historico/INFRA_001/narrador_principal_antes_TTS_002.json",
+    "size": 1395,
+    "sha256": "aebf0e8a956fbc61a5b9e2374e01b8bfbbd12a2b9d738f9f5e44279059dfb06f"
+  },
+  {
+    "path": "audio/perfis/historico/INFRA_001/narrador_principal_rejeitado_TTS_002.json",
+    "size": 1697,
+    "sha256": "fb15f3df0462617c1f2bb63afdfe82da5d7ad2f4efb56411034d5d16eda78575"
+  },
+  {
+    "path": "audio/perfis/narrador_principal.json",
+    "size": 1697,
+    "sha256": "fb15f3df0462617c1f2bb63afdfe82da5d7ad2f4efb56411034d5d16eda78575"
+  },
+  {
+    "path": "audio/referencias_vocais/narrador_br_001/autorizacao.json",
+    "size": 658,
+    "sha256": "eac3b8a8ec0b05a0b71583c1fae23a0ffc00a4142b77954bd95b36605a0edcd5"
+  },
+  {
+    "path": "audio/referencias_vocais/narrador_br_001/autorizacao.modelo.json",
+    "size": 314,
+    "sha256": "372e102c9029686fe43ac31a08b164d8b163fae0afb54ababd3da84d13da3b97"
+  },
+  {
+    "path": "audio/referencias_vocais/narrador_br_001/README.md",
+    "size": 2612,
+    "sha256": "7aa668e0977a578b5b8c6d9511f1e9fd315e43516df420816dc9d8a591ad28df"
+  },
+  {
+    "path": "audio/referencias_vocais/narrador_br_001/referencia.wav",
+    "size": 810096,
+    "sha256": "dec9d650a08c367adff4058a07c560c903c52dc06542d2a9180fc82a9bff5705"
+  },
+  {
+    "path": "audio/referencias_vocais/narrador_br_001/referencia.wav.m4a",
+    "size": 313064,
+    "sha256": "3f4f156e91c90d0aefd699e675f34a5725fdef6b8f165263342cc67fd7b430ce"
+  },
+  {
+    "path": "audio/referencias_vocais/narrador_br_001/transcricao.txt",
+    "size": 195,
+    "sha256": "90c886d3879d45b5de2f6cdf1f15df3bb0668e3167766b51a3a3b8127a9d7ea2"
+  },
+  {
+    "path": "audio/referencias_vocais/narrador_br_001/transcricao_sugerida.txt",
+    "size": 195,
+    "sha256": "90c886d3879d45b5de2f6cdf1f15df3bb0668e3167766b51a3a3b8127a9d7ea2"
+  },
+  {
+    "path": "documentos/FICHA_AVALIACAO_TTS_002.md",
+    "size": 1754,
+    "sha256": "dc83543c2f1bc2148c1dc42a8e68fad39798d88379424bcd5d2e49bbef519b27"
+  },
+  {
+    "path": "documentos/RELATORIO_TTS_002.md",
+    "size": 9370,
+    "sha256": "c908bb213e3c6d5b96f8c7522ad3d80343c565ca496b9a6e00c4b53b7b361016"
+  },
+  {
+    "path": "documentos/TTS_002_GUIA_VOZ_BR.md",
+    "size": 4376,
+    "sha256": "82a046868365776df864d9aeceec3a304c1810af0aa647b695d0fdab2416463a"
+  },
+  {
+    "path": "models/voice_prompts/98ebd0b313ac9b8436cbb73d08f9c454b9197d227d8c03b9fd52f90d7a49b301.json",
+    "size": 551,
+    "sha256": "91734956b70dcb2f9eba39ea76b05c94fae7b93a64ead2f96ed11ba94a6a25df"
+  },
+  {
+    "path": "models/voice_prompts/98ebd0b313ac9b8436cbb73d08f9c454b9197d227d8c03b9fd52f90d7a49b301.npz",
+    "size": 31640,
+    "sha256": "eaa2e689837b3141341066f436f72737d208875b602d8e76a17f0dc28e1f277b"
+  },
+  {
+    "path": "scripts/tts/br_local.py",
+    "size": 14401,
+    "sha256": "518b2339c22bb4149af618542f95fffde49e54ca1368936476a2932bdd813204"
+  },
+  {
+    "path": "scripts/tts/prepare_br_models.py",
+    "size": 2476,
+    "sha256": "f4bf2a496ab1ad0c9de9a137d44f97c393f568adca5e7b408a33601e66f74556"
+  },
+  {
+    "path": "testes/tts_002/asr_outputs.json",
+    "size": 581,
+    "sha256": "26b942acb483f03d623a58326adfaca442aca1eff1c9b774eab6d25516030ab4"
+  },
+  {
+    "path": "testes/tts_002/asr_outputs_exit.json",
+    "size": 299,
+    "sha256": "1cf8b957bbf43db79930401999fc821fb5770ee7b93aa012d8a9b755be94bd9d"
+  },
+  {
+    "path": "testes/tts_002/asr_outputs_stderr.log",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "testes/tts_002/asr_outputs_stdout.log",
+    "size": 303,
+    "sha256": "e486b9e53bf2068508a736b92db2fe1b609b91440d3d4536f04e1634bdbd5bcd"
+  },
+  {
+    "path": "testes/tts_002/asr_reference.json",
+    "size": 335,
+    "sha256": "444441ebc55578cea7b8bc56fa873d3b213e9d9451635c8f406b047da1496b0b"
+  },
+  {
+    "path": "testes/tts_002/asr_reference_exit.json",
+    "size": 243,
+    "sha256": "43a20d1c3ae048737b6cb96fcc979ee0495a5df7af8c712831bfd18acfc06c0f"
+  },
+  {
+    "path": "testes/tts_002/asr_reference_stderr.log",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "testes/tts_002/asr_reference_stdout.log",
+    "size": 192,
+    "sha256": "f071712a7082c5e80ae2f9f7bf3d7b4e535dad1a7a055ddbfc638fd7c21e8fc2"
+  },
+  {
+    "path": "testes/tts_002/asr_review.py",
+    "size": 1192,
+    "sha256": "a8a88435d98559d2948109916ace2aa263cd222d76c26d091880093a15ad0d2f"
+  },
+  {
+    "path": "testes/tts_002/audit.py",
+    "size": 2096,
+    "sha256": "d3180d13b00457ca5691d2d4de4c160ea1f5bacf5eecd5f848cc47467088c109"
+  },
+  {
+    "path": "testes/tts_002/base_probe.json",
+    "size": 348,
+    "sha256": "22eb5f84cd9d1d17451dbacfa3a9341af8be7f379262533ced08972b404831ff"
+  },
+  {
+    "path": "testes/tts_002/base_probe_exit.json",
+    "size": 187,
+    "sha256": "5d9d5a52a16d684a6624735c7afba040c2f512f478ccb699e98ae9f618ff4ffa"
+  },
+  {
+    "path": "testes/tts_002/base_probe_stderr.log",
+    "size": 325,
+    "sha256": "cbec03ae809609df481fa680d4df5b04462c34a209dcd9c613d11bbbaab8f5c9"
+  },
+  {
+    "path": "testes/tts_002/base_probe_stdout.log",
+    "size": 504,
+    "sha256": "e7635ad22d882fbba6ed69772b8037d1253ca31ca9ddbf661a49fcf86a971783"
+  },
+  {
+    "path": "testes/tts_002/baseline.json",
+    "size": 50930,
+    "sha256": "57e0ca9a4318cb0320ab9276592425fa1e1ecb4412546adfd861ab14ee559acf"
+  },
+  {
+    "path": "testes/tts_002/download_exit.json",
+    "size": 142,
+    "sha256": "f0246046849b58c44d339cb0b87193159eb338915e349fa2346d65535a3975e6"
+  },
+  {
+    "path": "testes/tts_002/download_stderr.log",
+    "size": 1597,
+    "sha256": "aca3c08e62beea88de168cc715a5b5ac0253186bf34a7fcb275da973a82cfaf6"
+  },
+  {
+    "path": "testes/tts_002/download_stdout.log",
+    "size": 35,
+    "sha256": "74c95f7c0ec3f1715880b3be06d0daa3a896a20ff39b5f19d33b5c71b62c5f4b"
+  },
+  {
+    "path": "testes/tts_002/environment.json",
+    "size": 1116259,
+    "sha256": "d886445715e65853f91a5a187b4a64d0d7b3b712d96c5227aa6b10554339a38c"
+  },
+  {
+    "path": "testes/tts_002/ep001_exit.json",
+    "size": 139,
+    "sha256": "6ad24910a06687a6dfa1730c22136e16beebfa259958929bf627ec3be782609c"
+  },
+  {
+    "path": "testes/tts_002/ep001_stderr.log",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "testes/tts_002/ep001_stdout.log",
+    "size": 4488,
+    "sha256": "fb517f900e8bff4cb5deea94446b93b162e78a05b5e24735eef406d433e1e7d5"
+  },
+  {
+    "path": "testes/tts_002/finalize_manifest.py",
+    "size": 1383,
+    "sha256": "c3681831665c8569529c6a10394bcdc2a9e73579907055c755014ef5ffeafeb3"
+  },
+  {
+    "path": "testes/tts_002/install_piper.log",
+    "size": 67191,
+    "sha256": "f4282ed38a1814b098794be6d714ae117fe54ecc890a227429793d96193aa55d"
+  },
+  {
+    "path": "testes/tts_002/model_integrity.json",
+    "size": 3578,
+    "sha256": "e4ea57ff0ca68d1c26d1c09684167f6660b4eb82a8daca6679fc5f6262109113"
+  },
+  {
+    "path": "testes/tts_002/pip_check_exit.json",
+    "size": 166,
+    "sha256": "4bb2f87c730b626219272021450570b1800445b4200d94565da9058dc1952cc3"
+  },
+  {
+    "path": "testes/tts_002/pip_check_stderr.log",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "testes/tts_002/pip_check_stdout.log",
+    "size": 31,
+    "sha256": "672aec65a45bed50e70229c70934a7eebf0462595c459b83023027645d57cccf"
+  },
+  {
+    "path": "testes/tts_002/piper_exit.json",
+    "size": 303,
+    "sha256": "45b5ff2adf19c960f92c42522328186abd00544d9ee9f903db94dbbf57ba7749"
+  },
+  {
+    "path": "testes/tts_002/piper_stderr.log",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "testes/tts_002/piper_stdout.log",
+    "size": 4406,
+    "sha256": "554f89e2187892dc27afc2a663864c4756b9b0d5186ca614535dea512cfdd954"
+  },
+  {
+    "path": "testes/tts_002/prepare_reference_pcm.py",
+    "size": 1332,
+    "sha256": "3048e67b780d97468179c62d43ef76b5fb680a236edac739e26884af84e70ee7"
+  },
+  {
+    "path": "testes/tts_002/qwen_base_exit.json",
+    "size": 307,
+    "sha256": "00c6490611e9098bd1b8cb897459d1edb61ee63a1ba0749e3537d01ada6f8100"
+  },
+  {
+    "path": "testes/tts_002/qwen_base_stderr.log",
+    "size": 397,
+    "sha256": "f7cdd6721f894ba06ea2775718ebf0619ce018afe8b1785a9493f2e86bc7c337"
+  },
+  {
+    "path": "testes/tts_002/qwen_base_stdout.log",
+    "size": 26940,
+    "sha256": "fb66b6a31d7f905b922bc30e9c8da503895cce365d5e17a187a23217e58957ae"
+  },
+  {
+    "path": "testes/tts_002/reference_conversion.json",
+    "size": 2854,
+    "sha256": "6a5d5163c8d3525148029ac8308189e217af9c909e544bd9be475bca4721afbd"
+  },
+  {
+    "path": "testes/tts_002/reference_conversion_exit.json",
+    "size": 150,
+    "sha256": "0d2283a0e542980b0195acab3d1d7f86f6d0581828f25e3c8df6302e9ef68f8e"
+  },
+  {
+    "path": "testes/tts_002/reference_conversion_stderr.log",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "testes/tts_002/reference_conversion_stdout.log",
+    "size": 2856,
+    "sha256": "a08d5671f0dc19043084bba768aa5e6645062a02765cfe5900b258233f109f27"
+  },
+  {
+    "path": "testes/tts_002/register_exit.json",
+    "size": 393,
+    "sha256": "db626c33072a345c96529bf80b3e27af05ff96ccb597682cfdbbc4cc93533b6f"
+  },
+  {
+    "path": "testes/tts_002/register_stderr.log",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "testes/tts_002/register_stdout.log",
+    "size": 660,
+    "sha256": "7c9fbaa8adf6971a7cdd894583c8bd9ce0987246481a5e15d27e0ffb98fa2f43"
+  },
+  {
+    "path": "testes/tts_002/requirements-lock.txt",
+    "size": 1638,
+    "sha256": "1a9fc129ca12e0111bdbb9e815d8ae5d85b98d6284629cca909c88ee7f7dbe31"
+  },
+  {
+    "path": "testes/tts_002/test_br_local.py",
+    "size": 4746,
+    "sha256": "cc38055dce81dcb1403031b4d8d5f7001f4680f468d93f5e497ea7c2652525aa"
+  },
+  {
+    "path": "testes/tts_002/texto_teste.txt",
+    "size": 157,
+    "sha256": "7ffedadc9333ebd61c2a049a58e2c8bae32661b49b7d650035fa98842d0cb591"
+  },
+  {
+    "path": "testes/tts_002/unit_exit.json",
+    "size": 169,
+    "sha256": "1e62554805079e4636896c9fb3dbd90a1139787e55d5bcafee7e16dea9501e6e"
+  },
+  {
+    "path": "testes/tts_002/unit_stderr.log",
+    "size": 757,
+    "sha256": "860b12c719bd2ec9decf4035642e6f822a4221de16f62abc432bf55554f1095a"
+  },
+  {
+    "path": "testes/tts_002/unit_stdout.log",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "testes/tts_002/validation.json",
+    "size": 4022,
+    "sha256": "5c75d0fa982f0bd35447a66c5254ff8fe4f8b0a977e5f9aea8444026df13b1b1"
+  },
+  {
+    "path": "testes/tts_002/validation_exit.json",
+    "size": 143,
+    "sha256": "e283593d2256b98fe037e398b797b2d5e9a264628e1f36970d5ed65fe262773e"
+  },
+  {
+    "path": "testes/tts_002/validation_stderr.log",
+    "size": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "testes/tts_002/validation_stdout.log",
+    "size": 291,
+    "sha256": "b1ec22410ca04d7002a8a9cd13aed221568e46f0397ce4fdee0dfccdd0ab2349"
+  },
+  {
+    "path": "testes/tts_002/verify_delivery.py",
+    "size": 2611,
+    "sha256": "3b0b17a8b44cc630b73b604eebd05a656ab1fa4f826b35534e555fc4ca232b09"
+  }
+]

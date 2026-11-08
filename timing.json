@@ -1,0 +1,334 @@
+{
+  "schema_version": "3.1.0",
+  "episode": "EP001_dinheiro",
+  "mission": "V3.1 — Primeira montagem narrada do Nico",
+  "audio_source": {
+    "relative_path": "audio/narracoes/EP001/testes/narracao_B_flash_lite_V1.wav",
+    "status": "narracao_de_trabalho_provisoria",
+    "approved_by_human": false,
+    "model": "gemini-3.8-flash-lite-tts",
+    "voice": "Puck",
+    "language": "pt-BR",
+    "sample_rate_hz": 24000,
+    "channels": 1,
+    "sample_width_bits": 16,
+    "num_samples": 449280,
+    "audio_duration_sec": 18.72,
+    "peak_dbfs": -1.51,
+    "rms_dbfs": -18.53
+  },
+  "timeline_config": {
+    "fps": 30,
+    "audio_duration_frames": 562,
+    "visual_tail_hold_sec": 0.48,
+    "scene_duration_sec": 19.2,
+    "scene_frame_start": 1,
+    "scene_frame_end": 576
+  },
+  "analysis_methodology": {
+    "method": "Análise acústica de envelope RMS em janelas de 10 ms (-42 dBFS para pausas interfrasais e -36 dBFS para subpausas internas) combinada com auditoria multimodal direta do WAV e geração de gráfico de waveform.",
+    "waveform_image": "episodios/EP001_dinheiro/previews/v3_1/waveform_timing_v3_1.png",
+    "confidence": "alta (6 ilhas de fala claramente separadas por pausas de 0.54s a 0.72s)"
+  },
+  "phrases": [
+    {
+      "id": 1,
+      "text": "O sapato do Nico pediu demissão.",
+      "start_sec": 0.41,
+      "end_sec": 2.82,
+      "duration_sec": 2.41,
+      "peak_sec": 0.89,
+      "start_frame": 12,
+      "end_frame": 85,
+      "duration_frames": 73,
+      "peak_frame": 27,
+      "sub_segments": [
+        {
+          "text": "O sapato",
+          "start_sec": 0.41,
+          "end_sec": 0.76,
+          "start_frame": 12,
+          "end_frame": 23
+        },
+        {
+          "text": "do Nico",
+          "start_sec": 0.88,
+          "end_sec": 1.73,
+          "start_frame": 26,
+          "end_frame": 52
+        },
+        {
+          "text": "pediu demissão.",
+          "start_sec": 1.92,
+          "end_sec": 2.82,
+          "start_frame": 58,
+          "end_frame": 85
+        }
+      ],
+      "visual_sync": {
+        "shot": "Plano 1 (Frames 1–99 | 0.00s–3.30s)",
+        "action": "Close-up baixo do tênis direito abrindo a sola frontal fina ('boca de jacaré') em 'O sapato do Nico' (0.41s–1.73s), seguido de recuo da câmera mostrando o tropeço na pedra exatamente em 'pediu demissão' (1.92s–2.82s) e recuperação de equilíbrio na pausa (2.82s–3.30s)."
+      }
+    },
+    {
+      "id": 2,
+      "text": "E na vila dele, ninguém usava dinheiro.",
+      "start_sec": 3.54,
+      "end_sec": 5.7,
+      "duration_sec": 2.16,
+      "peak_sec": 4.85,
+      "start_frame": 106,
+      "end_frame": 171,
+      "duration_frames": 65,
+      "peak_frame": 146,
+      "sub_segments": [
+        {
+          "text": "E na vila dele,",
+          "start_sec": 3.54,
+          "end_sec": 4.55,
+          "start_frame": 106,
+          "end_frame": 137
+        },
+        {
+          "text": "ninguém usava dinheiro.",
+          "start_sec": 4.55,
+          "end_sec": 5.7,
+          "start_frame": 137,
+          "end_frame": 171
+        }
+      ],
+      "visual_sync": {
+        "shot": "Plano 2 (Frames 100–186 | 3.33s–6.20s)",
+        "action": "Corte no frame 100 para plano aberto contextualizando a vila rústica, a barraca da feira de trocas (escambo direto de produtos, sem caixa registradora nem moedas) e o Nico ao lado do carrinho de mão com batatas."
+      }
+    },
+    {
+      "id": 3,
+      "text": "Ele tinha um saco de batatas e achou que dava pra trocar por um par novo.",
+      "start_sec": 6.3,
+      "end_sec": 10.54,
+      "duration_sec": 4.24,
+      "peak_sec": 8.65,
+      "start_frame": 189,
+      "end_frame": 316,
+      "duration_frames": 127,
+      "peak_frame": 260,
+      "sub_segments": [
+        {
+          "text": "Ele tinha um saco de batatas",
+          "start_sec": 6.3,
+          "end_sec": 7.92,
+          "start_frame": 189,
+          "end_frame": 238
+        },
+        {
+          "text": "e achou que dava pra trocar",
+          "start_sec": 7.98,
+          "end_sec": 9.69,
+          "start_frame": 239,
+          "end_frame": 291
+        },
+        {
+          "text": "por um par novo.",
+          "start_sec": 9.77,
+          "end_sec": 10.54,
+          "start_frame": 293,
+          "end_frame": 316
+        }
+      ],
+      "visual_sync": {
+        "shot": "Plano 3A (Frames 187–238: Ideia e Pegada no Carrinho) + Plano 3B (Frames 239–290: Caminhada com Peso) + Plano 4 (Frames 291–331: Chegada e Proposta no Balcão)",
+        "action": "Em 'Ele tinha um saco de batatas' (6.30s–7.92s), foco no Nico tendo a ideia ('Aha!'), agachando e erguendo os 40 kg do carrinho. Em 'e achou que dava pra trocar' (7.98s–9.69s), caminhada pesada até a barraca. Em 'por um par novo' (9.77s–10.54s) e pausa até 11.08s, Nico pousa o saco no balcão com squash & stretch ('PLOC!' no frame 298) e aponta orgulhoso para o par de sapatos novos."
+      }
+    },
+    {
+      "id": 4,
+      "text": "Só que o sapateiro não queria batatas.",
+      "start_sec": 11.08,
+      "end_sec": 13.77,
+      "duration_sec": 2.69,
+      "peak_sec": 13.07,
+      "start_frame": 332,
+      "end_frame": 413,
+      "duration_frames": 81,
+      "peak_frame": 392,
+      "sub_segments": [
+        {
+          "text": "Só que o sapateiro",
+          "start_sec": 11.08,
+          "end_sec": 12.21,
+          "start_frame": 332,
+          "end_frame": 366
+        },
+        {
+          "text": "não queria batatas.",
+          "start_sec": 12.44,
+          "end_sec": 13.77,
+          "start_frame": 373,
+          "end_frame": 413
+        }
+      ],
+      "visual_sync": {
+        "shot": "Plano 4 cont. (Frames 332–368) -> Corte para Plano 5 (Frames 369–431 | 12.30s–14.37s)",
+        "action": "Em 'Só que o sapateiro' (11.08s–12.21s), o sapateiro olha para o saco e balança a cabeça negando. No corte do frame 369 ('não queria batatas', 12.44s–13.77s), a Placa Vermelha 'X' salta com overshoot sobre o saco de batatas (pico no frame 384 / 12.80s, estabilizando em 13.07s) e Nico recua surpreso."
+      }
+    },
+    {
+      "id": 5,
+      "text": "Queria leite.",
+      "start_sec": 14.41,
+      "end_sec": 15.44,
+      "duration_sec": 1.03,
+      "peak_sec": 15.04,
+      "start_frame": 432,
+      "end_frame": 463,
+      "duration_frames": 31,
+      "peak_frame": 451,
+      "sub_segments": [
+        {
+          "text": "Queria leite.",
+          "start_sec": 14.41,
+          "end_sec": 15.44,
+          "start_frame": 432,
+          "end_frame": 463
+        }
+      ],
+      "visual_sync": {
+        "shot": "Plano 6 (Frames 432–479 | 14.40s–15.97s)",
+        "action": "Exatamente na entrada de 'Queria leite' (frame 432 / 14.41s), o sapateiro aponta para cima e a Placa Grande 3D de Leite (caixa + copo cheio + check verde) salta com overshoot (pico no frame 444, estabilizando no pico vocal de 'leite' em 15.04s / frame 451), mantendo leitura clara durante a pausa até 16.00s."
+      }
+    },
+    {
+      "id": 6,
+      "text": "Nico... aí complicou.",
+      "start_sec": 16.15,
+      "end_sec": 18.05,
+      "duration_sec": 1.9,
+      "peak_sec": 16.46,
+      "start_frame": 484,
+      "end_frame": 542,
+      "duration_frames": 58,
+      "peak_frame": 494,
+      "sub_segments": [
+        {
+          "text": "Nico...",
+          "start_sec": 16.15,
+          "end_sec": 16.83,
+          "start_frame": 484,
+          "end_frame": 505
+        },
+        {
+          "text": "[pausa reticências]",
+          "start_sec": 16.83,
+          "end_sec": 17.2,
+          "start_frame": 505,
+          "end_frame": 516
+        },
+        {
+          "text": "aí complicou.",
+          "start_sec": 17.2,
+          "end_sec": 18.05,
+          "start_frame": 516,
+          "end_frame": 542
+        }
+      ],
+      "visual_sync": {
+        "shot": "Plano 7 (Frames 480–576 | 16.00s–19.20s)",
+        "action": "Corte no frame 480 para Medium Close-Up do Nico. Em 'Nico...' (16.15s–16.83s), ele olha do símbolo do leite para o saco de batatas. Na pausa 'aí complicou.' (17.20s–18.05s), faz o encolher de ombros cômico para a câmera (e, na variante Com Assinatura, o 'Carimbo da Dúvida' aparece discretamente a partir do frame 508), sustentando a reação até 19.20s (frame 576)."
+      }
+    }
+  ],
+  "silences_and_pauses": [
+    {
+      "type": "leading_silence",
+      "label": "Silêncio inicial do WAV antes da Frase 1",
+      "start_sec": 0.0,
+      "end_sec": 0.41,
+      "duration_sec": 0.41,
+      "start_frame": 1,
+      "end_frame": 12
+    },
+    {
+      "type": "inter_phrase_pause",
+      "label": "Pausa entre Frase 1 e Frase 2 (recuperação do tropeço)",
+      "start_sec": 2.82,
+      "end_sec": 3.54,
+      "duration_sec": 0.72,
+      "start_frame": 85,
+      "end_frame": 106
+    },
+    {
+      "type": "inter_phrase_pause",
+      "label": "Pausa entre Frase 2 e Frase 3 (transição vila -> carrinho de batatas)",
+      "start_sec": 5.7,
+      "end_sec": 6.3,
+      "duration_sec": 0.6,
+      "start_frame": 171,
+      "end_frame": 189
+    },
+    {
+      "type": "inter_phrase_pause",
+      "label": "Pausa entre Frase 3 e Frase 4 (batatas apresentadas no balcão)",
+      "start_sec": 10.54,
+      "end_sec": 11.08,
+      "duration_sec": 0.54,
+      "start_frame": 316,
+      "end_frame": 332
+    },
+    {
+      "type": "intra_phrase_pause",
+      "label": "Subpausa dramática após 'Só que o sapateiro' (antes do X vermelho)",
+      "start_sec": 12.21,
+      "end_sec": 12.44,
+      "duration_sec": 0.23,
+      "start_frame": 366,
+      "end_frame": 373
+    },
+    {
+      "type": "inter_phrase_pause",
+      "label": "Pausa entre Frase 4 e Frase 5 (leitura do X vermelho sobre as batatas)",
+      "start_sec": 13.77,
+      "end_sec": 14.41,
+      "duration_sec": 0.64,
+      "start_frame": 413,
+      "end_frame": 432
+    },
+    {
+      "type": "inter_phrase_pause",
+      "label": "Pausa entre Frase 5 e Frase 6 (leitura do símbolo grande de Leite)",
+      "start_sec": 15.44,
+      "end_sec": 16.15,
+      "duration_sec": 0.71,
+      "start_frame": 463,
+      "end_frame": 484
+    },
+    {
+      "type": "intra_phrase_pause",
+      "label": "Pausa de reticências em 'Nico... aí complicou.'",
+      "start_sec": 16.83,
+      "end_sec": 17.2,
+      "duration_sec": 0.37,
+      "start_frame": 505,
+      "end_frame": 516
+    },
+    {
+      "type": "trailing_audio_silence",
+      "label": "Silêncio final contido no arquivo WAV",
+      "start_sec": 18.05,
+      "end_sec": 18.72,
+      "duration_sec": 0.67,
+      "start_frame": 542,
+      "end_frame": 562
+    },
+    {
+      "type": "visual_tail_hold",
+      "label": "Respiro visual pós-WAV para sustentar a reação final do Nico",
+      "start_sec": 18.72,
+      "end_sec": 19.2,
+      "duration_sec": 0.48,
+      "start_frame": 562,
+      "end_frame": 576
+    }
+  ]
+}
+

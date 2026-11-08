@@ -1,0 +1,13 @@
+{
+  "command": [
+    "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+    "-b",
+    "--factory-startup",
+    "--disable-autoexec",
+    "--offline-mode",
+    "-P",
+    "testes/tts_003/blender_audio_probe.py"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 3.510244607925415
+}

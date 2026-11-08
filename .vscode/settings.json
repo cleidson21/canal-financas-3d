@@ -1,0 +1,37 @@
+{
+  "files.exclude": {
+    "venvs": true,
+    "**/__pycache__": true,
+    "**/pip_cache": true,
+    "**/cache": true,
+    "**/*.log": true,
+    "arquivo": true,
+    "backups": true,
+    "models": true,
+    ".cache": true,
+    "**/.pytest_cache": true,
+    "**/.thumbnails": true,
+    "**/*.pyc": true,
+    "**/*.blend1": true,
+    "**/*.blend2": true,
+    "**/logs": true,
+    "episodios/*/ENTREGAS/_recursos/poses": true
+  },
+  "search.exclude": {
+    "venvs/**": true,
+    "**/__pycache__/**": true,
+    "**/pip_cache/**": true,
+    "**/cache/**": true,
+    "arquivo/**": true,
+    "backups/**": true,
+    "models/**": true,
+    ".cache/**": true,
+    "**/.pytest_cache/**": true,
+    "**/.thumbnails/**": true,
+    "**/logs/**": true,
+    "**/*.pyc": true,
+    "**/*.blend1": true,
+    "**/*.blend2": true,
+    "**/*.log": true
+  }
+}

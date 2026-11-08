@@ -1,0 +1,9 @@
+{
+  "command": [
+    "venvs/tts_local/Scripts/python.exe",
+    "-m",
+    "scripts.tts.samples_local"
+  ],
+  "returncode": 0,
+  "elapsed_seconds": 232.14865159988403
+}

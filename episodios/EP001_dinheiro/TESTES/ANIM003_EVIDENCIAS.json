@@ -1,0 +1,406 @@
+{
+  "estado": "prova tecnica; revisao artistica pendente",
+  "blender": "5.2.3 LTS",
+  "s03_original_quadros": {
+    "L": [
+      {
+        "frame": 118,
+        "flex": 104.85876485513909,
+        "elbow": [
+          -0.4426,
+          -0.1936,
+          0.3861
+        ],
+        "shoulder": [
+          -0.28,
+          0.0,
+          0.45
+        ],
+        "palm": [
+          -0.26,
+          -0.2,
+          0.208
+        ],
+        "lateral_pole": 0.17284555733203888,
+        "forward_pole": 0.0906926840543747,
+        "camera": "B_oferta_pescador"
+      },
+      {
+        "frame": 178,
+        "flex": 104.68294895571378,
+        "elbow": [
+          -0.4423,
+          -0.1937,
+          0.3856
+        ],
+        "shoulder": [
+          -0.28,
+          0.0,
+          0.45
+        ],
+        "palm": [
+          -0.26,
+          -0.2,
+          0.2072
+        ],
+        "lateral_pole": 0.17257052659988403,
+        "forward_pole": 0.09075764566659927,
+        "camera": "C_entrega_peixe"
+      },
+      {
+        "frame": 268,
+        "flex": 104.34843361092324,
+        "elbow": [
+          -0.4418,
+          -0.1938,
+          0.3846
+        ],
+        "shoulder": [
+          -0.28,
+          -0.0,
+          0.45
+        ],
+        "palm": [
+          -0.26,
+          -0.2,
+          0.2056
+        ],
+        "lateral_pole": 0.17204800248146057,
+        "forward_pole": 0.09087619930505753,
+        "camera": "D_lenhador"
+      },
+      {
+        "frame": 350,
+        "flex": 136.7380375985808,
+        "elbow": [
+          -0.1365,
+          -0.126,
+          0.2724
+        ],
+        "shoulder": [
+          -0.28,
+          -0.0,
+          0.45
+        ],
+        "palm": [
+          -0.299,
+          -0.1891,
+          0.4586
+        ],
+        "lateral_pole": -0.1538187861442566,
+        "forward_pole": 0.023804329335689545,
+        "camera": "E_confianca"
+      },
+      {
+        "frame": 472,
+        "flex": 150.87152948203473,
+        "elbow": [
+          -0.1546,
+          -0.1927,
+          0.5731
+        ],
+        "shoulder": [
+          -0.28,
+          -0.0,
+          0.45
+        ],
+        "palm": [
+          -0.3212,
+          -0.1115,
+          0.3977
+        ],
+        "lateral_pole": -0.14951902627944946,
+        "forward_pole": 0.1273362636566162,
+        "camera": "E2_sorte_suspeita"
+      }
+    ],
+    "R": [
+      {
+        "frame": 118,
+        "flex": 105.06563762472044,
+        "elbow": [
+          0.0733,
+          -0.1579,
+          0.4684
+        ],
+        "shoulder": [
+          0.28,
+          -0.0,
+          0.45
+        ],
+        "palm": [
+          0.1961,
+          -0.2336,
+          0.258
+        ],
+        "lateral_pole": -0.16353139281272888,
+        "forward_pole": 0.03757953643798828,
+        "camera": "B_oferta_pescador"
+      },
+      {
+        "frame": 178,
+        "flex": 69.05096537659198,
+        "elbow": [
+          0.1699,
+          -0.2347,
+          0.4215
+        ],
+        "shoulder": [
+          0.28,
+          -0.0,
+          0.45
+        ],
+        "palm": [
+          0.3439,
+          -0.4098,
+          0.3572
+        ],
+        "lateral_pole": -0.14254683256149292,
+        "forward_pole": 0.02644863724708557,
+        "camera": "C_entrega_peixe"
+      },
+      {
+        "frame": 268,
+        "flex": 109.59206545939041,
+        "elbow": [
+          0.076,
+          -0.1623,
+          0.4576
+        ],
+        "shoulder": [
+          0.28,
+          -0.0,
+          0.45
+        ],
+        "palm": [
+          0.2383,
+          -0.2373,
+          0.2756
+        ],
+        "lateral_pole": -0.1824377179145813,
+        "forward_pole": 0.039720095694065094,
+        "camera": "D_lenhador"
+      },
+      {
+        "frame": 350,
+        "flex": 95.55143682789196,
+        "elbow": [
+          0.2916,
+          -0.2597,
+          0.4704
+        ],
+        "shoulder": [
+          0.28,
+          -0.0,
+          0.45
+        ],
+        "palm": [
+          0.2315,
+          -0.2571,
+          0.2225
+        ],
+        "lateral_pole": 0.0364563912153244,
+        "forward_pole": 0.12805432081222534,
+        "camera": "E_confianca"
+      },
+      {
+        "frame": 472,
+        "flex": 95.01321792129495,
+        "elbow": [
+          0.2879,
+          -0.2596,
+          0.473
+        ],
+        "shoulder": [
+          0.28,
+          -0.0,
+          0.45
+        ],
+        "palm": [
+          0.2275,
+          -0.261,
+          0.2251
+        ],
+        "lateral_pole": 0.03480839729309082,
+        "forward_pole": 0.1259983479976654,
+        "camera": "E2_sorte_suspeita"
+      }
+    ]
+  },
+  "animatic_v1": {
+    "image_strips": 223,
+    "held_frames": 3064,
+    "max_hold_frames": 20,
+    "median_hold_frames": 18,
+    "holds_over_one_second": 0,
+    "fps": 30
+  },
+  "amostras_por_variante": 167,
+  "rig": {
+    "depois": {
+      "arms": {
+        "R": {
+          "min_lateral": 0.07751402258872986,
+          "flex": [
+            26.260342490649844,
+            113.11134774999616
+          ],
+          "elbow_inside": 0,
+          "inboard_pole": 0,
+          "skin_torso_crossings": 0,
+          "max_half_frame_rotation": 4.71716684365811
+        },
+        "L": {
+          "min_lateral": 0.07607734203338623,
+          "flex": [
+            31.771287452663802,
+            39.20935321352393
+          ],
+          "elbow_inside": 0,
+          "inboard_pole": 0,
+          "skin_torso_crossings": 0,
+          "max_half_frame_rotation": 0.15323335969831878
+        }
+      },
+      "contact_gap_max": 0.0037998987827450037,
+      "hand_prop_overlaps": [],
+      "bench_overlaps": [],
+      "max_relative_grip_error": 0.0006115758013369006,
+      "max_prop_half_frame_step": 0.01913841483062162,
+      "pickup_jump": 1.666000468656264e-08,
+      "sole_ground_gaps": [
+        -2.7939677238464355e-08,
+        -2.9802322387695312e-08,
+        0.0009999750182032585
+      ],
+      "max_foot_drift": 0,
+      "prop_final_displacement": 0.37251650471253633,
+      "max_hand_error": 2.4314476359010817e-07
+    },
+    "antes": {
+      "arms": {
+        "R": {
+          "min_lateral": -0.11633947491645813,
+          "flex": [
+            26.26036639631194,
+            113.11137507075284
+          ],
+          "elbow_inside": 121,
+          "inboard_pole": 167,
+          "skin_torso_crossings": 144,
+          "max_half_frame_rotation": 4.802695753105479
+        },
+        "L": {
+          "min_lateral": 0.08375638723373413,
+          "flex": [
+            31.771301113042142,
+            39.209332722956425
+          ],
+          "elbow_inside": 0,
+          "inboard_pole": 0,
+          "skin_torso_crossings": 0,
+          "max_half_frame_rotation": 0.15323335969831878
+        }
+      },
+      "contact_gap_max": 0.01639144867658615,
+      "hand_prop_overlaps": [],
+      "bench_overlaps": [],
+      "max_relative_grip_error": 0.0007017813667148828,
+      "max_prop_half_frame_step": 0.019670023813765272,
+      "pickup_jump": 2.1073424255447017e-08,
+      "sole_ground_gaps": [
+        -2.7939677238464355e-08,
+        -2.9802322387695312e-08,
+        0.0009999750182032585
+      ],
+      "max_foot_drift": 0,
+      "prop_final_displacement": 0.417931768973915,
+      "max_hand_error": 2.537576312709809e-07
+    }
+  },
+  "mp4": {
+    "codec_name": "h264",
+    "width": 432,
+    "height": 384,
+    "r_frame_rate": "24/1",
+    "duration": "3.500000",
+    "nb_frames": "84"
+  },
+  "decode_integral": "PASS",
+  "render_incremental": {
+    "execucoes": [
+      {
+        "plano": "corpo",
+        "renderizados": 79,
+        "reaproveitados": 5
+      },
+      {
+        "plano": "lateral",
+        "renderizados": 79,
+        "reaproveitados": 5
+      },
+      {
+        "plano": "corpo",
+        "renderizados": 0,
+        "reaproveitados": 1
+      },
+      {
+        "plano": "lateral",
+        "renderizados": 0,
+        "reaproveitados": 3
+      }
+    ],
+    "render_isolado_referencia": {
+      "plano": "S03_P03_BATATAS",
+      "quadro": 118,
+      "renderizados": 1
+    },
+    "cache_invalidado_por_dependencia": true,
+    "quadro_corrompido_recusado": true,
+    "plano_longo_sem_quadros_de_auditoria_recusado": true
+  },
+  "regressao": {
+    "pipeline_v3": "6 PASS",
+    "narracao": "PASS",
+    "politica_geracao": "8 PASS"
+  },
+  "recursos_protegidos_sha256": {
+    "audio/narracoes/EP001/EP001_NARRACAO_COMPLETA_V1.wav": "61ebd806c20c9e126584cfd5f8cc9c03cc819c3a3b2b4ecced4c1d1f4c3f1155",
+    "audio/narracoes/EP001/segmentos/EP001_S01_V1.wav": "29e6f9ef1b58236328c18d9f28ad21483db62233fb779383126a960727ea644b",
+    "audio/narracoes/EP001/segmentos/EP001_S02_V1.wav": "34271506c4f49faa04d2779099c50a4439a546c58aee67a6d5c4a38ccb5e2ef4",
+    "audio/narracoes/EP001/segmentos/EP001_S03_V1.wav": "0ef41ac019d9023bb45fce5ab96840d67b0e318ef451f3ef7ab787721dd80dbd",
+    "audio/narracoes/EP001/segmentos/EP001_S04_V1.wav": "d515c79fcaef6957a3be8e3eb7d30de465ecf25e3df177380df330c891a2cc6e",
+    "audio/narracoes/EP001/segmentos/EP001_S05_V1.wav": "1916c9e58d0987f9658116cecd0beb9b771894be2b7056c98d972daab9edc1d5",
+    "audio/narracoes/EP001/segmentos/EP001_S06_V1.wav": "637d6bf535bba240e277a068dc81f792da0a6a70a0819d099ed010cf7dd5a6e9",
+    "audio/narracoes/EP001/segmentos/EP001_S07_V1.wav": "e77d2b3ad9d7b66bcdea15ec1edf8645d96ac253c3743073a3239f8f7c8ffe09",
+    "audio/narracoes/EP001/segmentos/EP001_S08_V1.wav": "7c8a2a719221f85c8dac163c1cfe9dbb863fb6d58bfaafdda2e48f31bc6144b3",
+    "cenarios/barracas_PROD002_V2.blend": "330fd9e79f01403d721417620822514f641b09dc6bcfac43ddcdc7415f1d3a45",
+    "cenarios/feira.blend": "19b55d9f4ac0c322be6937416b7f306470d3af1f7054086807047cf3c87f8d97",
+    "cenarios/vila.blend": "19b55d9f4ac0c322be6937416b7f306470d3af1f7054086807047cf3c87f8d97",
+    "episodios/EP001_dinheiro/narracao.json": "5da5e71e6df8323f99bae89ba337d9dc4eccf9175592bf533fdae18a6db7b123",
+    "episodios/EP001_dinheiro/roteiro.md": "34af95d0b812d37f5072845480de94cf4e06ce9f5efee63cccf4d8dd73d165a6",
+    "episodios/EP001_dinheiro/storyboard.md": "9d7c74bd140f8d78e71ca1e5ec67c10145f3bd6eb77aeb7871fe2818304c06b1",
+    "episodios/EP001_dinheiro/timing.json": "64015eb2b970e469ab42b2e9a138cb98221fe0f064903e3954e5aac69ce77efa",
+    "episodios/EP001_dinheiro/ENTREGAS/EP001_ANIMATIC_EDITAVEL.blend": "536f4fa1ef05d59acc1850381acec8e32f1c6fde5bbbf48a5226207a727bf3f7",
+    "episodios/EP001_dinheiro/legendas/EP001_LEGENDAS.ass": "ee04a203ae165bf84e55c55329720412a3f5b2455bdbb548ffc477761d90e2f4",
+    "episodios/EP001_dinheiro/legendas/EP001_LEGENDAS.srt": "249632e9f784605ab4fb97512443cc5ffa7e90151f9586f8b529f8a9efd9b1ed",
+    "episodios/EP001_dinheiro/ENTREGAS/EP001_ANIMATIC_V1.mp4": "e16f08705e781fa1d59a0434e2e7f090739ec93dea23d42ae3a16add29da4df7",
+    "episodios/EP001_dinheiro/ENTREGAS/EP001_ANIMATIC_V1_SEM_LEGENDAS.mp4": "f29227c7310cac27a5fb04ef2a113aaa65d36923c6d76a2336ddfeedd48d2d24",
+    "episodios/EP001_dinheiro/ENTREGAS/CENA03_EDITAVEL.blend": "4a63b9de4fa376e31541476341590390d78855c63c1a2733fb364f4a2af269ec",
+    "episodios/EP001_dinheiro/ENTREGAS/CENA03_COMPARATIVO.mp4": "4afdefdd03802277d967d3712c20dabd3479367e09b6604124ba823d9fdd0adf",
+    "episodios/EP001_dinheiro/ENTREGAS/CENA03_PROVA_V2.mp4": "ebe2b2a8df24183a604faf0ef7ad4f6eb343c0730feb3be74e554c807a5431fa",
+    "objetos/batatas.blend": "4c79761d06621947869c74f29f05c70eef117a19ee8b0b704aacbb69edb5ce12",
+    "objetos/carimbo_duvida.blend": "ec6e5c92a1b2792183506945d40599c869a80235693863867d52fe7d8ab6400b",
+    "objetos/fichas.blend": "0239bed98e87e326c6a0b610b8fd3a6d26aecc5529b790205041444bf046a758",
+    "objetos/mercadorias_PROD002_V2.blend": "a93eff5f70844e93dfce5aeb948d573a4bb1870e981fa787dbe1d702d2b9b4a1",
+    "objetos/sapatos.blend": "12c2190dc6e12a24cb5021a6ff27252f478f20ba3210d4a6395b1c5802e4ee72",
+    "personagens/comerciantes_PROD002_V2.blend": "a23797fada57d00f8730dc4855982cacb3497aa48eedb442fbf3d57747c9740a",
+    "personagens/nico_base.blend": "3985d69cfc833c04a0eaef216552e2ed39ae52616817820e29edd3d444e7e293"
+  },
+  "entregas_teste_sha256": {
+    "ANIM003_RIG_TESTE.mp4": "1f645f5f1c011dc63c74dd7f57eafb54b3490e32e771e61ed1268233302e0d09",
+    "ANIM003_RIG_TESTE_V2.blend": "e384dc72e9dc3dc11341865932fda17224d47a1c026f9e1854b7158f88fdb3e8",
+    "ANIM003_COMPARATIVO.jpg": "c2536a6e2ff2f44d992cd96a84b1ec28804b97bd7a0e58ba7dbba931b6d0d6c5",
+    "CENA03_DECUPAGEM.json": "f837cbf68d749d30d3ac3ac44357a2281a121b587547047854343960d804d1a6"
+  }
+}

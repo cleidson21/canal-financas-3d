@@ -1,0 +1,1484 @@
+[
+  {
+    "path": ".env.example",
+    "size": 235,
+    "mtime": 1793759169.509402,
+    "sha256": "e14b5e360d4351a92284e38a2c28c4683826229c74b5d70c9074804da5fc8275"
+  },
+  {
+    "path": ".gitignore",
+    "size": 355,
+    "mtime": 1793758705.9432974,
+    "sha256": "a6b2f8325468dccf2ac6a636c1e61568fe3f2fce27a8f860e7382276b35e5e63"
+  },
+  {
+    "path": "README.md",
+    "size": 6058,
+    "mtime": 1793803507.0192506,
+    "sha256": "1a75253d7ed981bfcaea8096e038b8d327602322ff615d3e6f6b6107dd2c0e9d"
+  },
+  {
+    "path": "README_TTS.md",
+    "size": 6169,
+    "mtime": 1793759169.6113522,
+    "sha256": "5e5bf3557edc2659ee15319a72e32b8c00e811bd30df012be48b93034adeee6b"
+  },
+  {
+    "path": "timing.json",
+    "size": 10872,
+    "mtime": 1793761575.887815,
+    "sha256": "413a55bc053c3537c98f705072f4e6106321860dc9d6931f4ab7e820bd99df50"
+  },
+  {
+    "path": "backups/MANIFESTO_EP001_BASE_V3_1_1.json",
+    "size": 4117,
+    "mtime": 1793803467.6239264,
+    "sha256": "858e8a19065cb66243ed1b83554a3f37c6f2a84de92228e3dd33623e191962ed"
+  },
+  {
+    "path": "cenarios/feira.blend",
+    "size": 172704,
+    "mtime": 1793755338.2136376,
+    "sha256": "19b55d9f4ac0c322be6937416b7f306470d3af1f7054086807047cf3c87f8d97"
+  },
+  {
+    "path": "cenarios/feira.blend1",
+    "size": 172960,
+    "mtime": 1793755026.1068048,
+    "sha256": "8087b2b3dde14a4ba293ba8983817d27750178741077213d8164ed315656d3f2"
+  },
+  {
+    "path": "cenarios/vila.blend",
+    "size": 172704,
+    "mtime": 1793755338.2266374,
+    "sha256": "19b55d9f4ac0c322be6937416b7f306470d3af1f7054086807047cf3c87f8d97"
+  },
+  {
+    "path": "cenarios/vila.blend1",
+    "size": 172960,
+    "mtime": 1793755026.119807,
+    "sha256": "8087b2b3dde14a4ba293ba8983817d27750178741077213d8164ed315656d3f2"
+  },
+  {
+    "path": "documentos/ARQUITETURA.md",
+    "size": 10366,
+    "mtime": 1793755876.724254,
+    "sha256": "e47329740851f420e68a183b709718aa568cdb3ca3745eefc12a815e56d87127"
+  },
+  {
+    "path": "documentos/BIBLIA_VISUAL.md",
+    "size": 6348,
+    "mtime": 1793756280.9722521,
+    "sha256": "1943971fda26f341122eb8de2af91135da2d439927a00811b91505c39c5ef4e3"
+  },
+  {
+    "path": "documentos/GUIA_DE_PRODUCAO.md",
+    "size": 7711,
+    "mtime": 1793788270.1505566,
+    "sha256": "36eff7182886fce2337f51935a1ad2e51ecc3238b05cd021786cf777c23e7ff8"
+  },
+  {
+    "path": "documentos/RELATORIO_NARRACAO_EP001.md",
+    "size": 4934,
+    "mtime": 1793803673.4772067,
+    "sha256": "879061f10098c8e394071ce512defcac1dcf079b6ee45ffd4b872cc9a32dbc76"
+  },
+  {
+    "path": "documentos/RELATORIO_SINCRONIZACAO_V3_1.md",
+    "size": 15730,
+    "mtime": 1793795181.2591474,
+    "sha256": "475721c3249c24b8e4e301fe13a0ceb8c4a55cecf9cbaca87202ceb906089d22"
+  },
+  {
+    "path": "documentos/RELATORIO_V2.md",
+    "size": 12303,
+    "mtime": 1793750844.3986971,
+    "sha256": "a8b8a3ceaa5ab08a697075e14aea64bf4d890bbd9292b659e15e42d575d605ed"
+  },
+  {
+    "path": "documentos/RELATORIO_V3.md",
+    "size": 11809,
+    "mtime": 1793756282.8021595,
+    "sha256": "63af3e8fe61da16f7d69fd50d5a9bb4d8a12bccf7b3cca1580379d01761ea2c1"
+  },
+  {
+    "path": "objetos/batatas.blend",
+    "size": 119418,
+    "mtime": 1793755338.3102458,
+    "sha256": "4c79761d06621947869c74f29f05c70eef117a19ee8b0b704aacbb69edb5ce12"
+  },
+  {
+    "path": "objetos/batatas.blend1",
+    "size": 119413,
+    "mtime": 1793755026.1998055,
+    "sha256": "7020afbd97748b429d61e47f1c2d5a46c921df68f17d4b6460dbbfaad6e49308"
+  },
+  {
+    "path": "objetos/carimbo_duvida.blend",
+    "size": 100903,
+    "mtime": 1793761461.2273672,
+    "sha256": "ec6e5c92a1b2792183506945d40599c869a80235693863867d52fe7d8ab6400b"
+  },
+  {
+    "path": "objetos/carimbo_duvida.blend1",
+    "size": 100944,
+    "mtime": 1793761392.877164,
+    "sha256": "448fc8cda573ea02bfac8709f844b7c374d772e53179c31dfc64e8c08e5b24c1"
+  },
+  {
+    "path": "objetos/fichas.blend",
+    "size": 109392,
+    "mtime": 1793755338.3862472,
+    "sha256": "0239bed98e87e326c6a0b610b8fd3a6d26aecc5529b790205041444bf046a758"
+  },
+  {
+    "path": "objetos/fichas.blend1",
+    "size": 109413,
+    "mtime": 1793755026.2737882,
+    "sha256": "685730711a9b7eea04d62876291bcdc2498de90252231243e1a83a5e3f16e549"
+  },
+  {
+    "path": "objetos/sapatos.blend",
+    "size": 106312,
+    "mtime": 1793755338.348245,
+    "sha256": "12c2190dc6e12a24cb5021a6ff27252f478f20ba3210d4a6395b1c5802e4ee72"
+  },
+  {
+    "path": "objetos/sapatos.blend1",
+    "size": 106319,
+    "mtime": 1793755026.235808,
+    "sha256": "d2ba67901fe7b40a02815dcadf54f127fcc5f17e6a9a2ad3b971c0f5dc909b18"
+  },
+  {
+    "path": "personagens/nico_base.blend",
+    "size": 206218,
+    "mtime": 1793755337.9551258,
+    "sha256": "3985d69cfc833c04a0eaef216552e2ed39ae52616817820e29edd3d444e7e293"
+  },
+  {
+    "path": "personagens/nico_base.blend1",
+    "size": 207452,
+    "mtime": 1793755025.851732,
+    "sha256": "61c9a7eac9c8d9839338842a9131b5c89c2663dcb5c35365a18fc60851ca7436"
+  },
+  {
+    "path": "scratch/dumpw.py",
+    "size": 328,
+    "mtime": 1793814752.2150836,
+    "sha256": "e32b021277b69ee46110421bf53c3c3a11b062c5c8fddcffada310b102b1b4a7"
+  },
+  {
+    "path": "scratch/peek.py",
+    "size": 556,
+    "mtime": 1793814685.581272,
+    "sha256": "b2d6e12d221eb7a2cde9015507a58282aa0af8954d0ec8341ce25f4671168753"
+  },
+  {
+    "path": "scratch/peek2.py",
+    "size": 749,
+    "mtime": 1793814718.1052458,
+    "sha256": "1914fa1eed5ff455803506742031a44afdc3b5707330b273a9d919e292807a0d"
+  },
+  {
+    "path": "scratch/peek2.txt",
+    "size": 11072,
+    "mtime": 1793814721.4218802,
+    "sha256": "e9fd195af37e51daf2914f8b6d8474219d5ffcb7f8c2268fc03b05165bb021e1"
+  },
+  {
+    "path": "scratch/peek_120.png",
+    "size": 140121,
+    "mtime": 1793814697.0702324,
+    "sha256": "83d2ffa471657ddf5ac08a5ad561d2413c07dd6065ebfb0995e8d2905efcd26f"
+  },
+  {
+    "path": "scratch/peek_300.png",
+    "size": 153041,
+    "mtime": 1793814697.778871,
+    "sha256": "b144323b23863bd3b5d6f349f6892c53fe09cb94215e9f38ea2d8acafebbdf57"
+  },
+  {
+    "path": "scratch/peek_420.png",
+    "size": 150986,
+    "mtime": 1793814698.4678736,
+    "sha256": "6053cc6f5026b4139acceaaa54584052c31ce11fb2b3fa1c7299ac1e7c2b2852"
+  },
+  {
+    "path": "scripts/animar_objetos.py",
+    "size": 774,
+    "mtime": 1793755877.0920956,
+    "sha256": "877479ebeef86d09cd11c49be9132ab124a6a9d40b304973691cdd22f0cd6bdb"
+  },
+  {
+    "path": "scripts/build_scene.py",
+    "size": 8014,
+    "mtime": 1793756194.0918212,
+    "sha256": "a154b49279a11f322afe477f5502ad3cba3b9843e288e07172a593d0225b8602"
+  },
+  {
+    "path": "scripts/build_scene_v2.py",
+    "size": 5111,
+    "mtime": 1793756194.148251,
+    "sha256": "c4ca7ea50702c2c64fdb0bbecf2ca803f59494cff32560ecfb29a9c338430064"
+  },
+  {
+    "path": "scripts/build_scene_v3_1.py",
+    "size": 11003,
+    "mtime": 1793795181.326142,
+    "sha256": "a5682fecd0577ff6f64f623a429c8ffc5012c916dd3e10395ad391cd4d8ae5da"
+  },
+  {
+    "path": "scripts/configurar_camera.py",
+    "size": 735,
+    "mtime": 1793755877.268106,
+    "sha256": "1ed4bfcbcfbb355f2e5320b26b80f579e5c5b8fbeaf4c16ba1f4189caaf49bc9"
+  },
+  {
+    "path": "scripts/finalize_audio_v3_1.py",
+    "size": 2538,
+    "mtime": 1793795181.3761363,
+    "sha256": "a79463ed63c50d249cc9f5d60821b73994dbda4c20d70daa326e231310f5ee18"
+  },
+  {
+    "path": "scripts/montar_cena.py",
+    "size": 1254,
+    "mtime": 1793755877.317494,
+    "sha256": "6d05607074b401c765a51efca29ab256ebdc6b06d330b6e75576f5d495785a27"
+  },
+  {
+    "path": "testes/migrar_estrutura.py",
+    "size": 12045,
+    "mtime": 1793755878.5482874,
+    "sha256": "b1077bd9dc5c7599ae1decb982f5a010da31bf1390d5112d96a67865bec397f0"
+  },
+  {
+    "path": "testes/test_ep001_narracao.py",
+    "size": 4848,
+    "mtime": 1793803673.6698523,
+    "sha256": "0f595e6cddd73231d737c513bedea72911bc0765969156de8665c4a9de164b5d"
+  },
+  {
+    "path": "testes/test_pipeline_v3.py",
+    "size": 9335,
+    "mtime": 1793756324.864407,
+    "sha256": "c56ba8e80672caed2890c60f5bcd3dc23c35e7ef11128223d79bba672b78355a"
+  },
+  {
+    "path": "testes/test_pipeline_v3_1.py",
+    "size": 13642,
+    "mtime": 1793795181.5306962,
+    "sha256": "b4f7e211ed250ecd775ecda545edee7ae257479b27f19bfa617bb4481fd3ad1b"
+  },
+  {
+    "path": "audio/narracoes/EP001/EP001_NARRACAO_COMPLETA_V1.wav",
+    "size": 4901804,
+    "mtime": 1793803435.1974971,
+    "sha256": "61ebd806c20c9e126584cfd5f8cc9c03cc819c3a3b2b4ecced4c1d1f4c3f1155"
+  },
+  {
+    "path": "audio/narracoes/EP001/segmentos/EP001_S01_V1.wav",
+    "size": 297956,
+    "mtime": 1793803048.1738048,
+    "sha256": "29e6f9ef1b58236328c18d9f28ad21483db62233fb779383126a960727ea644b"
+  },
+  {
+    "path": "audio/narracoes/EP001/segmentos/EP001_S01_V1.wav.meta.json",
+    "size": 2731,
+    "mtime": 1793803048.2358048,
+    "sha256": "f5bc843e5981d1aba98ed3c44a6c37259eb39e227c018557a0f2817707cf38a4"
+  },
+  {
+    "path": "audio/narracoes/EP001/segmentos/EP001_S02_V1.wav",
+    "size": 653156,
+    "mtime": 1793803060.5120864,
+    "sha256": "34271506c4f49faa04d2779099c50a4439a546c58aee67a6d5c4a38ccb5e2ef4"
+  },
+  {
+    "path": "audio/narracoes/EP001/segmentos/EP001_S02_V1.wav.meta.json",
+    "size": 2838,
+    "mtime": 1793803060.657881,
+    "sha256": "d95593e19c51671ae04e4251859334ffd88e80b10bb4ab670bdd224bef6cf943"
+  },
+  {
+    "path": "audio/narracoes/EP001/segmentos/EP001_S03_V1.wav",
+    "size": 847076,
+    "mtime": 1793803066.4597304,
+    "sha256": "0ef41ac019d9023bb45fce5ab96840d67b0e318ef451f3ef7ab787721dd80dbd"
+  },
+  {
+    "path": "audio/narracoes/EP001/segmentos/EP001_S03_V1.wav.meta.json",
+    "size": 2891,
+    "mtime": 1793803066.6167681,
+    "sha256": "f970d9ae8cdafb9485ebaf7a9ae510502a0477fd7077b20af4b4338326724fa9"
+  },
+  {
+    "path": "audio/narracoes/EP001/segmentos/EP001_S04_V1.wav",
+    "size": 699236,
+    "mtime": 1793803094.0823512,
+    "sha256": "d515c79fcaef6957a3be8e3eb7d30de465ecf25e3df177380df330c891a2cc6e"
+  },
+  {
+    "path": "audio/narracoes/EP001/segmentos/EP001_S04_V1.wav.meta.json",
+    "size": 2885,
+    "mtime": 1793803094.218341,
+    "sha256": "c35d296885f646bba3f5f4d1412dfcfd2c57c489d95d665bfc0118af0635c627"
+  },
+  {
+    "path": "audio/narracoes/EP001/segmentos/EP001_S05_V1.wav",
+    "size": 449636,
+    "mtime": 1793803144.9494023,
+    "sha256": "1916c9e58d0987f9658116cecd0beb9b771894be2b7056c98d972daab9edc1d5"
+  },
+  {
+    "path": "audio/narracoes/EP001/segmentos/EP001_S05_V1.wav.meta.json",
+    "size": 2722,
+    "mtime": 1793803145.0434036,
+    "sha256": "8401144ed6ef594bc3923ef58a0d9f3fd2ba7dd4480b24ef962e1e602f2d5b63"
+  },
+  {
+    "path": "audio/narracoes/EP001/segmentos/EP001_S06_V1.wav",
+    "size": 971876,
+    "mtime": 1793803151.3090448,
+    "sha256": "637d6bf535bba240e277a068dc81f792da0a6a70a0819d099ed010cf7dd5a6e9"
+  },
+  {
+    "path": "audio/narracoes/EP001/segmentos/EP001_S06_V1.wav.meta.json",
+    "size": 2849,
+    "mtime": 1793803151.5220551,
+    "sha256": "663021dd34b09486634e3934a2cd007560b7f4bc647b6feb244863dc4f342707"
+  },
+  {
+    "path": "audio/narracoes/EP001/segmentos/EP001_S07_V1.wav",
+    "size": 668516,
+    "mtime": 1793803156.9503164,
+    "sha256": "e77d2b3ad9d7b66bcdea15ec1edf8645d96ac253c3743073a3239f8f7c8ffe09"
+  },
+  {
+    "path": "audio/narracoes/EP001/segmentos/EP001_S07_V1.wav.meta.json",
+    "size": 2812,
+    "mtime": 1793803157.1435182,
+    "sha256": "db1f53fedd278faa6695ba1f88b87f601bfb1f4b47b49c4235c42002660d9c5a"
+  },
+  {
+    "path": "audio/narracoes/EP001/segmentos/EP001_S08_V1.wav",
+    "size": 324836,
+    "mtime": 1793803172.027735,
+    "sha256": "7c8a2a719221f85c8dac163c1cfe9dbb863fb6d58bfaafdda2e48f31bc6144b3"
+  },
+  {
+    "path": "audio/narracoes/EP001/segmentos/EP001_S08_V1.wav.meta.json",
+    "size": 2733,
+    "mtime": 1793803172.1015003,
+    "sha256": "74b6ca180e8aa648c8c25bdb8fcb89b3ee9c180aa38a45278b0dfb1c07ba6355"
+  },
+  {
+    "path": "audio/narracoes/EP001/testes/narracao_B_flash_lite_V1.wav",
+    "size": 904676,
+    "mtime": 1793759026.4430783,
+    "sha256": "4a3a76f50d2ee0cd4f69d540233a62ee3058e14968f74ffd096ce8377f91dcd0"
+  },
+  {
+    "path": "audio/narracoes/EP001/testes/narracao_B_flash_lite_V1.wav.meta.json",
+    "size": 3065,
+    "mtime": 1793759026.6277795,
+    "sha256": "faf56134ea88255a08d67cf90fd821eaf1c8bdbdd747508e596eb82a63369a12"
+  },
+  {
+    "path": "audio/narracoes/EP001/testes/relatorio_missao_tts0.json",
+    "size": 9224,
+    "mtime": 1793759101.8025384,
+    "sha256": "a9b92cd86224d49eb91c0171920d1a6612036edabb3f8e8a6e91bad52c20c2c9"
+  },
+  {
+    "path": "audio/narracoes/EP001/testes/teste_acesso_flash_lite.wav",
+    "size": 307556,
+    "mtime": 1793759020.813271,
+    "sha256": "cdfc6fc9fcde49080ee4fe90014c6cb78927d56fca8b4e1c67bf6e0145aef714"
+  },
+  {
+    "path": "audio/narracoes/EP001/testes/teste_acesso_flash_lite.wav.meta.json",
+    "size": 2333,
+    "mtime": 1793759020.8882911,
+    "sha256": "b2785d76a3a16329c5665f38010abfc90d65e49e2bbffc6a4bee541a748be56d"
+  },
+  {
+    "path": "backups/legado/build_scene_v2.py",
+    "size": 4785,
+    "mtime": 1793750143.4391418,
+    "sha256": "fba4238a76e669d0aad2526165cd7910075f3f8e16e7e9c2bf9bb9f5ff21d566"
+  },
+  {
+    "path": "backups/legado/MANIFESTO_MIGRACAO.json",
+    "size": 18859,
+    "mtime": 1793753837.6138105,
+    "sha256": "15630f787dd9bdaa01d4f2efc9456bcaea950000f8a97762b5c5e73f5ba1658e"
+  },
+  {
+    "path": "backups/legado/preview_15s.mp4",
+    "size": 6878933,
+    "mtime": 1793751025.0407054,
+    "sha256": "cdfebaa53c3a4eae545470b8ec94e015a78df8f9046ba45bbe45f56c4cd35876"
+  },
+  {
+    "path": "backups/legado/README_V2.md",
+    "size": 6398,
+    "mtime": 1793750843.6670928,
+    "sha256": "5db12bd9628ab2b810f17da933f96cf8462b865cde112a2c6fc6d1286c23e6d9"
+  },
+  {
+    "path": "backups/legado/RELATORIO_TECNICO_V2.md",
+    "size": 12303,
+    "mtime": 1793750844.3986971,
+    "sha256": "a8b8a3ceaa5ab08a697075e14aea64bf4d890bbd9292b659e15e42d575d605ed"
+  },
+  {
+    "path": "backups/legado/Teste1.blend",
+    "size": 133082,
+    "mtime": 1793748695.851202,
+    "sha256": "dc1a75792869bba8216580c3128c47c569dd49bbf2fd5617025d48361b3f0ea5"
+  },
+  {
+    "path": "backups/legado/Teste1_V2.blend",
+    "size": 263290,
+    "mtime": 1793751025.1183355,
+    "sha256": "a56861ef690c8733b63bca1e0773bc203c154d02c6e10f823ce1eec9e979f08b"
+  },
+  {
+    "path": "backups/legado/kit_nico_blender/nico_teste_15s.py",
+    "size": 6416,
+    "mtime": 1793746732.0,
+    "sha256": "594b054f09e8da12fd00b9a63a5df37ee715f1959ca19fe2a931f38e64f2d2b4"
+  },
+  {
+    "path": "backups/legado/kit_nico_blender/README.txt",
+    "size": 1818,
+    "mtime": 1793746732.0,
+    "sha256": "4378c2e380f1fadfcaa9624457397ad843449e16c83f87936e82cca54ddefb30"
+  },
+  {
+    "path": "backups/legado/pipeline_v2/anim_character.py",
+    "size": 23535,
+    "mtime": 1793750352.7421658,
+    "sha256": "f3eea7b74f5aa3379e50ef1c7073ee2c76ae21ff2920d4c70a70da0dd853f75a"
+  },
+  {
+    "path": "backups/legado/pipeline_v2/anim_props.py",
+    "size": 14242,
+    "mtime": 1793750443.330527,
+    "sha256": "be9c7760558e9235779568bd547cecb44859f334bc79b26b9a282efdb97e339b"
+  },
+  {
+    "path": "backups/legado/pipeline_v2/character_nico.py",
+    "size": 18232,
+    "mtime": 1793750141.9554853,
+    "sha256": "5fd20f2dd4ff5ed142e4717f506b559b53d92154bdba7b0a0bd0d5d68101109b"
+  },
+  {
+    "path": "backups/legado/pipeline_v2/cinematography.py",
+    "size": 3174,
+    "mtime": 1793750504.303454,
+    "sha256": "c06c35efcca77f7c9fa11adf2da28803561996432b57cdf1e949e201a6562402"
+  },
+  {
+    "path": "backups/legado/pipeline_v2/config.py",
+    "size": 6360,
+    "mtime": 1793750438.8900216,
+    "sha256": "4919dc3f01768a0a70786bdcfbc1c4652ba1ec19fc34e7de91af179f58d83b17"
+  },
+  {
+    "path": "backups/legado/pipeline_v2/environment_fair.py",
+    "size": 16031,
+    "mtime": 1793750440.1953516,
+    "sha256": "e1e7ee4abf3b0bc95eea7dd97839d12550b0301f321f3236de4d3727a1f795d3"
+  },
+  {
+    "path": "backups/legado/pipeline_v2/materials_lighting.py",
+    "size": 6141,
+    "mtime": 1793750260.638681,
+    "sha256": "c2a0d721242839c4c04f9503af4bf7b92e287098b37c9b4c02cdfbaa47410bd1"
+  },
+  {
+    "path": "backups/legado/pipeline_v2/primitives.py",
+    "size": 6189,
+    "mtime": 1793750142.3323298,
+    "sha256": "23fc398b1b676c7e2dc060eefbab83ec04ebd60571cf8913647c685b588efe8b"
+  },
+  {
+    "path": "backups/legado/pipeline_v2/render_pipeline.py",
+    "size": 2868,
+    "mtime": 1793750142.421096,
+    "sha256": "3524a1e3ce41b1c2e5d06b82e48cd926fc70c2be9690f20885b238af37c16b42"
+  },
+  {
+    "path": "backups/legado/pipeline_v2/scene_setup.py",
+    "size": 4630,
+    "mtime": 1793750259.482445,
+    "sha256": "88fb8bce665f38ec86443ff8964834c0738b2d9e26b47d5280dd0214331db35d"
+  },
+  {
+    "path": "backups/legado/pipeline_v2/__init__.py",
+    "size": 83,
+    "mtime": 1793750141.5810504,
+    "sha256": "cc094845f8fdc9f0dc8a356d4a6f241b7c58fe09bacdc8a6e0b30cfe69c4e9be"
+  },
+  {
+    "path": "backups/legado/previews/frame_028_01_sapato_danificado.png",
+    "size": 641259,
+    "mtime": 1793750524.181806,
+    "sha256": "0ebe825d03d449994bd92a2a9be1960e914d381ba561dfc1e664686a74db1781"
+  },
+  {
+    "path": "backups/legado/previews/frame_075_02_queda_saco_batatas.png",
+    "size": 610165,
+    "mtime": 1793750524.5959888,
+    "sha256": "6081301ca82be7fa1e842000a91adeab57595f0f608013002024a696ec65ea6f"
+  },
+  {
+    "path": "backups/legado/previews/frame_112_03_nico_ideia_saco.png",
+    "size": 615994,
+    "mtime": 1793750525.0690296,
+    "sha256": "380dda8e6d7d95895d84f971c7351cf68ee4773c294ae903110864c1633c4b8d"
+  },
+  {
+    "path": "backups/legado/previews/frame_190_04_caminhada_feira.png",
+    "size": 627290,
+    "mtime": 1793750525.4810202,
+    "sha256": "9d446b57b93692aba2953db45785898db4bc767b7741d968731630b056b12f2f"
+  },
+  {
+    "path": "backups/legado/previews/frame_285_05_tentativa_troca_balcao.png",
+    "size": 622355,
+    "mtime": 1793750525.9101763,
+    "sha256": "f9ad3699d16b232c5e0a406fa065f2e83425d81f50a561e703731734ace6c4a6"
+  },
+  {
+    "path": "backups/legado/previews/frame_352_06_recusa_placa_x.png",
+    "size": 644925,
+    "mtime": 1793750526.39314,
+    "sha256": "047a65b786d2d5d657d437dedd0b0154db8c0924357777cb4be2606618f9f689"
+  },
+  {
+    "path": "backups/legado/previews/frame_382_07_desejo_simbolo_leite.png",
+    "size": 656312,
+    "mtime": 1793750526.8768697,
+    "sha256": "2d318cb8d9abfdbb393f454809beeb78c652a156a73095eebaca337dc2cf8191"
+  },
+  {
+    "path": "backups/legado/previews/frame_430_08_reacao_comica_final.png",
+    "size": 678682,
+    "mtime": 1793750527.3366272,
+    "sha256": "0fbe7550db0da9e48e7fe16a3498af175db48f33df02351b5b8d7919949fb0a6"
+  },
+  {
+    "path": "backups/legado/previews/preview_15s_lowres.mp4",
+    "size": 2734568,
+    "mtime": 1793750682.57212,
+    "sha256": "0adf2fd3ec49f0dcd1fae7c81a2e33856e6edc96be25c534f0c0713450b8f9f5"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/narracao.json",
+    "size": 5529,
+    "mtime": 1793803521.4788485,
+    "sha256": "5da5e71e6df8323f99bae89ba337d9dc4eccf9175592bf533fdae18a6db7b123"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/roteiro.md",
+    "size": 6230,
+    "mtime": 1793803522.1499512,
+    "sha256": "34af95d0b812d37f5072845480de94cf4e06ce9f5efee63cccf4d8dd73d165a6"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/storyboard.md",
+    "size": 4834,
+    "mtime": 1793803522.2024965,
+    "sha256": "9d7c74bd140f8d78e71ca1e5ec67c10145f3bd6eb77aeb7871fe2818304c06b1"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/timing.json",
+    "size": 34566,
+    "mtime": 1793803435.204511,
+    "sha256": "64015eb2b970e469ab42b2e9a138cb98221fe0f064903e3954e5aac69ce77efa"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/cenas/cena_01_V2.blend",
+    "size": 262768,
+    "mtime": 1793753913.9559467,
+    "sha256": "0bd3133b56b5f977a6d11fe48c375684482bec192aa12e0d640b45cd82d6effd"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/cenas/cena_01_V2.blend1",
+    "size": 263290,
+    "mtime": 1793751025.1183355,
+    "sha256": "a56861ef690c8733b63bca1e0773bc203c154d02c6e10f823ce1eec9e979f08b"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/cenas/cena_01_V3.blend",
+    "size": 386012,
+    "mtime": 1793756206.7279596,
+    "sha256": "82066b342346e0418c55c7354abfe14d25dce140216ac157026a1a8b43dd64a4"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/cenas/cena_01_V3.blend1",
+    "size": 385781,
+    "mtime": 1793756001.9000523,
+    "sha256": "acc24872d3cbd9221b050621139fa5845eca46315a35a76bf9fd9b6394d6f0d1"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/cenas/cena_01_V3_1.blend",
+    "size": 401287,
+    "mtime": 1793761461.6194892,
+    "sha256": "7ac044624721fbae63fdcf8a3625da572e045d6d4a97f1cb172ac62387a930cc"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/cenas/cena_01_V3_1.blend1",
+    "size": 400936,
+    "mtime": 1793761393.3024662,
+    "sha256": "e09dcd82d60421023ab40f51dce07d9a76e5a64f3e611138c1ae7281df06e6c0"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/cenas/cena_01_V3_1_com_carimbo.blend",
+    "size": 401444,
+    "mtime": 1793761461.7046013,
+    "sha256": "dc826a3c427ca8391c79aba58adba83307c38900a7f1d70a9759b2b504261909"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/cenas/cena_01_V3_1_com_carimbo.blend1",
+    "size": 401102,
+    "mtime": 1793761393.3906367,
+    "sha256": "10989cd62d808706fa0e6b8770d65fc7b059ece67e110fb7aba8b58ecdb668dd"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/legado/roteiro_piloto_15s_V3_1.md",
+    "size": 1993,
+    "mtime": 1793755876.9991667,
+    "sha256": "0e1db9e3849fd00f03e5816b5710d451b204186f6aebdc3775deedb16dcb3cab"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/legado/storyboard_piloto_15s_V3_1.md",
+    "size": 2265,
+    "mtime": 1793755877.0429611,
+    "sha256": "f3375d7beed7a3631fc854691da5cb9098dbb09b6cc54631251bbb05389fc8e2"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/legendas/EP001_LEGENDAS.ass",
+    "size": 4984,
+    "mtime": 1793803435.2125046,
+    "sha256": "ee04a203ae165bf84e55c55329720412a3f5b2455bdbb548ffc477761d90e2f4"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/legendas/EP001_LEGENDAS.srt",
+    "size": 3127,
+    "mtime": 1793803435.2084997,
+    "sha256": "249632e9f784605ab4fb97512443cc5ffa7e90151f9586f8b529f8a9efd9b1ed"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/legendas/_alinhamento_asr.json",
+    "size": 26827,
+    "mtime": 1793803360.2546694,
+    "sha256": "3625a0cce7cace3b3d808d44122468e162d25c715a3df292bd2bee98b158d8fe"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/legendas/_analise_pausas.json",
+    "size": 29648,
+    "mtime": 1793803197.9279144,
+    "sha256": "6ce367e7cee03afb5bd35633ae6a73e9c9daf9137e5614e04d7487bdad811f36"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/comparativo_V2_vs_V3.png",
+    "size": 2463463,
+    "mtime": 1793755681.2669864,
+    "sha256": "ec75eadd58d54d88d37c126885fb3d0a69d13c0a9d57bf7e7a1340cd18d14e8a"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/publicacao/COMENTARIOS.md",
+    "size": 1581,
+    "mtime": 1793803521.8053207,
+    "sha256": "304cf9a82c109b49933a8d5ffa882a9cea2b2fd6666c0f39b6da65e05c29df91"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/publicacao/METADADOS_PUBLICACAO.md",
+    "size": 1470,
+    "mtime": 1793803521.8367333,
+    "sha256": "7dd84a5e5d974f3c91dbe7aa9587149c440bbbdbfd2397dacdef08460d6687d8"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/videos/abertura_A_3s.mp4",
+    "size": 608516,
+    "mtime": 1793755784.2440302,
+    "sha256": "9797a0e35592dc240bf9addc8cf5fd93ca6aa88c58ecaf70731ebc0a68e255a1"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/videos/abertura_B_3s.mp4",
+    "size": 638586,
+    "mtime": 1793755810.7333603,
+    "sha256": "8f3fe30ed6926db495e420cc51ad5bf551a648e31e53955cfa6635e35362f215"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/videos/preview_15s_V2.mp4",
+    "size": 6878933,
+    "mtime": 1793751025.0407054,
+    "sha256": "cdfebaa53c3a4eae545470b8ec94e015a78df8f9046ba45bbe45f56c4cd35876"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/videos/preview_15s_V2_lowres.mp4",
+    "size": 2734568,
+    "mtime": 1793750682.57212,
+    "sha256": "0adf2fd3ec49f0dcd1fae7c81a2e33856e6edc96be25c534f0c0713450b8f9f5"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/videos/preview_15s_V3.mp4",
+    "size": 6951509,
+    "mtime": 1793756206.623962,
+    "sha256": "fd20b58def106d6bd1c6b316f607b9b9d6273255aef81108acc3fc6a82b8775e"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/videos/preview_15s_V3_lowres.mp4",
+    "size": 2714034,
+    "mtime": 1793755970.092785,
+    "sha256": "1296b1e728361e5655145d47ab977603926f9464cce9be5c10146e7d16250095"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/videos/preview_V3_1_1_com_carimbo_lowres.mp4",
+    "size": 3357052,
+    "mtime": 1793788137.0810204,
+    "sha256": "945bc4ac5092664316d104361cd46d9cf95fbdb7b66a01fc9630db5f567e5fb7"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/videos/preview_V3_1_1_narrado_lowres.mp4",
+    "size": 3333650,
+    "mtime": 1793788136.3086162,
+    "sha256": "fd8b732de6d871c7c9c993754c637245d169cefc75348b6056508ae409269e46"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/videos/preview_V3_1_1_sem_carimbo_lowres.mp4",
+    "size": 3333650,
+    "mtime": 1793788136.3086162,
+    "sha256": "fd8b732de6d871c7c9c993754c637245d169cefc75348b6056508ae409269e46"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/videos/preview_V3_1_com_carimbo_lowres.mp4",
+    "size": 3097400,
+    "mtime": 1793761761.9151094,
+    "sha256": "7eaf85eaa558862b704b0c49030408f531081f25de15fc656591b1c34a2d57f0"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/videos/preview_V3_1_narrado_lowres.mp4",
+    "size": 3073998,
+    "mtime": 1793761616.510105,
+    "sha256": "0681647a5f46c0a6c91fdb88b2e6a63f506eeca231af10333094cbc98ddeb04c"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/videos/preview_V3_1_sem_carimbo_lowres.mp4",
+    "size": 3073998,
+    "mtime": 1793761616.510105,
+    "sha256": "0681647a5f46c0a6c91fdb88b2e6a63f506eeca231af10333094cbc98ddeb04c"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/videos/relatorio_auditoria_audio_V3_1_1.json",
+    "size": 11502,
+    "mtime": 1793788137.263719,
+    "sha256": "38542832987c3e66982c2285bfe3bce66e4f339ed8753379a39966b117a36a7f"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v2/frame_028_01_sapato_danificado.png",
+    "size": 641259,
+    "mtime": 1793750524.181806,
+    "sha256": "0ebe825d03d449994bd92a2a9be1960e914d381ba561dfc1e664686a74db1781"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v2/frame_075_02_queda_saco_batatas.png",
+    "size": 610165,
+    "mtime": 1793750524.5959888,
+    "sha256": "6081301ca82be7fa1e842000a91adeab57595f0f608013002024a696ec65ea6f"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v2/frame_112_03_nico_ideia_saco.png",
+    "size": 615994,
+    "mtime": 1793750525.0690296,
+    "sha256": "380dda8e6d7d95895d84f971c7351cf68ee4773c294ae903110864c1633c4b8d"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v2/frame_190_04_caminhada_feira.png",
+    "size": 627290,
+    "mtime": 1793750525.4810202,
+    "sha256": "9d446b57b93692aba2953db45785898db4bc767b7741d968731630b056b12f2f"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v2/frame_285_05_tentativa_troca_balcao.png",
+    "size": 622355,
+    "mtime": 1793750525.9101763,
+    "sha256": "f9ad3699d16b232c5e0a406fa065f2e83425d81f50a561e703731734ace6c4a6"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v2/frame_352_06_recusa_placa_x.png",
+    "size": 644925,
+    "mtime": 1793750526.39314,
+    "sha256": "047a65b786d2d5d657d437dedd0b0154db8c0924357777cb4be2606618f9f689"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v2/frame_382_07_desejo_simbolo_leite.png",
+    "size": 656312,
+    "mtime": 1793750526.8768697,
+    "sha256": "2d318cb8d9abfdbb393f454809beeb78c652a156a73095eebaca337dc2cf8191"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v2/frame_430_08_reacao_comica_final.png",
+    "size": 678682,
+    "mtime": 1793750527.3366272,
+    "sha256": "0fbe7550db0da9e48e7fe16a3498af175db48f33df02351b5b8d7919949fb0a6"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3/frame_028_01_sapato_danificado.png",
+    "size": 2418509,
+    "mtime": 1793755671.3903942,
+    "sha256": "f63c5c055b75afcebab2db87295675fefc8b8126b4308e0ecec151ddfb94e800"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3/frame_075_02_queda_saco_batatas.png",
+    "size": 2380463,
+    "mtime": 1793755672.602848,
+    "sha256": "5916ffbce0a5a712f1629fe6989fec3156e1d51c460ff20829cfe036c10d6f43"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3/frame_112_03_nico_ideia_saco.png",
+    "size": 2379031,
+    "mtime": 1793755673.8444932,
+    "sha256": "4de1a4a86690a4879f29e3a116a507f085c66608a25289518e0033cc01c28551"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3/frame_190_04_caminhada_feira.png",
+    "size": 2381431,
+    "mtime": 1793755675.0472052,
+    "sha256": "7ad3a805b38617860813811ca77b41d1bf7d85d24022a378231402acd1696ddf"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3/frame_285_05_tentativa_troca_balcao.png",
+    "size": 2392377,
+    "mtime": 1793755676.2057254,
+    "sha256": "d0e6b7d1eb2425a9a166ac94090e63e186f225aa8a0511629e23be153645ba66"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3/frame_352_06_recusa_placa_x.png",
+    "size": 2361157,
+    "mtime": 1793755677.3976004,
+    "sha256": "d2f92011b2cc1075f9346104baaeb108e101a854e58d0854d9d709c127b4f8cb"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3/frame_382_07_desejo_simbolo_leite.png",
+    "size": 2368310,
+    "mtime": 1793755678.5257661,
+    "sha256": "07466dc863934202896698ee83f618cee83c80a8723f06780c681b88b7644baf"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3/frame_430_08_reacao_comica_final.png",
+    "size": 2457161,
+    "mtime": 1793755679.7757695,
+    "sha256": "c59e52a66ab8f48825934073ea5d50b6160ffcbb26340a1066c7200704865578"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3_1/carimbo_com_assinatura_f530.png",
+    "size": 576436,
+    "mtime": 1793761471.4168208,
+    "sha256": "f4d693cb6792bf1ba04c67f7cc0a499653359cca9626999e0e7694812f17491c"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3_1/carimbo_sem_assinatura_f530.png",
+    "size": 569638,
+    "mtime": 1793761470.6083603,
+    "sha256": "7546914b1884c37c0b6fcbeed371037beef7464adc36055042b647966f3fe10d"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3_1/comparativo_carimbo_duvida.png",
+    "size": 894699,
+    "mtime": 1793761471.57084,
+    "sha256": "9085cc12b9339a9f44e7e188ea66c8d0ff08e90821e229a36cc49fa743033b42"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3_1/frame_035_01_frase1_sapato_abrindo.png",
+    "size": 527245,
+    "mtime": 1793761463.9563413,
+    "sha256": "7ea154b3bb7f5289f323f9eee083a3bd409fa8865d83865b17a881e195605fd8"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3_1/frame_068_02_frase1_pediu_demissao_tropeco.png",
+    "size": 561052,
+    "mtime": 1793761464.7045343,
+    "sha256": "74f6440a9a43c43cf347b3a29e35bd0a476b144aed9dfd0dd9689937ec089976"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3_1/frame_150_03_frase2_vila_sem_dinheiro.png",
+    "size": 517486,
+    "mtime": 1793761465.4998677,
+    "sha256": "257e99a09d9e549c2a8350949f1a5dcc7ced3eecf3b61dc2df4892d912c34a62"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3_1/frame_204_04_frase3a_ideia_saco_batatas.png",
+    "size": 555406,
+    "mtime": 1793761466.2585914,
+    "sha256": "75dc11c7c9385f1193db21e8f70b9c08f6e43727e2b771b1aa4b0d2e46cb60a1"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3_1/frame_259_05_frase3b_caminhada_trocar.png",
+    "size": 556215,
+    "mtime": 1793761466.9960277,
+    "sha256": "456763a50184b95eab0cd3be3b15dfa8fbb656f1a4420e92d53bd8a76261732c"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3_1/frame_310_06_frase3c_balcao_par_novo.png",
+    "size": 551286,
+    "mtime": 1793761467.6983173,
+    "sha256": "368be95dcba07a9e07c740b866a1aa80016f7abeb751be6ab347d3a4afb205f1"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3_1/frame_392_07_frase4_nao_queria_batatas_x.png",
+    "size": 543588,
+    "mtime": 1793761468.4118824,
+    "sha256": "d8ec9e20d4837ea03635407ccff7f425617d7ff70f1c8a86a8ad4f5ad5d61c8d"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3_1/frame_451_08_frase5_queria_leite.png",
+    "size": 543626,
+    "mtime": 1793761469.147821,
+    "sha256": "6ddf31f5156198a6c07fe8f36f194fc4c067f46eb639697ab16c3947e485ac02"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3_1/frame_530_09_frase6_nico_ai_complicou.png",
+    "size": 569638,
+    "mtime": 1793761469.8690333,
+    "sha256": "01a9c92f60527595f7d1315050ace97b68220008d505e9831e018d8b571d686e"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3_1/waveform_timing_v3_1.png",
+    "size": 45558,
+    "mtime": 1793761461.4647453,
+    "sha256": "7f531edad908b383d243c7582138ea2b6806141a4e6076e4f8371412e29b0440"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3/aberturas/frame_015_abertura_A_0_5s.png",
+    "size": 621035,
+    "mtime": 1793755756.984424,
+    "sha256": "872a1973a4a60849b64e19545c5ab03d9b3dc31b0a94f467b5b021a6b57d73da"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3/aberturas/frame_015_abertura_B_0_5s.png",
+    "size": 565664,
+    "mtime": 1793755785.610785,
+    "sha256": "828885941de0ebf43fdd469bc5a49a0a8fc86fd6a94b1915b879f5515b670d94"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3/aberturas/frame_045_abertura_A_1_5s.png",
+    "size": 657638,
+    "mtime": 1793755757.8506103,
+    "sha256": "7d50614cb152fea0c3286fa06f4a10cb9f5b21678c22adc33a04edf6f3f7580b"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3/aberturas/frame_045_abertura_B_1_5s.png",
+    "size": 565736,
+    "mtime": 1793755786.4402773,
+    "sha256": "18bd373b6c0fc23b0ca75b14f22d8b57fee5e9a35e2dc132e1a7378902361765"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3/aberturas/frame_062_abertura_A_2_1s.png",
+    "size": 664597,
+    "mtime": 1793755758.6527023,
+    "sha256": "9593e40a3f874a0ec79f78bd105bf0692c686b222c4948d3c2133cbe02e4b30e"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3/aberturas/frame_062_abertura_B_2_1s.png",
+    "size": 549986,
+    "mtime": 1793755787.2285528,
+    "sha256": "ca5f6b6bbe4703707a83bfea4fdf40a689855e8d4abf80de6c725c584c5355e3"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3/auditoria/frame_015_00_5s_close_sapato_abrindo.png",
+    "size": 2299263,
+    "mtime": 1793755662.81561,
+    "sha256": "f1edc4de6e7c1ea70d428cb92e63266eee623e6993f3d5c518a6b29ec94bb639"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3/auditoria/frame_045_01_5s_tropeco_sapato.png",
+    "size": 2396093,
+    "mtime": 1793755664.0194874,
+    "sha256": "52aa1ecc43ff66336753bd9411ba27536d7a3a5ff0058a3e53dc23f1626ae6fb"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3/auditoria/frame_105_03_5s_revelacao_carrinho_batatas.png",
+    "size": 2377411,
+    "mtime": 1793755665.2106433,
+    "sha256": "97ef42b60f7045214e1e9e09cdeb93d0c82277c47ada181623ddbd18ef2eb85a"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3/auditoria/frame_180_06_0s_caminhada_com_peso.png",
+    "size": 2407705,
+    "mtime": 1793755666.4232314,
+    "sha256": "58592712a06dcfe0e3e9ce0094230db4458938451ac357968d03720b09ceca9d"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3/auditoria/frame_285_09_5s_proposta_troca_balcao.png",
+    "size": 2392377,
+    "mtime": 1793755667.6979926,
+    "sha256": "afd50e7982a7bde43902656bef91d8c496ff8df58421fb6ed20d4e3f23102afe"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3/auditoria/frame_375_12_5s_recusa_x_e_leite.png",
+    "size": 2378237,
+    "mtime": 1793755668.92725,
+    "sha256": "6870d86626d9423b12a63629866d6f53079f4c6fa22d85b512b47daca3b6a54f"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3/auditoria/frame_435_14_5s_reacao_final_nico.png",
+    "size": 2461387,
+    "mtime": 1793755670.1700883,
+    "sha256": "df3d44a93dab647e0809bdb76784a511b6062106ae23b950e41acf9754b9bc15"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3/closeups/closeup_01_sapato_descolado_frontal.png",
+    "size": 2273908,
+    "mtime": 1793755657.6968122,
+    "sha256": "3736903f2a434fe6c642736fcdbdc4e50e91ad1f8ed12fe2bb48cc7a8da62b35"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3/closeups/closeup_02_sapato_descolado_perfil.png",
+    "size": 2333890,
+    "mtime": 1793755659.0045004,
+    "sha256": "cb0daa3dd53f1eb29e35d1fbf5f1d3029d4413339c5a17658f8cc8686994aada"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3/closeups/closeup_03_nico_v3_rosto_expressao.png",
+    "size": 2390687,
+    "mtime": 1793755660.2917845,
+    "sha256": "461162f62cc7adaed3e12f27842ac5d0cae3b681df2f8161337421d2585f92cb"
+  },
+  {
+    "path": "episodios/EP001_dinheiro/previews/v3/closeups/closeup_04_nico_v3_corpo_inteiro.png",
+    "size": 2441913,
+    "mtime": 1793755661.56372,
+    "sha256": "91eef10fcd7c7372752c042f92d0e99a015b5281f359a4c9ef0f30ab8bef6470"
+  },
+  {
+    "path": "referencias/videos/Banco.mp4",
+    "size": 8896608,
+    "mtime": 1793751677.655203,
+    "sha256": "14041e1ffc68ba9fcbf2845140768eafc8dd88ccb9c9ba030a5fcdd1e6162710"
+  },
+  {
+    "path": "referencias/videos/videoplayback (1).mp4",
+    "size": 11973068,
+    "mtime": 1793751748.3035462,
+    "sha256": "f740b2eca1bdf280e2b48fb6ba5d105c88ec64ccb903be13318c15942b4e0839"
+  },
+  {
+    "path": "referencias/videos/videoplayback.mp4",
+    "size": 10330521,
+    "mtime": 1793751714.9883437,
+    "sha256": "520c24c8391abb0f2450d448a98524c889d315b48bab5dfe7f81726120905e05"
+  },
+  {
+    "path": "referencias/imagens/Banco/f_0001.jpg",
+    "size": 10843,
+    "mtime": 1793753662.8062878,
+    "sha256": "0ebbf7a86f25aa05a4522a4280e445f4747259c150411d1f483eef703c99cf16"
+  },
+  {
+    "path": "referencias/imagens/Banco/f_0086.jpg",
+    "size": 10639,
+    "mtime": 1793753662.8260007,
+    "sha256": "4f1ca46d3256fd30da75291fe27e8f962e183e3756e47ec72d965071a6e85216"
+  },
+  {
+    "path": "referencias/imagens/Banco/f_0172.jpg",
+    "size": 14950,
+    "mtime": 1793753662.8392375,
+    "sha256": "b03e844da92e02c49326dccd1dd6afa7b4224b2ea481e784512dd0a08b7b1c2a"
+  },
+  {
+    "path": "referencias/imagens/Banco/f_0257.jpg",
+    "size": 14048,
+    "mtime": 1793753662.8484488,
+    "sha256": "10925bdf445daa6606725335cad6fd7c3720cd6b7722d688145a67268f0857cb"
+  },
+  {
+    "path": "referencias/imagens/Banco/f_0343.jpg",
+    "size": 15223,
+    "mtime": 1793753662.8594341,
+    "sha256": "3f85b1cf75029e87fc397018722c8ad3adc137d99d26bf15858c179e1b6ef082"
+  },
+  {
+    "path": "referencias/imagens/Banco/f_0428.jpg",
+    "size": 10913,
+    "mtime": 1793753662.868704,
+    "sha256": "c2f25282ebb86e793fdfc9d39e0e0030c0964af7d482073a068ec7942171a863"
+  },
+  {
+    "path": "referencias/imagens/Banco/f_0514.jpg",
+    "size": 12197,
+    "mtime": 1793753662.879694,
+    "sha256": "367b46e8e88adcbc65fdef554bbefa2ae0cb69305c312ee077e13665cde184cb"
+  },
+  {
+    "path": "referencias/imagens/Banco/f_0600.jpg",
+    "size": 11620,
+    "mtime": 1793753662.8928404,
+    "sha256": "2a50d5e6baedc66c8a8a0c7605a71ae42e02cb00b4e9167f52d6f432c0820bb1"
+  },
+  {
+    "path": "referencias/imagens/preview_15s_v2/f_0001.jpg",
+    "size": 39043,
+    "mtime": 1793753663.268,
+    "sha256": "c8e10a03fdd8f7ff8fc6bb90268d8a5f4f3168d06ba617db88c6bab4c7cfdc70"
+  },
+  {
+    "path": "referencias/imagens/preview_15s_v2/f_0065.jpg",
+    "size": 38379,
+    "mtime": 1793753663.3113647,
+    "sha256": "22a7c7d4ab80e00e5ad418524bcfe99554eb3fba5a4e1fc6691097d9f3c4b176"
+  },
+  {
+    "path": "referencias/imagens/preview_15s_v2/f_0129.jpg",
+    "size": 39367,
+    "mtime": 1793753663.3598,
+    "sha256": "9e5545aed00a5e922081b7246794f1c1cb66864479beb4fc7409a6ce7c0955cc"
+  },
+  {
+    "path": "referencias/imagens/preview_15s_v2/f_0193.jpg",
+    "size": 46097,
+    "mtime": 1793753663.4089859,
+    "sha256": "91012494bb0db7740346ccb09d4019384f2e4e9d1e83112c064944e0f6413b65"
+  },
+  {
+    "path": "referencias/imagens/preview_15s_v2/f_0257.jpg",
+    "size": 48657,
+    "mtime": 1793753663.4604108,
+    "sha256": "48ef9e76a0953701afb5365bf446f78644b26dfc7bf5dcdabdb868d2066a5b1a"
+  },
+  {
+    "path": "referencias/imagens/preview_15s_v2/f_0321.jpg",
+    "size": 49030,
+    "mtime": 1793753663.50231,
+    "sha256": "500d5d743a8b1572670441e7afcf9d9bfb3bb9aca7fc7f0bba1e57924aecaa5a"
+  },
+  {
+    "path": "referencias/imagens/preview_15s_v2/f_0385.jpg",
+    "size": 60182,
+    "mtime": 1793753663.5487893,
+    "sha256": "9310a429ba7454f5c0ba7da00276f258a4277857c294adbb32071abd57313277"
+  },
+  {
+    "path": "referencias/imagens/preview_15s_v2/f_0450.jpg",
+    "size": 58605,
+    "mtime": 1793753663.5900073,
+    "sha256": "ba02d1a9eb80abca53bd284334f6151ffb27e524f6dfb00271d63ac41279f22f"
+  },
+  {
+    "path": "referencias/imagens/videoplayback/f_0001.jpg",
+    "size": 14637,
+    "mtime": 1793753663.049199,
+    "sha256": "eb46b4858f00b7aaa94cff62fbbe6d88909e512c023c41e337d1cb29ebc74a9e"
+  },
+  {
+    "path": "referencias/imagens/videoplayback/f_0086.jpg",
+    "size": 14796,
+    "mtime": 1793753663.05952,
+    "sha256": "e9da9c973d357a85cdfa40af10602f7844d938a576b73d4b27ceee2834cc02e8"
+  },
+  {
+    "path": "referencias/imagens/videoplayback/f_0172.jpg",
+    "size": 13842,
+    "mtime": 1793753663.0732982,
+    "sha256": "5c3c1faaa872ba7a84fca2f0a8f687f694c37cde46c605a39138766e2ba88773"
+  },
+  {
+    "path": "referencias/imagens/videoplayback/f_0257.jpg",
+    "size": 12285,
+    "mtime": 1793753663.0843182,
+    "sha256": "f08afd16a2533c47f2cf2db82591ed39ba054372cb2cc3971d66de306024408d"
+  },
+  {
+    "path": "referencias/imagens/videoplayback/f_0343.jpg",
+    "size": 12352,
+    "mtime": 1793753663.0986106,
+    "sha256": "8ece9cde8dc23c87aec533a69f71f88e2d9b6d3518759d41b5d9f4912ca34b36"
+  },
+  {
+    "path": "referencias/imagens/videoplayback/f_0428.jpg",
+    "size": 12822,
+    "mtime": 1793753663.1144075,
+    "sha256": "397e53d0c2a2cd62c391572342ca0c6e0d7fe28c013347cc56ffda44fadc282d"
+  },
+  {
+    "path": "referencias/imagens/videoplayback/f_0514.jpg",
+    "size": 12430,
+    "mtime": 1793753663.1257467,
+    "sha256": "1693750592c9dcc7acc712b6134744973b56ea561a0046baa065b865017ada81"
+  },
+  {
+    "path": "referencias/imagens/videoplayback/f_0600.jpg",
+    "size": 12143,
+    "mtime": 1793753663.1380572,
+    "sha256": "8b9ce7d06c2bd89347f754ff7fb3c1315dc9e60b47e0d0aeddf59c8134bc486d"
+  },
+  {
+    "path": "referencias/imagens/videoplayback_1/f_0001.jpg",
+    "size": 7135,
+    "mtime": 1793753662.938015,
+    "sha256": "88660749c622ff3420b1edf648e4f6867ff061994fdff7584c26d58cc0dbe163"
+  },
+  {
+    "path": "referencias/imagens/videoplayback_1/f_0086.jpg",
+    "size": 7602,
+    "mtime": 1793753662.9493618,
+    "sha256": "c9a1d845505411a18d09478899e21bd6b881116c36bd67df423fd185b2bfb48a"
+  },
+  {
+    "path": "referencias/imagens/videoplayback_1/f_0172.jpg",
+    "size": 7722,
+    "mtime": 1793753662.960558,
+    "sha256": "fb119514c433e36f95be03bdcc71d1566a57c123b2e06fee280338e6a41bc523"
+  },
+  {
+    "path": "referencias/imagens/videoplayback_1/f_0257.jpg",
+    "size": 7432,
+    "mtime": 1793753662.9736738,
+    "sha256": "171eaa40ac5b64065f6be94e26012f617b1c197f6664f1dce0ee9fd7ee371eef"
+  },
+  {
+    "path": "referencias/imagens/videoplayback_1/f_0343.jpg",
+    "size": 9876,
+    "mtime": 1793753662.981998,
+    "sha256": "df8477489a7a7d857824e2486b2a5a7d0b60d40dd6e72eef80f61296af96319a"
+  },
+  {
+    "path": "referencias/imagens/videoplayback_1/f_0428.jpg",
+    "size": 13206,
+    "mtime": 1793753662.9934175,
+    "sha256": "5d8a8aff2f676cb7873e5039730d44e6abbff089e7c24189d12c93fa8f96fb6c"
+  },
+  {
+    "path": "referencias/imagens/videoplayback_1/f_0514.jpg",
+    "size": 7489,
+    "mtime": 1793753663.0022764,
+    "sha256": "26af0c96a9a145e10e67940787ef8f5bc6b4d3eac4a6e291bed5ce8945bea89d"
+  },
+  {
+    "path": "referencias/imagens/videoplayback_1/f_0600.jpg",
+    "size": 9295,
+    "mtime": 1793753663.013504,
+    "sha256": "fa8be2b6a5e296a441be02447849e9e6354ae5633c5c6705090c19412b4b58d6"
+  },
+  {
+    "path": "scripts/legendas/align_ep001.py",
+    "size": 5211,
+    "mtime": 1793803673.5648513,
+    "sha256": "ea498d53c15d639a38dfd0ce2815b8133c7d0e38355c30f9ade5f0623b2fc0f2"
+  },
+  {
+    "path": "scripts/legendas/montar_ep001.py",
+    "size": 9504,
+    "mtime": 1793803673.6118515,
+    "sha256": "e63ac1061e5a80a5f6fdc9974176e3b967ee3d7906bc6c691aa52c2736cffff1"
+  },
+  {
+    "path": "scripts/legendas/timing_ep001.py",
+    "size": 5074,
+    "mtime": 1793803522.358671,
+    "sha256": "d5077adfba39ea878b98041440f1c4336f2e3436bf567bb058cbec5fb69051c5"
+  },
+  {
+    "path": "scripts/legendas/__init__.py",
+    "size": 0,
+    "mtime": 1793803085.9486651,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "scripts/pipeline_v2/anim_character.py",
+    "size": 23535,
+    "mtime": 1793750352.7421658,
+    "sha256": "f3eea7b74f5aa3379e50ef1c7073ee2c76ae21ff2920d4c70a70da0dd853f75a"
+  },
+  {
+    "path": "scripts/pipeline_v2/anim_props.py",
+    "size": 14242,
+    "mtime": 1793750443.330527,
+    "sha256": "be9c7760558e9235779568bd547cecb44859f334bc79b26b9a282efdb97e339b"
+  },
+  {
+    "path": "scripts/pipeline_v2/character_nico.py",
+    "size": 18232,
+    "mtime": 1793750141.9554853,
+    "sha256": "5fd20f2dd4ff5ed142e4717f506b559b53d92154bdba7b0a0bd0d5d68101109b"
+  },
+  {
+    "path": "scripts/pipeline_v2/cinematography.py",
+    "size": 3174,
+    "mtime": 1793750504.303454,
+    "sha256": "c06c35efcca77f7c9fa11adf2da28803561996432b57cdf1e949e201a6562402"
+  },
+  {
+    "path": "scripts/pipeline_v2/config.py",
+    "size": 6360,
+    "mtime": 1793750438.8900216,
+    "sha256": "4919dc3f01768a0a70786bdcfbc1c4652ba1ec19fc34e7de91af179f58d83b17"
+  },
+  {
+    "path": "scripts/pipeline_v2/environment_fair.py",
+    "size": 16031,
+    "mtime": 1793750440.1953516,
+    "sha256": "e1e7ee4abf3b0bc95eea7dd97839d12550b0301f321f3236de4d3727a1f795d3"
+  },
+  {
+    "path": "scripts/pipeline_v2/materials_lighting.py",
+    "size": 6141,
+    "mtime": 1793750260.638681,
+    "sha256": "c2a0d721242839c4c04f9503af4bf7b92e287098b37c9b4c02cdfbaa47410bd1"
+  },
+  {
+    "path": "scripts/pipeline_v2/primitives.py",
+    "size": 6189,
+    "mtime": 1793750142.3323298,
+    "sha256": "23fc398b1b676c7e2dc060eefbab83ec04ebd60571cf8913647c685b588efe8b"
+  },
+  {
+    "path": "scripts/pipeline_v2/render_pipeline.py",
+    "size": 2868,
+    "mtime": 1793750142.421096,
+    "sha256": "3524a1e3ce41b1c2e5d06b82e48cd926fc70c2be9690f20885b238af37c16b42"
+  },
+  {
+    "path": "scripts/pipeline_v2/scene_setup.py",
+    "size": 4630,
+    "mtime": 1793750259.482445,
+    "sha256": "88fb8bce665f38ec86443ff8964834c0738b2d9e26b47d5280dd0214331db35d"
+  },
+  {
+    "path": "scripts/pipeline_v2/__init__.py",
+    "size": 83,
+    "mtime": 1793750141.5810504,
+    "sha256": "cc094845f8fdc9f0dc8a356d4a6f241b7c58fe09bacdc8a6e0b30cfe69c4e9be"
+  },
+  {
+    "path": "scripts/pipeline_v3/anim_character.py",
+    "size": 25853,
+    "mtime": 1793756194.2255883,
+    "sha256": "0f8ad18c572552e770a55331a47d6e72af1e5ebeefbaa0a715cf17372d32dabb"
+  },
+  {
+    "path": "scripts/pipeline_v3/anim_props.py",
+    "size": 14489,
+    "mtime": 1793756194.3392217,
+    "sha256": "a1fd2faed79cfaa15bdff763a5616be7760fc9eb9b672436698cc7220eb4cc96"
+  },
+  {
+    "path": "scripts/pipeline_v3/asset_library.py",
+    "size": 3790,
+    "mtime": 1793755877.6712227,
+    "sha256": "7d016a8a29ba565e099addcd584c2cf104043bd526af3c6d3585dc522a3b04a5"
+  },
+  {
+    "path": "scripts/pipeline_v3/audio_finalizer.py",
+    "size": 23981,
+    "mtime": 1793788344.864012,
+    "sha256": "f31a29c84daacc0703d5685f333324f625b366344e105d41ba54f13a87abad47"
+  },
+  {
+    "path": "scripts/pipeline_v3/character_nico.py",
+    "size": 34405,
+    "mtime": 1793756194.567333,
+    "sha256": "a5060486ac6df058fb7a433b0c5c61cfd63f9238f0b773e966d78af78ef46331"
+  },
+  {
+    "path": "scripts/pipeline_v3/cinematography.py",
+    "size": 4723,
+    "mtime": 1793756194.6163032,
+    "sha256": "789612d32f47d18863f85d527ddad083b908ebc5c6812447653800145eb3a9e1"
+  },
+  {
+    "path": "scripts/pipeline_v3/config.py",
+    "size": 10077,
+    "mtime": 1793755996.261602,
+    "sha256": "a290a5543a695f25b93d89b78f1d152a7a73e1ad727086458a62cc9186dc73b1"
+  },
+  {
+    "path": "scripts/pipeline_v3/environment_fair.py",
+    "size": 19704,
+    "mtime": 1793756194.6739714,
+    "sha256": "bcbf0048667f369217696bedde6d4a31bea5b99608453e1a2f3258154bdd39f4"
+  },
+  {
+    "path": "scripts/pipeline_v3/materials_lighting.py",
+    "size": 7065,
+    "mtime": 1793755878.2967246,
+    "sha256": "eeda2035085c53458ba7ca473bd2a4b3c889c81fa21fd28a9eedf6ee90ba0d5a"
+  },
+  {
+    "path": "scripts/pipeline_v3/primitives.py",
+    "size": 10303,
+    "mtime": 1793755878.3722434,
+    "sha256": "338c74d51e7b66f06c9058c2184406ac5e1bd1d1e9e6a51ddfaa6a79c535a259"
+  },
+  {
+    "path": "scripts/pipeline_v3/render_pipeline.py",
+    "size": 8153,
+    "mtime": 1793756194.7308903,
+    "sha256": "602efa242de99855a283376e0372fa97bb5b2c15b76f7d49f11670a807992b05"
+  },
+  {
+    "path": "scripts/pipeline_v3/scene_setup.py",
+    "size": 6154,
+    "mtime": 1793755878.4945316,
+    "sha256": "b33b29a6dadc6ec76405b5aaa85dce90095ef8a157afa2c22a3a2205a0b05825"
+  },
+  {
+    "path": "scripts/pipeline_v3/v3_1_narrated_scene.py",
+    "size": 59214,
+    "mtime": 1793795181.4616964,
+    "sha256": "2c1e362f299c94f50c235ed3542746730b448f67eab33e5e862e8e3290d6c7f4"
+  },
+  {
+    "path": "scripts/pipeline_v3/__init__.py",
+    "size": 114,
+    "mtime": 1793755877.3614674,
+    "sha256": "28523aeecb99086a4d1fcbed619d6ac4aa67dab1120502674109606553e1a9d7"
+  },
+  {
+    "path": "scripts/tts/cli.py",
+    "size": 4374,
+    "mtime": 1793759179.409454,
+    "sha256": "4f8adbd7ff96dd7ebeca1e574e7e492c660561bdd667a6bcc6f29b779fe15efe"
+  },
+  {
+    "path": "scripts/tts/config.py",
+    "size": 4757,
+    "mtime": 1793759179.4393537,
+    "sha256": "4684d7f845f315baaa9fb25adc9895edddb1e94ebef05694312bbc3d69b6d95c"
+  },
+  {
+    "path": "scripts/tts/generator.py",
+    "size": 14142,
+    "mtime": 1793759179.4925444,
+    "sha256": "6ac9d785fe5b8530954405cfcd120d2489d0cf9c3357f00226b5b6103f22daf2"
+  },
+  {
+    "path": "scripts/tts/gerar_ep001.py",
+    "size": 3281,
+    "mtime": 1793803522.3885777,
+    "sha256": "ae9973f4313097e6c0eac11b9a97d6c40117451edcc7e19ad5ecaa4704657b40"
+  },
+  {
+    "path": "scripts/tts/run_missao_tts0.py",
+    "size": 4987,
+    "mtime": 1793759179.5434003,
+    "sha256": "872df1def7c6d17afad4f83f1350732963a33a78a4f2f81bc0d8adb1af05fd73"
+  },
+  {
+    "path": "scripts/tts/validator.py",
+    "size": 5669,
+    "mtime": 1793759179.6987064,
+    "sha256": "29954fb0123ceaaa19497a63f07c82c1a904ec676bec6652f69f3dcdca8ee608"
+  },
+  {
+    "path": "scripts/tts/__init__.py",
+    "size": 749,
+    "mtime": 1793759245.8300104,
+    "sha256": "7facd747284b9a1a0288c46698b17be86d2b506f104938956700a8754483f30a"
+  }
+]

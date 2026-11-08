@@ -1,0 +1,577 @@
+{
+  "status": "Decupagem técnica executável completa do EP001-V2 (Cenas 1 a 8, 3064 quadros, 30 FPS).",
+  "episodio": "EP001_dinheiro",
+  "timing": "episodios/EP001_dinheiro/timing.json",
+  "fps": 30,
+  "duracao_total_s": 102.12,
+  "total_quadros": 3064,
+  "blend": "episodios/EP001_dinheiro/ENTREGAS/EP001_COMPLETO_V2_EDITAVEL.blend",
+  "cache": ".cache/EP001/render_ep001_v2_1080x1920",
+  "render": {
+    "resolution": [
+      1080,
+      1920
+    ],
+    "samples": 8
+  },
+  "inputs": [
+    "episodios/EP001_dinheiro/timing.json",
+    "audio/narracoes/EP001/EP001_NARRACAO_COMPLETA_V1.wav"
+  ],
+  "plans": [
+    {
+      "id": "S01_P01_TROPECO",
+      "scene": 1,
+      "segment": "S01",
+      "frames": [1, 90],
+      "tempo_global_s": [0.0, 2.9667],
+      "camera": "Cam_S01_P01",
+      "objective": "Abrir direto no passo do Nico: a sola frontal direita descola ('boca de jacaré'), enrosca na pedra e causa tropeço e recuperação.",
+      "narracao": "O sapato do Nico pediu demissão.",
+      "characters": ["Nico"],
+      "posicoes_inicio_fim": {
+        "inicio": {"Nico": [-2.28, -0.62, 0.0]},
+        "fim": {"Nico": [-1.82, -0.56, 0.0]}
+      },
+      "passos": {"quantidade": 2, "direcao": "Passo direito com sola abrindo + tropeço na pedra em (-2.02, -0.56)"},
+      "gestos": "Braços abrem em moinho para equilibrar no tropeço (quadro 55) e recuperam junto ao tronco (quadro 84).",
+      "expressoes": "Neutro -> Preocupado com o sapato (q18) -> Surpreso no tropeço (q55) -> Preocupado (q82)",
+      "olhar": "Para o chão e diretamente para o tênis direito danificado",
+      "objetos": ["Nico_Tenis_SolaFrontal_R", "Pedra_Caminho_02"],
+      "contatos_transferencias": [
+        {"frame": 42, "acao": "Sola descolada engancha na pedra do caminho"}
+      ],
+      "audit_frames": [18, 55, 84]
+    },
+    {
+      "id": "S01_P02_VILA_SEM_DINHEIRO",
+      "scene": 1,
+      "segment": "S01",
+      "frames": [91, 185],
+      "tempo_global_s": [3.0, 6.1333],
+      "camera": "Cam_S01_P02",
+      "objective": "Revelar a feira da vila habitada e funcional, o carrinho de batatas do Nico e o emblema 3D contextual de Vila Sem Dinheiro.",
+      "narracao": "E na vila dele, ninguém usava dinheiro.",
+      "characters": ["Nico", "Sapateiro", "Pescador"],
+      "posicoes_inicio_fim": {
+        "inicio": {"Nico": [-1.82, -0.56, 0.0], "Sapateiro": [1.38, 0.5, 0.08]},
+        "fim": {"Nico": [-1.74, -0.54, 0.0], "Sapateiro": [1.38, 0.5, 0.08]}
+      },
+      "passos": {"quantidade": 0, "direcao": "Apoio plantado observando a feira"},
+      "gestos": "Nico levanta a cabeça, olha para a barraca do sapateiro e depois para o carrinho de batatas.",
+      "expressoes": "Curiosidade -> Preocupação leve ao notar o emblema Sem Dinheiro",
+      "olhar": "Varredura da feira para o carrinho de batatas",
+      "objetos": ["Selo_Sem_Dinheiro_Root", "Carrinho_Batatas", "Saco_Batatas_Root"],
+      "contatos_transferencias": [],
+      "audit_frames": [105, 148, 180]
+    },
+    {
+      "id": "S02_P01_IDEIA_PEGAR_SACO",
+      "scene": 2,
+      "segment": "S02",
+      "frames": [186, 258],
+      "tempo_global_s": [6.1667, 8.5667],
+      "camera": "Cam_S02_P01",
+      "objective": "Nico tem a ideia de usar os 40 kg de batata, faz agachamento de antecipação e ergue o saco pesado com esforço real.",
+      "narracao": "Ele tinha quarenta quilos de batata...",
+      "characters": ["Nico"],
+      "posicoes_inicio_fim": {
+        "inicio": {"Nico": [-1.72, -0.54, 0.0]},
+        "fim": {"Nico": [-1.42, -0.5, 0.0]}
+      },
+      "passos": {"quantidade": 1, "direcao": "Aproximação lateral ao carrinho e base larga de agachamento"},
+      "gestos": "Gesto de ideia (q200), agachamento profundo com joelhos flexionados (q238) e puxada pesada do saco contra o peito (q256).",
+      "expressoes": "Ideia confiante (happy_idea) -> Esforço físico intenso (effort)",
+      "olhar": "Do saco de batatas no carrinho para os sapatos novos",
+      "objetos": ["Saco_Batatas_Root", "Carrinho_Batatas"],
+      "contatos_transferencias": [
+        {"frame": 238, "acao": "Mãos do Nico abraçam o saco de 40 kg no carrinho"}
+      ],
+      "audit_frames": [202, 238, 256]
+    },
+    {
+      "id": "S02_P02_CAMINHADA_E_OFERTA",
+      "scene": 2,
+      "segment": "S02",
+      "frames": [259, 342],
+      "tempo_global_s": [8.6, 11.3667],
+      "camera": "Cam_S02_P02",
+      "objective": "Nico caminha 4 passos pesados carregando os 40 kg até a barraca do sapateiro, joga o saco no balcão ('PLOC!') e aponta para os sapatos novos.",
+      "narracao": "...e achou que dava pra trocar por um par novo.",
+      "characters": ["Nico", "Sapateiro"],
+      "posicoes_inicio_fim": {
+        "inicio": {"Nico": [-1.42, -0.5, 0.0], "Sapateiro": [1.38, 0.5, 0.08]},
+        "fim": {"Nico": [0.0, -0.48, 0.0], "Sapateiro": [1.38, 0.5, 0.08]}
+      },
+      "passos": {"quantidade": 4, "direcao": "Caminhada pesada em +X com sola direita abrindo a cada passo"},
+      "gestos": "Transporte pesado (q259-310), arremesso no balcão com squash/stretch e poeira (q318) e gesto orgulhoso apontando para o par de sapatos novos (q332).",
+      "expressoes": "Esforço (effort) -> Sorriso confiante na oferta (happy_idea)",
+      "olhar": "Para o balcão no apoio e depois para o sapateiro e sapatos novos",
+      "objetos": ["Saco_Batatas_Root", "Par_Sapatos_Novos_Root", "Poeira_Impacto_1"],
+      "contatos_transferencias": [
+        {"frame": 318, "acao": "Saco de 40 kg aterrissa no balcão do sapateiro com impacto PLOC"}
+      ],
+      "audit_frames": [284, 318, 336]
+    },
+    {
+      "id": "S02_P03_RECUSA_E_LEITE",
+      "scene": 2,
+      "segment": "S02",
+      "frames": [343, 512],
+      "tempo_global_s": [11.4, 17.0333],
+      "camera": "Cam_S02_P03",
+      "objective": "O sapateiro examina as batatas, nega com a cabeça e gestos claros (placa X vermelha) e indica que deseja leite (placa 3D de leite).",
+      "narracao": "Só que o sapateiro não queria batatas. Queria leite.",
+      "characters": ["Nico", "Sapateiro"],
+      "posicoes_inicio_fim": {
+        "inicio": {"Nico": [0.0, -0.48, 0.0], "Sapateiro": [1.38, 0.5, 0.08]},
+        "fim": {"Nico": [-0.05, -0.48, 0.0], "Sapateiro": [1.38, 0.5, 0.08]}
+      },
+      "passos": {"quantidade": 0, "direcao": "Pés plantados com pequeno recuo de torso"},
+      "gestos": "Sapateiro balança a cabeça negativamente e ergue o braço esquerdo (recusa X em q405), depois aponta com o direito para o desejo de leite (q460). Nico recua surpreso.",
+      "expressoes": "Expectativa -> Choque e surpresa (surprised)",
+      "olhar": "Do sapateiro para o X vermelho e depois para a placa de leite no alto",
+      "objetos": ["Placa_Recusa_X_Root", "Placa_Desejo_Leite_Root", "Saco_Batatas_Root"],
+      "contatos_transferencias": [],
+      "audit_frames": [375, 425, 485]
+    },
+    {
+      "id": "S02_P04_REACAO_COMPLICOU",
+      "scene": 2,
+      "segment": "S02",
+      "frames": [513, 592],
+      "tempo_global_s": [17.0667, 19.7],
+      "camera": "Cam_S02_P04",
+      "objective": "Close médio da reação cômica do Nico olhando do pedido de leite para os 40 kg de batata e encolhendo os ombros frustrado.",
+      "narracao": "Nico... aí complicou.",
+      "characters": ["Nico", "Sapateiro"],
+      "posicoes_inicio_fim": {
+        "inicio": {"Nico": [-0.05, -0.48, 0.0]},
+        "fim": {"Nico": [-0.05, -0.48, 0.0]}
+      },
+      "passos": {"quantidade": 0, "direcao": "Apoio plantado"},
+      "gestos": "Olha para o alto (leite), baixa a cabeça para o saco de batatas (q542) e abre os braços num dar de ombros cômico (q565).",
+      "expressoes": "Surpreso -> Preocupado -> Frustrado cômico (frustrated)",
+      "olhar": "Da placa de leite para as batatas e para a câmera",
+      "objetos": ["Saco_Batatas_Root", "Carimbo_Duvida_Root"],
+      "contatos_transferencias": [],
+      "audit_frames": [525, 550, 578]
+    },
+    {
+      "id": "S03_P01_IDEIA_DESTINO",
+      "scene": 3,
+      "segment": "S03",
+      "frames": [593, 666],
+      "tempo_global_s": [19.7333, 22.1667],
+      "camera": "Cam_S03_P01",
+      "objective": "Nico tem uma nova ideia e avista a barraca do pescador na feira.",
+      "narracao": "Mas Nico teve uma ideia.",
+      "characters": ["Nico", "Pescador"],
+      "posicoes_inicio_fim": {
+        "inicio": {"Nico": [3.1, -0.1, 0.0], "Pescador": [3.93, -0.02, 0.0]},
+        "fim": {"Nico": [3.1, -0.1, 0.0], "Pescador": [3.93, -0.02, 0.0]}
+      },
+      "passos": {"quantidade": 0, "direcao": "Apoio bilateral diante da barraca do pescador"},
+      "gestos": "Olhar antecipa o gesto; mão esquerda ergue-se indicando a ideia com cotovelo anatômico relativo ao tronco; mão direita segura a bandeja de batatas com pega de polegar.",
+      "expressoes": "Concentração -> Ideia entusiasmada (happy_idea)",
+      "olhar": "Das batatas para o pescador",
+      "objetos": ["Troca_potatoes"],
+      "contatos_transferencias": [],
+      "audit_frames": [605, 638, 662]
+    },
+    {
+      "id": "S03_P02_TROCA_PEIXE",
+      "scene": 3,
+      "segment": "S03",
+      "frames": [667, 792],
+      "tempo_global_s": [22.2, 26.3667],
+      "camera": "Cam_S03_P02",
+      "objective": "Primeira troca ágil: Nico entrega batatas ao pescador e recebe o peixe fresco com enquadramento que preserva os rostos inteiros.",
+      "narracao": "O pescador queria batatas. Então ele conseguiu um peixe.",
+      "characters": ["Nico", "Pescador"],
+      "posicoes_inicio_fim": {
+        "inicio": {"Nico": [3.1, -0.1, 0.0], "Pescador": [3.93, -0.02, 0.0]},
+        "fim": {"Nico": [3.1, -0.1, 0.0], "Pescador": [3.93, -0.02, 0.0]}
+      },
+      "passos": {"quantidade": 0, "direcao": "Apoio plantado"},
+      "gestos": "Entrega das batatas (q710 / 23.66s) com contato bilateral nas bordas; pescador acena positivamente e entrega o peixe (q770 / 25.66s).",
+      "expressoes": "Atenção -> Satisfação mútua",
+      "olhar": "Para a bandeja de batatas, rosto do pescador e peixe recebido",
+      "objetos": ["Troca_potatoes", "Troca_fish"],
+      "contatos_transferencias": [
+        {"frame": 710, "acao": "Nico mão direita -> Pescador mão esquerda (bandeja de batatas)"},
+        {"frame": 770, "acao": "Pescador mão direita -> Nico mão direita (peixe)"}
+      ],
+      "audit_frames": [685, 710, 770]
+    },
+    {
+      "id": "S03_P03_CAMINHADA_E_LENHA",
+      "scene": 3,
+      "segment": "S03",
+      "frames": [793, 916],
+      "tempo_global_s": [26.4, 30.5],
+      "camera": "Cam_S03_P03",
+      "objective": "Nico caminha até a barraca do lenhador, entrega o peixe e recebe o pesado feixe de lenha sentindo o peso físico.",
+      "narracao": "E o lenhador queria peixe. Pronto, conseguiu lenha também.",
+      "characters": ["Nico", "Lenhador"],
+      "posicoes_inicio_fim": {
+        "inicio": {"Nico": [3.1, -0.1, 0.0], "Lenhador": [6.4, -0.02, 0.0]},
+        "fim": {"Nico": [5.67, -0.1, 0.0], "Lenhador": [6.4, -0.02, 0.0]}
+      },
+      "passos": {"quantidade": 4, "direcao": "4 passos plantados L/R/L/R de X=3.1 até a barraca do lenhador em X=5.67"},
+      "gestos": "Caminhada com peixe (q793-817), oferta do peixe ao lenhador (q860 / 28.66s) e recebimento do feixe de lenha (q905 / 30.16s) com leve afundamento da pelve pelo peso.",
+      "expressoes": "Determinado -> Satisfeito com o feixe de lenha",
+      "olhar": "Caminho à frente -> Lenhador -> Feixe de lenha",
+      "objetos": ["Troca_fish", "Troca_wood"],
+      "contatos_transferencias": [
+        {"frame": 860, "acao": "Nico mão direita -> Lenhador mão esquerda (peixe)"},
+        {"frame": 905, "acao": "Lenhador mão direita -> Nico mão direita (feixe de lenha)"}
+      ],
+      "audit_frames": [805, 860, 905]
+    },
+    {
+      "id": "S03_P04_FACIL_DEMAIS",
+      "scene": 3,
+      "segment": "S03",
+      "frames": [917, 1121],
+      "tempo_global_s": [30.5333, 37.3333],
+      "camera": "Cam_S03_P04",
+      "objective": "Reação expressiva de orgulho, surpresa e desconfiança cômica do Nico segurando a lenha ('Isso tá fácil demais').",
+      "narracao": "Pera aí... duas trocas seguidas dando certo? Isso tá fácil demais.",
+      "characters": ["Nico", "Lenhador"],
+      "posicoes_inicio_fim": {
+        "inicio": {"Nico": [5.67, -0.1, 0.0]},
+        "fim": {"Nico": [5.67, -0.1, 0.0]}
+      },
+      "passos": {"quantidade": 0, "direcao": "Giro de tronco para a câmera mantendo pés plantados"},
+      "gestos": "Mão direita sustenta o feixe de lenha; mão esquerda faz gesto reflexivo no queixo/peito com cotovelo natural; sobrancelha assimétrica e olhar lateral desconfiado.",
+      "expressoes": "Orgulho -> Surpresa ('Pera aí...') -> Desconfiança irônica ('fácil demais')",
+      "olhar": "Da lenha para a câmera e olhar de soslaio desconfiado",
+      "objetos": ["Troca_wood"],
+      "contatos_transferencias": [],
+      "audit_frames": [950, 1025, 1095]
+    },
+    {
+      "id": "S04_P01_LEITEIRO_QUER_OVOS",
+      "scene": 4,
+      "segment": "S04",
+      "frames": [1122, 1255],
+      "tempo_global_s": [37.3667, 41.8],
+      "camera": "Cam_S04_P01",
+      "objective": "Na barraca creme/azul do leiteiro, Nico oferece a lenha mas o leiteiro recusa e aponta que deseja ovos.",
+      "narracao": "Pois é. O leiteiro não queria lenha. Queria ovos.",
+      "characters": ["Nico", "Leiteiro"],
+      "posicoes_inicio_fim": {
+        "inicio": {"Nico": [8.65, -0.15, 0.0], "Leiteiro": [9.45, -0.02, 0.0]},
+        "fim": {"Nico": [8.65, -0.15, 0.0], "Leiteiro": [9.45, -0.02, 0.0]}
+      },
+      "passos": {"quantidade": 2, "direcao": "Chegada curta e parada diante do leiteiro"},
+      "gestos": "Nico ergue o feixe de lenha esperançoso; Leiteiro balança a cabeça negando (placa X) e aponta para a placa de cesta de ovos.",
+      "expressoes": "Esperança -> Quebra de expectativa (surprised/frustrated)",
+      "olhar": "Do leiteiro para a placa de Ovos",
+      "objetos": ["Troca_wood", "Placa_S04_Recusa_Lenha", "Placa_S04_Desejo_Ovos"],
+      "contatos_transferencias": [],
+      "audit_frames": [1145, 1195, 1240]
+    },
+    {
+      "id": "S04_P02_OVOS_QUER_FARINHA",
+      "scene": 4,
+      "segment": "S04",
+      "frames": [1256, 1415],
+      "tempo_global_s": [41.8333, 47.1333],
+      "camera": "Cam_S04_P02",
+      "objective": "Nico vai à barraca rústica do vendedor de ovos, que exige farinha, enquanto setas 3D mostram a cadeia de trocas se multiplicando.",
+      "narracao": "E o vendedor de ovos queria farinha. E quem vendia farinha...",
+      "characters": ["Nico", "VendedorOvos", "Leiteiro"],
+      "posicoes_inicio_fim": {
+        "inicio": {"Nico": [8.65, -0.15, 0.0], "VendedorOvos": [12.35, -0.02, 0.0]},
+        "fim": {"Nico": [11.55, -0.15, 0.0], "VendedorOvos": [12.35, -0.02, 0.0]}
+      },
+      "passos": {"quantidade": 4, "direcao": "Deslocamento apressado da barraca do leiteiro (X=8.65) para a barraca de ovos (X=11.55)"},
+      "gestos": "Vendedor de ovos nega e aponta para o saco de farinha (placa Farinha); setas 3D conectam os pedidos crescentes.",
+      "expressoes": "Perplexidade crescente -> Tontura cômica olhando de um lado para o outro",
+      "olhar": "Alternando rapidamente entre o vendedor de ovos, a farinha e as setas da cadeia",
+      "objetos": ["Troca_wood", "Placa_S04_Desejo_Farinha", "Seta_Cadeia_1", "Seta_Cadeia_2", "Seta_Cadeia_3"],
+      "contatos_transferencias": [],
+      "audit_frames": [1285, 1335, 1390]
+    },
+    {
+      "id": "S04_P03_TRANSPORTADORA",
+      "scene": 4,
+      "segment": "S04",
+      "frames": [1416, 1557],
+      "tempo_global_s": [47.1667, 51.8667],
+      "camera": "Cam_S04_P03",
+      "objective": "Gag visual da transportadora: Nico cambaleia tentando equilibrar uma pilha absurda de saco de batatas, feixe de lenha, cesta e saco de farinha.",
+      "narracao": "Nico, você quer comprar um sapato ou abrir uma transportadora?",
+      "characters": ["Nico", "VendedorOvos"],
+      "posicoes_inicio_fim": {
+        "inicio": {"Nico": [11.55, -0.25, 0.0]},
+        "fim": {"Nico": [11.55, -0.25, 0.0]}
+      },
+      "passos": {"quantidade": 2, "direcao": "Passos trôpegos laterais tentando equilibrar a pilha"},
+      "gestos": "Torso inclinado para trás, joelhos flexionados tremendo sob o peso da pilha de mercadorias que oscila de um lado para o outro.",
+      "expressoes": "Esforço extremo e desespero cômico",
+      "olhar": "Olhando para cima para a pilha prestes a cair e para a câmera",
+      "objetos": ["Pilha_Transportadora_Root"],
+      "contatos_transferencias": [
+        {"frame": 1425, "acao": "Nico sustenta a pilha de mercadorias com ambas as mãos"}
+      ],
+      "audit_frames": [1435, 1485, 1535]
+    },
+    {
+      "id": "S05_P01_NAO_FALTAVA_COISA",
+      "scene": 5,
+      "segment": "S05",
+      "frames": [1558, 1660],
+      "tempo_global_s": [51.9, 55.3],
+      "camera": "Cam_S05_P01",
+      "objective": "Nico exausto no centro da feira cercado por suas mercadorias e com a sola rasgada do tênis visível em primeiro plano.",
+      "narracao": "O problema não era faltar coisa pra trocar.",
+      "characters": ["Nico", "Leiteiro", "VendedorOvos"],
+      "posicoes_inicio_fim": {
+        "inicio": {"Nico": [10.1, -0.55, 0.0]},
+        "fim": {"Nico": [10.1, -0.55, 0.0]}
+      },
+      "passos": {"quantidade": 0, "direcao": "Postura arriada de cansaço"},
+      "gestos": "Ombros caídos, respiração pesada visível no peito, mão enxuga a testa e aponta para as mercadorias ao redor; pé direito mostra a sola aberta.",
+      "expressoes": "Exaustão e frustração (frustrated)",
+      "olhar": "Para as mercadorias ao redor e para o sapato rasgado",
+      "objetos": ["Troca_wood", "Troca_potatoes", "Nico_Tenis_SolaFrontal_R"],
+      "contatos_transferencias": [],
+      "audit_frames": [1575, 1615, 1650]
+    },
+    {
+      "id": "S05_P02_DUPLA_COINCIDENCIA",
+      "scene": 5,
+      "segment": "S05",
+      "frames": [1661, 1837],
+      "tempo_global_s": [55.3333, 61.2],
+      "camera": "Cam_S05_P02",
+      "objective": "Demonstrar visualmente a falha da dupla coincidência de desejos: comerciantes ao fundo têm desejos incompatíveis marcados por setas e X vermelhos.",
+      "narracao": "Era encontrar alguém que quisesse exatamente o que ele tinha, bem naquela hora.",
+      "characters": ["Nico", "Lenhador", "Leiteiro", "VendedorOvos"],
+      "posicoes_inicio_fim": {
+        "inicio": {"Nico": [10.1, -0.55, 0.0]},
+        "fim": {"Nico": [10.1, -0.55, 0.0]}
+      },
+      "passos": {"quantidade": 0, "direcao": "Apoio plantado no centro da feira"},
+      "gestos": "Nico olha de uma barraca para outra enquanto conexões cruzadas com X vermelho mostram que ninguém quer o item disponível naquele momento.",
+      "expressoes": "Compreensão desanimada do problema",
+      "olhar": "Da esquerda (Leiteiro) para a direita (Ovos) e para a câmera",
+      "objetos": ["Placa_S04_Recusa_Lenha", "Placa_S04_Desejo_Ovos", "Placa_S04_Desejo_Farinha", "Seta_Cadeia_1", "Seta_Cadeia_2"],
+      "contatos_transferencias": [],
+      "audit_frames": [1690, 1755, 1820]
+    },
+    {
+      "id": "S06_P01_FEIRA_ACEITA_FICHA",
+      "scene": 6,
+      "segment": "S06",
+      "frames": [1838, 2085],
+      "tempo_global_s": [61.2333, 69.4667],
+      "camera": "Cam_S06_P01",
+      "objective": "A feira testa uma ideia nova: apresentação da Ficha de Madeira entalhada e surgimento de placas verdes de aceitação nas barracas.",
+      "narracao": "Até que a feira resolveu testar uma ideia. Todo mundo passaria a aceitar uma mesma ficha como pagamento.",
+      "characters": ["Nico", "Sapateiro", "Pescador", "Lenhador", "Leiteiro"],
+      "posicoes_inicio_fim": {
+        "inicio": {"Nico": [3.1, -0.25, 0.0]},
+        "fim": {"Nico": [3.1, -0.25, 0.0]}
+      },
+      "passos": {"quantidade": 0, "direcao": "Apoio atento"},
+      "gestos": "Placas verdes 'Aceita Ficha ✓' surgem nas barracas em sequência; Nico observa a ficha de madeira com entusiasmo renovado.",
+      "expressoes": "Surpresa positiva -> Alegria confiante (happy_idea)",
+      "olhar": "Acompanhando as placas verdes nas barracas e a ficha de madeira",
+      "objetos": ["Ficha_Destaque_Root", "Placa_Aceita_Sapateiro", "Placa_Aceita_Pescador", "Placa_Aceita_Lenhador", "Placa_Aceita_Leiteiro"],
+      "contatos_transferencias": [],
+      "audit_frames": [1880, 1980, 2060]
+    },
+    {
+      "id": "S06_P02_VENDE_BATATA_RECEBE_FICHA",
+      "scene": 6,
+      "segment": "S06",
+      "frames": [2086, 2180],
+      "tempo_global_s": [69.5, 72.6333],
+      "camera": "Cam_S06_P02",
+      "objective": "Momento 1 da solução: Nico entrega batatas ao comerciante e recebe fichas de madeira na mão.",
+      "narracao": "Nico vendeu batatas, recebeu fichas...",
+      "characters": ["Nico", "Pescador"],
+      "posicoes_inicio_fim": {
+        "inicio": {"Nico": [3.1, -0.1, 0.0], "Pescador": [3.93, -0.02, 0.0]},
+        "fim": {"Nico": [3.1, -0.1, 0.0], "Pescador": [3.93, -0.02, 0.0]}
+      },
+      "passos": {"quantidade": 0, "direcao": "Apoio plantado no balcão"},
+      "gestos": "Nico entrega batatas (q2112) e recebe a ficha de madeira na mão direita (q2152) com confirmação visual.",
+      "expressoes": "Satisfação clara",
+      "olhar": "Das batatas para a ficha de madeira recebida",
+      "objetos": ["Troca_potatoes", "Troca_token"],
+      "contatos_transferencias": [
+        {"frame": 2112, "acao": "Nico entrega batatas ao pescador"},
+        {"frame": 2152, "acao": "Pescador entrega ficha de madeira para a mão direita do Nico"}
+      ],
+      "audit_frames": [2100, 2130, 2165]
+    },
+    {
+      "id": "S06_P03_COMPRA_SAPATOS",
+      "scene": 6,
+      "segment": "S06",
+      "frames": [2181, 2265],
+      "tempo_global_s": [72.6667, 75.4667],
+      "camera": "Cam_S06_P03",
+      "objective": "Momento 2 da solução: Nico entrega as fichas de madeira ao sapateiro e finalmente recebe o par de sapatos novos vermelhos e dourados.",
+      "narracao": "...e finalmente comprou os sapatos.",
+      "characters": ["Nico", "Sapateiro"],
+      "posicoes_inicio_fim": {
+        "inicio": {"Nico": [0.25, -0.35, 0.0], "Sapateiro": [1.38, 0.5, 0.08]},
+        "fim": {"Nico": [0.25, -0.35, 0.0], "Sapateiro": [1.38, 0.5, 0.08]}
+      },
+      "passos": {"quantidade": 0, "direcao": "Apoio plantado no balcão do sapateiro"},
+      "gestos": "Nico estende a mão direita entregando a ficha ao sapateiro (q2208) e recebe o par de sapatos novos (q2242).",
+      "expressoes": "Alegria e alívio (happy_idea)",
+      "olhar": "Da ficha entregue para os sapatos novos nas mãos",
+      "objetos": ["Troca_token", "Par_Sapatos_Novos_Root"],
+      "contatos_transferencias": [
+        {"frame": 2208, "acao": "Nico entrega ficha de madeira ao sapateiro"},
+        {"frame": 2242, "acao": "Sapateiro entrega os sapatos novos ao Nico"}
+      ],
+      "audit_frames": [2195, 2220, 2255]
+    },
+    {
+      "id": "S06_P04_SAPATEIRO_COMPRA_LEITE",
+      "scene": 6,
+      "segment": "S06",
+      "frames": [2266, 2444],
+      "tempo_global_s": [75.5, 81.4333],
+      "camera": "Cam_S06_P04",
+      "objective": "Momento 3 da solução: O sapateiro usa as mesmas fichas de madeira na barraca do leiteiro para comprar a garrafa de leite, enquanto Nico comemora.",
+      "narracao": "E o sapateiro? Usou as mesmas fichas pra comprar leite. Agora sim!",
+      "characters": ["Sapateiro", "Leiteiro", "Nico"],
+      "posicoes_inicio_fim": {
+        "inicio": {"Sapateiro": [8.55, -0.12, 0.0], "Leiteiro": [9.45, -0.02, 0.0], "Nico": [7.8, -0.35, 0.0]},
+        "fim": {"Sapateiro": [8.55, -0.12, 0.0], "Leiteiro": [9.45, -0.02, 0.0], "Nico": [7.8, -0.35, 0.0]}
+      },
+      "passos": {"quantidade": 0, "direcao": "Enquadramento conjunto na barraca do leiteiro"},
+      "gestos": "Sapateiro entrega a ficha de madeira ao leiteiro (q2330); leiteiro entrega a garrafa de leite (q2375); em 'Agora sim!' (q2405) Nico e comerciantes comemoram.",
+      "expressoes": "Satisfação coletiva e alívio",
+      "olhar": "Entre sapateiro, leiteiro e a garrafa de leite entregue",
+      "objetos": ["Troca_token", "Troca_milk"],
+      "contatos_transferencias": [
+        {"frame": 2330, "acao": "Sapateiro entrega ficha de madeira ao leiteiro"},
+        {"frame": 2375, "acao": "Leiteiro entrega garrafa de leite ao sapateiro"}
+      ],
+      "audit_frames": [2300, 2355, 2415]
+    },
+    {
+      "id": "S07_P01_DETALHE_PEDACO_MADEIRA",
+      "scene": 7,
+      "segment": "S07",
+      "frames": [2445, 2602],
+      "tempo_global_s": [81.4667, 86.7],
+      "camera": "Cam_S07_P01",
+      "objective": "Close expressivo na ficha de madeira na mão do Nico: examinar a textura simples de madeira entalhada sem cobrir a tela inteira.",
+      "narracao": "Mas tem um detalhe. Por que alguém aceitaria um pedaço de madeira como pagamento?",
+      "characters": ["Nico"],
+      "posicoes_inicio_fim": {
+        "inicio": {"Nico": [5.67, -0.1, 0.0]},
+        "fim": {"Nico": [5.67, -0.1, 0.0]}
+      },
+      "passos": {"quantidade": 0, "direcao": "Apoio plantado"},
+      "gestos": "Nico ergue a ficha de madeira na altura do peito/rosto e gira-a levemente examinando os dois lados; cabeça inclina com curiosidade.",
+      "expressoes": "Curiosidade reflexiva (sobrancelha arqueada)",
+      "olhar": "Para a ficha de madeira na mão e depois para a câmera",
+      "objetos": ["Troca_token"],
+      "contatos_transferencias": [],
+      "audit_frames": [2475, 2535, 2590]
+    },
+    {
+      "id": "S07_P02_CONFIANCA_CIRCULACAO",
+      "scene": 7,
+      "segment": "S07",
+      "frames": [2603, 2725],
+      "tempo_global_s": [86.7333, 90.8],
+      "camera": "Cam_S07_P02",
+      "objective": "Mostrar positivamente a confiança coletiva: placas verdes acesas e comerciantes acenando em acordo enquanto a ficha circula.",
+      "narracao": "Porque confiava que outras pessoas também aceitariam.",
+      "characters": ["Nico", "Pescador", "Lenhador"],
+      "posicoes_inicio_fim": {
+        "inicio": {"Nico": [4.5, -0.25, 0.0], "Pescador": [3.93, -0.02, 0.0], "Lenhador": [6.4, -0.02, 0.0]},
+        "fim": {"Nico": [4.5, -0.25, 0.0], "Pescador": [3.93, -0.02, 0.0], "Lenhador": [6.4, -0.02, 0.0]}
+      },
+      "passos": {"quantidade": 0, "direcao": "Apoio plantado entre as barracas"},
+      "gestos": "Pescador, Nico e Lenhador acenam positivamente em sintonia; placas verdes 'Aceita Ficha ✓' brilham e setas douradas indicam confiança mútua.",
+      "expressoes": "Confiança e acordo mútuo",
+      "olhar": "Entre Nico e os comerciantes",
+      "objetos": ["Troca_token", "Placa_Aceita_Pescador", "Placa_Aceita_Lenhador"],
+      "contatos_transferencias": [],
+      "audit_frames": [2625, 2668, 2710]
+    },
+    {
+      "id": "S07_P03_SEM_CONFIANCA_MADEIRA",
+      "scene": 7,
+      "segment": "S07",
+      "frames": [2726, 2861],
+      "tempo_global_s": [90.8333, 95.3333],
+      "camera": "Cam_S07_P03",
+      "objective": "Contraste visual imediato: quando as placas de confiança viram X vermelho, os comerciantes recusam e a ficha perde o brilho sobre o balcão.",
+      "narracao": "Sem isso, a ficha não passaria de um pedaço de madeira.",
+      "characters": ["Nico", "Lenhador"],
+      "posicoes_inicio_fim": {
+        "inicio": {"Nico": [5.67, -0.1, 0.0], "Lenhador": [6.4, -0.02, 0.0]},
+        "fim": {"Nico": [5.67, -0.1, 0.0], "Lenhador": [6.4, -0.02, 0.0]}
+      },
+      "passos": {"quantidade": 0, "direcao": "Apoio plantado"},
+      "gestos": "Placas verdes recolhem e dão lugar ao X vermelho; Lenhador balança a cabeça recusando; a ficha pousa no balcão ao lado de um toco comum de madeira.",
+      "expressoes": "Seriedade demonstrativa -> Retorno à simpatia no final da frase",
+      "olhar": "Para a ficha pousada no balcão como simples madeira",
+      "objetos": ["Troca_token", "Troca_wood", "Placa_Recusa_Lenhador"],
+      "contatos_transferencias": [
+        {"frame": 2765, "acao": "Ficha pousa no balcão ao lado da madeira bruta"}
+      ],
+      "audit_frames": [2745, 2790, 2845]
+    },
+    {
+      "id": "S08_P01_SAPATO_NOVO_CALLBACK",
+      "scene": 8,
+      "segment": "S08",
+      "frames": [2862, 2935],
+      "tempo_global_s": [95.3667, 97.8],
+      "camera": "Cam_S08_P01",
+      "objective": "Callback direto à Cena 1: Nico calçando os tênis novos vermelhos e dourados dá um passo alegre e bate a sola firme e 100% intacta no chão.",
+      "narracao": "Agora me conta: se não existisse dinheiro...",
+      "characters": ["Nico"],
+      "posicoes_inicio_fim": {
+        "inicio": {"Nico": [0.1, -0.45, 0.0]},
+        "fim": {"Nico": [0.1, -0.45, 0.0]}
+      },
+      "passos": {"quantidade": 2, "direcao": "Pequeno salto comemorativo e batida firme do pé direito novo"},
+      "gestos": "Nico levanta o pé direito mostrando o tênis vermelho e dourado intacto, pisa firme sem nenhuma sola solta e comemora.",
+      "expressoes": "Sorriso radiante de conquista (happy_idea)",
+      "olhar": "Para os tênis novos nos próprios pés e depois subindo para a câmera",
+      "objetos": ["Nico_Sapato_Novo_Calçado_L", "Nico_Sapato_Novo_Calçado_R"],
+      "contatos_transferencias": [],
+      "audit_frames": [2875, 2902, 2928]
+    },
+    {
+      "id": "S08_P02_PERGUNTA_FINAL",
+      "scene": 8,
+      "segment": "S08",
+      "frames": [2936, 3064],
+      "tempo_global_s": [97.8333, 102.1],
+      "camera": "Cam_S08_P02",
+      "objective": "Quadro final memorável: Nico ao lado da mesa com os objetos da jornada (batatas, peixe, lenha, leite, ficha) faz um gesto convidativo ao espectador.",
+      "narracao": "...o que você ofereceria por um par de sapatos?",
+      "characters": ["Nico", "Sapateiro"],
+      "posicoes_inicio_fim": {
+        "inicio": {"Nico": [0.1, -0.45, 0.0], "Sapateiro": [1.38, 0.5, 0.08]},
+        "fim": {"Nico": [0.1, -0.45, 0.0], "Sapateiro": [1.38, 0.5, 0.08]}
+      },
+      "passos": {"quantidade": 0, "direcao": "Pose final equilibrada de frente para a câmera"},
+      "gestos": "Nico aponta brevemente para os itens da história sobre o balcão e abre a mão em convite amigável para o público, mantendo respiração viva até o quadro 3064.",
+      "expressoes": "Sorriso simpático com sobrancelha curiosa convidando resposta",
+      "olhar": "Diretamente para a lente da câmera",
+      "objetos": ["Saco_Batatas_Root", "Resumo_Peixe", "Resumo_Lenha", "Resumo_Leite", "Resumo_Ficha"],
+      "contatos_transferencias": [],
+      "audit_frames": [2960, 3010, 3055]
+    }
+  ]
+}
+

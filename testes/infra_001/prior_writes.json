@@ -1,0 +1,110 @@
+[
+  {
+    "step": 26,
+    "date": "2026-11-04T14:36:31Z",
+    "operation": "write_file",
+    "path": "\"c:\\\\Users\\\\Cleidson\\\\Videos\\\\canal-financas-3d\\\\episodios\\\\EP001_dinheiro\\\\narracao.json\""
+  },
+  {
+    "step": 26,
+    "date": "2026-11-04T14:36:31Z",
+    "operation": "write_file",
+    "path": "\"c:\\\\Users\\\\Cleidson\\\\Videos\\\\canal-financas-3d\\\\episodios\\\\EP001_dinheiro\\\\roteiro.md\""
+  },
+  {
+    "step": 29,
+    "date": "2026-11-04T14:37:03Z",
+    "operation": "write_file",
+    "path": "\"c:\\\\Users\\\\Cleidson\\\\Videos\\\\canal-financas-3d\\\\scripts\\\\tts\\\\gerar_ep001.py\""
+  },
+  {
+    "step": 37,
+    "date": "2026-11-04T14:37:44Z",
+    "operation": "write_file",
+    "path": "\"c:\\\\Users\\\\Cleidson\\\\Videos\\\\canal-financas-3d\\\\scripts\\\\legendas\\\\timing_ep001.py\""
+  },
+  {
+    "step": 77,
+    "date": "2026-11-04T14:39:55Z",
+    "operation": "write_file",
+    "path": "\"c:\\\\Users\\\\Cleidson\\\\Videos\\\\canal-financas-3d\\\\scripts\\\\legendas\\\\align_ep001.py\""
+  },
+  {
+    "step": 97,
+    "date": "2026-11-04T14:41:11Z",
+    "operation": "write_file",
+    "path": "\"c:\\\\Users\\\\Cleidson\\\\Videos\\\\canal-financas-3d\\\\episodios\\\\EP001_dinheiro\\\\storyboard.md\""
+  },
+  {
+    "step": 104,
+    "date": "2026-11-04T14:41:43Z",
+    "operation": "edit_file",
+    "path": "\"c:\\\\Users\\\\Cleidson\\\\Videos\\\\canal-financas-3d\\\\scripts\\\\legendas\\\\align_ep001.py\""
+  },
+  {
+    "step": 104,
+    "date": "2026-11-04T14:41:43Z",
+    "operation": "edit_file",
+    "path": "\"c:\\\\Users\\\\Cleidson\\\\Videos\\\\canal-financas-3d\\\\scripts\\\\legendas\\\\align_ep001.py\""
+  },
+  {
+    "step": 110,
+    "date": "2026-11-04T14:42:03Z",
+    "operation": "write_file",
+    "path": "\"c:\\\\Users\\\\Cleidson\\\\Videos\\\\canal-financas-3d\\\\episodios\\\\EP001_dinheiro\\\\publicacao\\\\METADADOS_PUBLICACAO.md\""
+  },
+  {
+    "step": 110,
+    "date": "2026-11-04T14:42:03Z",
+    "operation": "write_file",
+    "path": "\"c:\\\\Users\\\\Cleidson\\\\Videos\\\\canal-financas-3d\\\\episodios\\\\EP001_dinheiro\\\\publicacao\\\\COMENTARIOS.md\""
+  },
+  {
+    "step": 123,
+    "date": "2026-11-04T14:42:46Z",
+    "operation": "write_file",
+    "path": "\"c:\\\\Users\\\\Cleidson\\\\Videos\\\\canal-financas-3d\\\\scripts\\\\legendas\\\\montar_ep001.py\""
+  },
+  {
+    "step": 132,
+    "date": "2026-11-04T14:43:41Z",
+    "operation": "edit_file",
+    "path": "\"c:\\\\Users\\\\Cleidson\\\\Videos\\\\canal-financas-3d\\\\scripts\\\\legendas\\\\montar_ep001.py\""
+  },
+  {
+    "step": 132,
+    "date": "2026-11-04T14:43:41Z",
+    "operation": "edit_file",
+    "path": "\"c:\\\\Users\\\\Cleidson\\\\Videos\\\\canal-financas-3d\\\\scripts\\\\legendas\\\\montar_ep001.py\""
+  },
+  {
+    "step": 137,
+    "date": "2026-11-04T14:43:55Z",
+    "operation": "write_file",
+    "path": "\"c:\\\\Users\\\\Cleidson\\\\Videos\\\\canal-financas-3d\\\\testes\\\\test_ep001_narracao.py\""
+  },
+  {
+    "step": 142,
+    "date": "2026-11-04T14:44:27Z",
+    "operation": "edit_file",
+    "path": "\"c:\\\\Users\\\\Cleidson\\\\Videos\\\\canal-financas-3d\\\\testes\\\\test_ep001_narracao.py\""
+  },
+  {
+    "step": 145,
+    "date": "2026-11-04T14:44:35Z",
+    "operation": "write_file",
+    "path": "\"c:\\\\Users\\\\Cleidson\\\\Videos\\\\canal-financas-3d\\\\documentos\\\\RELATORIO_NARRACAO_EP001.md\""
+  },
+  {
+    "step": 147,
+    "date": "2026-11-04T14:44:56Z",
+    "operation": "edit_file",
+    "path": "\"c:\\\\Users\\\\Cleidson\\\\Videos\\\\canal-financas-3d\\\\documentos\\\\RELATORIO_NARRACAO_EP001.md\""
+  },
+  {
+    "step": 147,
+    "date": "2026-11-04T14:44:56Z",
+    "operation": "edit_file",
+    "path": "\"c:\\\\Users\\\\Cleidson\\\\Videos\\\\canal-financas-3d\\\\documentos\\\\RELATORIO_NARRACAO_EP001.md\""
+  }
+]
