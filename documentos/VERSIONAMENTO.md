@@ -1,6 +1,8 @@
 # Versionamento do Estúdio Nico
 
-GIT-001 em 2026-11-08. Git local inicializado na branch main, origin configurado para [cleidson21/canal-financas-3d](https://github.com/cleidson21/canal-financas-3d) e Git LFS 3.7.1 habilitado localmente. A API autenticada pelo Git Credential Manager confirmou visibilidade privada e permissão de escrita. A consulta de todas as referências confirmou o remoto vazio antes do primeiro commit. O 404 do conector anterior refletia a indisponibilidade de acesso por aquela credencial. Publicação do pacote documental em preparação.
+GIT-001 em 2026-11-08. Git local inicializado na branch main, origin configurado para [cleidson21/canal-financas-3d](https://github.com/cleidson21/canal-financas-3d) e Git LFS 3.7.1 habilitado localmente. A API autenticada pelo Git Credential Manager confirmou visibilidade privada e permissão de escrita. A consulta de todas as referências confirmou o remoto vazio antes do primeiro commit. O conector anterior retornou 404, enquanto a autenticação do Git Credential Manager conseguiu acessar o repositório.
+
+Fundação documental publicada no commit `406e57c67732d1fa78fb0350e2d37085b82f678a`, com upstream origin/main. Após o push, a API confirmou privacidade, igualdade dos SHAs local/remoto e dos 21 arquivos, incluindo os seis templates. Este registro acompanha a atualização documental posterior. O SHA vigente deve ser consultado em main.
 
 ## Preparação entregue
 
