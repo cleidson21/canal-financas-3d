@@ -54,8 +54,6 @@ service-account*.json
 **/renders/
 **/render_*/
 /backups/
-/referencias/
-/documentos/ESTRUTURA_ATUAL_PROJETO.txt
 
 # History stays local, except the source still required by current builders
 /arquivo/*
@@ -70,3 +68,14 @@ service-account*.json
 # Essential VSE image dependencies stay eligible for reviewed LFS inclusion.
 !episodios/*/ENTREGAS/_recursos/poses/**/
 !episodios/*/ENTREGAS/_recursos/poses/**/*.png
+
+# Legado arquivado: o que já era rastreado continua rastreado; o resto (caches,
+# venvs, backups, .blend1) segue fora do git, apenas guardado em disco.
+/_arquivo/legado_blender/**
+
+# Estúdio Nico (Node/Three.js)
+node_modules/
+dist/
+# Capturas e folhas de contato são regeneráveis a partir do código (determinístico)
+/catalogo/folhas/
+/episodios/*/capturas/
