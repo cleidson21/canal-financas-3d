@@ -1,71 +1,123 @@
 {
   "episodio": "EP001",
-  "versao_roteiro": "1.0",
+  "versao_roteiro": "1.1",
   "fonte_canonica_humana": "roteiro.md",
-  "nota": "Este arquivo é a fonte de máquina do texto narrado. O teste testes/test_ep001_narracao.py garante que cada texto aparece literalmente em roteiro.md.",
+  "nota": "Este arquivo é a fonte de máquina do texto narrado. O script ferramentas/verificar_roteiro.py garante que cada texto aparece literalmente em roteiro.md. Versão 1.1 reescreve a 1.0 para retenção: não gere áudio novo até o texto ficar final.",
   "motor": {
     "modelo": "gemini-3.8-flash-lite-tts",
     "voz": "Puck",
     "idioma": "pt-BR"
   },
-  "estilo_geral": "Narrador de um canal educativo de humor em português brasileiro. Voz masculina adulta, natural e simpática, como um amigo contando uma história curiosa e engraçada. Não parecer propaganda, telejornal, documentário solene nem aula. Sem excesso de entusiasmo, sem risadas, sem tom infantilizado, sem pausas exageradas. Mantenha o mesmo timbre, volume e energia média em todo o episódio. Pause brevemente entre as frases, de forma natural.",
+  "estilo_geral": "Narrador de um canal educativo de humor em português brasileiro. Voz masculina adulta, natural e simpática, como um amigo contando uma história curiosa e engraçada. Não parecer propaganda, telejornal, documentário solene nem aula. Ritmo ágil, cerca de três palavras por segundo, com pausas curtas entre as frases. Sem excesso de entusiasmo, sem risadas, sem tom infantilizado, sem pausas exageradas. Mantenha o mesmo timbre, volume e energia média em todo o episódio.",
   "segmentos": [
     {
       "id": "S01",
       "cena": 1,
-      "texto": "O sapato do Nico pediu demissão.\n\nE na vila dele, ninguém usava dinheiro.",
-      "frases": ["O sapato do Nico pediu demissão.", "E na vila dele, ninguém usava dinheiro."],
-      "direcao": "Primeira frase com humor seco, como se descrevesse algo absurdo mas cotidiano. Segunda frase em tom de curiosidade e contextualização, sem tom de professor."
+      "texto": "Dia três. O Nico continua sem sapato, e agora carrega meia vila nas costas.\n\nO que faltava pra ele é uma coisa que você usa todo dia sem nem ver.\n\nVamos voltar ao começo.",
+      "frases": [
+        "Dia três. O Nico continua sem sapato, e agora carrega meia vila nas costas.",
+        "O que faltava pra ele é uma coisa que você usa todo dia sem nem ver.",
+        "Vamos voltar ao começo."
+      ],
+      "direcao": "Abrir seco e divertido, como quem mostra uma cena absurda. Na segunda frase, baixar um pouco o tom e criar curiosidade, sem soar como professor. 'Vamos voltar ao começo' é convite, com uma micropausa antes."
     },
     {
       "id": "S02",
       "cena": 2,
-      "texto": "Ele tinha quarenta quilos de batata e achou que dava pra trocar por um par novo.\n\nSó que o sapateiro não queria batatas.\n\nQueria leite.\n\nNico... aí complicou.",
-      "frases": ["Ele tinha quarenta quilos de batata e achou que dava pra trocar por um par novo.", "Só que o sapateiro não queria batatas.", "Queria leite.", "Nico... aí complicou."],
-      "direcao": "Começar confiante. Mudança de expectativa discreta em 'Só que'. 'Queria leite' como revelação, com ênfase. Ironia moderada e pausa natural em 'Nico... aí complicou'."
+      "texto": "Dia um. O sapato do Nico pediu demissão, e na vila dele ninguém usava dinheiro.\n\nMas ele tinha quarenta quilos de batata, e achou que dava pra trocar por um par novo.\n\nSó que o sapateiro não queria batata. Queria leite.",
+      "frases": [
+        "Dia um. O sapato do Nico pediu demissão, e na vila dele ninguém usava dinheiro.",
+        "Mas ele tinha quarenta quilos de batata, e achou que dava pra trocar por um par novo.",
+        "Só que o sapateiro não queria batata. Queria leite."
+      ],
+      "direcao": "Humor seco na primeira frase. A segunda começa confiante. Em 'Só que', mudar a expectativa de forma discreta; 'Queria leite' como revelação, com ênfase leve."
     },
     {
       "id": "S03",
       "cena": 3,
-      "texto": "Mas Nico teve uma ideia.\n\nO pescador queria batatas. Então ele conseguiu um peixe.\n\nE o lenhador queria peixe. Pronto, conseguiu lenha também.\n\nPera aí... duas trocas seguidas dando certo?\n\nIsso tá fácil demais.",
-      "frases": ["Mas Nico teve uma ideia.", "O pescador queria batatas. Então ele conseguiu um peixe.", "E o lenhador queria peixe. Pronto, conseguiu lenha também.", "Pera aí... duas trocas seguidas dando certo?", "Isso tá fácil demais."],
-      "direcao": "Ritmo um pouco mais ágil nas duas trocas. Surpresa crescente e um pouco de desconfiança. 'Isso tá fácil demais' soa como alguém percebendo que algo vai dar errado."
+      "texto": "Então o Nico trocou batata por peixe, e peixe por lenha.\n\nDuas trocas seguidas dando certo?\n\nIsso tá fácil demais.",
+      "frases": [
+        "Então o Nico trocou batata por peixe, e peixe por lenha.",
+        "Duas trocas seguidas dando certo?",
+        "Isso tá fácil demais."
+      ],
+      "direcao": "Ritmo mais ágil nas trocas. Surpresa crescente. 'Isso tá fácil demais' soa como quem percebe que vai dar errado."
     },
     {
       "id": "S04",
       "cena": 4,
-      "texto": "Pois é.\n\nO leiteiro não queria lenha. Queria ovos.\n\nE o vendedor de ovos queria farinha.\n\nE quem vendia farinha...\n\nNico, você quer comprar um sapato ou abrir uma transportadora?",
-      "frases": ["Pois é.", "O leiteiro não queria lenha. Queria ovos.", "E o vendedor de ovos queria farinha.", "E quem vendia farinha...", "Nico, você quer comprar um sapato ou abrir uma transportadora?"],
-      "direcao": "'Pois é' confirma que a sorte acabou, sem caricatura. Enumeração com paciência crescente. Última frase é uma provocação bem-humorada, precedida de uma pequena pausa para a piada funcionar."
+      "texto": "Pois é.\n\nO leiteiro não queria lenha. Queria ovos.\n\nE o vendedor de ovos queria farinha.",
+      "frases": [
+        "Pois é.",
+        "O leiteiro não queria lenha. Queria ovos.",
+        "E o vendedor de ovos queria farinha."
+      ],
+      "direcao": "'Pois é' confirma que a sorte acabou, sem caricatura. Enumeração com paciência decrescente."
     },
     {
       "id": "S05",
       "cena": 5,
-      "texto": "O problema não era faltar coisa pra trocar.\n\nEra encontrar alguém que quisesse exatamente o que ele tinha, bem naquela hora.",
-      "frases": ["O problema não era faltar coisa pra trocar.", "Era encontrar alguém que quisesse exatamente o que ele tinha, bem naquela hora."],
-      "direcao": "Tom de descoberta, sem parecer definição escolar. Deixar a animação demonstrar o conceito."
+      "texto": "Então ele fez um mapa de quem queria o quê.\n\nSó que o mapa deu a volta: quem vendia farinha queria... o mesmo sapato que ele.\n\nNico, você quer comprar um sapato ou abrir uma transportadora?",
+      "frases": [
+        "Então ele fez um mapa de quem queria o quê.",
+        "Só que o mapa deu a volta: quem vendia farinha queria... o mesmo sapato que ele.",
+        "Nico, você quer comprar um sapato ou abrir uma transportadora?"
+      ],
+      "direcao": "Primeira frase otimista. Na segunda, a revelação com pausa curta antes de 'o mesmo sapato que ele'. A última é provocação bem-humorada, com pausa antes para a piada funcionar."
     },
     {
       "id": "S06",
       "cena": 6,
-      "texto": "Até que a feira resolveu testar uma ideia.\n\nTodo mundo passaria a aceitar uma mesma ficha como pagamento.\n\nNico vendeu batatas, recebeu fichas e finalmente comprou os sapatos.\n\nE o sapateiro? Usou as mesmas fichas pra comprar leite.\n\nAgora sim!",
-      "frases": ["Até que a feira resolveu testar uma ideia.", "Todo mundo passaria a aceitar uma mesma ficha como pagamento.", "Nico vendeu batatas, recebeu fichas e finalmente comprou os sapatos.", "E o sapateiro? Usou as mesmas fichas pra comprar leite.", "Agora sim!"],
-      "direcao": "A revelação soa como descoberta prática. 'Agora sim!' com alívio e satisfação, sem gritar."
+      "texto": "E ele nem era o único. A vila inteira carregava a própria torre.\n\nO problema não era faltar coisa pra trocar.\n\nEra achar alguém que quisesse exatamente o que você tem, bem naquela hora.",
+      "frases": [
+        "E ele nem era o único. A vila inteira carregava a própria torre.",
+        "O problema não era faltar coisa pra trocar.",
+        "Era achar alguém que quisesse exatamente o que você tem, bem naquela hora."
+      ],
+      "direcao": "Primeira frase com espanto leve. As duas seguintes em tom de descoberta, sem parecer definição escolar. Deixar a animação demonstrar o conceito."
     },
     {
       "id": "S07",
       "cena": 7,
-      "texto": "Mas tem um detalhe.\n\nPor que alguém aceitaria um pedaço de madeira como pagamento?\n\nPorque confiava que outras pessoas também aceitariam.\n\nSem isso, a ficha não passaria de um pedaço de madeira.",
-      "frases": ["Mas tem um detalhe.", "Por que alguém aceitaria um pedaço de madeira como pagamento?", "Porque confiava que outras pessoas também aceitariam.", "Sem isso, a ficha não passaria de um pedaço de madeira."],
-      "direcao": "Começar com curiosidade. Destacar a pergunta sem exagero dramático. A última frase reforça a descoberta."
+      "texto": "Até que a feira testou uma ideia: todo mundo aceitaria a mesma ficha de madeira.\n\nNico vendeu batatas, recebeu fichas e comprou o sapato.\n\nE o sapateiro usou as mesmas fichas pra comprar leite.",
+      "frases": [
+        "Até que a feira testou uma ideia: todo mundo aceitaria a mesma ficha de madeira.",
+        "Nico vendeu batatas, recebeu fichas e comprou o sapato.",
+        "E o sapateiro usou as mesmas fichas pra comprar leite."
+      ],
+      "direcao": "A revelação soa como descoberta prática. Ritmo ágil e alívio crescente, sem gritar."
     },
     {
       "id": "S08",
       "cena": 8,
-      "texto": "Agora me conta: se não existisse dinheiro, o que você ofereceria por um par de sapatos?",
-      "frases": ["Agora me conta: se não existisse dinheiro, o que você ofereceria por um par de sapatos?"],
-      "direcao": "Convite genuíno e descontraído, como quem realmente quer saber a resposta. Pergunta única, sem pedir curtida, compartilhamento ou inscrição."
+      "texto": "Isso que a vila inventou tem nome: dinheiro.\n\nÉ por isso que, até hoje, ninguém na padaria te pergunta o que você tem pra trocar.",
+      "frases": [
+        "Isso que a vila inventou tem nome: dinheiro.",
+        "É por isso que, até hoje, ninguém na padaria te pergunta o que você tem pra trocar."
+      ],
+      "direcao": "Primeira frase como descoberta satisfeita. A segunda é a ponte com o cotidiano: tom de 'agora você vai reparar nisso', levemente irônico."
+    },
+    {
+      "id": "S09",
+      "cena": 9,
+      "texto": "Mas espera. Por que o sapateiro aceitou um pedaço de madeira?\n\nVamos voltar um instante: ele só aceitou porque confiou que o leiteiro também aceitaria.\n\nSem isso, a ficha não passava de um pedaço de madeira.",
+      "frases": [
+        "Mas espera. Por que o sapateiro aceitou um pedaço de madeira?",
+        "Vamos voltar um instante: ele só aceitou porque confiou que o leiteiro também aceitaria.",
+        "Sem isso, a ficha não passava de um pedaço de madeira."
+      ],
+      "direcao": "Começar com dúvida. 'Vamos voltar um instante' abre o rebobinar curto. Última frase como conclusão calma, sem dramatizar."
+    },
+    {
+      "id": "S10",
+      "cena": 10,
+      "texto": "Parabéns, Nico. Você reinventou o dinheiro.\n\nFalta só todo mundo continuar acreditando nele.\n\nAgora me conta: se não existisse dinheiro, o que você ofereceria por um par de sapatos?",
+      "frases": [
+        "Parabéns, Nico. Você reinventou o dinheiro.",
+        "Falta só todo mundo continuar acreditando nele.",
+        "Agora me conta: se não existisse dinheiro, o que você ofereceria por um par de sapatos?"
+      ],
+      "direcao": "Parabéns com alegria contida. 'Falta só...' deixa um pequeno gancho para o próximo episódio. A pergunta é um convite genuíno e descontraído, sem pedir curtida, compartilhamento ou inscrição."
     }
   ]
 }
-
