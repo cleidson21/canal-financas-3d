@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <title>Catálogo — Estúdio Nico</title>
+    <style>
+      :root { color-scheme: dark; --bg: #16171b; --pn: #202228; --tx: #e9e9ec; --mu: #9a9ca6; --ac: #f28a2e; }
+      * { box-sizing: border-box; }
+      body { margin: 0; font: 14px/1.4 system-ui, sans-serif; background: var(--bg); color: var(--tx); display: flex; height: 100vh; }
+      nav { width: 230px; background: var(--pn); padding: 14px; overflow: auto; flex: none; }
+      nav h1 { font-size: 16px; margin: 0 0 12px; }
+      nav h2 { font-size: 11px; text-transform: uppercase; color: var(--mu); margin: 14px 0 4px; letter-spacing: .06em; }
+      nav a { display: block; color: var(--tx); text-decoration: none; padding: 4px 8px; border-radius: 6px; }
+      nav a.on, nav a:hover { background: #2d3038; }
+      nav small { display: block; color: var(--mu); font-size: 11px; }
+      main { flex: 1; overflow: auto; padding: 18px 22px; }
+      h2.t { margin: 0 0 2px; }
+      .meta { color: var(--mu); margin-bottom: 14px; }
+      .linha { display: flex; gap: 18px; flex-wrap: wrap; align-items: flex-start; }
+      .card { background: var(--pn); border-radius: 10px; padding: 10px; }
+      .card h3 { margin: 0 0 8px; font-size: 13px; color: var(--mu); font-weight: 600; }
+      canvas { display: block; border-radius: 6px; background: #000; }
+      .ctl { display: flex; gap: 8px; align-items: center; margin-top: 8px; }
+      .ctl input[type=range] { flex: 1; }
+      button, select { background: #2d3038; color: var(--tx); border: 1px solid #3a3d47; border-radius: 6px; padding: 4px 10px; }
+      .rot { color: var(--mu); font: 12px monospace; min-width: 56px; text-align: right; }
+      .folhas img { max-width: 100%; border-radius: 6px; margin-top: 6px; }
+      .folhas details { margin: 6px 0; }
+    </style>
+  </head>
+  <body>
+    <nav id="nav"><h1>Estúdio Nico · catálogo</h1></nav>
+    <main id="main"></main>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

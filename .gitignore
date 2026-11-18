@@ -79,3 +79,9 @@ dist/
 # Capturas e folhas de contato são regeneráveis a partir do código (determinístico)
 /catalogo/folhas/
 /episodios/*/capturas/
+**/capturas/
+catalogo/**/*.png
+catalogo/**/*.mp4
+ferramentas/**/*.png
+ferramentas/**/*.mp4
+/saida/
