@@ -135,6 +135,36 @@ export const POSES = {
     wristR: { flex: -15 },
     face: { expr: 'alegre' },
   },
+  // ---- EP001: carga nas costas (socket `costas`) ----
+  carry_back: {
+    label: 'segurar as alças (carga nas costas)',
+    pelvis: { drop: 0.02 },
+    spine: { flex: 12 },
+    neck: { pitch: -10 },
+    shoulderL: { flex: 22, abd: 14, twist: 0 },
+    shoulderR: { flex: 22, abd: 14, twist: 0 },
+    elbowL: { flex: 112 },
+    elbowR: { flex: 112 },
+    wristL: { flex: -20 },
+    wristR: { flex: -20 },
+    face: { expr: 'cansada' },
+  },
+  exhausted_load: {
+    label: 'exausto com carga (parado)',
+    pelvis: { drop: 0.065 },
+    spine: { flex: 22 },
+    neck: { pitch: -16 },
+    shoulderL: { flex: 22, abd: 14, twist: 0 },
+    shoulderR: { flex: 22, abd: 14, twist: 0 },
+    elbowL: { flex: 112 },
+    elbowR: { flex: 112 },
+    wristL: { flex: -20 },
+    wristR: { flex: -20 },
+    footL: { x: 0.115, z: 0.01 },
+    footR: { x: -0.115, z: -0.015 },
+    face: { expr: 'cansada' },
+  },
+  stagger: { label: 'cambalear (andar lento com carga)', locomotion: 'cambalear', face: { expr: 'cansada' } },
 };
 
 // As 12 poses da galeria (NICO_SPEC §4), na ordem da spec.
@@ -146,6 +176,7 @@ const ALIAS = {
   cansado: 'tired', ofegante: 'tired', apontar: 'point', darDeOmbros: 'shrug', 'dar de ombros': 'shrug',
   recusar: 'refuse', carregar: 'carry', carregarSaco: 'carry', estender: 'offer', estenderObjeto: 'offer',
   receber: 'receive', receberObjeto: 'receive', pegar: 'reach',
+  exausto_com_carga: 'exhausted_load', cambalear: 'stagger', carga_costas: 'carry_back',
 };
 export function poseKey(name) {
   const k = POSES[name] ? name : ALIAS[name];

@@ -112,7 +112,7 @@ async function mostrar(id) {
     const v = await viewer(linha, 'Turntable 360° (8 s)', at.turntable, { duracao: 8, extra: sel });
     sel.onchange = () => (v.ctx.params.pose = sel.value);
   }
-  for (const t of at.testes || []) await viewer(linha, t.nome, t.cena, { duracao: t.duracao });
+  for (const t of at.testes || []) await viewer(linha, t.nome, t.cena, { duracao: t.duracao, params: t.params || {} });
   if (at.galeria) {
     const g = el('div', { class: 'linha' });
     g.style.marginTop = '18px';

@@ -7,3 +7,4 @@
 - 10/11 biblioteca: esqueleto bípede rígido com IK de perna e limites (`personagens/bipede`), Nico (`personagens/nico`), poses/gestos/locomoção (`movimentos`), saco e caixote (`objetos`), estúdio neutro (`cenarios`), presets de câmera (`camera`), utilidades em `biblioteca/nucleo/` (subpasta nova).
 - 10/11 catálogo: `catalogo/index.html` com turntable, galeria 12×3, testes de caminhada e encaixe; `INDEX.md`.
 - 10/11 auditoria do Nico (`ferramentas/auditoria_nico.mjs`): limite do tornozelo no IK, giro no lugar (`createTurn`) para o teste de encaixe, saco com largura igual ao vão dos braços.
+- 18/11 EP001 etapa 1: Nico `descalco`/`sapatoQuebrado`/socket `costas`/poses `exausto_com_carga` e `cambalear`; torre e 5 objetos; HUD DIA; rebobinar; cubo PLOC!; terraço baixo; `ferramentas/folha_pecas.mjs`. Corrigido `tokens.json` (acentos corrompidos); `camera.longe` 200→500.

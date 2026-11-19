@@ -27,8 +27,12 @@ export const PART_TOKENS = {
   pele: 'cores.nico.pele', cabelo: 'cores.nico.cabelo', tenis: 'cores.nico.tenis', sola: 'cores.nico.sola',
   olho: 'cores.nico.olho', pupila: 'cores.nico.pupila', boca: 'cores.nico.boca', sobrancelha: 'cores.nico.sobrancelha',
   luva: 'cores.nico.luva', palpebra: 'cores.nico.pele',
+  pe_luva: 'cores.nico.luva', sola_solta: 'cores.nico.sola',
 };
 
+// opts (todas opcionais, só acrescentam; o Nico padrão não muda):
+//   descalco: true        → sem tênis; pés de luva (sem dedos), cor de luva
+//   sapatoQuebrado: true  → tênis com a ponta da sola solta; a ponta pende quando o pé levanta
 export function createNico(opts = {}) {
   const d = opts.dims || token('escala.nico');
   const L = token('juntas');
@@ -37,6 +41,7 @@ export function createNico(opts = {}) {
   const group = j.root;
   group.name = opts.name || 'nico';
   const M = (part) => material(PART_TOKENS[part]);
+  const flaps = {};
 
   const add = (parent, geo, part, pos = [0, 0, 0], rot = [0, 0, 0], scale = [1, 1, 1]) => {
     const m = new THREE.Mesh(geo, M(part));
@@ -76,8 +81,27 @@ export function createNico(opts = {}) {
     add(j['knee' + s], capsule(d.canela.raio, d.canela.comprimento * 0.85), 'pele', [0, -d.canela.comprimento / 2, 0]);
     const P = d.pe;
     const zc = P.comprimento / 2 - P.calcanhar;
-    add(j['ankle' + s], rbox(P.largura, P.alturaTenis, P.comprimento, 0.028), 'tenis', [0, -P.tornozeloY + P.alturaSola + P.alturaTenis / 2, zc]);
-    add(j['ankle' + s], rbox(P.largura + 0.008, P.alturaSola, P.comprimento + 0.01, 0.011), 'sola', [0, -P.tornozeloY + P.alturaSola / 2, zc + 0.002]);
+    if (opts.descalco) {
+      // pé de luva: caixa arredondada baixa, sem dedos
+      const alt = 0.048;
+      add(j['ankle' + s], rbox(P.largura * 0.96, alt, P.comprimento * 0.95, 0.021), 'pe_luva', [0, -P.tornozeloY + alt / 2, zc]);
+    } else {
+      add(j['ankle' + s], rbox(P.largura, P.alturaTenis, P.comprimento, 0.028), 'tenis', [0, -P.tornozeloY + P.alturaSola + P.alturaTenis / 2, zc]);
+      const yS = -P.tornozeloY + P.alturaSola / 2;
+      if (opts.sapatoQuebrado) {
+        // metade de trás da sola presa; metade da frente em pivô no meio do pé
+        const meio = P.comprimento / 2;
+        add(j['ankle' + s], rbox(P.largura + 0.008, P.alturaSola, meio + 0.006, 0.011), 'sola', [0, yS, zc - meio / 2 - 0.002]);
+        const pivo = new THREE.Group();
+        pivo.name = 'sola_pivo' + s;
+        pivo.position.set(0, yS, zc + 0.004);
+        j['ankle' + s].add(pivo);
+        add(pivo, rbox(P.largura + 0.008, P.alturaSola, meio + 0.012, 0.011), 'sola_solta', [0, 0, meio / 2 + 0.006]);
+        flaps[s] = pivo;
+      } else {
+        add(j['ankle' + s], rbox(P.largura + 0.008, P.alturaSola, P.comprimento + 0.01, 0.011), 'sola', [0, yS, zc + 0.002]);
+      }
+    }
   }
 
   // ---- Cabeça e rosto ----
@@ -148,10 +172,15 @@ export function createNico(opts = {}) {
     forearms: sock('forearms', j.spine, [0, 0, 0]),
     headTop: sock('headTop', j.head, [0, H.centroY + H.raio * 1.07 + 0.02 + 0.035, 0]),
     lookTarget: sock('lookTarget', j.head, [0, H.centroY, H.raio + 0.05]),
+    // costas: na cintura, rente à camiseta; eixo +Y da carga inclinado 18° para trás, 4 cm afastada da camiseta
+    // (a carga sobe atrás da cabeça em vez de atravessá-la). A carga se estende para -Z.
+    costas: sock('costas', j.spine, [0, 0.06, -d.tronco.profundidade / 2 - 0.04]),
   };
 
   const rest = restPose(d);
+  sockets.costas.rotation.x = -18 * DEG;
   let current = rest;
+  let tNow = 0;
   const _a = new THREE.Vector3();
   const _b = new THREE.Vector3();
   const _qa = new THREE.Quaternion();
@@ -185,13 +214,29 @@ export function createNico(opts = {}) {
     }
   }
 
-  function applyFull(pose) {
+  // Sola solta: a ponta pende quando a ponta do pé está no ar (sem entrar no chão).
+  function updateFlaps(t) {
+    const P = d.pe;
+    for (const s of Object.keys(flaps)) {
+      const pt = j['ankle' + s].localToWorld(_a.set(0, -P.tornozeloY, P.comprimento - P.calcanhar));
+      const h = Math.max(0, group.worldToLocal(pt).y);
+      const meio = P.comprimento / 2;
+      const livre = Math.min(1, h / 0.03);
+      const alvo = (26 + 7 * Math.sin(2 * Math.PI * 3.6 * t + (s === 'L' ? 0 : 1.7))) * livre * DEG;
+      const maxSemChao = Math.asin(Math.min(1, h / meio));
+      flaps[s].rotation.x = Math.min(alvo, maxSemChao);
+    }
+  }
+
+  function applyFull(pose, t = tNow) {
+    tNow = t;
     current = mergePose(rest, pose);
     current.face = { ...rest.face, ...(pose.face || {}) };
     applyPose(sk, current, L);
     setFace(current.face);
     for (const s of ['L', 'R']) eyes[s].eye.rotation.set(0, 0, 0);
     updateVirtualSockets();
+    updateFlaps(t);
     return current;
   }
 
@@ -233,9 +278,9 @@ export function createNico(opts = {}) {
         // desloca os pés para que a pelve fique no ponto atual
         const off = [x - r.root.x, z - r.root.z];
         for (const s of ['L', 'R']) r.pose['foot' + s].ankle = [r.pose['foot' + s].ankle[0] + off[0], r.pose['foot' + s].ankle[1], r.pose['foot' + s].ankle[2] + off[1]];
-        return applyFull({ ...r.pose, face: { ...POSES[k].face, blink: blinkAt(t) } });
+        return applyFull({ ...r.pose, face: { ...POSES[k].face, blink: blinkAt(t) } }, t);
       }
-      return applyFull(livePose(rest, k, t));
+      return applyFull(livePose(rest, k, t), t);
     },
 
     // Movimento parametrizado. Retorna uma função pura de t que aplica o movimento.
@@ -255,13 +300,13 @@ export function createNico(opts = {}) {
           const r = turn.at(t);
           group.position.set(r.root.x, group.position.y, r.root.z);
           group.rotation.set(0, r.root.heading, 0);
-          applyFull(overlay({ ...r.pose, face: { expr: params.expr || 'neutra', blink: blinkAt(t) } }, t));
+          applyFull(overlay({ ...r.pose, face: { expr: params.expr || 'neutra', blink: blinkAt(t) } }, t), t);
           return r;
         };
         fn.duration = turn.duration;
         return fn;
       }
-      const loc = { caminhar: 'caminhar', walk: 'caminhar', correr: 'correr', run: 'correr' }[name];
+      const loc = { caminhar: 'caminhar', walk: 'caminhar', correr: 'correr', run: 'correr', cambalear: 'cambalear', stagger: 'cambalear' }[name];
       if (loc) {
         const cfg = { ...token('locomocao.' + loc), ...(params.cfg || {}) };
         const loco = createLocomotion(d, cfg, { ...params, t0 });
@@ -269,7 +314,15 @@ export function createNico(opts = {}) {
           const r = loco.at(t);
           group.position.set(r.root.x, group.position.y, r.root.z);
           group.rotation.set(0, r.root.heading, 0);
-          applyFull(overlay({ ...r.pose, face: { expr: params.expr || 'neutra', blink: blinkAt(t) } }, t));
+          let pose = { ...r.pose, face: { expr: params.expr || 'neutra', blink: blinkAt(t) } };
+          if (loc === 'cambalear') {
+            // vaivém de quem não aguenta o peso: o quadril e o tronco pendem a cada passo
+            const w = Math.sin(Math.PI * r.phase) * r.k;
+            pose.pelvis = { ...pose.pelvis, roll: 5 * w, x: 0.022 * w };
+            pose.spine = { ...pose.spine, side: -7 * w };
+            pose.neck = { ...pose.neck, roll: 4 * w };
+          }
+          applyFull(overlay(pose, t), t);
           return r;
         };
         fn.locomotion = loco;
@@ -279,7 +332,7 @@ export function createNico(opts = {}) {
       const key = GESTURES[name] ? name : poseKey(name);
       const g = GESTURES[key];
       if (!g) throw new Error(`movimento desconhecido: ${name}`);
-      return (t) => applyFull(g(rest, Math.max(0, t - t0), params));
+      return (t) => applyFull(g(rest, Math.max(0, t - t0), params), t);
     },
 
     // Vira o pescoço (dentro dos limites) e os olhos para um ponto do mundo.

@@ -82,6 +82,16 @@ export const GESTURES = {
     return base;
   },
   surprise: (rest, tl, p = {}) => transition(rest, p.from || 'idle', 'surprise', tl, 0.18, ease.outBack),
+  // exausto com carga: balança o peso de um pé para o outro (período 2,6 s) e arfa
+  exhausted_load(rest, tl, p = {}) {
+    const base = transition(rest, p.from || 'idle', 'exhausted_load', tl, 0.5);
+    const w = Math.sin((2 * Math.PI * tl) / 2.6) * smoothstep(0.3, 0.9, tl);
+    const pant = Math.sin(2 * Math.PI * 1.5 * tl) * smoothstep(0.3, 0.9, tl);
+    base.pelvis = { ...base.pelvis, x: 0.03 * w, roll: 4.5 * w, drop: base.pelvis.drop + 0.006 * pant };
+    base.spine = { ...base.spine, side: -6 * w, flex: base.spine.flex - 1.5 * pant };
+    base.neck = { ...base.neck, roll: 4 * w };
+    return base;
+  },
   point: (rest, tl, p = {}) => transition(rest, p.from || 'idle', 'point', tl, 0.35, ease.outBack),
   shrug(rest, tl, p = {}) {
     const up = transition(rest, p.from || 'idle', 'shrug', tl, 0.3, ease.outCubic);
