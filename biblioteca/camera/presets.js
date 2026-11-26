@@ -22,3 +22,12 @@ export function frame(camera, preset, alvo, { azimute = 0, alturaVisivelM, altur
   return { dist, target };
 }
 
+// Plano médio de Nico com a torre inteira em 9:16: do chão (com margem) até o topo da
+// torre, deixando livre a faixa do topo onde fica o contador (reservaTopo).
+//   alturaTotal: altura do ponto mais alto (m, a partir do chão); alvoX/alvoZ: onde está o Nico
+export function frameNicoTorre(camera, alturaTotal, { azimute = 0, alvoX = 0, alvoZ = 0 } = {}) {
+  const p = token('camera.presets.planoMedioTorre');
+  const h = (alturaTotal + p.margemM) / (1 - p.reservaTopo); // altura visível
+  const yBase = -p.margemM;
+  return frame(camera, 'planoMedioTorre', [alvoX, yBase + h / 2, alvoZ], { azimute, alturaVisivelM: h, inclinacaoGraus: p.inclinacaoGraus });
+}

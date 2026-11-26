@@ -71,8 +71,8 @@ export function createLocomotion(dims, cfg, opts) {
 
   // Estado de apoio do pé (ao longo do caminho): ângulo e altura do tornozelo.
   function stanceAnkle(Spos, dd, land, toeoff, k) {
-    const p0 = 14 * k; // calcanhar toca com a ponta erguida
-    const p1 = 22 * k; // ponta empurra com o calcanhar erguido
+    const p0 = (cfg.pitchCalcanhar ?? 14) * k; // calcanhar toca com a ponta erguida
+    const p1 = (cfg.pitchPonta ?? 22) * k; // ponta empurra com o calcanhar erguido
     const heelWin = 0.22 * L;
     const toeWin = 0.32 * L;
     if (dd < land + heelWin && Number.isFinite(land)) {

@@ -25,18 +25,21 @@ Estados: `rascunho` · `aguardando aprovação` · `[aprovado dd/mm]` (só o usu
 | Saco de batata | `biblioteca/objetos/saco.js` → `createSack()` | rascunho |
 | Caixote | `biblioteca/objetos/caixote.js` → `createCrate()` | rascunho |
 
-## EP001 — peças da etapa 1 (todas ascunho, aguardando sua aprovação)
+## EP001 — peças (todas `rascunho`, aguardando sua aprovação)
 | Ativo | Arquivo | Como ver |
 |---|---|---|
-| Nico: opções descalco, sapatoQuebrado; socket costas; poses exausto_com_carga, cambalear, carga_costas | personagens/nico/index.js, movimentos/poses.js, gestos.js | ?painel=exausto\|cambalear\|quebrado em cenas/pecas_nico_torre.js |
-| Torre de mercadorias (quantidade, ltura) | objetos/torre_mercadorias.js | idem |
-| Peixe, lenha, galão de leite, caixa de ovos, saco de farinha | objetos/peixe.js, lenha.js, galao_leite.js, caixa_ovos.js, saco_farinha.js | cenas/pecas_objetos.js |
-| Contador DIA (HUD, pop) | efeitos/contador_dia.js | cenas/pecas_rebobinar.js |
-| Rebobinar createRewind({t0,duracao}) | efeitos/rebobinar.js | cenas/pecas_rebobinar.js |
-| Cubo PLOC! | efeitos/cubo_ploc.js | cenas/pecas_cubo.js |
-| Terraço baixo (fim de tarde) | cenarios/terraco_baixo.js | todas as cenas acima |
-Folha da parada 1: 
-ode ferramentas/folha_pecas.mjs → catalogo/folhas/pecas_ep001.png
+| Nico: opções `descalco`, `sapatoQuebrado`; socket `costas`; poses `exausto_com_carga`, `cambalear`, `carga_costas` | `personagens/nico/index.js`, `movimentos/poses.js`, `gestos.js` | `?painel=exausto\|cambalear\|quebrado` (e `&az=graus`, `&qtd=n`) em `cenas/pecas_nico_torre.js` |
+| Cargueiro de madeira + alças de corda (mãos fechadas) | `objetos/cargueiro.js` | idem |
+| Torre de mercadorias (`quantidade`, `altura`, `alturaMax` = 1,8 × Nico); assenta no cargueiro; peixe no alto, de perfil | `objetos/torre_mercadorias.js` | idem |
+| Peixe, lenha, galão de leite, caixa de ovos, saco de farinha | `objetos/peixe.js`, `lenha.js`, `galao_leite.js`, `caixa_ovos.js`, `saco_farinha.js` | `cenas/pecas_objetos.js` |
+| Contador DIA (HUD, pop; `de` = nasce num ponto do mundo e desliza ~0,3 s) | `efeitos/contador_dia.js` | `cenas/pecas_rebobinar.js`, `cenas/pecas_cubo.js` |
+| Rebobinar `createRewind({t0, duracao})` | `efeitos/rebobinar.js` | `cenas/pecas_rebobinar.js` |
+| Cubo PLOC! | `efeitos/cubo_ploc.js` | `cenas/pecas_cubo.js` |
+| Terraço baixo (fim de tarde) | `cenarios/terraco_baixo.js` | todas as cenas acima |
+| Preset `frameNicoTorre` (plano médio com a torre inteira em 9:16) | `camera/presets.js` | cenas de carga |
+
+Folha de contato: `node ferramentas/folha_pecas.mjs` → `catalogo/folhas/pecas_ep001.png`.
+Medidas da carga no terminal (joelhos, cabeça–torre, pilha–costas, cubo, ícone): `node ferramentas/medir_carga.mjs`.
 
 ## Cenários e câmera
 | Ativo | Arquivo | Estado |
@@ -50,3 +53,4 @@ ode ferramentas/folha_pecas.mjs → catalogo/folhas/pecas_ep001.png
 | Captura de quadros (PNG) | `ferramentas/captura.mjs` |
 | Folha de contato | `ferramentas/folha.mjs` |
 | Auditoria do Nico (NICO_SPEC §7) | `ferramentas/auditoria_nico.mjs` |
+| Folha das peças EP001 / medidas da carga | `ferramentas/folha_pecas.mjs`, `ferramentas/medir_carga.mjs` |

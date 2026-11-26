@@ -1,12 +1,14 @@
 // HUD "DIA n" no canto superior direito, dentro da área segura (tokens.hud.seguro).
 // Preso à câmera (filho dela): acompanha qualquer enquadramento. A cada troca de dia o
 // número faz pop (escala 0 → 1 com overshoot) e o selo dá um pulso curto.
-// Estado = função pura de t: o calendário é uma lista [{ t, dia }].
+// Estado = função pura de t: o calendário é uma lista [{ t, dia, de? }].
+// de (opcional, [x,y,z] de mundo ou função de t): o selo NASCE na posição de tela desse ponto
+// (ex.: onde o cubo PLOC! sumiu) e desliza até o canto em hud.deslizeS (≈0,3 s).
 //   const hud = createDiaCounter(ctx, [{ t: -99, dia: 3 }, { t: 3.2, dia: 1 }]);
 //   hud.update(t);   // a cada quadro, depois de posicionar a câmera
 import * as THREE from 'three';
 import { token } from '../nucleo/materiais.js';
-import { clamp } from '../nucleo/matematica.js';
+import { clamp, lerp, ease } from '../nucleo/matematica.js';
 
 // 0 → 1 com overshoot (pico ≈ 1.17), k em [0,1]
 export function popScale(k, overshoot = 2.6) {
@@ -92,6 +94,7 @@ export function createDiaCounter(ctx, calendario, opts = {}) {
 
   const lista = [...calendario].sort((a, b) => a.t - b.t);
   const popS = opts.popS ?? hud.popS;
+  const deslizeS = opts.deslizeS ?? hud.deslizeS;
 
   function layout() {
     const meioAlto = Math.tan((camera.fov * Math.PI) / 360); // z = 1
@@ -108,17 +111,32 @@ export function createDiaCounter(ctx, calendario, opts = {}) {
     for (const it of lista) if (it.t <= t) e = it;
     grupo.visible = !!e;
     if (!e) return;
-    const k = clamp((t - e.t) / popS, 0, 1);
+    const tau = t - e.t;
+    const k = clamp(tau / popS, 0, 1);
     const L = layout();
+    let cx = L.cx;
+    let cy = L.cy;
+    let sb = 1;
+    if (e.de) {
+      // nasce na posição de tela do ponto `de` e desliza até o canto
+      const p = typeof e.de === 'function' ? e.de(t) : e.de;
+      camera.updateMatrixWorld(true);
+      const pc = camera.worldToLocal(new THREE.Vector3(p[0], p[1], p[2]));
+      const x1 = pc.x / -pc.z;
+      const y1 = pc.y / -pc.z;
+      const u = ease.inOutCubic(clamp(tau / deslizeS, 0, 1));
+      cx = lerp(x1, L.cx, u);
+      cy = lerp(y1, L.cy, u);
+      sb = popScale(clamp(tau / (deslizeS * 0.8), 0, 1));
+    }
     const pulso = 1 + 0.07 * Math.sin(Math.PI * k) * (e.t > -50 ? 1 : 0);
-    selo.scale.set(L.wb * pulso, L.hb * pulso, 1);
-    selo.position.set(L.cx, L.cy, 0);
+    selo.scale.set(L.wb * pulso * sb, L.hb * pulso * sb, 1);
+    selo.position.set(cx, cy, 0);
     numMat.map = texNumero(String(e.valor ?? e.dia));
     const s = popScale(e.t > -50 ? k : 1);
     const nh = L.hb * 0.92;
-    numero.scale.set(nh * s, nh * s, 1);
-    numero.position.set(L.cx + L.wb * 0.2, L.cy - L.hb * 0.005, 0);
-  }
-  update(-1e9);
+    numero.scale.set(nh * s * sb, nh * s * sb, 1);
+    numero.position.set(cx + L.wb * 0.2 * sb, cy - L.hb * 0.005 * sb, 0);
+  }  update(-1e9);
   return { group: grupo, update, layout };
 }

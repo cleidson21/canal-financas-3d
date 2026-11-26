@@ -1,4 +1,4 @@
-// Folha de contato da PARADA 1 (peças do EP001): 12 quadros em 360×640.
+// Folha de contato da PARADA 1b (carga, torre, cubo, rebobinar): 8 quadros em 360×640.
 //   node ferramentas/folha_pecas.mjs [--saida catalogo/folhas/pecas_ep001.png]
 import path from 'node:path';
 import { abrirEstudio, abrirCena, salvarDataUrl, parseArgs, RAIZ } from './estudio.mjs';
@@ -9,7 +9,6 @@ const W = 360;
 const H = 640;
 const saida = a.saida || path.join(RAIZ, 'catalogo/folhas/pecas_ep001.png');
 const dir = path.join(RAIZ, 'catalogo/folhas/pecas');
-const tNico = a.t ? String(a.t).split(',').map(Number) : [1.4, 2.0, 1.6];
 const est = await abrirEstudio({ modo: a.modo || 'gpu' });
 const itens = [];
 try {
@@ -27,21 +26,20 @@ try {
     await page.close();
     return m;
   };
-  await quadro('catalogo/cenas/pecas_nico_torre.js', { painel: 'exausto' }, tNico[0], `1 exausto+torre 6 t=${tNico[0]}`, '01');
-  await quadro('catalogo/cenas/pecas_nico_torre.js', { painel: 'cambalear' }, tNico[1], `2 cambalear+torre 3 t=${tNico[1]}`, '02');
-  await quadro('catalogo/cenas/pecas_nico_torre.js', { painel: 'quebrado' }, tNico[2], `3 sola solta+torre 1 t=${tNico[2]}`, '03');
+  const N = 'catalogo/cenas/pecas_nico_torre.js';
+  const tEx = a.tex ? Number(a.tex) : 1.3;
+  const tCa = a.tca ? Number(a.tca) : 2.1;
+  await quadro(N, { painel: 'exausto', az: 8 }, tEx, `1 exausto frente (6 itens) t=${tEx}`, '01');
+  await quadro(N, { painel: 'exausto', az: 90 }, tEx, `2 exausto PERFIL t=${tEx}`, '02');
+  await quadro(N, { painel: 'exausto', az: 42 }, tEx, `3 exausto 3/4 t=${tEx}`, '03');
+  await quadro(N, { painel: 'cambalear', az: 0 }, tCa, `4 cambalear perfil (2 itens) t=${tCa}`, '04');
   const r = await marcos('catalogo/cenas/pecas_rebobinar.js');
-  await quadro('catalogo/cenas/pecas_rebobinar.js', {}, r.antes, `4 rebobinar: antes ${r.antes.toFixed(2)}`, '04');
-  await quadro('catalogo/cenas/pecas_rebobinar.js', {}, r.linhas, `5 linhas ${r.linhas.toFixed(2)}`, '05');
-  await quadro('catalogo/cenas/pecas_rebobinar.js', {}, r.icone, `6 icone ${r.icone.toFixed(2)}`, '06');
-  await quadro('catalogo/cenas/pecas_rebobinar.js', {}, r.depois, `7 depois: DIA 1 ${r.depois.toFixed(2)}`, '07');
+  await quadro('catalogo/cenas/pecas_rebobinar.js', {}, r.icone, `5 rebobinar icone ${r.icone.toFixed(2)}`, '05');
   const c = await marcos('catalogo/cenas/pecas_cubo.js');
-  await quadro('catalogo/cenas/pecas_cubo.js', {}, c.queda, `8 cubo cai ${c.queda.toFixed(2)}`, '08');
-  await quadro('catalogo/cenas/pecas_cubo.js', {}, c.squash, `9 squash ${c.squash.toFixed(2)}`, '09');
-  await quadro('catalogo/cenas/pecas_cubo.js', {}, c.pop, `10 pop some ${c.pop.toFixed(2)}`, '10');
-  await quadro('catalogo/cenas/pecas_cubo.js', {}, c.contador, `11 contador ${c.contador.toFixed(2)}`, '11');
-  await quadro('catalogo/cenas/pecas_rebobinar.js', {}, r.depois - 0.12, `12 pop do DIA ${(r.depois - 0.12).toFixed(2)}`, '12');
-  await montarFolha(est.browser, itens, saida, { colunas: 6, larguraCelula: 300, titulo: 'EP001 — peças (parada 1)' });
+  await quadro('catalogo/cenas/pecas_cubo.js', {}, c.queda, `6 cubo cai ${c.queda.toFixed(2)}`, '06');
+  await quadro('catalogo/cenas/pecas_cubo.js', {}, c.squash, `7 squash ${c.squash.toFixed(2)}`, '07');
+  await quadro('catalogo/cenas/pecas_cubo.js', {}, c.tAparece + 0.1, `8 contador desliza ${(c.tAparece + 0.1).toFixed(2)}`, '08');
+  await montarFolha(est.browser, itens, saida, { colunas: 4, larguraCelula: 360, titulo: 'EP001 — carga e ajustes (parada 1b)' });
   console.log('folha:', saida);
 } finally {
   await est.fechar();

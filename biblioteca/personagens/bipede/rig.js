@@ -144,6 +144,8 @@ export function applyPose(sk, pose, L) {
   for (const [s, k] of Object.entries(SIDES)) {
     const sh = clampShoulder(k, p['shoulder' + s], L);
     j['shoulder' + s].rotation.copy(shoulderEuler(k, sh.flex, sh.abd, sh.twist));
+    // shoulder.lift (opcional, m): ombro levantado; padrão 0 = sem mudança
+    j['shoulder' + s].position.y = d.ombro.y + (p['shoulder' + s].lift || 0);
     j['elbow' + s].rotation.set(-clamp(p['elbow' + s].flex, ...L.cotovelo.flex) * DEG, 0, 0);
     const w = p['wrist' + s];
     j['wrist' + s].rotation.set(-clamp(w.flex, ...L.punho.flex) * DEG, 0, k * clamp(w.dev, ...L.punho.desvio) * DEG, 'XZY');
@@ -152,7 +154,9 @@ export function applyPose(sk, pose, L) {
   j.pelvis.rotation.set(p.pelvis.flex * DEG, p.pelvis.yaw * DEG, p.pelvis.roll * DEG, 'YXZ');
   j.root.updateMatrixWorld(true);
   const feet = {};
-  const reach = (d.coxa.comprimento + d.canela.comprimento) * 0.985;
+  // pelvis.reach (opcional): fração do comprimento da perna que o quadril pode alcançar.
+  // Padrão 0.985 (joelho nunca abaixo de ~20°); poses de pé cansado usam 0.997 (~9°).
+  const reach = (d.coxa.comprimento + d.canela.comprimento) * (p.pelvis.reach ?? 0.985);
   const base = sk.standPelvisY - p.pelvis.drop;
   let pelvisY = base;
   j.pelvis.position.set(p.pelvis.x || 0, base, p.pelvis.z || 0);

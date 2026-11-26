@@ -8,7 +8,7 @@ import { RoundedBoxGeometry } from 'three/addons/geometries/RoundedBoxGeometry.j
 import { material } from '../nucleo/materiais.js';
 import { clamp, ease } from '../nucleo/matematica.js';
 
-export function createPlocCube(scene, { pos = [0, 0, 0], t0 = 0, alturaQueda = 4, lado = 0.34, g = 15, restituicao = 0.42, quicadas = 2, espera = 0.22, popS = 0.26 } = {}) {
+export function createPlocCube(scene, { pos = [0, 0, 0], t0 = 0, alturaQueda = 4, lado = 0.2, g = 15, restituicao = 0.42, quicadas = 2, espera = 0.22, popS = 0.26 } = {}) {
   const grupo = new THREE.Group();
   grupo.name = 'cubo_ploc';
   grupo.position.set(pos[0], pos[1], pos[2]);
@@ -37,7 +37,7 @@ export function createPlocCube(scene, { pos = [0, 0, 0], t0 = 0, alturaQueda = 4
     cursor += dur;
   }
   const tPouso = cursor; // último contato
-  const contato = 0.13; // duração do esmagamento em cada impacto
+  const contato = 0.1; // esmagamento só nos 3 quadros (30 fps) após cada impacto
   const impactos = segs.map((s) => ({ t: s.b, amp: s.amp }));
   const vMax = segs[0].vImp;
   const tPop = tPouso + espera;
@@ -59,14 +59,14 @@ export function createPlocCube(scene, { pos = [0, 0, 0], t0 = 0, alturaQueda = 4
     const h = altura(t);
     let sy = 1;
     // stretch proporcional à velocidade (só no ar)
-    if (h.seg) sy = 1 + 0.38 * Math.pow(clamp(h.vel / vMax, 0, 1), 1.2);
+    if (h.seg) sy = 1 + 0.1 * Math.pow(clamp(h.vel / vMax, 0, 1), 1.2);
     // squash: janela de `contato` s depois de cada impacto, amplitude cai a cada quique
     let y = h.y;
     for (const im of impactos) {
       const tau = t - im.t;
       if (tau >= 0 && tau < contato) {
         const u = tau / contato;
-        sy = 1 - 0.46 * im.amp * Math.sin(Math.PI * u);
+        sy = 1 - 0.15 * im.amp * Math.sin(Math.PI * u);
         y = 0;
       }
     }
@@ -84,5 +84,5 @@ export function createPlocCube(scene, { pos = [0, 0, 0], t0 = 0, alturaQueda = 4
     pivo.rotation.set(0.9 * amp, yaw, -0.7 * amp, 'YXZ');
   }
   update(-1e9);
-  return { group: grupo, update, tPouso, tPop, tAparece, impactos, lado, alturaQueda };
+  return { group: grupo, centro: [pos[0], pos[1] + lado / 2, pos[2]], update, tPouso, tPop, tAparece, impactos, lado, alturaQueda };
 }

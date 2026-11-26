@@ -43,7 +43,9 @@ const v3 = (a) => new THREE.Vector3(...a);
 
 function world(prx, obj) {
   obj.updateWorldMatrix(true, false);
-  const w = { ...prx, obj };
+  // escala do objeto (ex.: itens da torre): distâncias e raios saem em metros de mundo
+  const sc = obj.matrixWorld.getMaxScaleOnAxis();
+  const w = { ...prx, obj, sc, rw: prx.r * sc };
   if (prx.type === 'capsule') {
     w.A = obj.localToWorld(v3(prx.a));
     w.B = obj.localToWorld(v3(prx.b));
@@ -67,7 +69,7 @@ function boxSdf(w, p) {
   const dy = Math.abs(q.y) - core[1];
   const dz = Math.abs(q.z) - core[2];
   const out = Math.hypot(Math.max(dx, 0), Math.max(dy, 0), Math.max(dz, 0));
-  return out + Math.min(Math.max(dx, dy, dz), 0) - w.r;
+  return (out + Math.min(Math.max(dx, dy, dz), 0) - w.r) * w.sc;
 }
 
 function segSeg(p1, q1, p2, q2) {
@@ -106,13 +108,13 @@ const segPoints = (w, n = 10) => Array.from({ length: n + 1 }, (_, i) => w.A.clo
 export function distance(a, b) {
   if (a.type === 'box' && b.type !== 'box') return distance(b, a);
   if (a.type === 'sphere' && b.type === 'capsule') return distance(b, a);
-  if (a.type === 'capsule' && b.type === 'capsule') return segSeg(a.A, a.B, b.A, b.B) - a.r - b.r;
-  if (a.type === 'capsule' && b.type === 'sphere') return pointSeg(b.C, a.A, a.B) - a.r - b.r;
-  if (a.type === 'sphere' && b.type === 'sphere') return a.C.distanceTo(b.C) - a.r - b.r;
-  if (a.type === 'capsule' && b.type === 'box') return Math.min(...segPoints(a).map((p) => boxSdf(b, p))) - a.r;
-  if (a.type === 'sphere' && b.type === 'box') return boxSdf(b, a.C) - a.r;
+  if (a.type === 'capsule' && b.type === 'capsule') return segSeg(a.A, a.B, b.A, b.B) - a.rw - b.rw;
+  if (a.type === 'capsule' && b.type === 'sphere') return pointSeg(b.C, a.A, a.B) - a.rw - b.rw;
+  if (a.type === 'sphere' && b.type === 'sphere') return a.C.distanceTo(b.C) - a.rw - b.rw;
+  if (a.type === 'capsule' && b.type === 'box') return Math.min(...segPoints(a).map((p) => boxSdf(b, p))) - a.rw;
+  if (a.type === 'sphere' && b.type === 'box') return boxSdf(b, a.C) - a.rw;
   // caixa x caixa: pontos do núcleo de b (com raio de b) contra o SDF de a
-  return Math.min(...b.samples.map((p) => boxSdf(a, p))) - b.r;
+  return Math.min(...b.samples.map((p) => boxSdf(a, p))) - b.rw;
 }
 
 // proxies: [{..., joint}] resolvidos em joints; extras: [{..., obj}] (objetos segurados)

@@ -48,3 +48,27 @@ export function solePoints(nico) {
   return out;
 }
 
+
+// Menor distância (m, entre superfícies; negativa = penetração) entre uma peça do corpo
+// (padrão: a cabeça) e os volumes de colisão de objetos. Usa distâncias em escala de mundo.
+//   objetos: [{ obj, proxies }]  → { dist, item }
+export function distanciaMinima(nico, objetos, parte = 'cabeca') {
+  nico.group.updateMatrixWorld(true);
+  const corpo = resolveProxies(nico.proxies.filter((p) => p.name === parte), nico.joints);
+  let best = Infinity;
+  let item = null;
+  for (const o of objetos) {
+    o.obj.updateWorldMatrix(true, true);
+    for (const p of o.proxies) {
+      const [r] = resolveProxies([{ ...p, obj: o.obj }], nico.joints);
+      for (const c of corpo) {
+        const d = distance(r, c);
+        if (d < best) {
+          best = d;
+          item = p.name;
+        }
+      }
+    }
+  }
+  return { dist: best, item };
+}

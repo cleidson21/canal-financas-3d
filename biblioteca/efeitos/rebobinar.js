@@ -98,9 +98,9 @@ export function createRewind(ctx, { t0, duracao, volta = 0, linhas = 30, semente
     // ícone: pop de entrada, flutua e os dois triângulos piscam em sequência (◀ ◀)
     const pop = popScale(clamp(tau / 0.28, 0, 1));
     const sai = 1 - smoothstep(0.86, 1, k);
-    const s = 0.62 * pop * sai * (1 + 0.04 * Math.sin(2 * Math.PI * 3 * tau));
+    const s = 0.31 * pop * sai * (1 + 0.04 * Math.sin(2 * Math.PI * 3 * tau));
     icone.scale.set(s, s, 1);
-    icone.position.set(0, 0, 0);
+    icone.position.set(0, mh - 0.25 * 2 * mh, 0); // 25% abaixo do topo: terço superior, sob o contador
     placa.material.opacity = 0.78;
     anel.material.opacity = 1;
     const ciclo = (tau * 3.2) % 1;

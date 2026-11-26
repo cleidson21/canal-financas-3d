@@ -172,13 +172,13 @@ export function createNico(opts = {}) {
     forearms: sock('forearms', j.spine, [0, 0, 0]),
     headTop: sock('headTop', j.head, [0, H.centroY + H.raio * 1.07 + 0.02 + 0.035, 0]),
     lookTarget: sock('lookTarget', j.head, [0, H.centroY, H.raio + 0.05]),
-    // costas: na cintura, rente à camiseta; eixo +Y da carga inclinado 18° para trás, 4 cm afastada da camiseta
+    // costas: na cintura, rente à camiseta; eixo +Y da carga inclinado 16° para trás (com o tronco a 17–18° para a frente, a armação fica quase vertical), 1,5 cm da camiseta
     // (a carga sobe atrás da cabeça em vez de atravessá-la). A carga se estende para -Z.
-    costas: sock('costas', j.spine, [0, 0.06, -d.tronco.profundidade / 2 - 0.04]),
+    costas: sock('costas', j.spine, [0, 0.06, -d.tronco.profundidade / 2 - 0.015]),
   };
 
   const rest = restPose(d);
-  sockets.costas.rotation.x = -18 * DEG;
+  sockets.costas.rotation.x = -16 * DEG;
   let current = rest;
   let tNow = 0;
   const _a = new THREE.Vector3();
@@ -292,7 +292,7 @@ export function createNico(opts = {}) {
         if (!params.upper) return pose;
         const up = livePose(rest, params.upper, t);
         const sp = pose.spine || { flex: 0, twist: 0, side: 0 };
-        return { ...pose, shoulderL: up.shoulderL, shoulderR: up.shoulderR, elbowL: up.elbowL, elbowR: up.elbowR, wristL: up.wristL, wristR: up.wristR, spine: { ...sp, flex: up.spine.flex + sp.flex * 0.5, twist: sp.twist * 0.3 }, face: { ...up.face, blink: blinkAt(t) } };
+        return { ...pose, shoulderL: up.shoulderL, shoulderR: up.shoulderR, elbowL: up.elbowL, elbowR: up.elbowR, wristL: up.wristL, wristR: up.wristR, spine: { ...sp, flex: up.spine.flex + sp.flex * 0.5, twist: sp.twist * 0.3 }, neck: { ...(pose.neck || {}), pitch: ((pose.neck && pose.neck.pitch) || 0) + (params.neckPitch || 0) }, face: { ...up.face, blink: blinkAt(t) } };
       };
       if (name === 'virar' || name === 'turn') {
         const turn = createTurn(d, { ...params, t0 });
@@ -318,7 +318,7 @@ export function createNico(opts = {}) {
           if (loc === 'cambalear') {
             // vaivém de quem não aguenta o peso: o quadril e o tronco pendem a cada passo
             const w = Math.sin(Math.PI * r.phase) * r.k;
-            pose.pelvis = { ...pose.pelvis, roll: 5 * w, x: 0.022 * w };
+            pose.pelvis = { ...pose.pelvis, roll: 1 * w, x: 0.008 * w, reach: 0.997 };
             pose.spine = { ...pose.spine, side: -7 * w };
             pose.neck = { ...pose.neck, roll: 4 * w };
           }

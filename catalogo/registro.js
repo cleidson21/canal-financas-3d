@@ -46,7 +46,7 @@ export const ATIVOS = [
     id: 'ep001_objetos',
     nome: 'Torre e objetos (peixe, lenha, galão, ovos, farinha)',
     grupo: 'Objetos',
-    arquivo: 'biblioteca/objetos/torre_mercadorias.js, peixe.js, lenha.js, galao_leite.js, caixa_ovos.js, saco_farinha.js',
+    arquivo: 'biblioteca/objetos/cargueiro.js, torre_mercadorias.js, peixe.js, lenha.js, galao_leite.js, caixa_ovos.js, saco_farinha.js',
     estado: 'rascunho (EP001)',
     testes: [{ nome: 'Roda de objetos', cena: '/catalogo/cenas/pecas_objetos.js', duracao: 10 }],
   },

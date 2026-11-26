@@ -36,7 +36,7 @@ export function addPose(a, b) {
 // Pose nomeada estática com vida (respiração/piscada) no instante t.
 export function livePose(rest, name, t) {
   const p = blendPose(rest, { ...rest, ...mergeParts(rest, strip(POSES[poseKey(name)])) }, 1);
-  const breath = breathe(t, name === 'tired' ? 0 : 1);
+  const breath = breathe(t, ['tired', 'exhausted_load', 'carry_back'].includes(poseKey(name)) ? 0 : 1);
   const out = addPose(p, breath);
   out.face = { ...out.face, blink: blinkAt(t) };
   return out;
@@ -87,7 +87,7 @@ export const GESTURES = {
     const base = transition(rest, p.from || 'idle', 'exhausted_load', tl, 0.5);
     const w = Math.sin((2 * Math.PI * tl) / 2.6) * smoothstep(0.3, 0.9, tl);
     const pant = Math.sin(2 * Math.PI * 1.5 * tl) * smoothstep(0.3, 0.9, tl);
-    base.pelvis = { ...base.pelvis, x: 0.03 * w, roll: 4.5 * w, drop: base.pelvis.drop + 0.006 * pant };
+    base.pelvis = { ...base.pelvis, x: 0.008 * w, roll: 0.8 * w, drop: base.pelvis.drop + 0.0012 * pant };
     base.spine = { ...base.spine, side: -6 * w, flex: base.spine.flex - 1.5 * pant };
     base.neck = { ...base.neck, roll: 4 * w };
     return base;
